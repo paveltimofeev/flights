@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+:root {
+  --border: 1px solid #ddd;
+  --cellSize: 36px;
+  --rowHeaderWidth: 120px;
+  --footerHeight: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+}
+nav {
+  background: #121212;
+  color: #fff;
+  padding: 0 2em;
+}
+nav ol {
+  display: flex;
+  margin: 0;
+  font-size: 1.1rem;
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+nav ol li a {
+  padding: 1.5em 1em;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav ol li a:hover {
+  background: #222222;
+}
+nav ol li a.active {
+  background: #333333;
+}
+
+.page-container {
+  padding: 1em 2em;
+}
+
+.table-container {
+  padding: 2em 0 0 0;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: auto;
+}
+.columns {
+  display: flex;
+  width: fit-content;
+}
+.col {
+  cursor: pointer;
+}
+.col:hover {
+  background: #212121;
+  color: #ffffff;
+}
+
+.col-row-header {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 100;
+}
+.col-row-header:hover {
+  background: #ffffff;
+  color: #212121;
+}
+.col-row-header .cell:hover {
+  background: #212121;
+  color: #ffffff;
+}
+
+.cell:hover {
+  background: lime;
+  color: #212121;
+}
+.cell { 
+  width: var(--cellSize); 
+  height: var(--cellSize);
+  border-top: var(--border);
+  border-right: var(--border);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cell--min {
+  background: #adffaf;
+}
+.cell--quic {
+  border: 1px solid;
+}
+.cell--t0:after {
+  position: absolute;
+  content: '0';
+  font-size: 8px;
+  top: 3px;
+  left: 4px;
+}
+.cell--t1:after {
+  position: absolute;
+  content: '1';
+  font-size: 8px;
+  top: 3px;
+  left: 4px;
+}
+.col:first-child {
+  border-left: var(--border);
+}
+.cell:last-child {
+  border-bottom: var(--border);
+}
+.cell--row-header {
+  width: var(--rowHeaderWidth);
+  white-space: nowrap;
+}
+.cell--footer {
+  height: var(--footerHeight);
+  white-space: nowrap;
+}
+.cell--footer span {
+  transform: rotate(-90deg);
+}
+.cell--clicked {
+  background: #B3E5FC;
+}
+
+.r { border-radius: 50%; }
+.s1 { width: 5px; height: 5px; }
+.s2 { width: 10px; height: 10px; }
+.s3 { width: 15px; height: 15px; }
+.s4 { width: 20px; height: 20px; }
+.s5 { width: 25px; height: 25px; }
+
+.c1 { background: #D1C4E9; }
+.c2 { background: #B39DDB; }
+.c3 { background: #7E57C2; }
+.c4 { background: #5E35B1; }
+.c5 { background: #4527A0; }
+
+.we { background: #f9f9f9; }
+
+
+.legend {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+.legend .cell {
+  cursor: default;
+}
+.legend .col:hover,
+.legend .cell:hover {
+  background: white;
+  color: #212121;
+}
+.legend .cell--legend-info {
+  white-space: nowrap;
+  width: 170px;
+  justify-content: flex-start;
+  padding-left: 1em;
+  border-bottom: none;
+  border-top: none;
+}
+.col:last-child .cell--legend-info {
+  border-right: none;
+}

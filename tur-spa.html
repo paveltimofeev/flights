@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Flight Table</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+
+</head>
+<body>
+
+  <nav>
+    <ol>
+      <li><a href="./rus-andalusia.html">Russia To Andalusia</a></li>
+      <li><a href="./andalusia-rus.html">Andalusia To Russia</a></li>
+      <li><a href="./tur-spa.html" class="active">Turkey To Andalusia</a></li>
+      <li><a href="./rus-can.html">Russia To Canada</a></li>
+      <li><a href="./can-rus.html">Canada To Russia</a></li>
+    </ol>
+  </nav>
+
+  <div class="page-container">
+
+      <h1>Flights Table</h1>
+      <p id="info"></p>
+
+      <div class="table-container">
+        <div class="columns">
+          <!-- CONTENT -->      
+        </div>
+      </div>
+  </div>
+
+
+  <div class="legend">
+    <div class="col">
+      <div class="cell"><span class="r s1 c3"></span></div>
+      <div class="cell"><span class="r s5 c3"></span></div>
+    </div>
+    <div class="col">
+      <div class="cell cell--legend-info"><span>Low price</span></div>
+      <div class="cell cell--legend-info"><span>High price</span></div>
+    </div>
+
+    <div class="col">
+      <div class="cell"><span class="r s4 c1"></span></div>
+      <div class="cell"><span class="r s4 c5"></span></div>
+    </div>
+    <div class="col">
+      <div class="cell cell--legend-info"><span>Shorter Flight</span></div>
+      <div class="cell cell--legend-info"><span>Longer Flight</span></div>
+    </div>
+
+    <div class="col">
+      <div class="cell cell--min"><span class="r s4 c1"></span></div>
+      <div class="cell cell--quic"><span class="r s4 c5"></span></div>
+    </div>
+    <div class="col">
+      <div class="cell cell--legend-info"><span>Lowest Price</span></div>
+      <div class="cell cell--legend-info"><span>Quickest Flight</span></div>
+    </div>
+
+    <div class="col">
+      <div class="cell cell--t1"><span class="r s4 c1"></span></div>
+      <div class="cell cell--min cell--quic cell--t1"><span class="r s1 c1"></span></div>
+    </div>
+    <div class="col">
+      <div class="cell cell--legend-info"><span>One transfer or Direct</span></div>
+      <div class="cell cell--legend-info"><span>Cheapest & Quickest</span></div>
+    </div>
+  </div>
+
+
+
+  <script  src="./data/tur-spa-latest.js"></script>
+  <script  src="./script.js"></script>
+</body>
+</html>
