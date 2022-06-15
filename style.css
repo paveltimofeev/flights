@@ -24,7 +24,7 @@ nav {
   background: #121212;
   color: #fff;
   padding: 0 2em;
-  overflow: scroll;
+  overflow: auto;
 }
 nav ol {
   display: flex;
@@ -166,7 +166,31 @@ nav ol li a.active {
   display: flex;
   justify-content: center;
   padding: 2em 0;
-  overflow: scroll;
+  overflow: auto;
+}
+@media(max-width: 1100px) {
+  .legend {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .legend .legend-item {
+    margin-bottom: .5em;
+    min-width: 24%;
+  }
+}
+@media(max-width: 900px) {
+  .legend .legend-item {
+    min-width: 32%;
+  }
+}
+@media(max-width: 700px) {
+  .legend .legend-item {
+    min-width: 45%;
+  }
+}
+.legend .legend-item {
+  display: flex; 
+  align-items: center;
 }
 .legend .cell {
   cursor: default;
@@ -178,9 +202,8 @@ nav ol li a.active {
 }
 .legend .cell--legend-info {
   white-space: nowrap;
-  width: 170px;
   justify-content: flex-start;
-  padding-left: 1em;
+  padding: 0 1.5em 0 0.5em;
   border-bottom: none;
   border-top: none;
 }
