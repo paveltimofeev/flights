@@ -24,6 +24,7 @@ nav {
   background: #121212;
   color: #fff;
   padding: 0 2em;
+  overflow: scroll;
 }
 nav ol {
   display: flex;
@@ -35,8 +36,10 @@ nav ol {
 nav ol li a {
   padding: 1.5em 1em;
   display: block;
+  height: 100%;
   color: #ffffff;
   text-decoration: none;
+  text-align: center;
   cursor: pointer;
 }
 nav ol li a:hover {
@@ -156,10 +159,14 @@ nav ol li a.active {
 .we { background: #f9f9f9; }
 
 
+.legend-container {
+  padding: 0 2em;
+}
 .legend {
   display: flex;
   justify-content: center;
   padding: 2em 0;
+  overflow: scroll;
 }
 .legend .cell {
   cursor: default;
