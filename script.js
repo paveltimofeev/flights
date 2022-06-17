@@ -1,4 +1,5 @@
 
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 const columns = document.querySelector('.columns');
 
 function getTimespan (fromDate) {
@@ -25,10 +26,45 @@ info.innerText =
 `For ${data.params.dateRange.days} days since ${data.params.dateRange.since.split('T')[0]}. ` + 
 `Scan date: ${data.date} (${getTimespan(data.date)}).`;
 
+let mobileSelectedLink = null;
+let mobileSelectedCell = null;
+
 function onCellClick (cellEl, idx) {
-  console.log(data.results[idx]);
-  window.open('https://www.aviasales.ru/' + data.results[idx].link, '_blank').focus();
-  cellEl.classList.add('cell--clicked');
+
+  let link = data.results[idx].link;
+  if (!link.startsWith('/')) {
+    link = '/' + link;
+  }
+
+  if (!isMobile) {
+    window.open('https://www.aviasales.ru' + link, '_blank').focus();
+    cellEl.classList.add('cell--clicked');
+  }
+  else {
+    
+    tippy.hideAll();
+    const button = document.querySelector('.mobile-open-btn');
+
+    if (mobileSelectedLink !== link) {
+      mobileSelectedLink = link;
+      mobileSelectedCell = cellEl;
+      button.classList.add('mobile-open-btn--open');
+    } 
+    else {
+      mobileSelectedLink = null;
+      mobileSelectedCell = null;
+      button.classList.remove('mobile-open-btn--open');
+    }
+  }
+}
+
+function onMobileOpenButtonClick () {
+  if (mobileSelectedLink) {
+     window.open('https://www.aviasales.ru' + mobileSelectedLink, '_blank').focus();
+  }
+  if (mobileSelectedCell) {
+    mobileSelectedCell.classList.add('cell--clicked');
+  }
 }
 
 const transferCostsMap = loadTransferCosts();
@@ -66,7 +102,6 @@ function createRouteLabelElement (route, airportLabelsMap) {
 
   airportLabelsMap = airportLabelsMap || {};
   const pairs = route.split('-');
-  console.log(airportLabelsMap, pairs);
 
   const span = document.createElement('span');
   span.classList.add('route-label');
@@ -226,4 +261,4 @@ Object.keys(cols).forEach(date => {
   render(cells, date, weekEnd);
 });
 
-tippy('[data-tippy-content]', {theme: 'light'});
+tippy('[data-tippy-content]', {theme: 'light', trigger: isMobile ? 'click' : 'mouseenter focus'});
