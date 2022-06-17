@@ -12,6 +12,15 @@ window.data = {
       "YOW",
       "YMQ"
     ],
+    "labels": {
+      "LED": "SPb, Pulkovo",
+      "MOW": "Moscow (all)",
+      "YTO": "Toronto (all)", 
+      "YVR": "Ванкувер", 
+      "YHZ": "Галифакс", 
+      "YOW": "Оттава", 
+      "YMQ": "Монреаль"
+    },
     "dateRange": {
       "days": 100,
       "since": "2022-06-17T19:26:01.756Z"

@@ -46,23 +46,48 @@ function getSumTransferCost (direction) {
   return total;
 }
 
-function renderRowHeaders (rowsHeaders) {
+function createRouteAbbrElement (route, cell) {
+
+  let abbr = route;
+  const transferCost = getSumTransferCost(abbr);
+
+  if (transferCost > 0) {
+    abbr = abbr + '*';
+    cell.setAttribute('data-tippy-content', 'incl. transf to airport: +' + transferCost);
+  }
+  
+  const span = document.createElement('span');
+  span.classList.add('route-abbr');
+  span.innerText = abbr;
+  return span;
+}
+
+function createRouteLabelElement (route, airportLabelsMap) {
+
+  airportLabelsMap = airportLabelsMap || {};
+  const pairs = route.split('-');
+  console.log(airportLabelsMap, pairs);
+
+  const span = document.createElement('span');
+  span.classList.add('route-label');
+  span.innerText = `${airportLabelsMap[pairs[0]] || 'unknown name'} - ${airportLabelsMap[pairs[1]] || 'unknown name'}`;
+  return span;
+}
+
+function renderRowHeaders (rowsHeaders, airportLabelsMap) {
 
   const col = document.createElement('div');
   col.classList.add('col');
   col.classList.add('col-row-header');
+
   Object.keys(rowsHeaders).forEach(row => {
     const cell = document.createElement('div');
     cell.classList.add('cell');
     cell.classList.add('cell--row-header');
 
-    const transferCost = getSumTransferCost(row);
-    if (transferCost > 0) {
-      row = row + '*';
-      cell.setAttribute('data-tippy-content', 'incl. transf to airport: +' + transferCost);
-    }
+    cell.appendChild(createRouteAbbrElement(row, cell));
+    cell.appendChild(createRouteLabelElement(row, airportLabelsMap));
 
-    cell.innerText = row;
     col.appendChild(cell);
   });
 
@@ -160,7 +185,7 @@ for(let i = 0; i < data.params.from.length; i++) {
   } 
 }
 
-renderRowHeaders(rowsIndexMap);
+renderRowHeaders(rowsIndexMap, data.params.labels);
 
 const lowPrice = data.params?.priceRange?.lowPrice || 300;
 const priceStep = data.params?.priceRange?.step || 100;

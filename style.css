@@ -143,6 +143,20 @@ nav ol li a.active {
   background: #B3E5FC;
 }
 
+.route-abbr {
+  display: inline;  
+}
+.route-label {
+  display: none;
+  white-space: break-spaces;
+  text-align: center;
+  font-size: .85em;
+  padding: 0 .2em;
+}
+.cell:hover .route-abbr { display: none; }
+.cell:hover .route-label { display: inline; }
+
+
 .r { border-radius: 50%; }
 .s1 { width: 5px; height: 5px; }
 .s2 { width: 10px; height: 10px; }
