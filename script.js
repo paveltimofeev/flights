@@ -1,3 +1,4 @@
+
 const columns = document.querySelector('.columns');
 
 function getTimespan (fromDate) {
@@ -30,6 +31,21 @@ function onCellClick (cellEl, idx) {
   cellEl.classList.add('cell--clicked');
 }
 
+const transferCostsMap = loadTransferCosts();
+const transferCostCache = {};
+function getSumTransferCost (direction) {
+
+  if (transferCostCache[direction]) {
+    return transferCostCache[direction];
+  }
+  
+  const locs = direction.split('-');
+  const total = ((+transferCostsMap[locs[0]]) || 0) + ((+transferCostsMap[locs[1]]) || 0);
+  transferCostCache[direction] = total;
+
+  return total;
+}
+
 function renderRowHeaders (rowsHeaders) {
 
   const col = document.createElement('div');
@@ -39,6 +55,13 @@ function renderRowHeaders (rowsHeaders) {
     const cell = document.createElement('div');
     cell.classList.add('cell');
     cell.classList.add('cell--row-header');
+
+    const transferCost = getSumTransferCost(row);
+    if (transferCost > 0) {
+      row = row + '*';
+      cell.setAttribute('data-tippy-content', 'incl. transf to airport: +' + transferCost);
+    }
+
     cell.innerText = row;
     col.appendChild(cell);
   });
@@ -151,13 +174,14 @@ Object.keys(cols).forEach(date => {
   col.forEach(c => {
 
     const i = rowsIndexMap[c.route];
-
+  
     cells[i].idx = c.idx;
     cells[i].c = Math.round( (c.duration - data.stats.minDuration) / (data.stats.maxDuration - data.stats.minDuration) * 5 + 1 );
     cells[i].c = cells[i].c > 5 ? 5 : cells[i].c;
 
     // cells[i].s = Math.round( (c.price - data.stats.minPrice) / (data.stats.maxPrice - data.stats.minPrice) * 5 + 1 );
-    const priceLevel = Math.round((c.price - lowPrice) / priceStep);
+    const transfToAirport = getSumTransferCost(c.route);
+    const priceLevel = Math.round((c.price + transfToAirport - lowPrice) / priceStep);
     cells[i].s = priceLevel <= 0 ? 1 : priceLevel > 5 ? 5 : priceLevel;
 
     const isMinPrice = c.price < data.stats.minPrice * 1.2;
@@ -167,8 +191,9 @@ Object.keys(cols).forEach(date => {
     cells[i].transfers = c.transfers;
 
     const priceLabel = !isMinPrice ? `Price` : `BEST Price`;
-    const durationLabel = !isQuickest ? `Time` : `BEST Time`;    
-    cells[i].tooltip = priceLabel + ` ${c.price}` + ` | ` + durationLabel + ` ${Math.round(c.duration/60)}H` + ` | ⇄ ` + c.transfers;
+    const durationLabel = !isQuickest ? `Time` : `BEST Time`;
+    const transferCost = transfToAirport > 0 ? ` (${c.price + transfToAirport})` : ``;
+    cells[i].tooltip = priceLabel + ` ${c.price}` + transferCost + ` | ` + durationLabel + ` ${Math.round(c.duration/60)}H` + ` | ⇄ ` + c.transfers;
   });
 
   const dayOfWeek = (new Date(date)).getDay();

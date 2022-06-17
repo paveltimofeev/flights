@@ -238,3 +238,28 @@ nav ol li a.active {
     width: 100%;
   }
 }
+
+.note {
+  display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.note p {
+    width: 680px;
+    font-size: 0.85em;
+    margin-bottom: 2em;
+    color: #555;
+}
+@media(max-width: 700px) {
+  .note p {
+    width: 100%;
+    padding: 0 2em;
+  }
+}
+
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+.mb-8 {margin-bottom: 8px;}
