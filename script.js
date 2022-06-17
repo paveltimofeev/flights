@@ -1,12 +1,28 @@
 const columns = document.querySelector('.columns');
 
+function getTimespan (fromDate) {
+  const timespan = new Date(Date.now() - new Date(fromDate));
+  
+  const days = timespan.getUTCDate() - 1;
+  const hours = timespan.getUTCHours();
+  const minutes = timespan.getUTCMinutes();
+
+  const parts = [
+    days > 0 ? `${days} day `: undefined,
+    hours > 0 ? `${hours} hour `: undefined,
+    minutes > 0 ? `${minutes} min `: undefined,
+  ];
+
+  return `${parts.filter(Boolean).join(' ')}ago`
+}
+
 const info = document.querySelector('#info');
 info.innerText = 
 `Prices ${data.stats.minPrice} - ${data.stats.maxPrice} ${data.params.currency.toUpperCase()}. ` + 
 `Travel time ${Math.round(data.stats.minDuration/60)} - ${Math.round(data.stats.maxDuration/60)} hours. ` + 
 `Checked ${data.stats.totalRequests} variants. ` + 
 `For ${data.params.dateRange.days} days since ${data.params.dateRange.since.split('T')[0]}. ` + 
-`Scan date: ${data.date}.`;
+`Scan date: ${data.date} (${getTimespan(data.date)}).`;
 
 function onCellClick (cellEl, idx) {
   console.log(data.results[idx]);
