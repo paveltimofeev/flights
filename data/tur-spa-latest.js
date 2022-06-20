@@ -1,5 +1,5 @@
 window.data = {
-  "date": "2022-06-20T13:27:21.677Z",
+  "date": "2022-06-20T14:27:40.095Z",
   "params": {
     "from": [
       "IST"
@@ -23,7 +23,7 @@ window.data = {
     },
     "dateRange": {
       "days": 100,
-      "since": "2022-06-20T13:25:59.873Z"
+      "since": "2022-06-20T14:26:14.037Z"
     },
     "currency": "eur",
     "request": {
@@ -42,7 +42,7 @@ window.data = {
     "minDuration": 270,
     "maxDuration": 3580,
     "maxTransfers": 3,
-    "failedRequests": 269,
+    "failedRequests": 268,
     "totalRequests": 600
   },
   "results": [
@@ -55,7 +55,7 @@ window.data = {
       "transfers": 1,
       "duration": 745,
       "durationH": 12,
-      "link": "/search/IST2809BCN1?t=PC16643556001664400300000745SAWVCEBCN_ea706d8dd48f4078f70ee98619f5cf65_6651&search_date=20062022&expected_price_uuid=a53ea17e-9512-4e55-834b-74ae09d9a20a&expected_price_currency=rub"
+      "link": "/search/IST2809BCN1?t=PC16643556001664400300000745SAWVCEBCN_ea706d8dd48f4078f70ee98619f5cf65_6651&search_date=20062022&expected_price_uuid=78ba90dd-74e2-4450-ab70-a0e8ab7f798b&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -116,67 +116,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 119,
-      "departure_at": "2022-07-05T13:55:00+03:00",
-      "transfers": 3,
-      "duration": 1985,
-      "durationH": 33,
-      "link": "/search/IST0507BCN1?t=PC16570185001657137600001985SAWCRLMANPMIBCN_d9970102127ebbb5b76f3d78b8f0a2a0_7028&search_date=20062022&expected_price_uuid=1316f896-c147-48ae-925e-a5ddd7edbd8a&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 119,
-      "departure_at": "2022-07-11T13:55:00+03:00",
-      "transfers": 3,
-      "duration": 2550,
-      "durationH": 43,
-      "link": "/search/IST1107BCN1?t=PC16575369001657689900002550SAWCRLMANPMIBCN_6f5c5243d8b8eb27d1628479ff1149cd_7028&search_date=20062022&expected_price_uuid=a2e2fed3-2d03-451e-b871-8e3fcb64d8df&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-LEI",
-      "origin": "IST",
-      "destination": "LEI",
-      "price": 114,
-      "departure_at": "2022-07-05T13:55:00+03:00",
-      "transfers": 2,
-      "duration": 2820,
-      "durationH": 47,
-      "link": "/search/IST0507LEI1?t=PC16570185001657187700002820SAWCRLMANLEI_4c2e282d9b6aeb37d48ede8a6e52892e_6726&search_date=19062022&expected_price_uuid=44376cce-21e6-4a8a-b735-e254f3f01826&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
       "price": 127,
       "departure_at": "2022-09-21T14:35:00+03:00",
       "transfers": 1,
       "duration": 390,
       "durationH": 7,
       "link": "/search/IST2109BCN1?t=PC16637601001663783500000390SAWBSLBCN_efebe23be8e0fc8f23f535259971bc34_7482&search_date=20062022&expected_price_uuid=63b05fe1-1fb4-4629-9f9f-0acdeaa49198&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-SVQ",
-      "origin": "IST",
-      "destination": "SVQ",
-      "price": 127,
-      "departure_at": "2022-06-30T10:05:00+03:00",
-      "transfers": 1,
-      "duration": 555,
-      "durationH": 9,
-      "link": "/search/IST3006SVQ1?t=W616565727001656606000000555SAWOTPSVQ_87be8dbf7a6a7a8773b8b5ee2d93b55c_7514&search_date=19062022&expected_price_uuid=36f8acac-3ed4-4e42-b5a8-45d1abea6acb&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 126,
-      "departure_at": "2022-06-29T10:40:00+03:00",
-      "transfers": 2,
-      "duration": 855,
-      "durationH": 14,
-      "link": "/search/IST2906BCN2?t=PC16564884001656539700000855SAWBSLPMIBCN_99c3eb4a118c4c04e2dcf79cc28e2f30_14824&search_date=20062022&expected_price_uuid=2764a3c4-75dd-4116-8714-3fa579061090&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -188,28 +133,6 @@ window.data = {
       "duration": 910,
       "durationH": 15,
       "link": "/search/IST2409BCN1?t=W616639686001664023200000910SAWTIAMXPBCN_b9b1144389a21dbab2162e209e864b25_7223&search_date=19062022&expected_price_uuid=c44e0fee-6cc3-43b8-a876-b87951282d03&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 125,
-      "departure_at": "2022-06-30T11:10:00+03:00",
-      "transfers": 2,
-      "duration": 1350,
-      "durationH": 23,
-      "link": "/search/IST3006BCN1?t=PC16565766001656657600001350SAWLYSMAHBCN_61c42b7d0286182eef1378ca5dc25ef3_7353&search_date=20062022&expected_price_uuid=4430bb65-3ca4-4f52-9f50-c936ce3b2446&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 121,
-      "departure_at": "2022-07-01T22:00:00+03:00",
-      "transfers": 2,
-      "duration": 1605,
-      "durationH": 27,
-      "link": "/search/IST0107AGP1?t=PC16567020001656798300001605SAWCGNBRSAGP_262d9406a921d3fae2b56ef5cec7dbff_7158&search_date=20062022&expected_price_uuid=3659d797-540d-455f-b324-50f3e83d40c4&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -248,100 +171,34 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 127,
-      "departure_at": "2022-09-20T11:30:00+03:00",
-      "transfers": 2,
-      "duration": 1705,
-      "durationH": 28,
-      "link": "/search/IST2009BCN1?t=PC16636626001663764900001705SAWBUDBGYMXPBCN_36a527c2bda29ebeeddc06ab7602e8cd_7466&search_date=20062022&expected_price_uuid=b06245df-54b4-4d51-9136-765c37aa7983&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 124,
-      "departure_at": "2022-09-20T23:25:00+03:00",
-      "transfers": 2,
-      "duration": 2095,
-      "durationH": 35,
-      "link": "/search/IST2009AGP1?t=U216637055001663831200002095SAWTIAMXPAGP_7d6defeb213c37ed12449bfee857af93_7288&search_date=20062022&expected_price_uuid=a614a124-497d-407c-9cfb-9ed65b124282&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 124,
-      "departure_at": "2022-09-16T10:45:00+03:00",
-      "transfers": 2,
-      "duration": 2280,
-      "durationH": 38,
-      "link": "/search/IST1609BCN1?t=PC16633143001663451100002280SAWOSLSTNBCN_c777d3691cf8f8d1c907d74af9ba6581_7288&search_date=20062022&expected_price_uuid=dbe47e7f-8b53-4fbc-a569-122324365a6c&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 130,
-      "departure_at": "2022-09-16T20:05:00+03:00",
-      "transfers": 2,
-      "duration": 2445,
-      "durationH": 41,
-      "link": "/search/IST1609AGP1?t=U216633479001663494600002445ISTADBGVAAGP_e9e8a627ba667fdb756fef1dcf8244e5_7677&search_date=20062022&expected_price_uuid=6027098c-3c7f-4ef8-987e-774ce6a3a98c&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 124,
-      "departure_at": "2022-09-17T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 3000,
-      "durationH": 50,
-      "link": "/search/IST1709MAD1?t=W616633986001663578600003000SAWSKPTRNMAD_9a42d0be48bc758782b2572fa5343d38_7288&search_date=17062022&expected_price_uuid=30f507cd-f0e7-4eaf-a49b-0d93b6f6b1c4&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 122,
-      "departure_at": "2022-09-19T16:15:00+03:00",
-      "transfers": 3,
-      "duration": 3345,
-      "durationH": 56,
-      "link": "/search/IST1909MAD1?t=V716635933001663794000003345SAWATHLILMAHMAD_0fe3cbd656dd8096e52b0c2198b3fb9e_7223&search_date=17062022&expected_price_uuid=ae824e9c-f61b-404c-a2a7-ee8e698147c9&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 118,
-      "departure_at": "2022-09-20T23:25:00+03:00",
-      "transfers": 3,
-      "duration": 3565,
-      "durationH": 59,
-      "link": "/search/IST2009MAD1?t=W616637055001663919400003565SAWTIAFCOIBZMAD_5fb419ad396816100156aaf747da928a_6963&search_date=19062022&expected_price_uuid=1659dca7-be4e-464e-b96b-19596d2eb245&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 129,
-      "departure_at": "2022-09-21T08:20:00+03:00",
-      "transfers": 1,
-      "duration": 975,
-      "durationH": 16,
-      "link": "/search/IST2109AGP1?t=PC16637376001663796100000975SAWZRHAGP_65af9943d31ea5d87f05d7e73b188a51_7602&search_date=19062022&expected_price_uuid=2490b151-eaae-42fc-859d-aa0e655a0df0&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
       "price": 124,
       "departure_at": "2022-09-22T09:00:00+03:00",
       "transfers": 2,
       "duration": 1645,
       "durationH": 27,
       "link": "/search/IST2209BCN1?t=U216638264001663925100001645ISTADBGVABCN_e0114eb57aaf588e55b9c0001dd4375c_7288&search_date=19062022&expected_price_uuid=6af7c4e1-f0bf-4df5-b296-bc8272d3f4b6&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 119,
+      "departure_at": "2022-07-05T13:55:00+03:00",
+      "transfers": 3,
+      "duration": 1985,
+      "durationH": 33,
+      "link": "/search/IST0507BCN1?t=PC16570185001657137600001985SAWCRLMANPMIBCN_d9970102127ebbb5b76f3d78b8f0a2a0_7028&search_date=20062022&expected_price_uuid=1316f896-c147-48ae-925e-a5ddd7edbd8a&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 127,
+      "departure_at": "2022-09-20T11:30:00+03:00",
+      "transfers": 2,
+      "duration": 1705,
+      "durationH": 28,
+      "link": "/search/IST2009BCN1?t=PC16636626001663764900001705SAWBUDBGYMXPBCN_36a527c2bda29ebeeddc06ab7602e8cd_7466&search_date=20062022&expected_price_uuid=b06245df-54b4-4d51-9136-765c37aa7983&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -377,15 +234,15 @@ window.data = {
       "link": "/search/IST2709AGP1?t=U216643103001664436000002095SAWTIAMXPAGP_72138b9e70fe6cbec28696a8e284fb6e_7223&search_date=18062022&expected_price_uuid=9b0e823f-43c8-41c0-bbb6-22e7242a3ddf&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-BCN",
       "origin": "IST",
-      "destination": "AGP",
-      "price": 121,
-      "departure_at": "2022-07-11T13:55:00+03:00",
+      "destination": "BCN",
+      "price": 124,
+      "departure_at": "2022-09-16T10:45:00+03:00",
       "transfers": 2,
-      "duration": 2120,
-      "durationH": 35,
-      "link": "/search/IST1107AGP1?t=PC16575369001657664100002120SAWCRLGLAAGP_58418c538286d96cb082a45bada287bb_7158&search_date=20062022&expected_price_uuid=b379db3a-975a-4622-a065-8dc4c0d7da32&expected_price_currency=rub"
+      "duration": 2280,
+      "durationH": 38,
+      "link": "/search/IST1609BCN1?t=PC16633143001663451100002280SAWOSLSTNBCN_c777d3691cf8f8d1c907d74af9ba6581_7288&search_date=20062022&expected_price_uuid=dbe47e7f-8b53-4fbc-a569-122324365a6c&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -397,6 +254,50 @@ window.data = {
       "duration": 2285,
       "durationH": 38,
       "link": "/search/IST2309MAD1?t=U216639527001664089800002285ISTADBGVAMAD_cf320b22c2a5721e0058c99cf99ffe26_7223&search_date=18062022&expected_price_uuid=86745ad3-e063-4821-a7b6-22c0fe675dce&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 122,
+      "departure_at": "2022-09-19T16:15:00+03:00",
+      "transfers": 3,
+      "duration": 3345,
+      "durationH": 56,
+      "link": "/search/IST1909MAD1?t=V716635933001663794000003345SAWATHLILMAHMAD_0fe3cbd656dd8096e52b0c2198b3fb9e_7223&search_date=17062022&expected_price_uuid=ae824e9c-f61b-404c-a2a7-ee8e698147c9&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 118,
+      "departure_at": "2022-09-20T23:25:00+03:00",
+      "transfers": 3,
+      "duration": 3565,
+      "durationH": 59,
+      "link": "/search/IST2009MAD1?t=W616637055001663919400003565SAWTIAFCOIBZMAD_5fb419ad396816100156aaf747da928a_6963&search_date=19062022&expected_price_uuid=1659dca7-be4e-464e-b96b-19596d2eb245&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 129,
+      "departure_at": "2022-09-21T08:20:00+03:00",
+      "transfers": 1,
+      "duration": 975,
+      "durationH": 16,
+      "link": "/search/IST2109AGP1?t=PC16637376001663796100000975SAWZRHAGP_65af9943d31ea5d87f05d7e73b188a51_7602&search_date=19062022&expected_price_uuid=2490b151-eaae-42fc-859d-aa0e655a0df0&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 124,
+      "departure_at": "2022-09-20T23:25:00+03:00",
+      "transfers": 2,
+      "duration": 2095,
+      "durationH": 35,
+      "link": "/search/IST2009AGP1?t=U216637055001663831200002095SAWTIAMXPAGP_7d6defeb213c37ed12449bfee857af93_7288&search_date=20062022&expected_price_uuid=a614a124-497d-407c-9cfb-9ed65b124282&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -421,6 +322,28 @@ window.data = {
       "link": "/search/IST2509BCN1?t=PC16640946001664257500002715SAWBUDBLQBCN_a679829d373839f7e1de36d33fcc8c63_7028&search_date=20062022&expected_price_uuid=d733a456-1284-4ef0-8cb2-206a40501f17&expected_price_currency=rub"
     },
     {
+      "route": "IST-LEI",
+      "origin": "IST",
+      "destination": "LEI",
+      "price": 114,
+      "departure_at": "2022-07-05T13:55:00+03:00",
+      "transfers": 2,
+      "duration": 2820,
+      "durationH": 47,
+      "link": "/search/IST0507LEI1?t=PC16570185001657187700002820SAWCRLMANLEI_4c2e282d9b6aeb37d48ede8a6e52892e_6726&search_date=19062022&expected_price_uuid=44376cce-21e6-4a8a-b735-e254f3f01826&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-SVQ",
+      "origin": "IST",
+      "destination": "SVQ",
+      "price": 127,
+      "departure_at": "2022-06-30T10:05:00+03:00",
+      "transfers": 1,
+      "duration": 555,
+      "durationH": 9,
+      "link": "/search/IST3006SVQ1?t=W616565727001656606000000555SAWOTPSVQ_87be8dbf7a6a7a8773b8b5ee2d93b55c_7514&search_date=19062022&expected_price_uuid=36f8acac-3ed4-4e42-b5a8-45d1abea6acb&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -430,6 +353,50 @@ window.data = {
       "duration": 815,
       "durationH": 14,
       "link": "/search/IST1309BCN1?t=U216630488001663097700000815ISTADBGVABCN_aae8c03093d1b136d91c9d0dba2a33b7_7482&search_date=20062022&expected_price_uuid=b5141b38-b245-4601-938b-0b961f19169f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 126,
+      "departure_at": "2022-06-29T10:40:00+03:00",
+      "transfers": 2,
+      "duration": 855,
+      "durationH": 14,
+      "link": "/search/IST2906BCN2?t=PC16564884001656539700000855SAWBSLPMIBCN_99c3eb4a118c4c04e2dcf79cc28e2f30_14824&search_date=20062022&expected_price_uuid=8a7cd189-9e2d-4b31-ae04-ff5f35b5473e&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 125,
+      "departure_at": "2022-06-30T11:10:00+03:00",
+      "transfers": 2,
+      "duration": 1350,
+      "durationH": 23,
+      "link": "/search/IST3006BCN1?t=PC16565766001656657600001350SAWLYSMAHBCN_61c42b7d0286182eef1378ca5dc25ef3_7353&search_date=20062022&expected_price_uuid=4430bb65-3ca4-4f52-9f50-c936ce3b2446&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 121,
+      "departure_at": "2022-07-01T22:00:00+03:00",
+      "transfers": 2,
+      "duration": 1605,
+      "durationH": 27,
+      "link": "/search/IST0107AGP1?t=PC16567020001656798300001605SAWCGNBRSAGP_262d9406a921d3fae2b56ef5cec7dbff_7158&search_date=20062022&expected_price_uuid=3659d797-540d-455f-b324-50f3e83d40c4&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 121,
+      "departure_at": "2022-07-11T13:55:00+03:00",
+      "transfers": 2,
+      "duration": 2120,
+      "durationH": 35,
+      "link": "/search/IST1107AGP1?t=PC16575369001657664100002120SAWCRLGLAAGP_58418c538286d96cb082a45bada287bb_7158&search_date=20062022&expected_price_uuid=b379db3a-975a-4622-a065-8dc4c0d7da32&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -454,6 +421,17 @@ window.data = {
       "link": "/search/IST0607AGP2?t=PC16570557001657147500001530SAWNUEPMIAGP_2a8bb9ae4449104686ec3052f6148cd1_15084&search_date=19062022&expected_price_uuid=435bc381-191f-423f-9409-4ea549046c02&expected_price_currency=rub"
     },
     {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 128,
+      "departure_at": "2022-09-13T10:45:00+03:00",
+      "transfers": 2,
+      "duration": 1590,
+      "durationH": 27,
+      "link": "/search/IST1309MAD2?t=PC16630551001663150500001590SAWOSLSTNMAD_8d92bb999f8f1236726fd69eef067b27_15148&search_date=20062022&expected_price_uuid=a0e88a4e-ded6-4848-b13b-c358176a6419&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -473,7 +451,7 @@ window.data = {
       "transfers": 1,
       "duration": 1625,
       "durationH": 27,
-      "link": "/search/IST2206BCN1?t=PC16559262001656023700001625SAWLYSBCN_bfeeac8e4a4fea90231fe0c39615f26a_7482&search_date=20062022&expected_price_uuid=3d313887-5dbd-46da-ba1f-266c59295ddc&expected_price_currency=rub"
+      "link": "/search/IST2206BCN1?t=PC16559262001656023700001625SAWLYSBCN_bfeeac8e4a4fea90231fe0c39615f26a_7482&search_date=20062022&expected_price_uuid=392ecb1f-418e-494c-8f22-e21e6d18fb69&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -498,28 +476,6 @@ window.data = {
       "link": "/search/IST0707BCN2?t=PC16571760001657302900002115SAWCRLLPLBCN_d2fe1411febc1d0465caca8afd72a2bb_14954&search_date=20062022&expected_price_uuid=22b7e3cb-9f1d-4c9a-a15b-dee794e43b5c&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 141,
-      "departure_at": "2022-09-01T10:15:00+03:00",
-      "transfers": 0,
-      "duration": 270,
-      "durationH": 5,
-      "link": "/search/IST0109MAD2?t=PC16620165001662032700000270SAWMAD_2c78a4ddf01243c8b5d454284b3a94ef_16600&search_date=20062022&expected_price_uuid=905a4b05-ea16-4953-b324-149790737f11&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 141,
-      "departure_at": "2022-08-23T10:15:00+03:00",
-      "transfers": 0,
-      "duration": 270,
-      "durationH": 5,
-      "link": "/search/IST2308MAD2?t=PC16612389001661255100000270SAWMAD_ab2b3e1037e40ef228244ca357525bbe_16600&search_date=20062022&expected_price_uuid=1fc36775-10cd-4270-95fb-9383a0e6803a&expected_price_currency=rub"
-    },
-    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -529,17 +485,6 @@ window.data = {
       "duration": 900,
       "durationH": 15,
       "link": "/search/IST1409BCN1?t=PC16631415001663195500000900SAWOSLBCN_71473bd30043ff0176c331cddb23f6f4_7925&search_date=20062022&expected_price_uuid=a66d1871-56b2-4419-a9a1-6c2d0adb3ae3&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 129,
-      "departure_at": "2022-07-03T15:45:00+03:00",
-      "transfers": 3,
-      "duration": 2440,
-      "durationH": 41,
-      "link": "/search/IST0307BCN1?t=FR16568523001656998700002440SAWVIELPLPMIBCN_2b97f450d141d16ea1fca794973be5b2_7612&search_date=20062022&expected_price_uuid=88367273-e9b3-4793-a13a-23d6bfa2a975&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -572,18 +517,7 @@ window.data = {
       "transfers": 1,
       "duration": 1150,
       "durationH": 19,
-      "link": "/search/IST2707BCN1?t=PC16589259001658994900001150SAWVIEBCN_733f21475057f8b1a4652a5b8bc84ac5_8131&search_date=20062022&expected_price_uuid=e8879d63-1a9a-474f-91fd-efb2115d4c68&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 136,
-      "departure_at": "2022-07-06T00:15:00+03:00",
-      "transfers": 2,
-      "duration": 1465,
-      "durationH": 24,
-      "link": "/search/IST0607MAD1?t=PC16570557001657143600001465SAWNUEPMIMAD_ca288bf26803ace7b3d961131754a1a7_7994&search_date=20062022&expected_price_uuid=2375eb74-fb5d-4f1c-81fd-e69c555ad856&expected_price_currency=rub"
+      "link": "/search/IST2707BCN1?t=PC16589259001658994900001150SAWVIEBCN_733f21475057f8b1a4652a5b8bc84ac5_8131&search_date=20062022&expected_price_uuid=9a885de7-be38-4093-bd86-274bc3e16c06&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -597,6 +531,39 @@ window.data = {
       "link": "/search/IST1207SVQ1?t=PC16576080001657701300001555SAWCRLMANSVQ_b3cecdd4c1e1db2a2debcbdff8cda348_7937&search_date=19062022&expected_price_uuid=5e973287-eeb7-42b1-974d-dd28eaffdfaf&expected_price_currency=rub"
     },
     {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 129,
+      "departure_at": "2022-07-03T15:45:00+03:00",
+      "transfers": 3,
+      "duration": 2440,
+      "durationH": 41,
+      "link": "/search/IST0307BCN1?t=FR16568523001656998700002440SAWVIELPLPMIBCN_2b97f450d141d16ea1fca794973be5b2_7612&search_date=20062022&expected_price_uuid=88367273-e9b3-4793-a13a-23d6bfa2a975&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 136,
+      "departure_at": "2022-07-06T00:15:00+03:00",
+      "transfers": 2,
+      "duration": 1465,
+      "durationH": 24,
+      "link": "/search/IST0607MAD1?t=PC16570557001657143600001465SAWNUEPMIMAD_ca288bf26803ace7b3d961131754a1a7_7994&search_date=20062022&expected_price_uuid=2375eb74-fb5d-4f1c-81fd-e69c555ad856&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 131,
+      "departure_at": "2022-07-12T13:55:00+03:00",
+      "transfers": 3,
+      "duration": 2585,
+      "durationH": 43,
+      "link": "/search/IST1207MAD1?t=PC16576233001657778400002585SAWCRLMANPMIMAD_aa4cd32d3ac57cf2980f7f01c0d9dd6b_7742&search_date=20062022&expected_price_uuid=50b08b6b-ab5e-44a4-afbf-38e3ca00cdca&expected_price_currency=rub"
+    },
+    {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
@@ -605,7 +572,7 @@ window.data = {
       "transfers": 3,
       "duration": 2585,
       "durationH": 43,
-      "link": "/search/IST1107MAD1?t=PC16575369001657692000002585SAWCRLMANPMIMAD_0bb57855fbd554b7967027ea57ec6d22_7742&search_date=20062022&expected_price_uuid=1d901914-653f-45d1-8899-0c5816b95965&expected_price_currency=rub"
+      "link": "/search/IST1107MAD2?t=PC16575369001657692000002585SAWCRLMANPMIMAD_0bb57855fbd554b7967027ea57ec6d22_15473&search_date=20062022&expected_price_uuid=6bb2f48f-13f8-47ee-aff0-255f59f552ab&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -663,15 +630,26 @@ window.data = {
       "link": "/search/IST0507AGP1?t=PC16570185001657147500002150SAWCRLMANPMIAGP_6fd38d1e1178f16992861034b51a6440_7807&search_date=20062022&expected_price_uuid=292943e4-72e5-4e87-8d7a-e957c06b284b&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
+      "route": "IST-BCN",
       "origin": "IST",
-      "destination": "MAD",
-      "price": 131,
-      "departure_at": "2022-07-12T13:55:00+03:00",
-      "transfers": 3,
-      "duration": 2585,
-      "durationH": 43,
-      "link": "/search/IST1207MAD1?t=PC16576233001657778400002585SAWCRLMANPMIMAD_aa4cd32d3ac57cf2980f7f01c0d9dd6b_7742&search_date=20062022&expected_price_uuid=50b08b6b-ab5e-44a4-afbf-38e3ca00cdca&expected_price_currency=rub"
+      "destination": "BCN",
+      "price": 128,
+      "departure_at": "2022-09-06T10:45:00+03:00",
+      "transfers": 2,
+      "duration": 2280,
+      "durationH": 38,
+      "link": "/search/IST0609BCN2?t=PC16624503001662587100002280SAWOSLSTNBCN_0ec9a3f5b3dda32646c39062e1cc98fa_15148&search_date=20062022&expected_price_uuid=4857c694-c331-4baf-ba6d-5222d01653e5&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 130,
+      "departure_at": "2022-09-16T20:05:00+03:00",
+      "transfers": 2,
+      "duration": 2445,
+      "durationH": 41,
+      "link": "/search/IST1609AGP1?t=U216633479001663494600002445ISTADBGVAAGP_e9e8a627ba667fdb756fef1dcf8244e5_7677&search_date=20062022&expected_price_uuid=6027098c-3c7f-4ef8-987e-774ce6a3a98c&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -699,23 +677,12 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
-      "price": 141,
-      "departure_at": "2022-09-15T10:15:00+03:00",
-      "transfers": 0,
-      "duration": 270,
-      "durationH": 5,
-      "link": "/search/IST1509MAD1?t=PC16632261001663242300000270SAWMAD_805c6769e49237ec1b2123cd4e74373b_8288&search_date=18062022&expected_price_uuid=41c201dd-7e9e-429f-8490-27816499dd02&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 141,
-      "departure_at": "2022-09-14T10:15:00+03:00",
-      "transfers": 0,
-      "duration": 270,
-      "durationH": 5,
-      "link": "/search/IST1409MAD1?t=PC16631397001663155900000270SAWMAD_0c74b69395f9d4bba130cc9642196c0d_8290&search_date=19062022&expected_price_uuid=7dde4ec5-817e-40dc-aab4-a1201084917c&expected_price_currency=rub"
+      "price": 124,
+      "departure_at": "2022-09-17T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 3000,
+      "durationH": 50,
+      "link": "/search/IST1709MAD1?t=W616633986001663578600003000SAWSKPTRNMAD_9a42d0be48bc758782b2572fa5343d38_7288&search_date=17062022&expected_price_uuid=30f507cd-f0e7-4eaf-a49b-0d93b6f6b1c4&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -727,6 +694,28 @@ window.data = {
       "duration": 270,
       "durationH": 5,
       "link": "/search/IST0709MAD1?t=PC16625349001662551100000270SAWMAD_93a4f096423c8426a8fce0e1a6326520_8456&search_date=20062022&expected_price_uuid=c9cc3595-5703-44ee-b5ae-5866782c887b&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 141,
+      "departure_at": "2022-09-01T10:15:00+03:00",
+      "transfers": 0,
+      "duration": 270,
+      "durationH": 5,
+      "link": "/search/IST0109MAD2?t=PC16620165001662032700000270SAWMAD_2c78a4ddf01243c8b5d454284b3a94ef_16600&search_date=20062022&expected_price_uuid=905a4b05-ea16-4953-b324-149790737f11&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 141,
+      "departure_at": "2022-08-23T10:15:00+03:00",
+      "transfers": 0,
+      "duration": 270,
+      "durationH": 5,
+      "link": "/search/IST2308MAD2?t=PC16612389001661255100000270SAWMAD_ab2b3e1037e40ef228244ca357525bbe_16600&search_date=20062022&expected_price_uuid=1fc36775-10cd-4270-95fb-9383a0e6803a&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -847,7 +836,7 @@ window.data = {
       "transfers": 0,
       "duration": 275,
       "durationH": 5,
-      "link": "/search/IST2206MAD2?t=PC16558821001655898600000275SAWMAD_1b6e84886e9a1102f4a1ad785fdeffec_18128&search_date=20062022&expected_price_uuid=762de16e-4784-4657-88d4-d4a6a21b2d33&expected_price_currency=rub"
+      "link": "/search/IST2206MAD1?t=PC16558821001655898600000275SAWMAD_1b6e84886e9a1102f4a1ad785fdeffec_9110&search_date=20062022&expected_price_uuid=414be5cb-b79d-4364-9079-6ab75e2fbf66&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -858,7 +847,7 @@ window.data = {
       "transfers": 1,
       "duration": 580,
       "durationH": 10,
-      "link": "/search/IST0407MAD1?t=W616569216001656956400000580SAWOTPMAD_95787a2378b8c77b63988cec0f620a02_8780&search_date=20062022&expected_price_uuid=08574f07-52d9-4628-9881-d5d757f9c26d&expected_price_currency=rub"
+      "link": "/search/IST0407MAD1?t=W616569216001656956400000580SAWOTPMAD_95787a2378b8c77b63988cec0f620a02_8780&search_date=20062022&expected_price_uuid=4c0f5d75-d116-4bf9-b568-a77de0234a00&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -880,7 +869,7 @@ window.data = {
       "transfers": 1,
       "duration": 970,
       "durationH": 16,
-      "link": "/search/IST1507BCN1?t=TK16578666001657924800000970SAWLYSBCN_b5b91ae70bd7f29ba388f75795860055_8700&search_date=20062022&expected_price_uuid=28b08f27-f460-461d-ab45-8fa86c95a9ac&expected_price_currency=rub"
+      "link": "/search/IST1507BCN1?t=TK16578666001657924800000970SAWLYSBCN_b5b91ae70bd7f29ba388f75795860055_8700&search_date=20062022&expected_price_uuid=5506c689-c082-43ce-bde9-52a47efbceb8&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -897,12 +886,12 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
-      "price": 138,
-      "departure_at": "2022-09-13T10:45:00+03:00",
+      "price": 137,
+      "departure_at": "2022-09-14T12:50:00+03:00",
       "transfers": 2,
-      "duration": 1590,
+      "duration": 1620,
       "durationH": 27,
-      "link": "/search/IST1309MAD1?t=PC16630551001663150500001590SAWOSLSTNMAD_8d92bb999f8f1236726fd69eef067b27_8126&search_date=20062022&expected_price_uuid=7dbc518f-ab3e-4589-94a6-fee700deb811&expected_price_currency=rub"
+      "link": "/search/IST1409MAD2?t=PC16631490001663246200001620SAWARNSTNMAD_b9575c84baea378d8b4414878181e295_16187&search_date=20062022&expected_price_uuid=25700fa5-53ac-4c44-8d63-df0a5f58a176&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -924,18 +913,7 @@ window.data = {
       "transfers": 2,
       "duration": 2515,
       "durationH": 42,
-      "link": "/search/IST2007BCN1?t=PC16583211001658472000002515SAWVIEMAHBCN_5dc837691d499024609239fb2a4c3c5f_8196&search_date=20062022&expected_price_uuid=cd18f3ae-eefa-4984-88a5-e6bd2ab29b5c&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 137,
-      "departure_at": "2022-09-18T18:15:00+03:00",
-      "transfers": 3,
-      "duration": 2875,
-      "durationH": 48,
-      "link": "/search/IST1809MAD1?t=W616635141001663686600002875SAWSKPBLQMRSMAD_0ac9c74d2a26dbc5f6ebac59acfd2481_8066&search_date=17062022&expected_price_uuid=9e5b0236-7d33-47d6-a393-3fd4e355bd68&expected_price_currency=rub"
+      "link": "/search/IST2007BCN1?t=PC16583211001658472000002515SAWVIEMAHBCN_5dc837691d499024609239fb2a4c3c5f_8196&search_date=20062022&expected_price_uuid=7aa9dd55-17f7-4d53-a36d-d6cb47a1e0c1&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -971,28 +949,6 @@ window.data = {
       "link": "/search/IST1609MAD1?t=PC16633101001663367100000950SAWCPHMAD_56ae60d0d7f6dec8d1535d97d80efb87_8683&search_date=19062022&expected_price_uuid=6fa19293-435a-4ebe-9998-0a6246c74a20&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 143,
-      "departure_at": "2022-09-11T09:25:00+03:00",
-      "transfers": 3,
-      "duration": 3290,
-      "durationH": 55,
-      "link": "/search/IST1109AGP2?t=W616628775001663074900003290SAWSJJBLLBGYAGP_66d67ba95b46e858aaef3408b737a451_16854&search_date=13062022&expected_price_uuid=12e34523-89b5-47d2-9a06-efcbeeda52dc&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 156,
-      "departure_at": "2022-09-06T10:45:00+03:00",
-      "transfers": 1,
-      "duration": 675,
-      "durationH": 11,
-      "link": "/search/IST0609BCN1?t=PC16624503001662490800000675SAWOSLBCN_3f099609392894abf7c74ed6d0d08a13_9228&search_date=20062022&expected_price_uuid=4ed071f5-3b95-4f60-866d-bb721de4f2ec&expected_price_currency=rub"
-    },
-    {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
@@ -1012,7 +968,29 @@ window.data = {
       "transfers": 1,
       "duration": 1360,
       "durationH": 23,
-      "link": "/search/IST2507BCN1?t=PC16587366001658818200001360SAWVIEBCN_242be0a470242993e71c01b9c9fe5e80_8780&search_date=20062022&expected_price_uuid=e13d090d-5a32-4a99-ae2c-a68428d0639c&expected_price_currency=rub"
+      "link": "/search/IST2507BCN1?t=PC16587366001658818200001360SAWVIEBCN_242be0a470242993e71c01b9c9fe5e80_8780&search_date=20062022&expected_price_uuid=1769f04b-17a4-43cb-be75-a8e842ee2658&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 145,
+      "departure_at": "2022-09-18T11:30:00+03:00",
+      "transfers": 1,
+      "duration": 1995,
+      "durationH": 33,
+      "link": "/search/IST1809MAD1?t=W616634898001663609500001995SAWBUDMAD_28aabe82ea376df8b2a63ce63b0b60d2_8540&search_date=20062022&expected_price_uuid=5719753a-1f03-4aa2-a3c5-4be593d21cfe&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 143,
+      "departure_at": "2022-09-11T09:25:00+03:00",
+      "transfers": 3,
+      "duration": 3290,
+      "durationH": 55,
+      "link": "/search/IST1109AGP2?t=W616628775001663074900003290SAWSJJBLLBGYAGP_66d67ba95b46e858aaef3408b737a451_16854&search_date=13062022&expected_price_uuid=12e34523-89b5-47d2-9a06-efcbeeda52dc&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1045,7 +1023,7 @@ window.data = {
       "transfers": 2,
       "duration": 1420,
       "durationH": 24,
-      "link": "/search/IST1807BCN1?t=FR16581672001658252400001420SAWAYTSOFBCN_c6631b23ce42fc6c03043d1634d604b1_8910&search_date=20062022&expected_price_uuid=a88ba2b7-1b31-4d10-93a1-1538cc09e851&expected_price_currency=rub"
+      "link": "/search/IST1807BCN1?t=FR16581672001658252400001420SAWAYTSOFBCN_c6631b23ce42fc6c03043d1634d604b1_8910&search_date=20062022&expected_price_uuid=794384e5-f33c-453f-94f2-d2f0a03063f0&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -1084,34 +1062,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 163,
-      "departure_at": "2022-09-04T12:50:00+03:00",
-      "transfers": 1,
-      "duration": 705,
-      "durationH": 12,
-      "link": "/search/IST0409BCN1?t=PC16622850001662327300000705SAWARNBCN_cb5143553b5a0c0b363251084ec5efd7_9635&search_date=20062022&expected_price_uuid=9ff3519e-22c4-4f71-aebb-0e1269a83b34&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
       "price": 157,
       "departure_at": "2022-07-24T17:05:00+03:00",
       "transfers": 1,
       "duration": 1680,
       "durationH": 28,
       "link": "/search/IST2407BCN1?t=W616586715001658772300001680SAWBUDBCN_008a340233ace9f90930b92708964b6f_9234&search_date=20062022&expected_price_uuid=9c92dd00-fd3e-4eae-84ba-6eff2c34c3cb&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 157,
-      "departure_at": "2022-09-07T08:15:00+03:00",
-      "transfers": 3,
-      "duration": 1870,
-      "durationH": 31,
-      "link": "/search/IST0709BCN1?t=PC16625277001662639900001870SAWARNSTNSDRBCN_388342f34bdf02b301493716b290c767_9235&search_date=20062022&expected_price_uuid=adbba9e9-6301-4e5a-9e98-91bed3e8868d&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1144,7 +1100,7 @@ window.data = {
       "transfers": 2,
       "duration": 2095,
       "durationH": 35,
-      "link": "/search/IST0107BCN1?t=FR16566642001656789900002095SAWBUDEMABCN_6b30b7ddae77ff68f7cf0fd5ac6e0f07_9235&search_date=20062022&expected_price_uuid=a911335b-a321-47d0-8336-c48101146cac&expected_price_currency=rub"
+      "link": "/search/IST0107BCN1?t=FR16566642001656789900002095SAWBUDEMABCN_6b30b7ddae77ff68f7cf0fd5ac6e0f07_9235&search_date=20062022&expected_price_uuid=ce136a31-159c-4bd4-ad50-dab1fa0cfc24&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1166,7 +1122,18 @@ window.data = {
       "transfers": 2,
       "duration": 2170,
       "durationH": 36,
-      "link": "/search/IST2806MAD1?t=PC16564125001656542700002170SAWCRLMANMAD_533dee90107b40e0e8b04acbd929bfc5_9040&search_date=20062022&expected_price_uuid=de964082-7d96-4657-ae1b-4b285808114b&expected_price_currency=rub"
+      "link": "/search/IST2806MAD1?t=PC16564125001656542700002170SAWCRLMANMAD_533dee90107b40e0e8b04acbd929bfc5_9040&search_date=20062022&expected_price_uuid=ef6d06a5-bce8-44fe-a4fa-2df424624ceb&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 159,
+      "departure_at": "2022-07-30T12:10:00+03:00",
+      "transfers": 3,
+      "duration": 2195,
+      "durationH": 37,
+      "link": "/search/IST3007BCN1?t=FR16591722001659303900002195SAWOTPMXPBRSBCN_316218e5ae4416c8c0218ef539dfefdf_9364&search_date=20062022&expected_price_uuid=a782d9de-9bf9-4f0d-88e4-1bb23bb3a250&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1210,7 +1177,7 @@ window.data = {
       "transfers": 2,
       "duration": 2610,
       "durationH": 44,
-      "link": "/search/IST2706MAD1?t=PC16563297001656486300002610SAWBSLIBZMAD_a0353b325d7d770250c0f7da113f7205_8651&search_date=20062022&expected_price_uuid=451c38fb-e5aa-4800-98d9-ad344acdd1c6&expected_price_currency=rub"
+      "link": "/search/IST2706MAD1?t=PC16563297001656486300002610SAWBSLIBZMAD_a0353b325d7d770250c0f7da113f7205_8651&search_date=20062022&expected_price_uuid=60cc74fd-5e8a-4031-a4de-6fe0022f4b91&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1345,6 +1312,17 @@ window.data = {
       "link": "/search/IST1807AGP1?t=U216581696001658219400000830SAWBJVLGWAGP_061a4fed1e4b483d5bb7062c65ba6e86_10078&search_date=19062022&expected_price_uuid=819c3158-1d94-476e-b937-19f020ba0e1e&expected_price_currency=rub"
     },
     {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 166,
+      "departure_at": "2022-07-11T08:20:00+03:00",
+      "transfers": 1,
+      "duration": 905,
+      "durationH": 15,
+      "link": "/search/IST1107BCN1?t=PC16575168001657571100000905SAWZRHBCN_873e677c994bed5cb500ca214182224b_9786&search_date=20062022&expected_price_uuid=394529b5-e4f4-44e6-8888-b41650266f1f&expected_price_currency=rub"
+    },
+    {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
@@ -1354,6 +1332,17 @@ window.data = {
       "duration": 960,
       "durationH": 16,
       "link": "/search/IST2106AGP1?t=PC16557939001655851500000960SAWDUSPMIAGP_2a7119bda8852b59b3fb4dece7552f10_9883&search_date=20062022&expected_price_uuid=edbd7b2d-aaba-4ff4-92d1-30d6e95e5b26&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 171,
+      "departure_at": "2022-07-25T17:00:00+03:00",
+      "transfers": 1,
+      "duration": 1055,
+      "durationH": 18,
+      "link": "/search/IST2507MAD1?t=KL16587576001658820900001055ISTAMSMAD_14032a795f5898151e2c34f1acc2eea8_10087&search_date=20062022&expected_price_uuid=2fdf4d7a-9815-4344-9b71-27e7384955eb&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -1477,6 +1466,50 @@ window.data = {
       "link": "/search/IST2207AGP1?t=W616584747001658603700002150SAWOTPSOFAGP_66a7f6a1a57bedda6092891e66db03d8_8897&search_date=16062022&expected_price_uuid=da6b1154-da83-480f-82a8-ebb4eb46cec1&expected_price_currency=rub"
     },
     {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 152,
+      "departure_at": "2022-09-11T09:25:00+03:00",
+      "transfers": 3,
+      "duration": 3130,
+      "durationH": 52,
+      "link": "/search/IST1109MAD2?t=W616628775001663065300003130SAWSJJTRFSTNMAD_5d56b7e4f35e86be850bbc6fb5dca992_17939&search_date=18062022&expected_price_uuid=bfae1988-0f7c-40ea-8c6e-08c6b7363460&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 160,
+      "departure_at": "2022-09-08T13:00:00+03:00",
+      "transfers": 2,
+      "duration": 1900,
+      "durationH": 32,
+      "link": "/search/IST0809BCN2?t=U216626312001662745200001900SAWADBGVABCN_80234f79ab3fcedfe482b7a498c62859_18913&search_date=20062022&expected_price_uuid=9bcca559-2380-4419-a0d6-403439908a0f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 153,
+      "departure_at": "2022-09-07T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 2230,
+      "durationH": 37,
+      "link": "/search/IST0709BCN2?t=U216625346001662668400002230SAWSKPGVABCN_e6833083f40007c709bdbfb575e06fc0_18004&search_date=20062022&expected_price_uuid=da69ea23-1e30-455b-a88a-ad648fdec687&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 155,
+      "departure_at": "2022-09-15T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 2340,
+      "durationH": 39,
+      "link": "/search/IST1509MAD2?t=FR16632258001663366200002340SAWSKPBLLMAD_dce00fbdb474db1c975374f540858657_18264&search_date=20062022&expected_price_uuid=8ae7a2f2-eb32-451b-b13a-bcb9ea207a4b&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -1491,56 +1524,12 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
-      "price": 152,
-      "departure_at": "2022-09-11T09:25:00+03:00",
-      "transfers": 3,
-      "duration": 3130,
-      "durationH": 52,
-      "link": "/search/IST1109MAD2?t=W616628775001663065300003130SAWSJJTRFSTNMAD_5d56b7e4f35e86be850bbc6fb5dca992_17939&search_date=18062022&expected_price_uuid=bfae1988-0f7c-40ea-8c6e-08c6b7363460&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
       "price": 161,
       "departure_at": "2022-09-09T10:10:00+03:00",
       "transfers": 2,
       "duration": 1445,
       "durationH": 24,
       "link": "/search/IST0909MAD1?t=U216627074001662794100001445SAWSKPGVAMAD_99c60351a1ee702b8ecef4f53b653557_9494&search_date=19062022&expected_price_uuid=b2813b96-329b-4cd6-be48-50a126d492b3&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 160,
-      "departure_at": "2022-09-08T13:00:00+03:00",
-      "transfers": 2,
-      "duration": 1900,
-      "durationH": 32,
-      "link": "/search/IST0809BCN2?t=U216626312001662745200001900SAWADBGVABCN_80234f79ab3fcedfe482b7a498c62859_18913&search_date=20062022&expected_price_uuid=9bcca559-2380-4419-a0d6-403439908a0f&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 154,
-      "departure_at": "2022-09-10T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 3000,
-      "durationH": 50,
-      "link": "/search/IST1009MAD1?t=W616627938001662973800003000SAWSKPTRNMAD_f28b17fed86d6723831be1b5b391d844_9105&search_date=17062022&expected_price_uuid=483c7c14-f4db-4c85-8e95-f91519f3a6a9&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 169,
-      "departure_at": "2022-09-14T16:15:00+03:00",
-      "transfers": 2,
-      "duration": 1090,
-      "durationH": 18,
-      "link": "/search/IST1409AGP1?t=FR16631613001663226700001090SAWATHFCOAGP_6887e62e5bbf54283479c797fd8fa678_9948&search_date=20062022&expected_price_uuid=ddc304d8-26a6-4404-bf62-6b5de202e2ec&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1554,15 +1543,15 @@ window.data = {
       "link": "/search/IST1509AGP1?t=U216631910001663312800002030SAWTIAMXPAGP_e3807b396c004b53cbc713b0b42780db_9494&search_date=20062022&expected_price_uuid=12ced2bc-bb99-437a-bd7c-76dec49ae761&expected_price_currency=rub"
     },
     {
-      "route": "IST-BCN",
+      "route": "IST-MAD",
       "origin": "IST",
-      "destination": "BCN",
-      "price": 167,
-      "departure_at": "2022-07-30T12:10:00+03:00",
-      "transfers": 3,
-      "duration": 2195,
-      "durationH": 37,
-      "link": "/search/IST3007BCN1?t=FR16591722001659303900002195SAWOTPMXPBRSBCN_316218e5ae4416c8c0218ef539dfefdf_9826&search_date=20062022&expected_price_uuid=f87ed36a-c40c-4641-b646-183eeb046b20&expected_price_currency=rub"
+      "destination": "MAD",
+      "price": 154,
+      "departure_at": "2022-09-10T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 3000,
+      "durationH": 50,
+      "link": "/search/IST1009MAD1?t=W616627938001662973800003000SAWSKPTRNMAD_f28b17fed86d6723831be1b5b391d844_9105&search_date=17062022&expected_price_uuid=483c7c14-f4db-4c85-8e95-f91519f3a6a9&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1574,6 +1563,17 @@ window.data = {
       "duration": 2200,
       "durationH": 37,
       "link": "/search/IST0807SVQ2?t=PC16573068001657438800002200SAWCGNSTNSVQ_db847cd658814490d43ac68db079b422_19367&search_date=18062022&expected_price_uuid=e0c478aa-6032-40cf-8527-b725cf00e907&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 165,
+      "departure_at": "2022-06-26T16:15:00+03:00",
+      "transfers": 2,
+      "duration": 2495,
+      "durationH": 42,
+      "link": "/search/IST2606BCN1?t=XC16562493001656399000002495SAWESBVIEBCN_77ebdcb9ff0a5a08305b662477c587db_9754&search_date=20062022&expected_price_uuid=f7a66920-0b17-47d8-868f-0a1506bf4268&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1613,17 +1613,6 @@ window.data = {
       "origin": "IST",
       "destination": "BCN",
       "price": 165,
-      "departure_at": "2022-06-26T16:15:00+03:00",
-      "transfers": 2,
-      "duration": 2495,
-      "durationH": 42,
-      "link": "/search/IST2606BCN1?t=XC16562493001656399000002495SAWESBVIEBCN_77ebdcb9ff0a5a08305b662477c587db_9754&search_date=20062022&expected_price_uuid=f7a66920-0b17-47d8-868f-0a1506bf4268&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 165,
       "departure_at": "2022-07-17T18:50:00+03:00",
       "transfers": 3,
       "duration": 3280,
@@ -1645,12 +1634,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 175,
-      "departure_at": "2022-06-25T00:15:00+03:00",
-      "transfers": 2,
-      "duration": 1505,
-      "durationH": 25,
-      "link": "/search/IST2506BCN1?t=XC16561053001656195600001505SAWAYTSTNLGWBCN_dc0bf1d4af3887b84ca13047634354e0_10337&search_date=20062022&expected_price_uuid=82710a2a-3f23-45ec-a4ba-53fedeefe610&expected_price_currency=rub"
+      "price": 163,
+      "departure_at": "2022-07-23T23:10:00+03:00",
+      "transfers": 3,
+      "duration": 3500,
+      "durationH": 58,
+      "link": "/search/IST2307BCN1?t=PC16586070001658817000003500SAWPRNFCOMAHBCN_4d6c54863cf9a717bb96f26309490dfc_9624&search_date=20062022&expected_price_uuid=ded1beec-388c-49ec-b331-0ca541b9f02d&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -1675,15 +1664,15 @@ window.data = {
       "link": "/search/IST1607MAD2?t=FR16579803001658011200000515SAWOTPMAD_a025da86a3d5e70c5aa88bc52ab13087_20925&search_date=19062022&expected_price_uuid=3fcd1146-27c6-4018-ad13-73023ad92fb7&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
+      "route": "IST-AGP",
       "origin": "IST",
-      "destination": "MAD",
-      "price": 171,
-      "departure_at": "2022-07-25T17:00:00+03:00",
-      "transfers": 1,
-      "duration": 1055,
+      "destination": "AGP",
+      "price": 169,
+      "departure_at": "2022-09-14T16:15:00+03:00",
+      "transfers": 2,
+      "duration": 1090,
       "durationH": 18,
-      "link": "/search/IST2507MAD1?t=KL16587576001658820900001055ISTAMSMAD_14032a795f5898151e2c34f1acc2eea8_10087&search_date=20062022&expected_price_uuid=2fdf4d7a-9815-4344-9b71-27e7384955eb&expected_price_currency=rub"
+      "link": "/search/IST1409AGP1?t=FR16631613001663226700001090SAWATHFCOAGP_6887e62e5bbf54283479c797fd8fa678_9948&search_date=20062022&expected_price_uuid=ddc304d8-26a6-4404-bf62-6b5de202e2ec&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1708,15 +1697,15 @@ window.data = {
       "link": "/search/IST1809BCN1?t=PC16634898001663591200001690SAWBUDBGYMXPBCN_b3f5c0c721cf009431fad46d58f00ed2_9611&search_date=20062022&expected_price_uuid=6f7b8023-4c4b-4e8d-ab5f-5c6a7a59ae76&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-BCN",
       "origin": "IST",
-      "destination": "AGP",
-      "price": 174,
-      "departure_at": "2022-09-22T00:30:00+03:00",
-      "transfers": 3,
-      "duration": 1520,
-      "durationH": 25,
-      "link": "/search/IST2209AGP2?t=W616637958001663887000001520SAWTIAFCOPMIAGP_798bdeec6bde730c4194081568f517e8_20496&search_date=16062022&expected_price_uuid=881d8e7f-a51f-4aad-b519-9477e9162fea&expected_price_currency=rub"
+      "destination": "BCN",
+      "price": 173,
+      "departure_at": "2022-09-04T18:15:00+03:00",
+      "transfers": 2,
+      "duration": 1820,
+      "durationH": 30,
+      "link": "/search/IST0409BCN2?t=W616623045001662413700001820SAWSKPBLQBCN_c115dd6ef292b6f3239f9cdfccdc9d2d_20405&search_date=20062022&expected_price_uuid=5cb68fde-eb0f-45f6-918a-f15e8bf1bdf2&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -1728,17 +1717,6 @@ window.data = {
       "duration": 2025,
       "durationH": 34,
       "link": "/search/IST1907AGP1?t=FR16582314001658352900002025SAWOTPDUBCWLAGP_0521825a5028cd8d2f5a6ff2cabdbd78_9962&search_date=16062022&expected_price_uuid=6e1e973c-7992-4dec-a244-bac1b935d870&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-LEI",
-      "origin": "IST",
-      "destination": "LEI",
-      "price": 173,
-      "departure_at": "2022-09-16T20:05:00+03:00",
-      "transfers": 3,
-      "duration": 2220,
-      "durationH": 37,
-      "link": "/search/IST1609LEI1?t=U216633479001663481100002220ISTADBGVABCNLEI_b38d818eefa133a5720cf4c8cd7fb2c2_10208&search_date=18062022&expected_price_uuid=802743b6-dd8f-4390-ae31-9d12e5b3bf51&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1783,6 +1761,17 @@ window.data = {
       "duration": 1085,
       "durationH": 18,
       "link": "/search/IST2607AGP1?t=FR16588467001658911800001085SAWOTPSTNLTNAGP_12676abda82ad0f14e834df669b72d2e_10821&search_date=17062022&expected_price_uuid=51698285-9521-47f1-8ba1-9778616399f4&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 181,
+      "departure_at": "2022-07-09T15:25:00+03:00",
+      "transfers": 1,
+      "duration": 1115,
+      "durationH": 19,
+      "link": "/search/IST0907MAD1?t=FR16573695001657436400001115SAWVIEMAD_88bbfac534e179c695679489fe328b8b_10662&search_date=20062022&expected_price_uuid=c3152f34-57c3-4565-9b00-6978ba9c96fd&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -1832,56 +1821,34 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 176,
-      "departure_at": "2022-07-28T09:00:00+03:00",
-      "transfers": 1,
-      "duration": 1540,
-      "durationH": 26,
-      "link": "/search/IST2807BCN1?t=W616589880001659080400001540SAWBUDBCN_7c247812f87726a060b1f955c4edf462_10392&search_date=20062022&expected_price_uuid=136b06e3-4dad-4ed0-9579-6c5a55e692ee&expected_price_currency=rub"
+      "price": 175,
+      "departure_at": "2022-06-25T00:15:00+03:00",
+      "transfers": 2,
+      "duration": 1505,
+      "durationH": 25,
+      "link": "/search/IST2506BCN1?t=XC16561053001656195600001505SAWAYTSTNLGWBCN_dc0bf1d4af3887b84ca13047634354e0_10337&search_date=20062022&expected_price_uuid=82710a2a-3f23-45ec-a4ba-53fedeefe610&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
       "price": 174,
-      "departure_at": "2022-09-04T12:50:00+03:00",
-      "transfers": 2,
-      "duration": 2800,
-      "durationH": 47,
-      "link": "/search/IST0409AGP1?t=PC16622850001662453000002800SAWARNLGWAGP_ddfef8894d49761d22dfb7ce56fa1136_10273&search_date=20062022&expected_price_uuid=1dcdcb6f-76fe-47c9-8496-d1775fd1ebb3&expected_price_currency=rub"
+      "departure_at": "2022-09-22T00:30:00+03:00",
+      "transfers": 3,
+      "duration": 1520,
+      "durationH": 25,
+      "link": "/search/IST2209AGP2?t=W616637958001663887000001520SAWTIAFCOPMIAGP_798bdeec6bde730c4194081568f517e8_20496&search_date=16062022&expected_price_uuid=881d8e7f-a51f-4aad-b519-9477e9162fea&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 171,
-      "departure_at": "2022-09-05T20:05:00+03:00",
-      "transfers": 3,
-      "duration": 3160,
-      "durationH": 53,
-      "link": "/search/IST0509BCN1?t=XQ16623975001662587100003160ISTADBHELSTNBCN_c9c4fec334c4f1bd601b22f510a823e1_10078&search_date=20062022&expected_price_uuid=7de2ea20-e564-4151-9173-4029dfe393e1&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 186,
-      "departure_at": "2022-09-06T07:40:00+03:00",
-      "transfers": 2,
-      "duration": 1550,
+      "price": 176,
+      "departure_at": "2022-07-28T09:00:00+03:00",
+      "transfers": 1,
+      "duration": 1540,
       "durationH": 26,
-      "link": "/search/IST0609MAD1?t=FR16624392001662532200001550SAWATHBGYMXPMAD_a50e3f75317c045e33796f7e45221a60_10960&search_date=20062022&expected_price_uuid=aaa86d57-bea5-4e2d-a17c-86ccdd277bc7&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 179,
-      "departure_at": "2022-09-06T07:40:00+03:00",
-      "transfers": 2,
-      "duration": 1600,
-      "durationH": 27,
-      "link": "/search/IST0609AGP2?t=FR16624392001662535200001600SAWATHBGYMXPAGP_67a5c753d7a278154b635ac8cf880645_21066&search_date=18062022&expected_price_uuid=67078d21-4ac3-4935-a71e-1315db7941d2&expected_price_currency=rub"
+      "link": "/search/IST2807BCN1?t=W616589880001659080400001540SAWBUDBCN_7c247812f87726a060b1f955c4edf462_10392&search_date=20062022&expected_price_uuid=136b06e3-4dad-4ed0-9579-6c5a55e692ee&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1893,6 +1860,39 @@ window.data = {
       "duration": 1685,
       "durationH": 28,
       "link": "/search/IST2606SVQ1?t=PC16562301001656331200001685SAWGVAIBZSVQ_b30c81e17e0ed8d0e54c5e24d2f687d6_10468&search_date=17062022&expected_price_uuid=bd29ac8c-7cf8-4419-be8a-ce47b4df3b1f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 175,
+      "departure_at": "2022-09-02T10:45:00+03:00",
+      "transfers": 1,
+      "duration": 1835,
+      "durationH": 31,
+      "link": "/search/IST0209BCN2?t=PC16621047001662214800001835SAWOSLBCN_9e5b909898117bcf2c53886e86c2e9dd_20600&search_date=20062022&expected_price_uuid=520f830e-d88b-46cd-971c-bf0a372af97c&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 173,
+      "departure_at": "2022-09-04T12:50:00+03:00",
+      "transfers": 2,
+      "duration": 2800,
+      "durationH": 47,
+      "link": "/search/IST0409AGP1?t=PC16622850001662453000002800SAWARNLGWAGP_41a55cf5339796fee8734d4e93873fde_10208&search_date=20062022&expected_price_uuid=5b6ce4f4-cc06-4e8c-aefe-1843f39a0ec2&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 177,
+      "departure_at": "2022-09-04T23:45:00+03:00",
+      "transfers": 3,
+      "duration": 2810,
+      "durationH": 47,
+      "link": "/search/IST0409MAD1?t=XQ16623243001662492900002810SAWADBOSLSTNMAD_021ada4c37b5765348dd9f36458717a2_10468&search_date=20062022&expected_price_uuid=a2f6bd07-e60f-41cc-a99d-4a75fa1ee8b3&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -1920,12 +1920,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 169,
-      "departure_at": "2022-09-01T16:15:00+03:00",
+      "price": 171,
+      "departure_at": "2022-09-05T20:05:00+03:00",
       "transfers": 3,
-      "duration": 3340,
-      "durationH": 56,
-      "link": "/search/IST0109BCN1?t=FR16620381001662238500003340SAWSJJMMXARNBCN_19fa4760aa15e049902ce9a4c622bacc_9949&search_date=20062022&expected_price_uuid=6c4368d0-8939-4d2c-b207-ae1ac87f25df&expected_price_currency=rub"
+      "duration": 3160,
+      "durationH": 53,
+      "link": "/search/IST0509BCN1?t=XQ16623975001662587100003160ISTADBHELSTNBCN_c9c4fec334c4f1bd601b22f510a823e1_10078&search_date=20062022&expected_price_uuid=7de2ea20-e564-4151-9173-4029dfe393e1&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -1936,7 +1936,18 @@ window.data = {
       "transfers": 3,
       "duration": 3510,
       "durationH": 59,
-      "link": "/search/IST0208BCN1?t=PC16594710001659681600003510SAWPRNFCOMAHBCN_846c63273d1820d2b16a15607ae6aef0_10013&search_date=20062022&expected_price_uuid=aaed1e27-fa5f-4c8e-b4a6-414e01feaf0a&expected_price_currency=rub"
+      "link": "/search/IST0208BCN1?t=PC16594710001659681600003510SAWPRNFCOMAHBCN_846c63273d1820d2b16a15607ae6aef0_10013&search_date=20062022&expected_price_uuid=2c07c9da-3134-4779-9b2d-a5b93181d003&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 195,
+      "departure_at": "2022-08-02T10:25:00+03:00",
+      "transfers": 0,
+      "duration": 275,
+      "durationH": 5,
+      "link": "/search/IST0208MAD1?t=PC16594251001659441600000275SAWMAD_b31a7cf898b677fd6f343f6941799a2c_11506&search_date=20062022&expected_price_uuid=96bce62f-e73a-4e9e-8f64-4ab5303122ea&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -1950,6 +1961,17 @@ window.data = {
       "link": "/search/IST2907BCN1?t=FR16590795001659161700001370SAWOTPVIEBCN_cd9705888ad4d41e9985193e8e7125ef_11104&search_date=20062022&expected_price_uuid=9e4c6702-4ca7-4af5-9d94-f697ea1a760b&expected_price_currency=rub"
     },
     {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 187,
+      "departure_at": "2022-07-28T00:10:00+03:00",
+      "transfers": 3,
+      "duration": 1400,
+      "durationH": 23,
+      "link": "/search/IST2807AGP1?t=XC16589562001659040200001400SAWDLMBHXGLAAGP_61b1a1040149615244e8bc85028bebc0_11052&search_date=20062022&expected_price_uuid=275e680c-8269-4d06-91e6-6be0d37b1d79&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -1961,6 +1983,50 @@ window.data = {
       "link": "/search/IST2406BCN1?t=TK16560522001656136500001405SAWLYSPMIBCN_9c8add52c9d3fabf49b217105972771c_11082&search_date=20062022&expected_price_uuid=3015d0a9-d351-478a-932f-22d717bf3e19&expected_price_currency=rub"
     },
     {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 184,
+      "departure_at": "2022-09-07T10:45:00+03:00",
+      "transfers": 2,
+      "duration": 1460,
+      "durationH": 24,
+      "link": "/search/IST0709AGP1?t=PC16625367001662624300001460SAWOSLLHRLGWAGP_3f3cf5f75c4448265e3604138d0328f3_10854&search_date=20062022&expected_price_uuid=d46b0f50-af4d-4985-9c7f-07fa012989ca&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 186,
+      "departure_at": "2022-09-06T07:40:00+03:00",
+      "transfers": 2,
+      "duration": 1550,
+      "durationH": 26,
+      "link": "/search/IST0609MAD1?t=FR16624392001662532200001550SAWATHBGYMXPMAD_a50e3f75317c045e33796f7e45221a60_10960&search_date=20062022&expected_price_uuid=aaa86d57-bea5-4e2d-a17c-86ccdd277bc7&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 179,
+      "departure_at": "2022-09-06T07:40:00+03:00",
+      "transfers": 2,
+      "duration": 1600,
+      "durationH": 27,
+      "link": "/search/IST0609AGP2?t=FR16624392001662535200001600SAWATHBGYMXPAGP_67a5c753d7a278154b635ac8cf880645_21066&search_date=18062022&expected_price_uuid=67078d21-4ac3-4935-a71e-1315db7941d2&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 183,
+      "departure_at": "2022-08-04T06:20:00+03:00",
+      "transfers": 3,
+      "duration": 1615,
+      "durationH": 27,
+      "link": "/search/IST0408BCN1?t=FR16595832001659680100001615SAWESBOTPVIEBCN_26f58ee119a930dc2c59fbdfaad5ade7_10792&search_date=20062022&expected_price_uuid=359c43a5-0a53-43e7-b1a6-f4c056121e2f&expected_price_currency=rub"
+    },
+    {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
@@ -1970,6 +2036,17 @@ window.data = {
       "duration": 1615,
       "durationH": 27,
       "link": "/search/IST2607MAD1?t=W616588467001658943600001615SAWOTPMAD_f328ef185502d4fa0e05f8845949f9ec_10598&search_date=18062022&expected_price_uuid=70487c66-631c-4b8b-942a-10c99743f6ed&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 188,
+      "departure_at": "2022-07-27T18:45:00+03:00",
+      "transfers": 3,
+      "duration": 1725,
+      "durationH": 29,
+      "link": "/search/IST2707AGP1?t=XC16589367001659040200001725SAWDLMBHXGLAAGP_7b3dd3ed4c1402252af02defd96debe7_11075&search_date=19062022&expected_price_uuid=8c55405e-6047-48c3-bd51-dabb651c14bd&expected_price_currency=rub"
     },
     {
       "route": "IST-GRX",
@@ -2005,48 +2082,15 @@ window.data = {
       "link": "/search/IST2406SVQ1?t=XC16561008001656229200002140SAWAYTSTNSVQ_f03c415a43be835dd8fa1f5b2f9c8ca4_10727&search_date=19062022&expected_price_uuid=f150f90b-6c21-4f3c-adee-dbd27a236359&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
+      "route": "IST-LEI",
       "origin": "IST",
-      "destination": "MAD",
-      "price": 192,
-      "departure_at": "2022-08-02T10:25:00+03:00",
-      "transfers": 0,
-      "duration": 275,
-      "durationH": 5,
-      "link": "/search/IST0208MAD1?t=PC16594251001659441600000275SAWMAD_b31a7cf898b677fd6f343f6941799a2c_11316&search_date=20062022&expected_price_uuid=6d50c0e9-8559-4ff8-b5ca-bf6e52d41390&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 184,
-      "departure_at": "2022-09-07T10:45:00+03:00",
-      "transfers": 2,
-      "duration": 1460,
-      "durationH": 24,
-      "link": "/search/IST0709AGP1?t=PC16625367001662624300001460SAWOSLLHRLGWAGP_3f3cf5f75c4448265e3604138d0328f3_10854&search_date=20062022&expected_price_uuid=d46b0f50-af4d-4985-9c7f-07fa012989ca&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 183,
-      "departure_at": "2022-08-04T06:20:00+03:00",
+      "destination": "LEI",
+      "price": 173,
+      "departure_at": "2022-09-16T20:05:00+03:00",
       "transfers": 3,
-      "duration": 1615,
-      "durationH": 27,
-      "link": "/search/IST0408BCN1?t=FR16595832001659680100001615SAWESBOTPVIEBCN_26f58ee119a930dc2c59fbdfaad5ade7_10792&search_date=20062022&expected_price_uuid=359c43a5-0a53-43e7-b1a6-f4c056121e2f&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 188,
-      "departure_at": "2022-07-27T18:45:00+03:00",
-      "transfers": 3,
-      "duration": 1725,
-      "durationH": 29,
-      "link": "/search/IST2707AGP1?t=XC16589367001659040200001725SAWDLMBHXGLAAGP_7b3dd3ed4c1402252af02defd96debe7_11075&search_date=19062022&expected_price_uuid=8c55405e-6047-48c3-bd51-dabb651c14bd&expected_price_currency=rub"
+      "duration": 2220,
+      "durationH": 37,
+      "link": "/search/IST1609LEI1?t=U216633479001663481100002220ISTADBGVABCNLEI_b38d818eefa133a5720cf4c8cd7fb2c2_10208&search_date=18062022&expected_price_uuid=802743b6-dd8f-4390-ae31-9d12e5b3bf51&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -2079,7 +2123,7 @@ window.data = {
       "transfers": 3,
       "duration": 2235,
       "durationH": 37,
-      "link": "/search/IST0308BCN1?t=FR16595460001659680100002235SAWESBOTPVIEBCN_16ea30436fe2f3cfd19b96eba15ec317_10792&search_date=20062022&expected_price_uuid=bb05ec98-fc7b-4997-9548-c7a1b7297290&expected_price_currency=rub"
+      "link": "/search/IST0308BCN1?t=FR16595460001659680100002235SAWESBOTPVIEBCN_16ea30436fe2f3cfd19b96eba15ec317_10792&search_date=20062022&expected_price_uuid=0f4f8078-6753-4b6d-9428-4cb7f45b5d6f&expected_price_currency=rub"
     },
     {
       "route": "IST-GRX",
@@ -2097,22 +2141,66 @@ window.data = {
       "origin": "IST",
       "destination": "MAD",
       "price": 179,
-      "departure_at": "2022-07-09T00:20:00+03:00",
-      "transfers": 3,
-      "duration": 3390,
-      "durationH": 57,
-      "link": "/search/IST0907MAD1?t=PC16573152001657518600003390SAWNUESTNSCQMAD_ee58c4d45953146b5e1ed3d5b03c6f7b_10533&search_date=20062022&expected_price_uuid=64d613eb-efc4-4d77-9574-1e4d57bfaa83&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 179,
       "departure_at": "2022-07-24T23:45:00+03:00",
       "transfers": 3,
       "duration": 3545,
       "durationH": 59,
       "link": "/search/IST2407MAD1?t=XC16586955001658908200003545SAWADBNUEIBZMAD_efafdda2686870a35940cf90f37568ff_10533&search_date=20062022&expected_price_uuid=f5ff01ab-ba5a-4999-94ec-6e78c102fe82&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 190,
+      "departure_at": "2022-07-01T09:40:00+03:00",
+      "transfers": 2,
+      "duration": 2390,
+      "durationH": 40,
+      "link": "/search/IST0107MAD4?t=PC16566576001656801000002390SAWCRLMANMAD_150d90019f1b77a0bb3ef4b6f606cc5b_44759&search_date=20062022&expected_price_uuid=6da527fb-7da6-46ad-afc9-85e9fa84ce81&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 185,
+      "departure_at": "2022-06-26T22:30:00+03:00",
+      "transfers": 3,
+      "duration": 2620,
+      "durationH": 44,
+      "link": "/search/IST2606MAD2?t=XC16562718001656429000002620SAWAYTSTNMRSMAD_77e7e55c2d04f9edb97835bc2d6b0b47_21833&search_date=20062022&expected_price_uuid=6dc4172a-8991-4654-a229-a9bacff01738&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 194,
+      "departure_at": "2022-09-02T10:45:00+03:00",
+      "transfers": 2,
+      "duration": 3000,
+      "durationH": 50,
+      "link": "/search/IST0209MAD2?t=PC16621047001662284700003000SAWOSLSTNMAD_4325083b6cf78f21b16f93d7bea1ee71_22937&search_date=19062022&expected_price_uuid=064c97b7-298c-4ac8-b945-e0db8aad90a7&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 186,
+      "departure_at": "2022-09-05T08:15:00+03:00",
+      "transfers": 2,
+      "duration": 3100,
+      "durationH": 52,
+      "link": "/search/IST0509AGP1?t=PC16623549001662540900003100SAWARNLGWAGP_ff98ab3eb066abca3c12f30d8ac5f38b_10987&search_date=17062022&expected_price_uuid=b18fa072-dc8d-4cec-8fd3-2c455d6802e7&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 188,
+      "departure_at": "2022-09-01T16:15:00+03:00",
+      "transfers": 3,
+      "duration": 3340,
+      "durationH": 56,
+      "link": "/search/IST0109BCN2?t=FR16620381001662238500003340SAWSJJMMXARNBCN_19fa4760aa15e049902ce9a4c622bacc_22158&search_date=20062022&expected_price_uuid=6a194601-95b8-4998-ac57-eb5dd0e2e105&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2135,6 +2223,17 @@ window.data = {
       "duration": 275,
       "durationH": 5,
       "link": "/search/IST2807MAD1?t=PC16589931001659009600000275SAWMAD_bb54c9961df152c6e43a6fb684c26cb0_12094&search_date=20062022&expected_price_uuid=9429b194-80fa-4c61-9290-67a49b9290de&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 202,
+      "departure_at": "2022-08-08T11:30:00+03:00",
+      "transfers": 1,
+      "duration": 575,
+      "durationH": 10,
+      "link": "/search/IST0808BCN1?t=W616599474001659981900000575SAWBUDBCN_ff85ce5d52630245093356f5a68a9e13_11896&search_date=20062022&expected_price_uuid=7d7e1ed1-a006-48dc-b01f-c1feede9dd5e&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2162,83 +2261,6 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
-      "price": 190,
-      "departure_at": "2022-07-01T09:40:00+03:00",
-      "transfers": 2,
-      "duration": 2390,
-      "durationH": 40,
-      "link": "/search/IST0107MAD4?t=PC16566576001656801000002390SAWCRLMANMAD_150d90019f1b77a0bb3ef4b6f606cc5b_44759&search_date=20062022&expected_price_uuid=6da527fb-7da6-46ad-afc9-85e9fa84ce81&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 186,
-      "departure_at": "2022-09-05T08:15:00+03:00",
-      "transfers": 2,
-      "duration": 3100,
-      "durationH": 52,
-      "link": "/search/IST0509AGP1?t=PC16623549001662540900003100SAWARNLGWAGP_ff98ab3eb066abca3c12f30d8ac5f38b_10987&search_date=17062022&expected_price_uuid=b18fa072-dc8d-4cec-8fd3-2c455d6802e7&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 181,
-      "departure_at": "2022-09-03T16:15:00+03:00",
-      "transfers": 3,
-      "duration": 3390,
-      "durationH": 57,
-      "link": "/search/IST0309BCN1?t=W616622109001662414300003390SAWSJJCPHSTNBCN_93bc32a7569ed0a38d1e33e7426cc3d5_10662&search_date=20062022&expected_price_uuid=0aa45de6-faf3-4479-bab5-73409b8a88e0&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-GRX",
-      "origin": "IST",
-      "destination": "GRX",
-      "price": 191,
-      "departure_at": "2022-09-15T10:05:00+03:00",
-      "transfers": 3,
-      "duration": 3115,
-      "durationH": 52,
-      "link": "/search/IST1509GRX1?t=FR16632255001663412400003115SAWOTPMXPPMIGRX_547864fa4907ba61d9a2e75557c0ace2_11238&search_date=13062022&expected_price_uuid=d2b22f31-f198-4679-b35d-3807eb878b3e&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 188,
-      "departure_at": "2022-08-29T00:30:00+03:00",
-      "transfers": 3,
-      "duration": 3355,
-      "durationH": 56,
-      "link": "/search/IST2908BCN1?t=W616617222001661923500003355SAWTIATRFPMIBCN_98880834b23f8a996822e9e4028489d0_11117&search_date=20062022&expected_price_uuid=ec7efd96-3021-43d3-8d7e-7a2c2aa772dd&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 189,
-      "departure_at": "2022-09-02T10:45:00+03:00",
-      "transfers": 3,
-      "duration": 3525,
-      "durationH": 59,
-      "link": "/search/IST0209AGP2?t=PC16621047001662316200003525SAWOSLSTNNTEAGP_7a1e2c9e184ab29bdaec37753a103982_22329&search_date=14062022&expected_price_uuid=3a5ee5ac-8328-4e44-9be3-5fe933242af8&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 202,
-      "departure_at": "2022-08-08T11:30:00+03:00",
-      "transfers": 1,
-      "duration": 575,
-      "durationH": 10,
-      "link": "/search/IST0808BCN1?t=W616599474001659981900000575SAWBUDBCN_ff85ce5d52630245093356f5a68a9e13_11896&search_date=20062022&expected_price_uuid=25d6922e-2340-4e56-97fe-7967518af33b&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
       "price": 200,
       "departure_at": "2022-07-29T17:00:00+03:00",
       "transfers": 1,
@@ -2261,34 +2283,23 @@ window.data = {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
-      "price": 205,
-      "departure_at": "2022-06-25T00:15:00+03:00",
-      "transfers": 2,
-      "duration": 1320,
-      "durationH": 22,
-      "link": "/search/IST2506AGP1?t=XC16561053001656184500001320SAWAYTSTNAGP_f6d4ddfbef99a9e1ac06456f1423c06a_12063&search_date=20062022&expected_price_uuid=a8fd834b-d3a7-46a5-8201-06f987627236&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 195,
-      "departure_at": "2022-07-28T00:10:00+03:00",
-      "transfers": 3,
-      "duration": 1400,
-      "durationH": 23,
-      "link": "/search/IST2807AGP1?t=XC16589562001659040200001400SAWDLMBHXGLAAGP_61b1a1040149615244e8bc85028bebc0_11506&search_date=20062022&expected_price_uuid=2656fc84-65ef-4663-b3be-20e56597444b&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
       "price": 194,
       "departure_at": "2022-07-20T11:10:00+03:00",
       "transfers": 2,
       "duration": 1640,
       "durationH": 27,
       "link": "/search/IST2007AGP1?t=PC16583046001658403000001640SAWVIEPMIAGP_9f35204548762ff3f59d69c15d917cfe_11441&search_date=19062022&expected_price_uuid=31e75d77-472d-4f73-b4ce-e24b1affe2c3&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 205,
+      "departure_at": "2022-06-25T00:15:00+03:00",
+      "transfers": 2,
+      "duration": 1320,
+      "durationH": 22,
+      "link": "/search/IST2506AGP1?t=XC16561053001656184500001320SAWAYTSTNAGP_f6d4ddfbef99a9e1ac06456f1423c06a_12063&search_date=20062022&expected_price_uuid=a8fd834b-d3a7-46a5-8201-06f987627236&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2300,6 +2311,17 @@ window.data = {
       "duration": 1965,
       "durationH": 33,
       "link": "/search/IST2107MAD1?t=XC16583511001658469000001965SAWESBMUCPMIMAD_2394f599238dd2b581b4c699a1c976e9_11506&search_date=20062022&expected_price_uuid=32d58e68-22c8-4d7d-a69e-8c6edff42a58&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 206,
+      "departure_at": "2022-06-24T08:20:00+03:00",
+      "transfers": 1,
+      "duration": 2255,
+      "durationH": 38,
+      "link": "/search/IST2406MAD1?t=PC16560480001656183300002255SAWZRHMAD_939a05d9143c6461b4dd5375813de802_12152&search_date=20062022&expected_price_uuid=c7b17fe0-5a02-4d25-9400-f1eca78e6aed&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -2324,17 +2346,6 @@ window.data = {
       "link": "/search/IST2407AGP1?t=U216586901001658862600002875SAWDLMBRSAGP_96a7632ab3eb0b3c5c639d5432b15074_11501&search_date=16062022&expected_price_uuid=461a075e-53a1-45fe-9d08-ea74c56c63a6&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 195,
-      "departure_at": "2022-06-26T23:45:00+03:00",
-      "transfers": 3,
-      "duration": 3500,
-      "durationH": 58,
-      "link": "/search/IST2606MAD1?t=XC16562763001656486300003500SAWADBNUEIBZMAD_1071496d95a54b0614830b47b3ab06cd_11506&search_date=20062022&expected_price_uuid=2a7bf706-6534-4e47-9a0e-300f7c3a8fb5&expected_price_currency=rub"
-    },
-    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -2343,7 +2354,7 @@ window.data = {
       "transfers": 1,
       "duration": 780,
       "durationH": 13,
-      "link": "/search/IST0508BCN1?t=PC16596912001659738000000780SAWMADBCN_28b2f0c411fd2d02518f9637c2caf4c1_12220&search_date=20062022&expected_price_uuid=f92e1f39-95ee-4b4d-834f-fa67655695e0&expected_price_currency=rub"
+      "link": "/search/IST0508BCN1?t=PC16596912001659738000000780SAWMADBCN_28b2f0c411fd2d02518f9637c2caf4c1_12220&search_date=20062022&expected_price_uuid=b12fb626-3e2d-430a-a2bd-f8015ff632d5&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -2365,40 +2376,7 @@ window.data = {
       "transfers": 1,
       "duration": 955,
       "durationH": 16,
-      "link": "/search/IST0908MAD1?t=A316600674001660124700000955ISTATHMAD_1105cca829a66198fda18fe8bef441bc_11870&search_date=20062022&expected_price_uuid=f5715ef0-6d3f-4b42-b003-d27a0e611e5d&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 199,
-      "departure_at": "2022-08-31T12:10:00+03:00",
-      "transfers": 3,
-      "duration": 2209,
-      "durationH": 37,
-      "link": "/search/IST3108BCN1?t=FR16619370001662069540002209SAWOTPTSRBGYBCN_c4b711b92fa9c7ee4bc49ad5ff8e1fec_11766&search_date=20062022&expected_price_uuid=da7ff4ff-a2bd-46a3-a0c6-5b399832b4a4&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 199,
-      "departure_at": "2022-09-02T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 2230,
-      "durationH": 37,
-      "link": "/search/IST0209BCN1?t=U216621026001662236400002230SAWSKPGVABCN_36b6ba3f93c5d658c5bc38e111a2bf72_11766&search_date=20062022&expected_price_uuid=50f24c08-9e5f-49e9-b183-f4c3ec87a883&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 206,
-      "departure_at": "2022-06-24T08:20:00+03:00",
-      "transfers": 1,
-      "duration": 2255,
-      "durationH": 38,
-      "link": "/search/IST2406MAD1?t=PC16560480001656183300002255SAWZRHMAD_939a05d9143c6461b4dd5375813de802_12152&search_date=20062022&expected_price_uuid=c7b17fe0-5a02-4d25-9400-f1eca78e6aed&expected_price_currency=rub"
+      "link": "/search/IST0908MAD1?t=A316600674001660124700000955ISTATHMAD_1105cca829a66198fda18fe8bef441bc_11832&search_date=20062022&expected_price_uuid=476eabe2-98e4-4602-8d10-a972c524285f&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2412,26 +2390,59 @@ window.data = {
       "link": "/search/IST0308MAD1?t=FR16595460001659685500002325SAWESBOTPVIEMAD_8493858bf8c534cf28d0d87a538bb8c1_11701&search_date=20062022&expected_price_uuid=3e553e2b-856b-4af6-912f-0071f8662b4d&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
+      "route": "IST-AGP",
       "origin": "IST",
-      "destination": "MAD",
-      "price": 202,
-      "departure_at": "2022-08-18T09:00:00+03:00",
+      "destination": "AGP",
+      "price": 199,
+      "departure_at": "2022-08-31T20:05:00+03:00",
       "transfers": 3,
-      "duration": 2410,
-      "durationH": 40,
-      "link": "/search/IST1808MAD2?t=FR16608024001660947000002410ISTADBSKPBLLMAD_3973dccc11891cd5166c7aedc337328a_23780&search_date=19062022&expected_price_uuid=ee89fbc8-d3bc-47b9-bfc9-844270583663&expected_price_currency=rub"
+      "duration": 3040,
+      "durationH": 51,
+      "link": "/search/IST3108AGP1?t=XQ16619655001662147900003040ISTADBOSLLGWAGP_2d229e19bdc12b92d76eff97c9e4d1b9_11766&search_date=20062022&expected_price_uuid=7c2b8f33-4f05-4b33-a4fb-333248752feb&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
+      "route": "IST-GRX",
       "origin": "IST",
-      "destination": "MAD",
-      "price": 194,
+      "destination": "GRX",
+      "price": 191,
+      "departure_at": "2022-09-15T10:05:00+03:00",
+      "transfers": 3,
+      "duration": 3115,
+      "durationH": 52,
+      "link": "/search/IST1509GRX1?t=FR16632255001663412400003115SAWOTPMXPPMIGRX_547864fa4907ba61d9a2e75557c0ace2_11238&search_date=13062022&expected_price_uuid=d2b22f31-f198-4679-b35d-3807eb878b3e&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 191,
+      "departure_at": "2022-08-29T16:15:00+03:00",
+      "transfers": 3,
+      "duration": 3180,
+      "durationH": 53,
+      "link": "/search/IST2908BCN1?t=W616617789001661969700003180SAWSJJCPHGDNBCN_de4c50ce07ff472ee9ccd64da934ae57_11247&search_date=20062022&expected_price_uuid=86f45fdd-523c-4ce1-9065-fcadb1c1a1f6&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 189,
       "departure_at": "2022-09-02T10:45:00+03:00",
-      "transfers": 2,
-      "duration": 3000,
-      "durationH": 50,
-      "link": "/search/IST0209MAD2?t=PC16621047001662284700003000SAWOSLSTNMAD_4325083b6cf78f21b16f93d7bea1ee71_22937&search_date=19062022&expected_price_uuid=064c97b7-298c-4ac8-b945-e0db8aad90a7&expected_price_currency=rub"
+      "transfers": 3,
+      "duration": 3525,
+      "durationH": 59,
+      "link": "/search/IST0209AGP2?t=PC16621047001662316200003525SAWOSLSTNNTEAGP_7a1e2c9e184ab29bdaec37753a103982_22329&search_date=14062022&expected_price_uuid=3a5ee5ac-8328-4e44-9be3-5fe933242af8&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 208,
+      "departure_at": "2022-09-03T20:50:00+03:00",
+      "transfers": 1,
+      "duration": 885,
+      "durationH": 15,
+      "link": "/search/IST0309BCN2?t=A316622274001662280500000885ISTATHBCN_c4b021d56790aed7191ccaac23bd06ee_24508&search_date=20062022&expected_price_uuid=51b27284-1823-4732-a24e-d05e1aee18dc&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -2445,15 +2456,15 @@ window.data = {
       "link": "/search/IST0108BCN1?t=A316593762001659429300000885ISTATHBCN_b3e1692ffba813305ab28c582b292db3_12304&search_date=20062022&expected_price_uuid=34214ed3-b947-42e6-91fa-b18a2b758ebb&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-BCN",
       "origin": "IST",
-      "destination": "AGP",
-      "price": 199,
-      "departure_at": "2022-08-31T20:05:00+03:00",
+      "destination": "BCN",
+      "price": 205,
+      "departure_at": "2022-08-31T12:10:00+03:00",
       "transfers": 3,
-      "duration": 3040,
-      "durationH": 51,
-      "link": "/search/IST3108AGP1?t=XQ16619655001662147900003040ISTADBOSLLGWAGP_2d229e19bdc12b92d76eff97c9e4d1b9_11766&search_date=20062022&expected_price_uuid=7c2b8f33-4f05-4b33-a4fb-333248752feb&expected_price_currency=rub"
+      "duration": 2209,
+      "durationH": 37,
+      "link": "/search/IST3108BCN2?t=FR16619370001662069540002209SAWOTPTSRBGYBCN_c4b711b92fa9c7ee4bc49ad5ff8e1fec_24170&search_date=20062022&expected_price_uuid=6317b273-6296-4834-a8e2-506d6268045a&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2478,17 +2489,6 @@ window.data = {
       "link": "/search/IST0708BCN3?t=W616598592001659936300001285SAWOTPPMIBCN_5c17239ea478e8beb67600fb450acfad_37417&search_date=20062022&expected_price_uuid=1ae67b24-1d45-4573-be51-8b99e6ec3237&expected_price_currency=rub"
     },
     {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 212,
-      "departure_at": "2022-08-10T11:10:00+03:00",
-      "transfers": 1,
-      "duration": 1360,
-      "durationH": 23,
-      "link": "/search/IST1008BCN1?t=PC16601190001660200600001360SAWVIEBCN_ca2d819d92c49ed1fab6b575496387c4_12506&search_date=20062022&expected_price_uuid=1ed97b0b-9892-4088-9ace-3a19f35766ed&expected_price_currency=rub"
-    },
-    {
       "route": "IST-LEI",
       "origin": "IST",
       "destination": "LEI",
@@ -2500,15 +2500,15 @@ window.data = {
       "link": "/search/IST0709LEI1?t=PC16625367001662628500001530SAWOSLBCNLEI_ddb0f2e294955559ae8184c3bb8dc281_12389&search_date=19062022&expected_price_uuid=235dc9c1-45a7-474b-948d-978977613368&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-MAD",
       "origin": "IST",
-      "destination": "AGP",
-      "price": 217,
-      "departure_at": "2022-09-09T08:45:00+03:00",
-      "transfers": 2,
-      "duration": 1905,
-      "durationH": 32,
-      "link": "/search/IST0909AGP1?t=FR16627023001662816600001905SAWBUDMXPAGP_be5397ed7c70c4166548faf0799d748a_12798&search_date=19062022&expected_price_uuid=efdc47e8-eef0-4d3e-bccb-33047e598a23&expected_price_currency=rub"
+      "destination": "MAD",
+      "price": 202,
+      "departure_at": "2022-08-18T09:00:00+03:00",
+      "transfers": 3,
+      "duration": 2410,
+      "durationH": 40,
+      "link": "/search/IST1808MAD2?t=FR16608024001660947000002410ISTADBSKPBLLMAD_3973dccc11891cd5166c7aedc337328a_23780&search_date=19062022&expected_price_uuid=ee89fbc8-d3bc-47b9-bfc9-844270583663&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -2520,17 +2520,6 @@ window.data = {
       "duration": 2465,
       "durationH": 41,
       "link": "/search/IST2208SVQ1?t=U216611741001661322000002465SAWSJJCPHPMISVQ_862b6d3d59d31dd4f7eb081d9160223f_12428&search_date=14062022&expected_price_uuid=4ae26ee2-f1bb-4449-ac72-35776c70c589&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 209,
-      "departure_at": "2022-09-04T18:15:00+03:00",
-      "transfers": 3,
-      "duration": 2875,
-      "durationH": 48,
-      "link": "/search/IST0409MAD1?t=W616623045001662477000002875SAWSKPBLQMRSMAD_e6864dbacd2bb7432a6b60b33a9ba18f_12307&search_date=17062022&expected_price_uuid=87472084-b0ef-4c61-9157-a1201ffa9e00&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -2690,12 +2679,34 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
+      "price": 220,
+      "departure_at": "2022-08-08T11:00:00+03:00",
+      "transfers": 2,
+      "duration": 1450,
+      "durationH": 24,
+      "link": "/search/IST0808MAD1?t=FR16599456001660032600001450SAWOTPVIEMAD_49501e829559abd0571da5f05e1620e8_12999&search_date=20062022&expected_price_uuid=7bfca6ea-ec05-434a-ac9c-db4ecf35d268&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
       "price": 226,
       "departure_at": "2022-09-03T12:30:00+03:00",
       "transfers": 2,
       "duration": 1455,
       "durationH": 24,
       "link": "/search/IST0309MAD1?t=PC16621974001662284700001455SAWCPHSTNMAD_f3fb02afa2e87826f35e98792d4f4285_13319&search_date=20062022&expected_price_uuid=6f7b25c7-67a4-4d9a-a57b-555e005a5ca9&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 220,
+      "departure_at": "2022-08-09T07:40:00+03:00",
+      "transfers": 2,
+      "duration": 1600,
+      "durationH": 27,
+      "link": "/search/IST0908BCN1?t=A316600200001660116000001600SAWATHIBZBCN_46eb2c6db8b69fb8224dff9637096ea8_12993&search_date=20062022&expected_price_uuid=6f7e61ee-c826-4348-8b04-8b037ed4c6e4&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -2718,6 +2729,17 @@ window.data = {
       "duration": 1760,
       "durationH": 29,
       "link": "/search/IST2508SVQ1?t=W616614111001661516700001760SAWOTPPMIVLCSVQ_9dd10d9ee87d1dbf22db527bed50431e_12792&search_date=15062022&expected_price_uuid=c7ee30d9-df07-4943-810a-62852e3b1cbe&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 217,
+      "departure_at": "2022-09-09T08:45:00+03:00",
+      "transfers": 2,
+      "duration": 1905,
+      "durationH": 32,
+      "link": "/search/IST0909AGP1?t=FR16627023001662816600001905SAWBUDMXPAGP_be5397ed7c70c4166548faf0799d748a_12798&search_date=19062022&expected_price_uuid=efdc47e8-eef0-4d3e-bccb-33047e598a23&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -2786,17 +2808,6 @@ window.data = {
       "link": "/search/IST1808BCN1?t=W616608066001660941300002245SAWSKPBLLBCN_e07c1c604a6aff35dec220d09175bc62_12804&search_date=20062022&expected_price_uuid=116de5e2-21a5-4e11-9580-4db11cc3f416&expected_price_currency=rub"
     },
     {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 213,
-      "departure_at": "2022-08-30T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 2275,
-      "durationH": 38,
-      "link": "/search/IST3008BCN1?t=W616618434001661979900002275SAWSKPTRNBCN_489dfc4d90a5be57dc50f162d53b7d3b_12545&search_date=20062022&expected_price_uuid=57ed36a2-1442-4115-b6ef-93ea35aba43a&expected_price_currency=rub"
-    },
-    {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
@@ -2822,12 +2833,12 @@ window.data = {
       "route": "IST-MAD",
       "origin": "IST",
       "destination": "MAD",
-      "price": 209,
+      "price": 208,
       "departure_at": "2022-08-29T16:15:00+03:00",
       "transfers": 3,
       "duration": 2700,
       "durationH": 45,
-      "link": "/search/IST2908MAD1?t=W616617789001661940900002700SAWSJJCPHSTNMAD_545e9223e946407bae2077ebd80ac8de_12350&search_date=20062022&expected_price_uuid=1ad0c0e5-7014-4d9c-b178-451ddc49cddd&expected_price_currency=rub"
+      "link": "/search/IST2908MAD1?t=W616617789001661940900002700SAWSJJCPHSTNMAD_545e9223e946407bae2077ebd80ac8de_12285&search_date=20062022&expected_price_uuid=723245e0-4c8e-461b-a3a1-c4b3a6dccc6c&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -2841,6 +2852,50 @@ window.data = {
       "link": "/search/IST2207MAD1?t=XC16584699001658641800002865SAWASRNUEPMIMAD_86e4c773b341e3f4b36c936743db32b9_12285&search_date=20062022&expected_price_uuid=f6d2ebf6-d5bc-4a8e-81f9-97af89145140&expected_price_currency=rub"
     },
     {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 231,
+      "departure_at": "2022-09-18T08:45:00+03:00",
+      "transfers": 1,
+      "duration": 1600,
+      "durationH": 27,
+      "link": "/search/IST1809AGP2?t=PC16634799001663575900001600SAWSTNLGWAGP_ab2d3b8e2a566fabafb6bf8edb7d4975_27250&search_date=16062022&expected_price_uuid=5aada0f8-a6fa-4c9e-9cc2-cea5ba6741db&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 226,
+      "departure_at": "2022-08-20T09:25:00+03:00",
+      "transfers": 2,
+      "duration": 2370,
+      "durationH": 40,
+      "link": "/search/IST2008AGP1?t=FR16609767001661118900002370SAWSJJCPHAGP_cb51ea80e462464d84ea00e52a8ea7b3_13309&search_date=15062022&expected_price_uuid=ab9eed26-1213-4691-9e01-624877de27a8&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-SVQ",
+      "origin": "IST",
+      "destination": "SVQ",
+      "price": 219,
+      "departure_at": "2022-09-01T23:40:00+03:00",
+      "transfers": 2,
+      "duration": 2975,
+      "durationH": 50,
+      "link": "/search/IST0109SVQ1?t=XC16620648001662243300002975SAWBJVBLLSVQ_fc4b780a85c27970b5b1c09e4f4c62d4_12934&search_date=19062022&expected_price_uuid=1a488d9a-a607-4504-8073-c4f5010ad1ae&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 217,
+      "departure_at": "2022-08-17T20:05:00+03:00",
+      "transfers": 3,
+      "duration": 3090,
+      "durationH": 52,
+      "link": "/search/IST1708BCN1?t=W616607559001660941300003090ISTADBSKPBLLBCN_7dfebb60e939f869e99443d9cb86c66f_12804&search_date=20062022&expected_price_uuid=df08fa02-0dee-415d-b855-d274123c8628&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -2850,17 +2905,6 @@ window.data = {
       "duration": 3465,
       "durationH": 58,
       "link": "/search/IST2808BCN1?t=W616616925001661900400003465SAWSJJBLLBGYBCN_f02f44ca73754084db7436e399e0839f_12350&search_date=20062022&expected_price_uuid=7547fa7e-76a8-4533-82be-2de3b3475742&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 221,
-      "departure_at": "2022-07-23T11:30:00+03:00",
-      "transfers": 1,
-      "duration": 740,
-      "durationH": 12,
-      "link": "/search/IST2307BCN1?t=FR16585650001658609400000740SAWBUDBCN_61014a87a0182124c6c9999846a3886b_13028&search_date=20062022&expected_price_uuid=5edbb632-ed58-4c2c-838a-74e22d973e23&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -2877,6 +2921,39 @@ window.data = {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
+      "price": 241,
+      "departure_at": "2022-08-10T11:10:00+03:00",
+      "transfers": 1,
+      "duration": 710,
+      "durationH": 12,
+      "link": "/search/IST1008AGP1?t=W616601190001660161600000710SAWVIEAGP_eafb64f18c0b468dfae0dfd86cb6618b_14220&search_date=19062022&expected_price_uuid=f2519e48-170f-4faf-8f53-5ed6ac647cf8&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 238,
+      "departure_at": "2022-08-13T09:25:00+03:00",
+      "transfers": 2,
+      "duration": 735,
+      "durationH": 12,
+      "link": "/search/IST1308BCN1?t=JU16603719001660416000000735SAWSJJBEGBCN_c49bd2300ecb486f245f463efb7ba91e_14065&search_date=20062022&expected_price_uuid=40e267e3-b7f7-4aad-8bb7-08c1e93a87a4&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 235,
+      "departure_at": "2022-07-25T00:15:00+03:00",
+      "transfers": 2,
+      "duration": 945,
+      "durationH": 16,
+      "link": "/search/IST2507AGP1?t=PC16586973001658754000000945SAWNUEPMIAGP_3977f5dde29f34f4510e6f07b2a0776d_13831&search_date=20062022&expected_price_uuid=bbe6e0cc-2bb0-439a-9dad-8977150973a3&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
       "price": 238,
       "departure_at": "2022-08-25T06:20:00+03:00",
       "transfers": 3,
@@ -2888,23 +2965,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 236,
+      "price": 241,
       "departure_at": "2022-08-11T10:05:00+03:00",
       "transfers": 3,
       "duration": 1360,
       "durationH": 23,
-      "link": "/search/IST1108BCN1?t=FR16602015001660283100001360SAWOTPVIEPMIBCN_aba4093cbda5a46f8ba31ab7bb2cb1a1_13908&search_date=20062022&expected_price_uuid=c8758f93-dcfa-4fda-abac-06b772e01e1d&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 231,
-      "departure_at": "2022-08-27T10:55:00+03:00",
-      "transfers": 1,
-      "duration": 1400,
-      "durationH": 23,
-      "link": "/search/IST2708BCN1?t=D816615869001661670900001400SAWHELBCN_f7e0308c323c512bea097762a61815f2_13648&search_date=20062022&expected_price_uuid=c5474309-a59e-474f-883f-4a716e56ce79&expected_price_currency=rub"
+      "link": "/search/IST1108BCN1?t=FR16602015001660283100001360SAWOTPVIEPMIBCN_aba4093cbda5a46f8ba31ab7bb2cb1a1_14187&search_date=20062022&expected_price_uuid=3aca5522-6a29-435d-8c5b-634425b26d08&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -2916,6 +2982,72 @@ window.data = {
       "duration": 1410,
       "durationH": 24,
       "link": "/search/IST2208AGP1?t=FR16611522001661236800001410SAWSKPBLQAGP_03e2633d63d96680c073d006754a4d92_13819&search_date=17062022&expected_price_uuid=b6270a88-428a-419a-8ed0-0963db7ce5f0&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 243,
+      "departure_at": "2022-08-10T11:10:00+03:00",
+      "transfers": 1,
+      "duration": 1435,
+      "durationH": 24,
+      "link": "/search/IST1008MAD1?t=FR16601190001660205100001435SAWVIEMAD_a5903cc11560dc600805ebfdd6fca5c8_14323&search_date=20062022&expected_price_uuid=ba125862-d875-4e7e-9c80-10ec0b9dccc6&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 234,
+      "departure_at": "2022-08-10T05:55:00+03:00",
+      "transfers": 3,
+      "duration": 1585,
+      "durationH": 26,
+      "link": "/search/IST1008BCN1?t=XC16601001001660195200001585SAWASRVIEPMIBCN_e62de342a6a90283069b81b9d7f85156_13778&search_date=20062022&expected_price_uuid=55319d8d-50d3-43e0-982f-8be0448b6ee7&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 248,
+      "departure_at": "2022-08-11T10:05:00+03:00",
+      "transfers": 3,
+      "duration": 1515,
+      "durationH": 25,
+      "link": "/search/IST1108AGP1?t=FR16602015001660292400001515SAWOTPVIEAGAAGP_a133bb202103bd396571db3caea72b10_14621&search_date=18062022&expected_price_uuid=63ded590-5a05-4142-aeea-ea91464a49f1&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 236,
+      "departure_at": "2022-08-25T06:20:00+03:00",
+      "transfers": 3,
+      "duration": 1705,
+      "durationH": 28,
+      "link": "/search/IST2508MAD1?t=FR16613976001661499900001705SAWESBOTPVIEMAD_ae91b4b93e00f9f219998b2ff82ad115_13908&search_date=20062022&expected_price_uuid=36a1940f-eecc-44a2-9c99-1f22c87c0f98&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 228,
+      "departure_at": "2022-07-16T17:15:00+03:00",
+      "transfers": 2,
+      "duration": 1855,
+      "durationH": 31,
+      "link": "/search/IST1607AGP1?t=FR16579809001658092200001855ISTVIESTNAGP_163645a82135942dfa52c60b80711c70_13447&search_date=20062022&expected_price_uuid=5654f214-027b-4de1-b385-417db0c0f3ef&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 242,
+      "departure_at": "2022-08-11T06:20:00+03:00",
+      "transfers": 3,
+      "duration": 1705,
+      "durationH": 28,
+      "link": "/search/IST1108MAD2?t=FR16601880001660290300001705SAWESBOTPVIEMAD_fc01510d17b2c87f236214988ccb536d_28518&search_date=20062022&expected_price_uuid=caa3eba2-1596-493f-a625-8b86cec01598&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -2962,15 +3094,15 @@ window.data = {
       "link": "/search/IST2408MAD1?t=FR16613688001661499900002185SAWESBOTPVIEMAD_967792db145e02bab4f8d50fad258cc6_13518&search_date=20062022&expected_price_uuid=bed98a09-0d23-42aa-ac94-a375af31a1ec&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-MAD",
       "origin": "IST",
-      "destination": "AGP",
-      "price": 226,
-      "departure_at": "2022-08-20T09:25:00+03:00",
-      "transfers": 2,
-      "duration": 2370,
-      "durationH": 40,
-      "link": "/search/IST2008AGP1?t=FR16609767001661118900002370SAWSJJCPHAGP_cb51ea80e462464d84ea00e52a8ea7b3_13309&search_date=15062022&expected_price_uuid=ab9eed26-1213-4691-9e01-624877de27a8&expected_price_currency=rub"
+      "destination": "MAD",
+      "price": 227,
+      "departure_at": "2022-08-15T16:15:00+03:00",
+      "transfers": 3,
+      "duration": 2555,
+      "durationH": 43,
+      "link": "/search/IST1508MAD2?t=XC16605693001660722600002555SAWESBNUEIBZMAD_5f7f358eaec4325e67e56bbf31553d44_26766&search_date=20062022&expected_price_uuid=a4a93433-5115-4143-b190-6107d1535464&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -2984,28 +3116,6 @@ window.data = {
       "link": "/search/IST2408AGP1?t=FR16613322001661502000002830SAWOTPVIEAGAAGP_f1e90597343d5a6c9664a9b669189f74_12926&search_date=14062022&expected_price_uuid=3aee3925-c6fd-4145-bc32-779f2be5f84a&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 225,
-      "departure_at": "2022-08-08T09:00:00+03:00",
-      "transfers": 3,
-      "duration": 2990,
-      "durationH": 50,
-      "link": "/search/IST0808MAD1?t=XC16599384001660117800002990ISTADBNUEIBZMAD_50092aeb72c6cb5a47a1d27ac8c871d4_13259&search_date=19062022&expected_price_uuid=01e697cb-3023-4201-9cf9-61d3e41dab0b&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 217,
-      "departure_at": "2022-08-17T20:05:00+03:00",
-      "transfers": 3,
-      "duration": 3090,
-      "durationH": 52,
-      "link": "/search/IST1708BCN1?t=W616607559001660941300003090ISTADBSKPBLLBCN_7dfebb60e939f869e99443d9cb86c66f_12804&search_date=20062022&expected_price_uuid=df08fa02-0dee-415d-b855-d274123c8628&expected_price_currency=rub"
-    },
-    {
       "route": "IST-LEI",
       "origin": "IST",
       "destination": "LEI",
@@ -3017,37 +3127,15 @@ window.data = {
       "link": "/search/IST2508LEI1?t=FR16614333001661622900003160SAWSJJBLLSTNLEI_df082c7e6b3186c5ddb70055ae9abf03_12920&search_date=15062022&expected_price_uuid=181d21ad-75a9-41e1-81f9-b1819dde7e1d&expected_price_currency=rub"
     },
     {
-      "route": "IST-AGP",
+      "route": "IST-MAD",
       "origin": "IST",
-      "destination": "AGP",
+      "destination": "MAD",
       "price": 241,
-      "departure_at": "2022-08-10T11:10:00+03:00",
+      "departure_at": "2022-08-01T20:50:00+03:00",
       "transfers": 1,
-      "duration": 710,
-      "durationH": 12,
-      "link": "/search/IST1008AGP1?t=W616601190001660161600000710SAWVIEAGP_eafb64f18c0b468dfae0dfd86cb6618b_14220&search_date=19062022&expected_price_uuid=f2519e48-170f-4faf-8f53-5ed6ac647cf8&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 238,
-      "departure_at": "2022-08-13T09:25:00+03:00",
-      "transfers": 2,
-      "duration": 735,
-      "durationH": 12,
-      "link": "/search/IST1308BCN1?t=JU16603719001660416000000735SAWSJJBEGBCN_c49bd2300ecb486f245f463efb7ba91e_14065&search_date=20062022&expected_price_uuid=40e267e3-b7f7-4aad-8bb7-08c1e93a87a4&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 235,
-      "departure_at": "2022-07-25T00:15:00+03:00",
-      "transfers": 2,
-      "duration": 945,
+      "duration": 955,
       "durationH": 16,
-      "link": "/search/IST2507AGP1?t=PC16586973001658754000000945SAWNUEPMIAGP_3977f5dde29f34f4510e6f07b2a0776d_13831&search_date=20062022&expected_price_uuid=bbe6e0cc-2bb0-439a-9dad-8977150973a3&expected_price_currency=rub"
+      "link": "/search/IST0108MAD1?t=A316593762001659433500000955ISTATHMAD_a6160b10ddf1bd4cd39125b3c67919b2_14231&search_date=17062022&expected_price_uuid=b70111aa-a0dd-48df-8c69-3ae2c9bfb486&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -3072,15 +3160,59 @@ window.data = {
       "link": "/search/IST3008MAD1?t=FR16618434001661927400001400SAWSKPMXPMAD_ee3e1c7380465d92255febd3d0395b9e_13583&search_date=19062022&expected_price_uuid=da7c99cc-f219-4707-b5fd-e36538c9891b&expected_price_currency=rub"
     },
     {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 231,
+      "departure_at": "2022-08-27T10:55:00+03:00",
+      "transfers": 1,
+      "duration": 1400,
+      "durationH": 23,
+      "link": "/search/IST2708BCN1?t=D816615869001661670900001400SAWHELBCN_f7e0308c323c512bea097762a61815f2_13648&search_date=20062022&expected_price_uuid=5b1344bc-c2e5-49da-83ee-1ad4ed1f5e15&expected_price_currency=rub"
+    },
+    {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
-      "price": 228,
-      "departure_at": "2022-07-16T17:15:00+03:00",
+      "price": 232,
+      "departure_at": "2022-06-26T08:40:00+03:00",
+      "transfers": 1,
+      "duration": 2160,
+      "durationH": 36,
+      "link": "/search/IST2606AGP1?t=PC16562220001656351600002160SAWAMSAGP_b74c46990f36928e9519b6d7a652d47b_13674&search_date=19062022&expected_price_uuid=560c41bc-e1a2-44d8-a354-2b9c8c7c208f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 256,
+      "departure_at": "2022-07-23T10:25:00+03:00",
+      "transfers": 0,
+      "duration": 275,
+      "durationH": 5,
+      "link": "/search/IST2307MAD1?t=PC16585611001658577600000275SAWMAD_2cb6c408da18e4b91dbe2c517a192831_15070&search_date=20062022&expected_price_uuid=cf0425b3-7dbf-4aec-8354-a471e3dd6d0f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 246,
+      "departure_at": "2022-08-06T15:45:00+03:00",
+      "transfers": 1,
+      "duration": 1095,
+      "durationH": 18,
+      "link": "/search/IST0608MAD1?t=FR16597899001659855600001095SAWVIEMAD_f044a5cfabfec0acc58696ac08032800_14492&search_date=20062022&expected_price_uuid=a99b7410-d42b-40a1-81bd-e3278ca70c7e&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 241,
+      "departure_at": "2022-08-05T10:25:00+03:00",
       "transfers": 2,
-      "duration": 1855,
-      "durationH": 31,
-      "link": "/search/IST1607AGP1?t=FR16579809001658092200001855ISTVIESTNAGP_163645a82135942dfa52c60b80711c70_13447&search_date=20062022&expected_price_uuid=5654f214-027b-4de1-b385-417db0c0f3ef&expected_price_currency=rub"
+      "duration": 2150,
+      "durationH": 36,
+      "link": "/search/IST0508AGP1?t=W616596843001659813300002150SAWOTPSOFAGP_c2f4a90cbfd3aaffe6b303c3442591ce_14242&search_date=15062022&expected_price_uuid=1fdad86b-208b-4914-8e09-c238805011c6&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -3092,28 +3224,6 @@ window.data = {
       "duration": 2185,
       "durationH": 36,
       "link": "/search/IST3108MAD2?t=FR16619370001662068100002185SAWOTPTSRBGYMAD_94b36d81b1548cd9292b0f1521bd47fb_27025&search_date=19062022&expected_price_uuid=307085bd-c06a-4070-a7c7-e88533b832c1&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-SVQ",
-      "origin": "IST",
-      "destination": "SVQ",
-      "price": 219,
-      "departure_at": "2022-09-01T23:40:00+03:00",
-      "transfers": 2,
-      "duration": 2975,
-      "durationH": 50,
-      "link": "/search/IST0109SVQ1?t=XC16620648001662243300002975SAWBJVBLLSVQ_fc4b780a85c27970b5b1c09e4f4c62d4_12934&search_date=19062022&expected_price_uuid=1a488d9a-a607-4504-8073-c4f5010ad1ae&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 242,
-      "departure_at": "2022-08-25T06:20:00+03:00",
-      "transfers": 3,
-      "duration": 1705,
-      "durationH": 28,
-      "link": "/search/IST2508MAD3?t=FR16613976001661499900001705SAWESBOTPVIEMAD_ae91b4b93e00f9f219998b2ff82ad115_42869&search_date=20062022&expected_price_uuid=75cd536d-6284-415f-8043-8664c3b0a0bc&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -3171,138 +3281,6 @@ window.data = {
       "link": "/search/IST2808MAD2?t=W616616925001661841600002485SAWSJJBLLBGYMAD_902d6da6dbbd4efc5ddf0c9136f019b2_27545&search_date=19062022&expected_price_uuid=620d6522-9426-43ff-a389-fa0f2e30e2f4&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 227,
-      "departure_at": "2022-08-15T16:15:00+03:00",
-      "transfers": 3,
-      "duration": 2555,
-      "durationH": 43,
-      "link": "/search/IST1508MAD2?t=XC16605693001660722600002555SAWESBNUEIBZMAD_5f7f358eaec4325e67e56bbf31553d44_26766&search_date=20062022&expected_price_uuid=a4a93433-5115-4143-b190-6107d1535464&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 241,
-      "departure_at": "2022-08-01T20:50:00+03:00",
-      "transfers": 1,
-      "duration": 955,
-      "durationH": 16,
-      "link": "/search/IST0108MAD1?t=A316593762001659433500000955ISTATHMAD_a6160b10ddf1bd4cd39125b3c67919b2_14231&search_date=17062022&expected_price_uuid=b70111aa-a0dd-48df-8c69-3ae2c9bfb486&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 243,
-      "departure_at": "2022-08-10T11:10:00+03:00",
-      "transfers": 1,
-      "duration": 1435,
-      "durationH": 24,
-      "link": "/search/IST1008MAD1?t=FR16601190001660205100001435SAWVIEMAD_a5903cc11560dc600805ebfdd6fca5c8_14323&search_date=20062022&expected_price_uuid=ba125862-d875-4e7e-9c80-10ec0b9dccc6&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 231,
-      "departure_at": "2022-09-18T08:45:00+03:00",
-      "transfers": 1,
-      "duration": 1600,
-      "durationH": 27,
-      "link": "/search/IST1809AGP2?t=PC16634799001663575900001600SAWSTNLGWAGP_ab2d3b8e2a566fabafb6bf8edb7d4975_27250&search_date=16062022&expected_price_uuid=5aada0f8-a6fa-4c9e-9cc2-cea5ba6741db&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 256,
-      "departure_at": "2022-07-23T10:25:00+03:00",
-      "transfers": 0,
-      "duration": 275,
-      "durationH": 5,
-      "link": "/search/IST2307MAD1?t=PC16585611001658577600000275SAWMAD_2cb6c408da18e4b91dbe2c517a192831_15070&search_date=20062022&expected_price_uuid=cf0425b3-7dbf-4aec-8354-a471e3dd6d0f&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 246,
-      "departure_at": "2022-08-06T15:45:00+03:00",
-      "transfers": 1,
-      "duration": 1095,
-      "durationH": 18,
-      "link": "/search/IST0608MAD1?t=FR16597899001659855600001095SAWVIEMAD_f044a5cfabfec0acc58696ac08032800_14492&search_date=20062022&expected_price_uuid=a99b7410-d42b-40a1-81bd-e3278ca70c7e&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 248,
-      "departure_at": "2022-08-11T10:05:00+03:00",
-      "transfers": 3,
-      "duration": 1515,
-      "durationH": 25,
-      "link": "/search/IST1108AGP1?t=FR16602015001660292400001515SAWOTPVIEAGAAGP_a133bb202103bd396571db3caea72b10_14621&search_date=18062022&expected_price_uuid=63ded590-5a05-4142-aeea-ea91464a49f1&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 242,
-      "departure_at": "2022-08-11T06:20:00+03:00",
-      "transfers": 3,
-      "duration": 1705,
-      "durationH": 28,
-      "link": "/search/IST1108MAD2?t=FR16601880001660290300001705SAWESBOTPVIEMAD_fc01510d17b2c87f236214988ccb536d_28518&search_date=20062022&expected_price_uuid=caa3eba2-1596-493f-a625-8b86cec01598&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 241,
-      "departure_at": "2022-08-05T10:25:00+03:00",
-      "transfers": 2,
-      "duration": 2150,
-      "durationH": 36,
-      "link": "/search/IST0508AGP1?t=W616596843001659813300002150SAWOTPSOFAGP_c2f4a90cbfd3aaffe6b303c3442591ce_14242&search_date=15062022&expected_price_uuid=1fdad86b-208b-4914-8e09-c238805011c6&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-AGP",
-      "origin": "IST",
-      "destination": "AGP",
-      "price": 232,
-      "departure_at": "2022-06-26T08:40:00+03:00",
-      "transfers": 1,
-      "duration": 2160,
-      "durationH": 36,
-      "link": "/search/IST2606AGP1?t=PC16562220001656351600002160SAWAMSAGP_b74c46990f36928e9519b6d7a652d47b_13674&search_date=19062022&expected_price_uuid=560c41bc-e1a2-44d8-a354-2b9c8c7c208f&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 244,
-      "departure_at": "2022-08-12T14:40:00+03:00",
-      "transfers": 2,
-      "duration": 1915,
-      "durationH": 32,
-      "link": "/search/IST1208BCN1?t=VY16603044001660419300001915SAWBEGBLLBCN_dcc5b47144205af71f89e1f92aa76a72_14362&search_date=20062022&expected_price_uuid=d9183883-8bc2-4d55-923d-0c0e2917b1b2&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-BCN",
-      "origin": "IST",
-      "destination": "BCN",
-      "price": 240,
-      "departure_at": "2022-08-09T07:40:00+03:00",
-      "transfers": 3,
-      "duration": 2540,
-      "durationH": 42,
-      "link": "/search/IST0908BCN1?t=W916600200001660172400002540SAWATHJMKLGWBCN_27dbdb95cd7f9a89a29aa84a6a301a45_14167&search_date=20062022&expected_price_uuid=95d6d727-eac1-4f4a-8afe-5d13d55e3f7b&expected_price_currency=rub"
-    },
-    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -3347,6 +3325,17 @@ window.data = {
       "link": "/search/IST0208AGP2?t=W616594356001659469200000560ISTSOFAGP_b9e4caf94e025ed9439564108a806731_30072&search_date=13062022&expected_price_uuid=05974230-e036-4e9f-8e10-41ebc00498c4&expected_price_currency=rub"
     },
     {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 253,
+      "departure_at": "2022-08-14T11:40:00+03:00",
+      "transfers": 3,
+      "duration": 2850,
+      "durationH": 48,
+      "link": "/search/IST1408MAD1?t=FR16604664001660637400002850SAWESBOTPVIEMAD_cbf62a0d445e322f50498aa281d4282a_14946&search_date=20062022&expected_price_uuid=82bc0ecd-46c3-4bb6-81d8-363b756c0900&expected_price_currency=rub"
+    },
+    {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
@@ -3372,23 +3361,12 @@ window.data = {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
-      "price": 244,
-      "departure_at": "2022-08-20T22:35:00+03:00",
-      "transfers": 3,
-      "duration": 3555,
-      "durationH": 59,
-      "link": "/search/IST2008BCN1?t=W616610241001661237400003555SAWESBOTPVIEBCN_01c7b6914328389f1d964610ad0b4f58_14362&search_date=20062022&expected_price_uuid=e1ba1444-699f-457a-88db-9042ddf4dc2f&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-SVQ",
-      "origin": "IST",
-      "destination": "SVQ",
-      "price": 260,
-      "departure_at": "2022-07-06T17:55:00+03:00",
-      "transfers": 1,
-      "duration": 1160,
-      "durationH": 19,
-      "link": "/search/IST0607SVQ3?t=LH16571193001657188900001160ISTFRASVQ_9a8f2573e610741a376df0fde1118755_46079&search_date=15062022&expected_price_uuid=d4449eb4-0cc4-4da8-9c44-2930595ea4b0&expected_price_currency=rub"
+      "price": 268,
+      "departure_at": "2022-08-30T18:50:00+03:00",
+      "transfers": 2,
+      "duration": 1265,
+      "durationH": 21,
+      "link": "/search/IST3008BCN2?t=JU16618746001661950500001265ISTBEGMXPBCN_98684589a036e729f120814f1da8e0a3_31558&search_date=20062022&expected_price_uuid=5b104cca-2dbe-4058-bc4d-df46015fdfbd&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -3400,17 +3378,6 @@ window.data = {
       "duration": 1320,
       "durationH": 22,
       "link": "/search/IST1308AGP1?t=W616603389001660418100001320SAWAYTSOFAGP_7bf71e073640c49180bf32c262507238_15725&search_date=19062022&expected_price_uuid=beb161b2-cf30-4208-9bac-083f794f668a&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-SVQ",
-      "origin": "IST",
-      "destination": "SVQ",
-      "price": 259,
-      "departure_at": "2022-07-14T10:15:00+03:00",
-      "transfers": 1,
-      "duration": 1415,
-      "durationH": 24,
-      "link": "/search/IST1407SVQ3?t=PC16577829001657867800001415SAWMADSVQ_3642cf77aa4387bf911f060ef0e8c843_45790&search_date=15062022&expected_price_uuid=0ba4818f-2f01-4112-a161-e45148306b9d&expected_price_currency=rub"
     },
     {
       "route": "IST-SVQ",
@@ -3446,6 +3413,17 @@ window.data = {
       "link": "/search/IST1508AGP1?t=FR16605522001660659600001790SAWBUDAGP_5dc66b25cffc9a194396ece05b6ba367_15297&search_date=19062022&expected_price_uuid=08354fbe-7a05-48be-8ebf-b4665322058c&expected_price_currency=rub"
     },
     {
+      "route": "IST-AGP",
+      "origin": "IST",
+      "destination": "AGP",
+      "price": 275,
+      "departure_at": "2022-08-30T07:40:00+03:00",
+      "transfers": 1,
+      "duration": 1675,
+      "durationH": 28,
+      "link": "/search/IST3008AGP2?t=DY16618344001661934900001675ISTOSLAGP_425ab9ffec3db3949b0ebce2edcac5a2_32416&search_date=17062022&expected_price_uuid=251d1560-7efd-4cd6-8340-7a94e2f8fcdd&expected_price_currency=rub"
+    },
+    {
       "route": "IST-BCN",
       "origin": "IST",
       "destination": "BCN",
@@ -3455,6 +3433,61 @@ window.data = {
       "duration": 1860,
       "durationH": 31,
       "link": "/search/IST1908BCN1?t=JU16609092001661020800001860SAWBEGBCN_4f240603f12a494ab0b2e1113a71e814_15511&search_date=20062022&expected_price_uuid=382bf261-6046-4d92-bf78-0b0c99a0e5de&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 252,
+      "departure_at": "2022-08-12T14:40:00+03:00",
+      "transfers": 1,
+      "duration": 1860,
+      "durationH": 31,
+      "link": "/search/IST1208BCN2?t=JU16603044001660416000001860SAWBEGBCN_2493a63ad305cce18e642861b12e89a9_29770&search_date=20062022&expected_price_uuid=58f3c030-ac6e-4eef-800a-eeefc28a9e92&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 254,
+      "departure_at": "2022-08-21T11:40:00+03:00",
+      "transfers": 3,
+      "duration": 2850,
+      "durationH": 48,
+      "link": "/search/IST2108MAD1?t=FR16610712001661242200002850SAWESBOTPVIEMAD_9d36f8582d35a05db8dceff9d8a7e333_14953&search_date=19062022&expected_price_uuid=007d1cab-20f4-4f86-8fd7-33706aed8782&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-BCN",
+      "origin": "IST",
+      "destination": "BCN",
+      "price": 244,
+      "departure_at": "2022-08-20T22:35:00+03:00",
+      "transfers": 3,
+      "duration": 3555,
+      "durationH": 59,
+      "link": "/search/IST2008BCN1?t=W616610241001661237400003555SAWESBOTPVIEBCN_01c7b6914328389f1d964610ad0b4f58_14362&search_date=20062022&expected_price_uuid=e1ba1444-699f-457a-88db-9042ddf4dc2f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-SVQ",
+      "origin": "IST",
+      "destination": "SVQ",
+      "price": 260,
+      "departure_at": "2022-07-06T17:55:00+03:00",
+      "transfers": 1,
+      "duration": 1160,
+      "durationH": 19,
+      "link": "/search/IST0607SVQ3?t=LH16571193001657188900001160ISTFRASVQ_9a8f2573e610741a376df0fde1118755_46079&search_date=15062022&expected_price_uuid=d4449eb4-0cc4-4da8-9c44-2930595ea4b0&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-SVQ",
+      "origin": "IST",
+      "destination": "SVQ",
+      "price": 259,
+      "departure_at": "2022-07-14T10:15:00+03:00",
+      "transfers": 1,
+      "duration": 1415,
+      "durationH": 24,
+      "link": "/search/IST1407SVQ3?t=PC16577829001657867800001415SAWMADSVQ_3642cf77aa4387bf911f060ef0e8c843_45790&search_date=15062022&expected_price_uuid=0ba4818f-2f01-4112-a161-e45148306b9d&expected_price_currency=rub"
     },
     {
       "route": "IST-BCN",
@@ -3490,28 +3523,6 @@ window.data = {
       "link": "/search/IST3107MAD1?t=XC16592868001659456300002825SAWESBVIEBCNMAD_fd9859a4d7a9253e42fe65bbc91beea9_14650&search_date=19062022&expected_price_uuid=e0f9b485-6261-427f-99ab-70af728071cc&expected_price_currency=rub"
     },
     {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 254,
-      "departure_at": "2022-08-21T11:40:00+03:00",
-      "transfers": 3,
-      "duration": 2850,
-      "durationH": 48,
-      "link": "/search/IST2108MAD1?t=FR16610712001661242200002850SAWESBOTPVIEMAD_9d36f8582d35a05db8dceff9d8a7e333_14953&search_date=19062022&expected_price_uuid=007d1cab-20f4-4f86-8fd7-33706aed8782&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 253,
-      "departure_at": "2022-08-14T11:40:00+03:00",
-      "transfers": 3,
-      "duration": 2850,
-      "durationH": 48,
-      "link": "/search/IST1408MAD1?t=FR16604664001660637400002850SAWESBOTPVIEMAD_cbf62a0d445e322f50498aa281d4282a_14946&search_date=20062022&expected_price_uuid=82bc0ecd-46c3-4bb6-81d8-363b756c0900&expected_price_currency=rub"
-    },
-    {
       "route": "IST-GRX",
       "origin": "IST",
       "destination": "GRX",
@@ -3521,6 +3532,17 @@ window.data = {
       "duration": 2860,
       "durationH": 48,
       "link": "/search/IST2308GRX1?t=W616612386001661410200002860SAWSKPBUDBCNGRX_90061a9c3c97f7bb8e6bc89611ceeffe_15530&search_date=19062022&expected_price_uuid=a215589a-089e-466b-8e4d-6b2c71e78e9f&expected_price_currency=rub"
+    },
+    {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 263,
+      "departure_at": "2022-08-26T09:25:00+03:00",
+      "transfers": 3,
+      "duration": 2970,
+      "durationH": 50,
+      "link": "/search/IST2608MAD1?t=FR16614951001661673300002970SAWSJJCPHDUBMAD_23eca0602cac6e81414e81b9212ea5ee_15530&search_date=20062022&expected_price_uuid=d08f90ce-5bd2-4d72-bc2c-8086f8a0a865&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
@@ -3556,15 +3578,26 @@ window.data = {
       "link": "/search/IST1808AGP1?t=VY16608045001660856400000865SAWCPHAGP_d34f3783c90da2a73c53b270b601f26c_16626&search_date=20062022&expected_price_uuid=90e99808-fc97-4a4a-aa46-0271278fcf67&expected_price_currency=rub"
     },
     {
+      "route": "IST-MAD",
+      "origin": "IST",
+      "destination": "MAD",
+      "price": 295,
+      "departure_at": "2022-08-22T20:30:00+03:00",
+      "transfers": 1,
+      "duration": 1065,
+      "durationH": 18,
+      "link": "/search/IST2208MAD1?t=ME16611894001661253300001065ISTBEYMAD_f4ed1b172ebaba35fa7d6b83b0779839_17422&search_date=20062022&expected_price_uuid=bf6b92ff-68f4-4559-89ab-872a177ffba9&expected_price_currency=rub"
+    },
+    {
       "route": "IST-AGP",
       "origin": "IST",
       "destination": "AGP",
-      "price": 275,
-      "departure_at": "2022-08-30T07:40:00+03:00",
+      "price": 283,
+      "departure_at": "2022-08-09T04:30:00+03:00",
       "transfers": 1,
-      "duration": 1675,
-      "durationH": 28,
-      "link": "/search/IST3008AGP2?t=DY16618344001661934900001675ISTOSLAGP_425ab9ffec3db3949b0ebce2edcac5a2_32416&search_date=17062022&expected_price_uuid=251d1560-7efd-4cd6-8340-7a94e2f8fcdd&expected_price_currency=rub"
+      "duration": 1775,
+      "durationH": 30,
+      "link": "/search/IST0908AGP2?t=FR16600086001660115100001775ISTVIEAGP_0b2045436bc2fb35b9f36ada24649a72_33334&search_date=20062022&expected_price_uuid=8abdcfbb-06a3-4ab8-9549-e1731e80c9b6&expected_price_currency=rub"
     },
     {
       "route": "IST-AGP",
@@ -3576,17 +3609,6 @@ window.data = {
       "duration": 2290,
       "durationH": 38,
       "link": "/search/IST1408AGP1?t=FR16604640001660601400002290SAWOTPVIEAGAAGP_79a6b0c50c694d36a37036a865f12124_16058&search_date=20062022&expected_price_uuid=6f9fc226-42fc-4635-821a-3bfc0262e90a&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 277,
-      "departure_at": "2022-08-26T08:45:00+03:00",
-      "transfers": 2,
-      "duration": 2390,
-      "durationH": 40,
-      "link": "/search/IST2608MAD1?t=FR16614927001661636100002390SAWBUDBGYMAD_9f7a7ec9cb0bec6f5411671bca4567d1_16346&search_date=20062022&expected_price_uuid=846757e0-ec46-4908-99ad-bc938f5387db&expected_price_currency=rub"
     },
     {
       "route": "IST-GRX",
@@ -3620,17 +3642,6 @@ window.data = {
       "duration": 3265,
       "durationH": 54,
       "link": "/search/IST2008MAD1?t=FR16609767001661172600003265SAWSJJCPHAGPMAD_1bb857a345cc7455cdb5264d10af19d2_15790&search_date=19062022&expected_price_uuid=a1312d7b-4b27-45bf-975e-6b1f5fe85228&expected_price_currency=rub"
-    },
-    {
-      "route": "IST-MAD",
-      "origin": "IST",
-      "destination": "MAD",
-      "price": 295,
-      "departure_at": "2022-08-22T20:30:00+03:00",
-      "transfers": 1,
-      "duration": 1065,
-      "durationH": 18,
-      "link": "/search/IST2208MAD1?t=ME16611894001661253300001065ISTBEYMAD_f4ed1b172ebaba35fa7d6b83b0779839_17422&search_date=20062022&expected_price_uuid=bf6b92ff-68f4-4559-89ab-872a177ffba9&expected_price_currency=rub"
     },
     {
       "route": "IST-MAD",
