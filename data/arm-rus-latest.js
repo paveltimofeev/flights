@@ -1,5 +1,5 @@
 window.data = {
-  "date": "2022-06-20T17:15:25.479Z",
+  "date": "2022-06-20T18:15:24.849Z",
   "params": {
     "from": [
       "EVN"
@@ -15,7 +15,7 @@ window.data = {
     },
     "dateRange": {
       "days": 100,
-      "since": "2022-06-20T17:15:00.600Z"
+      "since": "2022-06-20T18:15:00.452Z"
     },
     "currency": "eur",
     "request": {
@@ -29,7 +29,7 @@ window.data = {
     "output": "./ui/data/arm-rus-latest.js"
   },
   "stats": {
-    "minPrice": 116,
+    "minPrice": 117,
     "maxPrice": 293,
     "minDuration": 205,
     "maxDuration": 2570,
@@ -39,17 +39,6 @@ window.data = {
   },
   "results": [
     {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 116,
-      "departure_at": "2022-06-21T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 1265,
-      "durationH": 21,
-      "link": "/search/EVN2106LED1?t=DP16557651001655841000001265EVNMRVLED_4adeedb57b42bd090d28ee5b820df681_6868&search_date=20062022&expected_price_uuid=b0fec508-3251-42ed-abfa-64d6f4746288&expected_price_currency=rub"
-    },
-    {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
@@ -58,18 +47,7 @@ window.data = {
       "transfers": 1,
       "duration": 2570,
       "durationH": 43,
-      "link": "/search/EVN2106MOW1?t=5N16557651001655919300002570EVNMRVSVO_e02c6722068dd7b33b1789cc44b9bead_6930&search_date=20062022&expected_price_uuid=82c3eb11-8712-468c-96fc-a9d9205a3128&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 126,
-      "departure_at": "2022-06-22T22:20:00+04:00",
-      "transfers": 1,
-      "duration": 1370,
-      "durationH": 23,
-      "link": "/search/EVN2206MOW1?t=DP16559220001656004200001370EVNMRVVKO_55fbcdcc3fd4e58782171bea9a255eef_7406&search_date=20062022&expected_price_uuid=d6a1a8b9-f690-4de3-85a5-cdadc7675bc2&expected_price_currency=rub"
+      "link": "/search/EVN2106MOW1?t=5N16557651001655919300002570EVNMRVSVO_e02c6722068dd7b33b1789cc44b9bead_6930&search_date=20062022&expected_price_uuid=328344ff-d594-4225-91a9-320e5eedd57c&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -78,42 +56,119 @@ window.data = {
       "price": 123,
       "departure_at": "2022-06-23T20:15:00+04:00",
       "transfers": 1,
-      "duration": 1495,
-      "durationH": 25,
-      "link": "/search/EVN2306MOW1?t=DP16560009001656090600001495EVNMRVVKO_c4581abad9a75926128443685fb3e88a_7260&search_date=20062022&expected_price_uuid=bd7a34c9-956a-4cd1-b7f7-144aa6b27f76&expected_price_currency=rub"
+      "duration": 1245,
+      "durationH": 21,
+      "link": "/search/EVN2306MOW1?t=DP16560009001656075600001245EVNMRVVKO_9e497188729ef214a25ddf29f4818dcb_7260&search_date=20062022&expected_price_uuid=38d1bce5-12b3-4c13-80ac-280d8209d336&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 130,
+      "price": 124,
+      "departure_at": "2022-06-22T22:20:00+04:00",
+      "transfers": 1,
+      "duration": 1255,
+      "durationH": 21,
+      "link": "/search/EVN2206MOW2?t=DP16559220001655997300001255EVNMRVVKO_c161919843718e8502079db5be1c092d_14571&search_date=20062022&expected_price_uuid=2ca283fe-bf49-4791-ab62-2301a8c61a1f&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 127,
+      "departure_at": "2022-06-21T02:45:00+04:00",
+      "transfers": 1,
+      "duration": 1265,
+      "durationH": 21,
+      "link": "/search/EVN2106LED1?t=DP16557651001655841000001265EVNMRVLED_4adeedb57b42bd090d28ee5b820df681_7503&search_date=20062022&expected_price_uuid=97d3cebe-8d6c-4691-9e66-b6c0a79abc9c&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 127,
       "departure_at": "2022-06-24T23:20:00+04:00",
       "transfers": 1,
       "duration": 1370,
       "durationH": 23,
-      "link": "/search/EVN2406MOW1?t=5N16560984001656180600001370EVNMRVSVO_d10629f9a4073202f2604d9c15ca04e7_7694&search_date=20062022&expected_price_uuid=410ac7c7-b10b-4bae-bca6-f041f3a9c1e1&expected_price_currency=rub"
+      "link": "/search/EVN2406MOW1?t=5N16560984001656180600001370EVNMRVSVO_d10629f9a4073202f2604d9c15ca04e7_7463&search_date=20062022&expected_price_uuid=1e7d90b9-f053-4d0b-a6d4-70f82b854509&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 138,
-      "departure_at": "2022-06-25T01:25:00+04:00",
-      "transfers": 0,
-      "duration": 225,
-      "durationH": 4,
-      "link": "/search/EVN2506MOW1?t=UT16561059001656119400000225EVNVKO_3a25a692c10ba75ce8848313430418df_8143&search_date=20062022&expected_price_uuid=a981fa8f-b747-41ae-a90c-077c3a630f09&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 143,
-      "departure_at": "2022-06-27T23:20:00+04:00",
+      "price": 135,
+      "departure_at": "2022-06-28T02:45:00+04:00",
       "transfers": 1,
-      "duration": 1120,
+      "duration": 915,
+      "durationH": 15,
+      "link": "/search/EVN2806MOW1?t=N416563699001656424800000915EVNMRVSVO_2d0420862dcebb15aba0f5661352ba4c_7989&search_date=20062022&expected_price_uuid=d9a0ee79-635a-4090-9057-c0aed6a2076a&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 137,
+      "departure_at": "2022-06-25T14:00:00+04:00",
+      "transfers": 1,
+      "duration": 1125,
       "durationH": 19,
-      "link": "/search/EVN2706MOW1?t=N416563576001656424800001120EVNMRVSVO_0fcf361ea873271b1af6094f4b74929b_8432&search_date=20062022&expected_price_uuid=77327e19-17c0-4f13-9247-3b191e2c7e76&expected_price_currency=rub"
+      "link": "/search/EVN2506MOW1?t=N416561512001656218700001125EVNMCXSVO_e7bf2d7ad7d67a70bf78b455433d1807_8054&search_date=20062022&expected_price_uuid=e6cf4e77-ed11-498e-8dc0-afceea8f9f53&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 151,
+      "departure_at": "2022-06-27T21:30:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN2706MOW1?t=3F16563510001656364200000220EVNVKO_ef40af94257e112791343992ed72fdea_8896&search_date=20062022&expected_price_uuid=4c3d5c18-3a7c-4ea0-939f-cbd990a1f2e4&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 145,
+      "departure_at": "2022-06-26T07:30:00+04:00",
+      "transfers": 1,
+      "duration": 630,
+      "durationH": 11,
+      "link": "/search/EVN2606MOW1?t=N416562142001656252000000630EVNMRVSVO_a1b2ce8f4f21312e8c0da6211d61683d_8544&search_date=20062022&expected_price_uuid=9077c787-51b7-42b3-9d41-04a335c052f6&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 153,
+      "departure_at": "2022-06-23T20:15:00+04:00",
+      "transfers": 1,
+      "duration": 855,
+      "durationH": 14,
+      "link": "/search/EVN2306LED1?t=SU16560009001656052200000855EVNMRVLED_bd1392220fab1c5ceb0792243e0c45bd_9028&search_date=20062022&expected_price_uuid=a373124c-0066-4258-8329-e03a17220559&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 148,
+      "departure_at": "2022-06-22T22:20:00+04:00",
+      "transfers": 1,
+      "duration": 1170,
+      "durationH": 20,
+      "link": "/search/EVN2206LED2?t=DP16559220001655992200001170EVNMRVLED_ebadb34a4c7612002b4fa1356d6a7e0a_17486&search_date=20062022&expected_price_uuid=bd72a9eb-e75b-4202-9b11-eb170481ed1c&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 164,
+      "departure_at": "2022-06-29T21:30:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN2906MOW1?t=3F16565238001656537000000220EVNVKO_6eec0c1b5024d12977518f0c06bec4ee_9699&search_date=20062022&expected_price_uuid=395f6e24-b91b-41ed-ace7-dfda46983962&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -124,7 +179,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1609MOW1?t=UT16632771001663290600000225EVNVKO_02615abce87c963e8625ddf1d43cc909_9323&search_date=20062022&expected_price_uuid=26463940-7aed-4d46-a891-64c6ed237a52&expected_price_currency=rub"
+      "link": "/search/EVN1609MOW1?t=UT16632771001663290600000225EVNVKO_02615abce87c963e8625ddf1d43cc909_9323&search_date=20062022&expected_price_uuid=0c28217c-505b-481e-801d-3cae8dc778d9&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -135,7 +190,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1509MOW1?t=UT16632702001663283700000225EVNVKO_1500323542e4b74fa53416599567de90_9323&search_date=20062022&expected_price_uuid=f3e233f2-d475-4ab0-8260-34425663e8bb&expected_price_currency=rub"
+      "link": "/search/EVN1509MOW1?t=UT16632702001663283700000225EVNVKO_1500323542e4b74fa53416599567de90_9323&search_date=20062022&expected_price_uuid=26d7ac0e-85d0-48a0-97cd-b2f2ac8794b4&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -157,7 +212,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1009MOW1?t=UT16627587001662772200000225EVNVKO_d7978224a28d862f94098a97ca4e2e0d_9323&search_date=20062022&expected_price_uuid=3691d372-0141-408c-919b-2b1c6c0c9242&expected_price_currency=rub"
+      "link": "/search/EVN1009MOW1?t=UT16627587001662772200000225EVNVKO_d7978224a28d862f94098a97ca4e2e0d_9323&search_date=20062022&expected_price_uuid=ee391251-7047-4691-aaf3-b7e31e91489a&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -179,7 +234,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN0809MOW1?t=UT16625859001662599400000225EVNVKO_4fcef071487b50eb217bcba1cb15c7c9_9323&search_date=20062022&expected_price_uuid=891f6049-ca5f-4393-ad1a-7644013212c6&expected_price_currency=rub"
+      "link": "/search/EVN0809MOW1?t=UT16625859001662599400000225EVNVKO_4fcef071487b50eb217bcba1cb15c7c9_9323&search_date=20062022&expected_price_uuid=6c29cd94-d415-4a02-82e2-83af0871222e&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -201,84 +256,29 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN0609MOW1?t=UT16624131001662426600000225EVNVKO_dd9be02d559e906cc89907fc516c8798_9323&search_date=20062022&expected_price_uuid=ef2f2d94-0130-403a-84bd-692878b5782f&expected_price_currency=rub"
+      "link": "/search/EVN0609MOW1?t=UT16624131001662426600000225EVNVKO_dd9be02d559e906cc89907fc516c8798_9323&search_date=20062022&expected_price_uuid=8f5769e3-030e-4be0-aba0-3f60ba7ccaa3&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
       "price": 158,
-      "departure_at": "2022-09-05T18:40:00+04:00",
+      "departure_at": "2022-09-05T01:25:00+04:00",
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN0509MOW3?t=UT16623888001662402300000225EVNVKO_04f874130609cf7f27f969290fa5692b_27969&search_date=20062022&expected_price_uuid=69287994-10f4-4610-88e5-83a1c3e6ae1d&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 154,
-      "departure_at": "2022-06-26T22:25:00+04:00",
-      "transfers": 0,
-      "duration": 230,
-      "durationH": 4,
-      "link": "/search/EVN2606MOW1?t=WZ16562679001656281700000230EVNDME_dc815619263e342146d4653a49a3124c_9061&search_date=20062022&expected_price_uuid=3089d0e6-ebfa-45c9-adc5-2a8733d6c6c9&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 152,
-      "departure_at": "2022-06-29T11:25:00+04:00",
-      "transfers": 1,
-      "duration": 610,
-      "durationH": 10,
-      "link": "/search/EVN2906MOW1?t=5N16564875001656524100000610EVNMRVSVO_f65f25c0fe4f45c2ab9603658f964c96_8962&search_date=20062022&expected_price_uuid=c7b82260-d012-43e2-b24a-e687a6e46b19&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 155,
-      "departure_at": "2022-06-28T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 915,
-      "durationH": 15,
-      "link": "/search/EVN2806MOW1?t=N416563699001656424800000915EVNMRVSVO_2d0420862dcebb15aba0f5661352ba4c_9170&search_date=20062022&expected_price_uuid=9e043283-d1ba-45f3-b260-570e9078964c&expected_price_currency=rub"
+      "link": "/search/EVN0509MOW1?t=UT16623267001662340200000225EVNVKO_cd3ac05f9790febf1c1183b9d5dfb0d8_9323&search_date=20062022&expected_price_uuid=3ffeb8a1-14b0-40f1-ad0f-64c206eb91cd&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 148,
-      "departure_at": "2022-06-25T14:00:00+04:00",
+      "price": 160,
+      "departure_at": "2022-06-28T14:00:00+04:00",
       "transfers": 1,
       "duration": 1040,
       "durationH": 17,
-      "link": "/search/EVN2506LED1?t=SU16561512001656213600001040EVNMCXLED_e3f9e03c6351e1710411b01ae78f12a6_8701&search_date=20062022&expected_price_uuid=963acdd3-816f-405d-8585-c922a3f1b9c5&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 150,
-      "departure_at": "2022-06-22T22:20:00+04:00",
-      "transfers": 1,
-      "duration": 1170,
-      "durationH": 20,
-      "link": "/search/EVN2206LED1?t=DP16559220001655992200001170EVNMRVLED_ebadb34a4c7612002b4fa1356d6a7e0a_8831&search_date=20062022&expected_price_uuid=dd51b2ce-8874-4bde-8909-9019de4b52ce&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 151,
-      "departure_at": "2022-06-30T20:15:00+04:00",
-      "transfers": 1,
-      "duration": 1660,
-      "durationH": 28,
-      "link": "/search/EVN3006MOW2?t=5N16566057001656705300001660EVNMRVSVO_bf5f8029e990bd9215ac339c36b7502a_17788&search_date=20062022&expected_price_uuid=39fb875d-9c3a-4c54-88d1-1e55624a7e60&expected_price_currency=rub"
+      "link": "/search/EVN2806LED1?t=SU16564104001656472800001040EVNMCXLED_9974d23f503490a68d170c9e85128b6b_9425&search_date=20062022&expected_price_uuid=b8f77140-eaf0-4ce0-9e8a-40db15cd994e&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -290,6 +290,17 @@ window.data = {
       "duration": 205,
       "durationH": 3,
       "link": "/search/EVN2709MOW2?t=3F16643070001664319300000205EVNVKO_4ec4165a38fefb7cf3243136c8f761bd_20602&search_date=20062022&expected_price_uuid=679760c2-eb42-4609-aada-cab21d6ffeb5&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 171,
+      "departure_at": "2022-09-22T23:30:00+04:00",
+      "transfers": 0,
+      "duration": 205,
+      "durationH": 3,
+      "link": "/search/EVN2209MOW1?t=3F16638750001663887300000205EVNVKO_e024e75692739aef71bd049136c941f9_10086&search_date=20062022&expected_price_uuid=dbd0794b-0ad0-4e3c-90ea-fabfdff6a4f5&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -311,18 +322,7 @@ window.data = {
       "transfers": 0,
       "duration": 220,
       "durationH": 4,
-      "link": "/search/EVN2409MOW1?t=3F16639956001664008800000220EVNVKO_c75f2f27f91552a58af4324b5dcd1c54_10301&search_date=20062022&expected_price_uuid=b557922f-390b-4a89-93bc-efedb9d7fdfb&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 175,
-      "departure_at": "2022-09-22T09:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN2209MOW1?t=3F16638228001663836000000220EVNVKO_e5567e2fdffd06b36b22b2df07e63b48_10301&search_date=20062022&expected_price_uuid=93695c63-3762-4612-b4db-3ff88a0ebca0&expected_price_currency=rub"
+      "link": "/search/EVN2409MOW1?t=3F16639956001664008800000220EVNVKO_c75f2f27f91552a58af4324b5dcd1c54_10301&search_date=20062022&expected_price_uuid=1e83ba3a-7acb-4700-a347-ab7c9598f223&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -366,7 +366,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN2509MOW1?t=UT16641168001664130300000225EVNVKO_514ecdcee49e872f9fe3d39231daa536_9913&search_date=20062022&expected_price_uuid=ee62641a-3c5a-403b-af65-a0d303d7974c&expected_price_currency=rub"
+      "link": "/search/EVN2509MOW1?t=UT16641168001664130300000225EVNVKO_514ecdcee49e872f9fe3d39231daa536_9913&search_date=20062022&expected_price_uuid=8a8c0a54-dff6-4800-abbf-1d682ec8418f&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -388,7 +388,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1909MOW1?t=UT16635984001663611900000225EVNVKO_17aa1c6e4d2a07861d187f06d1e1a011_9913&search_date=20062022&expected_price_uuid=c116bc9a-14d5-4832-9857-71c7143e00eb&expected_price_currency=rub"
+      "link": "/search/EVN1909MOW1?t=UT16635984001663611900000225EVNVKO_17aa1c6e4d2a07861d187f06d1e1a011_9913&search_date=20062022&expected_price_uuid=2dd135a2-2422-4e29-84a0-f22484bce9e4&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -410,7 +410,7 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1709MOW2?t=UT16633635001663377000000225EVNVKO_7cca93ef57f988e331202751a2b80414_19826&search_date=20062022&expected_price_uuid=0435d375-5a83-4ee6-89f6-4b9312bcc7c7&expected_price_currency=rub"
+      "link": "/search/EVN1709MOW1?t=UT16633635001663377000000225EVNVKO_7cca93ef57f988e331202751a2b80414_9913&search_date=20062022&expected_price_uuid=9a304abf-5e72-44a6-961a-306283f78652&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -422,6 +422,17 @@ window.data = {
       "duration": 225,
       "durationH": 4,
       "link": "/search/EVN1409MOW2?t=UT16631838001663197300000225EVNVKO_4810723c107cfc62c3155b13715230b5_19826&search_date=20062022&expected_price_uuid=03911b94-8107-4576-a2d2-f2a371b1728b&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 168,
+      "departure_at": "2022-09-13T01:25:00+04:00",
+      "transfers": 0,
+      "duration": 225,
+      "durationH": 4,
+      "link": "/search/EVN1309MOW1?t=UT16630179001663031400000225EVNVKO_c7c4279da8250c0e1df830bb94219756_9913&search_date=20062022&expected_price_uuid=bdde7ad4-143a-43a2-9e0e-0142e940c81a&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -443,7 +454,7 @@ window.data = {
       "transfers": 0,
       "duration": 230,
       "durationH": 4,
-      "link": "/search/EVN0807MOW1?t=WZ16572768001657290600000230EVNZIA_8fb7bdc3450c960a8d49f9f8ffb1ccc2_10258&search_date=20062022&expected_price_uuid=343ce2e3-7e89-493f-81cd-4848b4019cf8&expected_price_currency=rub"
+      "link": "/search/EVN0807MOW1?t=WZ16572768001657290600000230EVNZIA_8fb7bdc3450c960a8d49f9f8ffb1ccc2_10257&search_date=20062022&expected_price_uuid=37e06b35-6e84-4bd8-a31f-bc7eec64a489&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -454,7 +465,18 @@ window.data = {
       "transfers": 0,
       "duration": 230,
       "durationH": 4,
-      "link": "/search/EVN0607MOW1?t=WZ16571040001657117800000230EVNZIA_19c95e4d48059de4b096d39bf3e8c97a_10268&search_date=20062022&expected_price_uuid=1582a70e-13d8-4a31-9e62-7573f6de611b&expected_price_currency=rub"
+      "link": "/search/EVN0607MOW1?t=WZ16571040001657117800000230EVNZIA_19c95e4d48059de4b096d39bf3e8c97a_10277&search_date=20062022&expected_price_uuid=aa184016-61bd-4e76-a2bf-a9377ba96ddf&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 170,
+      "departure_at": "2022-07-04T21:30:00+04:00",
+      "transfers": 0,
+      "duration": 230,
+      "durationH": 4,
+      "link": "/search/EVN0407MOW1?t=A416569558001656969600000230EVNVKO_7d76cf2c669333af7038a7cc7e422814_10023&search_date=20062022&expected_price_uuid=91ff832d-88ee-4d6e-86f4-f6648a32363a&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -465,29 +487,18 @@ window.data = {
       "transfers": 0,
       "duration": 230,
       "durationH": 4,
-      "link": "/search/EVN0307MOW1?t=A416568694001656883200000230EVNVKO_80252ce3ebd2a5e6f46ab299ff35282c_10023&search_date=20062022&expected_price_uuid=520c8434-0c06-4e6a-a7d7-669238141721&expected_price_currency=rub"
+      "link": "/search/EVN0307MOW1?t=A416568694001656883200000230EVNVKO_80252ce3ebd2a5e6f46ab299ff35282c_10023&search_date=20062022&expected_price_uuid=b0463281-8cf5-44e8-9eff-f2155461da7c&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 174,
-      "departure_at": "2022-07-07T12:40:00+04:00",
+      "price": 168,
+      "departure_at": "2022-06-30T22:25:00+04:00",
       "transfers": 0,
-      "duration": 235,
+      "duration": 230,
       "durationH": 4,
-      "link": "/search/EVN0707MOW1?t=WZ16571832001657197300000235EVNDME_c0ffc6bb401b0870c3b72bf79e6f39c5_10263&search_date=20062022&expected_price_uuid=d6fd8bf3-dc0b-4d4c-8699-3abaf59b9be4&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 170,
-      "departure_at": "2022-07-04T15:50:00+04:00",
-      "transfers": 0,
-      "duration": 245,
-      "durationH": 4,
-      "link": "/search/EVN0407MOW1?t=A416569354001656950100000245EVNVKO_c82f2ea01c415323e10f1990fbe3656a_10023&search_date=20062022&expected_price_uuid=68e36c00-c3ad-40e4-8ef9-c6a13510c460&expected_price_currency=rub"
+      "link": "/search/EVN3006MOW1?t=WZ16566135001656627300000230EVNDME_d95b03e92586b36adff429046b02a245_9929&search_date=20062022&expected_price_uuid=35d8e6e6-df63-4960-8ce3-0599e1eb7600&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -498,7 +509,7 @@ window.data = {
       "transfers": 0,
       "duration": 245,
       "durationH": 4,
-      "link": "/search/EVN0107MOW1?t=A416566762001656690900000245EVNVKO_36bb84cb0d83c8ef25f0136e6d7fa47e_10023&search_date=20062022&expected_price_uuid=fc5ebaf4-8a8a-4b5b-8866-46023b148a34&expected_price_currency=rub"
+      "link": "/search/EVN0107MOW1?t=A416566762001656690900000245EVNVKO_36bb84cb0d83c8ef25f0136e6d7fa47e_10023&search_date=20062022&expected_price_uuid=c5f871f8-cd0e-46a5-95bf-85f5fd2ebe3f&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -515,12 +526,12 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 168,
+      "price": 167,
       "departure_at": "2022-09-24T17:05:00+04:00",
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN2409LED1?t=UT16640247001664040300000260EVNLED_ed01d91bb62e55c0c12528e02c09b20a_9913&search_date=19062022&expected_price_uuid=dab35cf6-19ce-4412-b7fc-b9885b7c182f&expected_price_currency=rub"
+      "link": "/search/EVN2409LED4?t=UT16640247001664040300000260EVNLED_ed01d91bb62e55c0c12528e02c09b20a_39356&search_date=20062022&expected_price_uuid=b5e419e7-a03c-4bf7-8c20-0a8186f88ac4&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -531,7 +542,7 @@ window.data = {
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN2009LED1?t=UT16636791001663694700000260EVNLED_7fca58c1c7de597bac8c729f8e3f2fe9_9913&search_date=20062022&expected_price_uuid=5cb00d30-5762-4a68-a60a-cda866191449&expected_price_currency=rub"
+      "link": "/search/EVN2009LED2?t=UT16636791001663694700000260EVNLED_7fca58c1c7de597bac8c729f8e3f2fe9_19826&search_date=20062022&expected_price_uuid=4cbb1b09-66b7-4a3d-8c1c-fd75592209a4&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -542,7 +553,7 @@ window.data = {
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN1709LED1?t=UT16634199001663435500000260EVNLED_35ca8aec3ec7bc44f7c4cad12919ae14_9913&search_date=20062022&expected_price_uuid=28f1e640-a114-4f7f-82f9-4a0037207587&expected_price_currency=rub"
+      "link": "/search/EVN1709LED1?t=UT16634199001663435500000260EVNLED_35ca8aec3ec7bc44f7c4cad12919ae14_9913&search_date=20062022&expected_price_uuid=afe16646-8d6c-4c16-af43-e2e08f678c38&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -553,7 +564,7 @@ window.data = {
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN1309LED1?t=UT16630743001663089900000260EVNLED_79014f1c5f602835363d87ed7e1d32be_9913&search_date=20062022&expected_price_uuid=85b7e10a-a56a-4f16-9ca0-243985ca028f&expected_price_currency=rub"
+      "link": "/search/EVN1309LED1?t=UT16630743001663089900000260EVNLED_79014f1c5f602835363d87ed7e1d32be_9913&search_date=20062022&expected_price_uuid=d22e407b-fb9a-4389-bff6-22f08b1bc832&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -575,40 +586,18 @@ window.data = {
       "transfers": 1,
       "duration": 650,
       "durationH": 11,
-      "link": "/search/EVN0507MOW1?t=5N16570152001657054200000650EVNMCXSVO_c826a86be0227cdab755d8cc808c414b_9533&search_date=20062022&expected_price_uuid=7dd827ef-ee99-4ede-ad91-1faf66349afc&expected_price_currency=rub"
+      "link": "/search/EVN0507MOW1?t=5N16570152001657054200000650EVNMCXSVO_c826a86be0227cdab755d8cc808c414b_9533&search_date=20062022&expected_price_uuid=6a7b0d34-6f39-4230-89a9-9703632fd363&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 165,
-      "departure_at": "2022-06-23T20:15:00+04:00",
+      "price": 163,
+      "departure_at": "2022-06-25T01:25:00+04:00",
       "transfers": 1,
-      "duration": 855,
-      "durationH": 14,
-      "link": "/search/EVN2306LED1?t=SU16560009001656052200000855EVNMRVLED_bd1392220fab1c5ceb0792243e0c45bd_9741&search_date=20062022&expected_price_uuid=82b7bf15-1f0e-45f5-8dc0-b6a5a0359956&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 160,
-      "departure_at": "2022-06-28T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1040,
-      "durationH": 17,
-      "link": "/search/EVN2806LED1?t=SU16564104001656472800001040EVNMCXLED_9974d23f503490a68d170c9e85128b6b_9425&search_date=20062022&expected_price_uuid=b8f77140-eaf0-4ce0-9e8a-40db15cd994e&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 168,
-      "departure_at": "2022-09-13T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 1130,
+      "duration": 1150,
       "durationH": 19,
-      "link": "/search/EVN1309MOW1?t=5N16630227001663090500001130EVNMRVSVO_d2edcac2f54b3f13886501b3b5c4e581_9887&search_date=20062022&expected_price_uuid=279723fb-0447-4bdc-bb18-49b50c1e0120&expected_price_currency=rub"
+      "link": "/search/EVN2506LED1?t=UT16561059001656174900001150EVNVKOLED_1d5dfa92699b2ac8345b67e40d8f13d3_9628&search_date=20062022&expected_price_uuid=1f50796a-b74a-4480-b0d7-361121443f81&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -619,18 +608,18 @@ window.data = {
       "transfers": 1,
       "duration": 1555,
       "durationH": 26,
-      "link": "/search/EVN2406LED1?t=UT16560816001656174900001555EVNVKOLED_2a642a93926000c2f0394e635a7ff58f_9628&search_date=20062022&expected_price_uuid=98377320-2f3b-4af6-a045-d0177052132d&expected_price_currency=rub"
+      "link": "/search/EVN2406LED2?t=UT16560816001656174900001555EVNVKOLED_2a642a93926000c2f0394e635a7ff58f_19256&search_date=20062022&expected_price_uuid=d9e63ecc-8dfe-40ce-842a-e8741f31cec5&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 161,
+      "price": 165,
       "departure_at": "2022-07-02T14:00:00+04:00",
       "transfers": 1,
       "duration": 1630,
       "durationH": 27,
-      "link": "/search/EVN0207MOW1?t=I816567560001656853800001630EVNMCXDME_262ef36ba471c40ae9808cd1c00a065e_9481&search_date=20062022&expected_price_uuid=92648d86-bfa5-44ff-ab64-daa1c4bf2cc0&expected_price_currency=rub"
+      "link": "/search/EVN0207MOW1?t=I816567560001656853800001630EVNMCXDME_262ef36ba471c40ae9808cd1c00a065e_9719&search_date=20062022&expected_price_uuid=3bb6dd39-e4bf-456a-a61c-efb025442af1&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -641,7 +630,18 @@ window.data = {
       "transfers": 0,
       "duration": 230,
       "durationH": 4,
-      "link": "/search/EVN1307MOW1?t=WZ16577088001657722600000230EVNZIA_482b36ad9fd29590fbcb51906faab932_10268&search_date=20062022&expected_price_uuid=e6936f4c-49bc-4a0f-9568-8f61ecbcf7cd&expected_price_currency=rub"
+      "link": "/search/EVN1307MOW1?t=WZ16577088001657722600000230EVNZIA_482b36ad9fd29590fbcb51906faab932_10277&search_date=20062022&expected_price_uuid=2e01d94e-7edf-4531-92a2-f7741ab51501&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 174,
+      "departure_at": "2022-07-07T12:40:00+04:00",
+      "transfers": 0,
+      "duration": 235,
+      "durationH": 4,
+      "link": "/search/EVN0707MOW1?t=WZ16571832001657197300000235EVNDME_c0ffc6bb401b0870c3b72bf79e6f39c5_10260&search_date=20062022&expected_price_uuid=1d3c0ec1-111c-4941-8f91-d61aa13d5408&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -652,7 +652,7 @@ window.data = {
       "transfers": 0,
       "duration": 220,
       "durationH": 4,
-      "link": "/search/EVN1207MOW1?t=3F16576164001657629600000220EVNVKO_1eb322a76cfe7e14576c677ceb7d5fe6_10904&search_date=20062022&expected_price_uuid=4f96f2c8-93cd-4117-9cc1-579ccb76b301&expected_price_currency=rub"
+      "link": "/search/EVN1207MOW1?t=3F16576164001657629600000220EVNVKO_1eb322a76cfe7e14576c677ceb7d5fe6_10904&search_date=20062022&expected_price_uuid=3426c265-2eb7-467f-802f-7abdc190ad7d&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -663,18 +663,62 @@ window.data = {
       "transfers": 0,
       "duration": 225,
       "durationH": 4,
-      "link": "/search/EVN1107MOW1?t=UT16574883001657501800000225EVNVKO_2a68e33a19cec2acdfbe7b467c8c41a9_11093&search_date=20062022&expected_price_uuid=d47110ae-19d1-4910-a107-20915377fac0&expected_price_currency=rub"
+      "link": "/search/EVN1107MOW2?t=UT16574883001657501800000225EVNVKO_2a68e33a19cec2acdfbe7b467c8c41a9_22186&search_date=20062022&expected_price_uuid=2563db43-7909-46e3-b415-817b533d8a05&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 188,
+      "departure_at": "2022-07-10T23:30:00+04:00",
+      "transfers": 0,
+      "duration": 225,
+      "durationH": 4,
+      "link": "/search/EVN1007MOW1?t=UT16574814001657494900000225EVNVKO_d3c2d1bf963b4ea8f9db7cba84f82c68_11093&search_date=20062022&expected_price_uuid=c7ac69b1-561b-4740-afb8-f939718c4363&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 180,
+      "departure_at": "2022-07-09T11:10:00+04:00",
+      "transfers": 1,
+      "duration": 825,
+      "durationH": 14,
+      "link": "/search/EVN0907MOW1?t=DP16573506001657400100000825EVNMRVVKO_5accbf725aeaf8a2737844d3944e2076_10607&search_date=20062022&expected_price_uuid=341b5011-96c5-463a-b273-843661d6d21b&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 194,
+      "departure_at": "2022-07-15T14:40:00+04:00",
+      "transfers": 0,
+      "duration": 230,
+      "durationH": 4,
+      "link": "/search/EVN1507MOW1?t=WZ16578816001657895400000230EVNZIA_2e57df1a6fc1d0cf66e41ad64108ae7d_11437&search_date=20062022&expected_price_uuid=db060e54-f2d2-4d17-bb63-9c5fe35b6472&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 188,
+      "price": 193,
       "departure_at": "2022-07-05T17:05:00+04:00",
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN0507LED1?t=UT16570263001657041900000260EVNLED_315e03af762609e47837f6d29bc18658_11093&search_date=20062022&expected_price_uuid=ce37d974-a40f-4711-98d6-2d0b2962ab82&expected_price_currency=rub"
+      "link": "/search/EVN0507LED1?t=UT16570263001657041900000260EVNLED_315e03af762609e47837f6d29bc18658_11394&search_date=20062022&expected_price_uuid=bfad34ee-47f6-4bbc-80be-0f93a0035198&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 191,
+      "departure_at": "2022-09-03T14:00:00+04:00",
+      "transfers": 1,
+      "duration": 370,
+      "durationH": 6,
+      "link": "/search/EVN0309MOW1?t=SU16621992001662221400000370EVNMCXSVO_9c8d109a725d837de97a5fca9646d251_11280&search_date=20062022&expected_price_uuid=08484991-655b-4ee6-8537-fbda898826c0&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -685,7 +729,18 @@ window.data = {
       "transfers": 1,
       "duration": 480,
       "durationH": 8,
-      "link": "/search/EVN3108MOW1?t=DP16619307001661959500000480EVNMRVVKO_eaa5e2818f721d258384e2a01b7a8cd7_11011&search_date=20062022&expected_price_uuid=3637fed0-fcbe-4e53-b2b9-e68fc9452f31&expected_price_currency=rub"
+      "link": "/search/EVN3108MOW1?t=DP16619307001661959500000480EVNMRVVKO_eaa5e2818f721d258384e2a01b7a8cd7_11011&search_date=20062022&expected_price_uuid=13805b86-c264-4a0f-ae1c-34204610acf9&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 187,
+      "departure_at": "2022-08-09T11:10:00+04:00",
+      "transfers": 1,
+      "duration": 495,
+      "durationH": 8,
+      "link": "/search/EVN0908MOW1?t=DP16600290001660058700000495EVNMRVVKO_266892b0930a5f682f0aaa4dd2e3d883_11011&search_date=20062022&expected_price_uuid=3db2b96b-5976-421a-80f0-ac201db23a26&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -729,7 +784,7 @@ window.data = {
       "transfers": 1,
       "duration": 610,
       "durationH": 10,
-      "link": "/search/EVN1608MOW1?t=DP16606440001660680600000610EVNMCXVKO_c5b24a27e8426113c056c152573e08b0_11274&search_date=20062022&expected_price_uuid=9f3b4fb8-3029-4688-8295-f3ec930ea12e&expected_price_currency=rub"
+      "link": "/search/EVN1608MOW1?t=DP16606440001660680600000610EVNMCXVKO_c5b24a27e8426113c056c152573e08b0_11274&search_date=20062022&expected_price_uuid=0e86d52a-f2c3-4223-baf8-41f6bbfbd0a3&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -740,18 +795,7 @@ window.data = {
       "transfers": 1,
       "duration": 625,
       "durationH": 10,
-      "link": "/search/EVN0409MOW1?t=5N16622754001662312900000625EVNMRVSVO_a71f711e720cb0de9d8d766e9a1ed48c_10812&search_date=20062022&expected_price_uuid=c7616632-47b1-4b58-a658-bfb7c642a86f&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 187,
-      "departure_at": "2022-08-09T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 680,
-      "durationH": 11,
-      "link": "/search/EVN0908MOW1?t=DP16599987001660039500000680EVNMRVVKO_d40b971e5547763cd7b850faf657a9c0_11011&search_date=20062022&expected_price_uuid=5c7d95f5-5554-4433-aa8b-30fa1b005358&expected_price_currency=rub"
+      "link": "/search/EVN0409MOW1?t=5N16622754001662312900000625EVNMRVSVO_a71f711e720cb0de9d8d766e9a1ed48c_10812&search_date=20062022&expected_price_uuid=6f7dec2d-1d26-49ce-bd0f-96f17ba1b08c&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -762,7 +806,18 @@ window.data = {
       "transfers": 1,
       "duration": 680,
       "durationH": 11,
-      "link": "/search/EVN0508MOW1?t=DP16596921001659732900000680EVNMRVVKO_fa0a7dbac38cbfcd7bbcf6f88e76799f_11072&search_date=20062022&expected_price_uuid=44776bb9-3a73-4ce7-a1ed-7b265aba6d0a&expected_price_currency=rub"
+      "link": "/search/EVN0508MOW1?t=DP16596921001659732900000680EVNMRVVKO_fa0a7dbac38cbfcd7bbcf6f88e76799f_11072&search_date=20062022&expected_price_uuid=308fb2da-83c3-441f-891d-01150bec094d&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 191,
+      "departure_at": "2022-09-23T13:35:00+04:00",
+      "transfers": 1,
+      "duration": 720,
+      "durationH": 12,
+      "link": "/search/EVN2309LED1?t=5N16639257001663968900000720EVNMRVLED_5bdf96069ede3c16e9b2b3c1e1213048_11271&search_date=20062022&expected_price_uuid=de4cca27-a096-4c28-b5b5-b2e7d4ac5d57&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -773,95 +828,18 @@ window.data = {
       "transfers": 1,
       "duration": 760,
       "durationH": 13,
-      "link": "/search/EVN0209MOW1?t=UT16620993001662144900000760EVNAERVKO_257372efac0f78dc7ba3bd7b8ac2d9c1_10748&search_date=20062022&expected_price_uuid=71efa2f6-b9be-4683-9006-8090cb4cafcf&expected_price_currency=rub"
+      "link": "/search/EVN0209MOW1?t=UT16620993001662144900000760EVNAERVKO_257372efac0f78dc7ba3bd7b8ac2d9c1_10748&search_date=20062022&expected_price_uuid=898626a1-65b0-4d20-b2db-b432c6c602ad&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 180,
-      "departure_at": "2022-07-09T11:10:00+04:00",
+      "price": 187,
+      "departure_at": "2022-08-30T11:10:00+04:00",
       "transfers": 1,
       "duration": 825,
       "durationH": 14,
-      "link": "/search/EVN0907MOW2?t=DP16573506001657400100000825EVNMRVVKO_5accbf725aeaf8a2737844d3944e2076_21214&search_date=20062022&expected_price_uuid=35c4b849-903d-449d-a459-7cde951fc2bd&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 184,
-      "departure_at": "2022-07-10T22:05:00+04:00",
-      "transfers": 1,
-      "duration": 1580,
-      "durationH": 26,
-      "link": "/search/EVN1007MOW1?t=S716574763001657571100001580EVNMRVDME_d31bcdc5ac2307546a4388ad24bd95cc_10856&search_date=20062022&expected_price_uuid=90fcb3b2-7deb-40eb-99d2-6d5eacb418b7&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 194,
-      "departure_at": "2022-07-15T14:40:00+04:00",
-      "transfers": 0,
-      "duration": 230,
-      "durationH": 4,
-      "link": "/search/EVN1507MOW1?t=WZ16578816001657895400000230EVNZIA_2e57df1a6fc1d0cf66e41ad64108ae7d_11437&search_date=20062022&expected_price_uuid=bd2220a4-6bd9-49f7-8bbb-00f19a327a6e&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 198,
-      "departure_at": "2022-06-29T00:05:00+04:00",
-      "transfers": 1,
-      "duration": 500,
-      "durationH": 8,
-      "link": "/search/EVN2906LED1?t=SU16564467001656476700000500EVNSVOLED_d98bda646af3e031f2be3783f96071c4_11694&search_date=20062022&expected_price_uuid=d59cd7a9-4c71-4f01-8b62-1a51673df265&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 194,
-      "departure_at": "2022-06-27T22:25:00+04:00",
-      "transfers": 1,
-      "duration": 705,
-      "durationH": 12,
-      "link": "/search/EVN2706LED1?t=WZ16563543001656396600000705EVNDMELED_67a1583332fd4dc9713cb7e3aa3e4d18_11430&search_date=20062022&expected_price_uuid=631dea6f-6ed3-447e-bf2a-012a113064f1&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 196,
-      "departure_at": "2022-09-23T13:35:00+04:00",
-      "transfers": 1,
-      "duration": 720,
-      "durationH": 12,
-      "link": "/search/EVN2309LED1?t=5N16639257001663968900000720EVNMRVLED_5bdf96069ede3c16e9b2b3c1e1213048_11535&search_date=20062022&expected_price_uuid=8b715d77-2f5e-482c-80d1-8a2812b2bba2&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 195,
-      "departure_at": "2022-09-03T10:45:00+04:00",
-      "transfers": 1,
-      "duration": 730,
-      "durationH": 12,
-      "link": "/search/EVN0309MOW4?t=UT16621875001662231300000730EVNAERVKO_c906620198103e307e38a5be24551eee_46072&search_date=20062022&expected_price_uuid=4de98ce9-c6e9-49e7-bb38-deeb090b0177&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 195,
-      "departure_at": "2022-09-01T09:45:00+04:00",
-      "transfers": 1,
-      "duration": 790,
-      "durationH": 13,
-      "link": "/search/EVN0109MOW1?t=UT16620111001662058500000790EVNAERVKO_322407f96cc05ca4e0761f9a93d887e3_11518&search_date=20062022&expected_price_uuid=cb5a4958-f3b4-4853-8c67-d74543bf6a77&expected_price_currency=rub"
+      "link": "/search/EVN3008MOW1?t=DP16618434001661892900000825EVNMRVVKO_b6f08ff27e954d258d871be590925c8f_11011&search_date=20062022&expected_price_uuid=47aba851-0a2d-4281-ba4d-adb9ff92f663&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -883,84 +861,29 @@ window.data = {
       "transfers": 1,
       "duration": 1040,
       "durationH": 17,
-      "link": "/search/EVN0309LED1?t=SU16621992001662261600001040EVNMCXLED_01e126dfa519685570e2b66ae5a94c20_11050&search_date=20062022&expected_price_uuid=fb8891aa-4c21-4d5f-8f7f-121c65e23615&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 188,
-      "departure_at": "2022-06-30T20:15:00+04:00",
-      "transfers": 1,
-      "duration": 1180,
-      "durationH": 20,
-      "link": "/search/EVN3006LED1?t=A416566057001656676500001180EVNMRVLED_85da61516738b6c95d372a4eff559f40_11088&search_date=20062022&expected_price_uuid=ef121884-94f3-47ec-89a3-5985411d7615&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 198,
-      "departure_at": "2022-06-26T22:25:00+04:00",
-      "transfers": 1,
-      "duration": 875,
-      "durationH": 15,
-      "link": "/search/EVN2606LED1?t=WZ16562679001656320400000875EVNDMEVKOLED_b4bf5b817311437d89931e42866afff7_11697&search_date=20062022&expected_price_uuid=2b2d5306-b5a8-4a31-b7ee-ee221cd4d26c&expected_price_currency=rub"
+      "link": "/search/EVN0309LED1?t=SU16621992001662261600001040EVNMCXLED_01e126dfa519685570e2b66ae5a94c20_11050&search_date=20062022&expected_price_uuid=fb3d398e-fee4-4d77-9664-ee997969b20b&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 211,
-      "departure_at": "2022-07-21T13:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN2107MOW1?t=3F16583940001658407200000220EVNVKO_001cf7b30f59711a8abcf528290db41d_12431&search_date=20062022&expected_price_uuid=e612aa7d-7a5b-4271-ab98-f4d934cc9d56&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 208,
-      "departure_at": "2022-07-14T23:30:00+04:00",
-      "transfers": 0,
-      "duration": 225,
-      "durationH": 4,
-      "link": "/search/EVN1407MOW1?t=UT16578270001657840500000225EVNVKO_edd5ca56faaddcc43401dc256bb0a259_12273&search_date=20062022&expected_price_uuid=0e62fb85-795a-4c6e-9cb7-34c77073f4dd&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 211,
-      "departure_at": "2022-08-27T11:10:00+04:00",
+      "price": 187,
+      "departure_at": "2022-08-02T02:45:00+04:00",
       "transfers": 1,
-      "duration": 495,
+      "duration": 1330,
+      "durationH": 22,
+      "link": "/search/EVN0208MOW1?t=DP16593939001659473700001330EVNMRVVKO_a3871529bdb39a00594992509685dda4_11011&search_date=20062022&expected_price_uuid=a9be9005-626c-46fe-a82e-f4d7cfeb38fb&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 210,
+      "departure_at": "2022-08-24T11:25:00+04:00",
+      "transfers": 1,
+      "duration": 480,
       "durationH": 8,
-      "link": "/search/EVN2708MOW1?t=DP16615842001661613900000495EVNMRVVKO_e6e3ff7e8d6a371621cb64951b8141dc_12457&search_date=20062022&expected_price_uuid=19f0c0b4-6fae-4e3a-b9fd-f97281a71309&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 201,
-      "departure_at": "2022-07-23T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 545,
-      "durationH": 9,
-      "link": "/search/EVN2307MOW1?t=DP16585704001658603100000545EVNMCXVKO_d1e34b648929ad7e4cdee98b0adf679e_11870&search_date=20062022&expected_price_uuid=5bbf3951-77ae-4118-9ac9-45b1f82e68f0&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 212,
-      "departure_at": "2022-08-29T15:40:00+04:00",
-      "transfers": 1,
-      "duration": 555,
-      "durationH": 9,
-      "link": "/search/EVN2908MOW2?t=DP16617732001661806500000555EVNMRVVKO_f55ab30d91631d11f9244aa6d762d74f_25022&search_date=20062022&expected_price_uuid=e75c6258-eafc-4058-a2a6-9f2d534595cf&expected_price_currency=rub"
+      "link": "/search/EVN2408MOW1?t=DP16613259001661354700000480EVNMRVVKO_82e016482685a1343b152f8d599323d5_12380&search_date=20062022&expected_price_uuid=ff9b2152-fce9-40c2-9922-6a8dc3e8d2c6&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -971,40 +894,84 @@ window.data = {
       "transfers": 1,
       "duration": 555,
       "durationH": 9,
-      "link": "/search/EVN0808MOW1?t=DP16599588001659992100000555EVNMRVVKO_06611b1e8138882ec659de1352137b7c_11990&search_date=20062022&expected_price_uuid=4e6df556-46a7-4785-a984-77af4351539c&expected_price_currency=rub"
+      "link": "/search/EVN0808MOW1?t=DP16599588001659992100000555EVNMRVVKO_06611b1e8138882ec659de1352137b7c_11990&search_date=20062022&expected_price_uuid=bb060290-4a25-4c05-8ed9-3018a43148e5&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 203,
-      "departure_at": "2022-07-25T15:40:00+04:00",
+      "price": 212,
+      "departure_at": "2022-08-13T14:00:00+04:00",
       "transfers": 1,
-      "duration": 555,
-      "durationH": 9,
-      "link": "/search/EVN2507MOW1?t=DP16587492001658782500000555EVNMRVVKO_68e1e28299e5be78244c061539e8f3b1_11990&search_date=20062022&expected_price_uuid=748d3e3f-b285-4a75-82aa-ce547e55672c&expected_price_currency=rub"
+      "duration": 610,
+      "durationH": 10,
+      "link": "/search/EVN1308MOW1?t=DP16603848001660421400000610EVNMCXVKO_72a38557b581173fb5b52380c5562e1f_12508&search_date=20062022&expected_price_uuid=d57f74f1-fac3-4981-8660-1bf2ebebe243&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 202,
+      "departure_at": "2022-08-06T14:00:00+04:00",
+      "transfers": 1,
+      "duration": 610,
+      "durationH": 10,
+      "link": "/search/EVN0608MOW1?t=DP16597800001659816600000610EVNMCXVKO_5e24f31c2d74642dc655dc33b3c0d799_11891&search_date=20062022&expected_price_uuid=b455fd09-f5b4-4d9b-b039-d1ad4a7033ab&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
       "price": 203,
-      "departure_at": "2022-08-19T13:35:00+04:00",
+      "departure_at": "2022-08-26T13:35:00+04:00",
       "transfers": 1,
       "duration": 680,
       "durationH": 11,
-      "link": "/search/EVN1908MOW2?t=DP16609017001660942500000680EVNMRVVKO_e4383827a1a8e67e443db847eb1311e7_23980&search_date=20062022&expected_price_uuid=b8da0398-c09e-41d9-8b55-bc0ab4fd0767&expected_price_currency=rub"
+      "link": "/search/EVN2608MOW1?t=DP16615065001661547300000680EVNMRVVKO_0d7c1b06a2cf7ef5ba7213f02b87aa31_11990&search_date=20062022&expected_price_uuid=257a6022-fdae-4e30-ba09-ee8d50763290&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 198,
+      "departure_at": "2022-06-29T00:05:00+04:00",
+      "transfers": 1,
+      "duration": 685,
+      "durationH": 11,
+      "link": "/search/EVN2906LED2?t=SU16564467001656487800000685EVNSVOLED_1ff3a0852120b60a3f845d657c9fb928_23388&search_date=20062022&expected_price_uuid=597cf469-0764-4536-825d-5948bffea22a&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 197,
+      "departure_at": "2022-06-27T22:25:00+04:00",
+      "transfers": 1,
+      "duration": 705,
+      "durationH": 12,
+      "link": "/search/EVN2706LED1?t=WZ16563543001656396600000705EVNDMELED_67a1583332fd4dc9713cb7e3aa3e4d18_11622&search_date=20062022&expected_price_uuid=c4fe0e4b-0c60-427e-a080-51d7dace29ec&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
       "price": 195,
-      "departure_at": "2022-08-02T02:45:00+04:00",
+      "departure_at": "2022-09-01T09:45:00+04:00",
       "transfers": 1,
-      "duration": 1000,
-      "durationH": 17,
-      "link": "/search/EVN0208MOW1?t=DP16593939001659453900001000EVNMRVVKO_d9d055e5ffb2ed5c16f5c5553e48bcd3_11490&search_date=20062022&expected_price_uuid=b9660c75-5fe2-401f-b083-f72dd134df2d&expected_price_currency=rub"
+      "duration": 790,
+      "durationH": 13,
+      "link": "/search/EVN0109MOW1?t=UT16620111001662058500000790EVNAERVKO_322407f96cc05ca4e0761f9a93d887e3_11518&search_date=20062022&expected_price_uuid=38e6b1bb-0771-41dc-bcd6-d5941a27cebf&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 188,
+      "departure_at": "2022-06-30T20:15:00+04:00",
+      "transfers": 1,
+      "duration": 1180,
+      "durationH": 20,
+      "link": "/search/EVN3006LED1?t=A416566057001656676500001180EVNMRVLED_85da61516738b6c95d372a4eff559f40_11088&search_date=20062022&expected_price_uuid=49400ff5-a832-4d70-88dc-85feccf6d6df&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1021,89 +988,23 @@ window.data = {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 216,
-      "departure_at": "2022-07-17T22:25:00+04:00",
-      "transfers": 0,
-      "duration": 230,
-      "durationH": 4,
-      "link": "/search/EVN1707MOW1?t=WZ16580823001658096100000230EVNDME_4f4dcab2505131783bf63064229033f4_12727&search_date=20062022&expected_price_uuid=b2daec09-a151-4af1-b377-331760652258&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 208,
-      "departure_at": "2022-07-16T17:05:00+04:00",
-      "transfers": 0,
-      "duration": 260,
-      "durationH": 4,
-      "link": "/search/EVN1607LED2?t=UT16579767001657992300000260EVNLED_9af4b69f60a2bc025ca39e17fed683f6_24546&search_date=20062022&expected_price_uuid=d90165b3-f798-4ee3-8a13-9e8e8cac612b&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 203,
-      "departure_at": "2022-08-01T15:40:00+04:00",
-      "transfers": 1,
-      "duration": 555,
-      "durationH": 9,
-      "link": "/search/EVN0108MOW2?t=DP16593540001659387300000555EVNMRVVKO_d6e1788d27777b5d298b7bf4409a4869_23980&search_date=20062022&expected_price_uuid=48f7fed2-7629-4fba-b07b-583d6e9b26ae&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 208,
-      "departure_at": "2022-07-30T23:55:00+04:00",
-      "transfers": 1,
-      "duration": 660,
-      "durationH": 11,
-      "link": "/search/EVN3007MOW1?t=SU16592109001659250500000660EVNMRVSVO_31a37971fcf6821725255291f532b171_12282&search_date=20062022&expected_price_uuid=a88c6065-d3ce-4342-a5f7-2183413f6908&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 208,
-      "departure_at": "2022-07-16T23:55:00+04:00",
-      "transfers": 1,
-      "duration": 660,
-      "durationH": 11,
-      "link": "/search/EVN1607MOW1?t=SU16580013001658040900000660EVNMRVSVO_c1b172895baecac66cca93abe77ec7bc_12282&search_date=20062022&expected_price_uuid=89991a49-4fd2-4548-b22e-6b584fbcaae6&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 208,
-      "departure_at": "2022-07-07T12:40:00+04:00",
-      "transfers": 1,
-      "duration": 770,
-      "durationH": 13,
-      "link": "/search/EVN0707LED1?t=WZ16571832001657229400000770EVNDMESVOLED_7bde7e22e51dd15e37cd43f535b398b5_12270&search_date=20062022&expected_price_uuid=9338350f-988d-48f7-8b34-02720086a2fe&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 206,
+      "price": 202,
       "departure_at": "2022-08-17T11:25:00+04:00",
       "transfers": 1,
       "duration": 810,
       "durationH": 14,
-      "link": "/search/EVN1708MOW1?t=DP16607211001660769700000810EVNMRVVKO_9be0c335622c848f975048f6bcada88f_12175&search_date=20062022&expected_price_uuid=a90535a2-cfc0-487b-bbe3-8f6fa25ea3cd&expected_price_currency=rub"
+      "link": "/search/EVN1708MOW1?t=DP16607211001660769700000810EVNMRVVKO_9be0c335622c848f975048f6bcada88f_11936&search_date=20062022&expected_price_uuid=f7b87d00-13c1-404f-8f8c-43d9dbe28403&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
       "price": 202,
-      "departure_at": "2022-08-23T11:10:00+04:00",
+      "departure_at": "2022-08-20T11:10:00+04:00",
       "transfers": 1,
       "duration": 825,
       "durationH": 14,
-      "link": "/search/EVN2308MOW2?t=DP16612386001661288100000825EVNMRVVKO_94590b3ae9d5414990c3d44052fea98a_23872&search_date=20062022&expected_price_uuid=4193be12-5005-4449-85fb-0f0248e635c8&expected_price_currency=rub"
+      "link": "/search/EVN2008MOW1?t=DP16609794001661028900000825EVNMRVVKO_bf7cced6fb09ac3cff3a5d29b8b8b712_11936&search_date=20062022&expected_price_uuid=4ddd8201-06ec-42e7-8bd3-cedb1250e636&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1117,17 +1018,6 @@ window.data = {
       "link": "/search/EVN2209LED1?t=5N16638294001663885200000930EVNAERLED_a56a95f1695bb3c972826eed7b1f1e78_11598&search_date=19062022&expected_price_uuid=8af4d1f2-b1ae-4612-a525-6c2249388827&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 199,
-      "departure_at": "2022-07-26T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 1130,
-      "durationH": 19,
-      "link": "/search/EVN2607MOW1?t=5N16587891001658856900001130EVNMRVSVO_21220cb48620ed1d78066a1ec1485c80_11737&search_date=20062022&expected_price_uuid=b6a5395d-88f2-4b93-8721-db6175cea156&expected_price_currency=rub"
-    },
-    {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
@@ -1136,7 +1026,7 @@ window.data = {
       "transfers": 1,
       "duration": 1150,
       "durationH": 19,
-      "link": "/search/EVN1609LED1?t=UT16632771001663346100001150EVNVKOLED_dda32ca70d3e24d60a6329d86691257a_11633&search_date=20062022&expected_price_uuid=663fa06d-acd8-4dcb-bd9b-2ae0dc480fd0&expected_price_currency=rub"
+      "link": "/search/EVN1609LED2?t=UT16632771001663346100001150EVNVKOLED_dda32ca70d3e24d60a6329d86691257a_23266&search_date=20062022&expected_price_uuid=37b7de23-fa09-4f88-91c8-5c550ecffece&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1197,23 +1087,12 @@ window.data = {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 202,
-      "departure_at": "2022-07-19T02:45:00+04:00",
+      "price": 199,
+      "departure_at": "2022-08-23T02:45:00+04:00",
       "transfers": 1,
       "duration": 1330,
       "durationH": 22,
-      "link": "/search/EVN1907MOW1?t=DP16581843001658264100001330EVNMRVVKO_7d643ee9268939bbc2291f88591617db_11936&search_date=20062022&expected_price_uuid=868bc41b-f724-481f-aeca-45fff3750c49&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 200,
-      "departure_at": "2022-07-02T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1380,
-      "durationH": 23,
-      "link": "/search/EVN0207LED1?t=DP16567560001656838800001380EVNMCXLED_6f06ed28dc7ea19103a665e5e5f5f485_11806&search_date=20062022&expected_price_uuid=a847c9e5-9402-4bfa-82c2-8f083fd5f6fc&expected_price_currency=rub"
+      "link": "/search/EVN2308MOW4?t=DP16612083001661288100001330EVNMRVVKO_77ee65bbf2085029a3bca1af48614fff_46996&search_date=20062022&expected_price_uuid=24f0af67-fa10-4e6d-be92-d051a07a484e&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1246,7 +1125,139 @@ window.data = {
       "transfers": 0,
       "duration": 220,
       "durationH": 4,
-      "link": "/search/EVN2807MOW2?t=3F16589988001659012000000220EVNVKO_a928df40071160e4ecb037dd80f385eb_25422&search_date=20062022&expected_price_uuid=7264ad13-18a8-4f48-b052-7d51022bfb5e&expected_price_currency=rub"
+      "link": "/search/EVN2807MOW1?t=3F16589988001659012000000220EVNVKO_a928df40071160e4ecb037dd80f385eb_12711&search_date=20062022&expected_price_uuid=85e354d9-c38c-444c-bffd-c1452b6342d2&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 216,
+      "departure_at": "2022-07-21T13:00:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN2107MOW2?t=3F16583940001658407200000220EVNVKO_001cf7b30f59711a8abcf528290db41d_25422&search_date=20062022&expected_price_uuid=94f088d7-7728-486f-b549-7a11f21ffce1&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 216,
+      "departure_at": "2022-07-19T13:00:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN1907MOW1?t=3F16582212001658234400000220EVNVKO_de1b3676b21270bb5604d069a47b6eac_12711&search_date=20062022&expected_price_uuid=6bbc0f6e-497d-4920-b7a3-1ff2ad0678da&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 208,
+      "departure_at": "2022-07-14T23:30:00+04:00",
+      "transfers": 0,
+      "duration": 225,
+      "durationH": 4,
+      "link": "/search/EVN1407MOW1?t=UT16578270001657840500000225EVNVKO_edd5ca56faaddcc43401dc256bb0a259_12273&search_date=20062022&expected_price_uuid=18e9301c-cd18-4010-ae5b-194e5940a607&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 216,
+      "departure_at": "2022-07-17T22:25:00+04:00",
+      "transfers": 0,
+      "duration": 230,
+      "durationH": 4,
+      "link": "/search/EVN1707MOW1?t=WZ16580823001658096100000230EVNDME_4f4dcab2505131783bf63064229033f4_12720&search_date=20062022&expected_price_uuid=ad766902-acb5-48c4-b2d5-4f32e08f1426&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 208,
+      "departure_at": "2022-07-16T17:05:00+04:00",
+      "transfers": 0,
+      "duration": 260,
+      "durationH": 4,
+      "link": "/search/EVN1607LED1?t=UT16579767001657992300000260EVNLED_9af4b69f60a2bc025ca39e17fed683f6_12273&search_date=20062022&expected_price_uuid=5223c49d-0159-4eec-b6f0-d21f29697392&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 208,
+      "departure_at": "2022-07-02T17:05:00+04:00",
+      "transfers": 0,
+      "duration": 260,
+      "durationH": 4,
+      "link": "/search/EVN0207LED1?t=UT16567671001656782700000260EVNLED_de264dc28b6ed37a136ff439bb69dc8d_12273&search_date=20062022&expected_price_uuid=9b4d3ef2-c8da-4d46-8d06-58c397dc6929&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 215,
+      "departure_at": "2022-08-27T11:10:00+04:00",
+      "transfers": 1,
+      "duration": 495,
+      "durationH": 8,
+      "link": "/search/EVN2708MOW1?t=DP16615842001661613900000495EVNMRVVKO_e6e3ff7e8d6a371621cb64951b8141dc_12707&search_date=20062022&expected_price_uuid=c1d7848f-ea0a-476f-90de-b56d59220664&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 211,
+      "departure_at": "2022-08-07T11:10:00+04:00",
+      "transfers": 1,
+      "duration": 495,
+      "durationH": 8,
+      "link": "/search/EVN0708MOW1?t=DP16598562001659885900000495EVNMRVVKO_38536de15f179b6817c77fd0b6153836_12457&search_date=20062022&expected_price_uuid=be2e20dc-cf89-421a-8177-86bbfc262285&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 201,
+      "departure_at": "2022-07-23T14:00:00+04:00",
+      "transfers": 1,
+      "duration": 545,
+      "durationH": 9,
+      "link": "/search/EVN2307MOW1?t=DP16585704001658603100000545EVNMCXVKO_d1e34b648929ad7e4cdee98b0adf679e_11870&search_date=20062022&expected_price_uuid=76c4f6f7-28cf-48ff-b899-b296a3ae7716&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 203,
+      "departure_at": "2022-08-01T15:40:00+04:00",
+      "transfers": 1,
+      "duration": 555,
+      "durationH": 9,
+      "link": "/search/EVN0108MOW2?t=DP16593540001659387300000555EVNMRVVKO_d6e1788d27777b5d298b7bf4409a4869_23980&search_date=20062022&expected_price_uuid=5f7d0bb6-41f9-4aa7-b8d9-ee5a77a80cc3&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 203,
+      "departure_at": "2022-07-25T15:40:00+04:00",
+      "transfers": 1,
+      "duration": 555,
+      "durationH": 9,
+      "link": "/search/EVN2507MOW1?t=DP16587492001658782500000555EVNMRVVKO_68e1e28299e5be78244c061539e8f3b1_11990&search_date=20062022&expected_price_uuid=749d9745-6154-4377-b37a-fc690b616bd9&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 208,
+      "departure_at": "2022-07-30T23:55:00+04:00",
+      "transfers": 1,
+      "duration": 660,
+      "durationH": 11,
+      "link": "/search/EVN3007MOW1?t=SU16592109001659250500000660EVNMRVSVO_31a37971fcf6821725255291f532b171_12282&search_date=20062022&expected_price_uuid=6cb56730-031c-42ae-bd9b-452f62ef1efd&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1260,15 +1271,48 @@ window.data = {
       "link": "/search/EVN2809LED1?t=5N16643448001664386200000690EVNAERLED_fad7fc09ed9279f0db2c101fec26a1f7_12346&search_date=18062022&expected_price_uuid=d9830a04-a6b1-42c8-8c70-9d2af8a7fdba&expected_price_currency=rub"
     },
     {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 208,
+      "departure_at": "2022-07-16T23:55:00+04:00",
+      "transfers": 1,
+      "duration": 710,
+      "durationH": 12,
+      "link": "/search/EVN1607MOW1?t=SU16580013001658043900000710EVNMRVSVO_3e9299e58348085f9900efd62cb4055b_12282&search_date=20062022&expected_price_uuid=ed3d0ec5-6210-4077-a951-c53830376848&expected_price_currency=rub"
+    },
+    {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 218,
-      "departure_at": "2022-09-21T10:00:00+04:00",
+      "price": 208,
+      "departure_at": "2022-07-07T12:40:00+04:00",
       "transfers": 1,
-      "duration": 690,
-      "durationH": 12,
-      "link": "/search/EVN2109LED1?t=5N16637400001663781400000690EVNAERLED_5320c1ba6910cf73afb96d982f34bbeb_12851&search_date=19062022&expected_price_uuid=424028ef-44b9-4f7c-8520-8432c21d37d4&expected_price_currency=rub"
+      "duration": 770,
+      "durationH": 13,
+      "link": "/search/EVN0707LED1?t=WZ16571832001657229400000770EVNDMESVOLED_7bde7e22e51dd15e37cd43f535b398b5_12270&search_date=20062022&expected_price_uuid=267ffaca-a504-4123-8aab-3b391489241c&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 199,
+      "departure_at": "2022-07-26T02:45:00+04:00",
+      "transfers": 1,
+      "duration": 1130,
+      "durationH": 19,
+      "link": "/search/EVN2607MOW1?t=5N16587891001658856900001130EVNMRVSVO_21220cb48620ed1d78066a1ec1485c80_11737&search_date=20062022&expected_price_uuid=e739c1f9-dbca-4d07-a464-5b55e8ed58e6&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 216,
+      "departure_at": "2022-07-27T15:00:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN2707MOW2?t=3F16589196001658932800000220EVNVKO_3947c8c555f8039c4465eb7410945246_25422&search_date=20062022&expected_price_uuid=6d226656-587b-4155-b550-5c908ffa9885&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1279,117 +1323,7 @@ window.data = {
       "transfers": 1,
       "duration": 780,
       "durationH": 13,
-      "link": "/search/EVN0907LED1?t=DP16573506001657397400000780EVNMRVLED_c624a990edc5e9b00a9227d523b9d6d8_12404&search_date=20062022&expected_price_uuid=96503eda-6baf-4c92-8f76-a7ba64587799&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 211,
-      "departure_at": "2022-08-21T11:10:00+04:00",
-      "transfers": 1,
-      "duration": 825,
-      "durationH": 14,
-      "link": "/search/EVN2108MOW3?t=DP16610658001661115300000825EVNMRVVKO_c8fe0a3b8015e6920e59b44249ed99e0_37371&search_date=20062022&expected_price_uuid=5c8eacf7-c415-4f34-95b4-318ad5c60f33&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 202,
-      "departure_at": "2022-08-20T11:10:00+04:00",
-      "transfers": 1,
-      "duration": 825,
-      "durationH": 14,
-      "link": "/search/EVN2008MOW3?t=DP16609794001661028900000825EVNMRVVKO_bf7cced6fb09ac3cff3a5d29b8b8b712_35808&search_date=20062022&expected_price_uuid=d068f436-7778-4ad8-a6c7-2cc31d2cd865&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 195,
-      "departure_at": "2022-08-30T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 2440,
-      "durationH": 41,
-      "link": "/search/EVN3008MOW1?t=DP16618131001661959500002440EVNMRVVKO_e46efbfb8f7a276dacfb2c935c51363a_11490&search_date=20062022&expected_price_uuid=16f84a59-6921-4440-932d-797016c3031c&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 211,
-      "departure_at": "2022-08-14T11:10:00+04:00",
-      "transfers": 1,
-      "duration": 825,
-      "durationH": 14,
-      "link": "/search/EVN1408MOW1?t=DP16604610001660510500000825EVNMRVVKO_7f302e1c2093c02a6549a5c33b24472c_12457&search_date=20062022&expected_price_uuid=93014f29-e253-406c-a000-b2a8f46c4265&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 208,
-      "departure_at": "2022-08-06T23:55:00+04:00",
-      "transfers": 1,
-      "duration": 1175,
-      "durationH": 20,
-      "link": "/search/EVN0608MOW1?t=SU16598157001659886200001175EVNMRVSVO_fdf1d0ba74bc642d5750e1ed9fa5f5e9_12282&search_date=20062022&expected_price_uuid=e0ed3734-d898-4dce-b00e-6d5b44439778&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 208,
-      "departure_at": "2022-07-18T11:55:00+04:00",
-      "transfers": 1,
-      "duration": 1430,
-      "durationH": 24,
-      "link": "/search/EVN1807MOW1?t=SU16581309001658216700001430EVNMRVSVO_7ea72b71d9c57862380ea1d4b8c56e1f_12282&search_date=20062022&expected_price_uuid=bcfb3c0b-3382-4592-8138-b50b4e7ece4a&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 231,
-      "departure_at": "2022-07-31T13:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN3107MOW1?t=3F16592580001659271200000220EVNVKO_536eaf8dccd9e5e06757760c1ced4a30_13614&search_date=20062022&expected_price_uuid=76ccef80-3d9c-4799-b325-299ad9f08768&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 227,
-      "departure_at": "2022-07-27T15:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN2707MOW1?t=5F16589196001658932800000220EVNVKO_20572b695f032de11f18f7fa06528dcb_13401&search_date=20062022&expected_price_uuid=df586849-dac8-44eb-a5bb-edb1c552925d&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 231,
-      "departure_at": "2022-07-24T13:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN2407MOW1?t=3F16586532001658666400000220EVNVKO_f09c0c637da3d72bce4e6decca1f3efb_13614&search_date=20062022&expected_price_uuid=93837473-ff88-452e-828d-958772c4456a&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 226,
-      "departure_at": "2022-07-20T15:00:00+04:00",
-      "transfers": 0,
-      "duration": 220,
-      "durationH": 4,
-      "link": "/search/EVN2007MOW1?t=3F16583148001658328000000220EVNVKO_d2780d81e043e0bef67b6097d82698dc_13314&search_date=20062022&expected_price_uuid=d819ead6-3eb8-478f-a10a-8a86e8f3bea8&expected_price_currency=rub"
+      "link": "/search/EVN0907LED1?t=DP16573506001657397400000780EVNMRVLED_c624a990edc5e9b00a9227d523b9d6d8_12404&search_date=20062022&expected_price_uuid=a7df114a-e54b-4d4e-b587-427a4b25d050&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -1406,12 +1340,144 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 212,
-      "departure_at": "2022-09-18T09:45:00+04:00",
+      "price": 218,
+      "departure_at": "2022-09-21T10:00:00+04:00",
       "transfers": 1,
-      "duration": 880,
-      "durationH": 15,
-      "link": "/search/EVN1809LED1?t=5N16634799001663532700000880EVNAERLED_e243e32c6dd9ef0aac1b180381dcc2ab_12493&search_date=19062022&expected_price_uuid=9dc3ac7c-623b-4f9a-af24-7ec74ba124cf&expected_price_currency=rub"
+      "duration": 690,
+      "durationH": 12,
+      "link": "/search/EVN2109LED1?t=5N16637400001663781400000690EVNAERLED_5320c1ba6910cf73afb96d982f34bbeb_12851&search_date=19062022&expected_price_uuid=424028ef-44b9-4f7c-8520-8432c21d37d4&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 213,
+      "departure_at": "2022-07-11T01:25:00+04:00",
+      "transfers": 1,
+      "duration": 1150,
+      "durationH": 19,
+      "link": "/search/EVN1107LED1?t=UT16574883001657557300001150EVNVKOLED_e411d801de60ed4de8a2fa47a97cce82_12578&search_date=20062022&expected_price_uuid=108392e4-6063-4582-accb-b0423d6ea4e2&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 208,
+      "departure_at": "2022-06-26T22:25:00+04:00",
+      "transfers": 1,
+      "duration": 1350,
+      "durationH": 23,
+      "link": "/search/EVN2606LED2?t=WZ16562679001656348900001350EVNDMESVOLED_fd9ddf9905af73eab02846a7e4cc9a9b_24522&search_date=20062022&expected_price_uuid=c537957c-09ae-433f-aca5-c0fe34619c4b&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 218,
+      "departure_at": "2022-08-19T20:05:00+04:00",
+      "transfers": 1,
+      "duration": 1400,
+      "durationH": 23,
+      "link": "/search/EVN1908MOW1?t=DP16609251001661009100001400EVNMRVVKO_d526e3a7d6c7cc96a9e0191370c14812_12880&search_date=20062022&expected_price_uuid=bf7db659-4a3e-4958-b71f-1a6ea60e382a&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 218,
+      "departure_at": "2022-08-25T19:40:00+04:00",
+      "transfers": 1,
+      "duration": 1425,
+      "durationH": 24,
+      "link": "/search/EVN2508MOW1?t=DP16614420001661527500001425EVNMRVVKO_a17d52e1ca763b127c8a367b8e650433_12880&search_date=20062022&expected_price_uuid=846c3edc-719a-4db5-869c-7cba7cedd01a&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 210,
+      "departure_at": "2022-08-18T19:40:00+04:00",
+      "transfers": 1,
+      "duration": 1425,
+      "durationH": 24,
+      "link": "/search/EVN1808MOW1?t=DP16608372001660922700001425EVNMRVVKO_369f418c34f5b3ec51b4cb6d1c42b958_12380&search_date=20062022&expected_price_uuid=9d1a7ac6-95a4-4eab-8cb6-ba14d82f8893&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 208,
+      "departure_at": "2022-07-18T11:55:00+04:00",
+      "transfers": 1,
+      "duration": 1430,
+      "durationH": 24,
+      "link": "/search/EVN1807MOW1?t=SU16581309001658216700001430EVNMRVSVO_7ea72b71d9c57862380ea1d4b8c56e1f_12282&search_date=20062022&expected_price_uuid=3bb04135-e842-4e18-ba7f-99f16f1696f8&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 220,
+      "departure_at": "2022-07-20T11:25:00+04:00",
+      "transfers": 1,
+      "duration": 610,
+      "durationH": 10,
+      "link": "/search/EVN2007MOW1?t=5N16583019001658338500000610EVNMRVSVO_9985e885740d58621126e8a91c47c30d_12970&search_date=20062022&expected_price_uuid=fc517181-03d7-4d36-b330-92dc64a88737&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 213,
+      "departure_at": "2022-09-18T18:40:00+04:00",
+      "transfers": 1,
+      "duration": 1555,
+      "durationH": 26,
+      "link": "/search/EVN1809LED4?t=UT16635120001663605300001555EVNVKOLED_963979575f31587a2a483f22405f0a8c_50189&search_date=20062022&expected_price_uuid=fb50c581-5484-4b91-82ed-e6e823a41095&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 231,
+      "departure_at": "2022-07-31T13:00:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN3107MOW1?t=3F16592580001659271200000220EVNVKO_536eaf8dccd9e5e06757760c1ced4a30_13614&search_date=20062022&expected_price_uuid=0e2289b6-2206-4690-82e5-63d49f6cb1b1&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 231,
+      "departure_at": "2022-07-24T13:00:00+04:00",
+      "transfers": 0,
+      "duration": 220,
+      "durationH": 4,
+      "link": "/search/EVN2407MOW1?t=3F16586532001658666400000220EVNVKO_f09c0c637da3d72bce4e6decca1f3efb_13614&search_date=20062022&expected_price_uuid=c434420f-fad9-4ec2-9c47-09b3ddab0c56&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 230,
+      "departure_at": "2022-08-22T15:40:00+04:00",
+      "transfers": 1,
+      "duration": 555,
+      "durationH": 9,
+      "link": "/search/EVN2208MOW3?t=DP16611684001661201700000555EVNMRVVKO_8e0b79a6249e9391f769e49822ae568c_40725&search_date=20062022&expected_price_uuid=2bf5b63c-6719-4c2d-8d83-8dcc7aefe41b&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 230,
+      "departure_at": "2022-08-12T13:35:00+04:00",
+      "transfers": 1,
+      "duration": 680,
+      "durationH": 11,
+      "link": "/search/EVN1208MOW1?t=DP16602969001660337700000680EVNMRVVKO_6f83e03298567254857c92320e0868e2_13575&search_date=20062022&expected_price_uuid=2daf3a3f-7efd-4e57-8203-d32406b2de86&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1422,7 +1488,62 @@ window.data = {
       "transfers": 1,
       "duration": 720,
       "durationH": 12,
-      "link": "/search/EVN0508LED2?t=5N16596921001659735300000720EVNMRVLED_739ef3e73c4ab5da06284506a37cc87c_26614&search_date=20062022&expected_price_uuid=90e7bf1f-7b42-4dd1-a465-7dc40758a0f9&expected_price_currency=rub"
+      "link": "/search/EVN0508LED1?t=5N16596921001659735300000720EVNMRVLED_739ef3e73c4ab5da06284506a37cc87c_13307&search_date=20062022&expected_price_uuid=01c14dcf-c5fb-4a9f-b4be-effbc95861fe&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 222,
+      "departure_at": "2022-07-03T21:30:00+04:00",
+      "transfers": 1,
+      "duration": 770,
+      "durationH": 13,
+      "link": "/search/EVN0307LED1?t=A416568694001656915600000770EVNVKOSVOLED_dc618513c9330af8ff61fd339ee19e6d_13100&search_date=20062022&expected_price_uuid=8875d774-4820-4d96-84c3-ef45742fafcf&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 228,
+      "departure_at": "2022-08-10T11:25:00+04:00",
+      "transfers": 1,
+      "duration": 810,
+      "durationH": 14,
+      "link": "/search/EVN1008MOW1?t=DP16601163001660164900000810EVNMRVVKO_1e615c092fca3d5f6c6d235d50842453_13430&search_date=20062022&expected_price_uuid=bdcee60d-1d8b-4a5e-829e-cfedc9ec6f59&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 223,
+      "departure_at": "2022-08-03T11:25:00+04:00",
+      "transfers": 1,
+      "duration": 810,
+      "durationH": 14,
+      "link": "/search/EVN0308MOW2?t=DP16595115001659560100000810EVNMRVVKO_71fa25272eaa418acb9e2e7e51370a55_26332&search_date=20062022&expected_price_uuid=3d6c3350-3336-4988-8da7-17dcfaaa1322&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 213,
+      "departure_at": "2022-07-06T01:25:00+04:00",
+      "transfers": 1,
+      "duration": 1170,
+      "durationH": 20,
+      "link": "/search/EVN0607LED2?t=UT16570563001657126500001170EVNVKOLED_b095aff42fb450feb2b50b33ebdea0c7_25156&search_date=20062022&expected_price_uuid=12aa0c3f-01c9-4afa-aec6-149cddb1cf8e&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 211,
+      "departure_at": "2022-07-04T20:45:00+04:00",
+      "transfers": 1,
+      "duration": 1645,
+      "durationH": 27,
+      "link": "/search/EVN0407LED1?t=DP16569531001657051800001645EVNMRVLED_1ba507bb2e858e3545ca7e8889d6e487_12417&search_date=20062022&expected_price_uuid=8fa0f805-ee9e-44a0-974b-4d116e177909&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1439,56 +1560,12 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 222,
-      "departure_at": "2022-07-03T09:00:00+04:00",
-      "transfers": 1,
-      "duration": 775,
-      "durationH": 13,
-      "link": "/search/EVN0307LED1?t=5F16568244001656870900000775EVNVKODMELED_9bc4baca6abb7fc77ef9f72cfc2aa48c_13081&search_date=20062022&expected_price_uuid=fbba0c5f-2e53-4cb9-acb0-ef7e62f4bcae&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 223,
-      "departure_at": "2022-08-03T11:25:00+04:00",
-      "transfers": 1,
-      "duration": 810,
-      "durationH": 14,
-      "link": "/search/EVN0308MOW1?t=DP16595115001659560100000810EVNMRVVKO_71fa25272eaa418acb9e2e7e51370a55_13166&search_date=20062022&expected_price_uuid=7db9673a-a074-4262-9068-dc516c5ee5c9&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
       "price": 223,
       "departure_at": "2022-07-08T12:40:00+04:00",
       "transfers": 1,
-      "duration": 850,
-      "durationH": 14,
-      "link": "/search/EVN0807LED1?t=WZ16572696001657320600000850EVNDMESVOLED_dbca50a17cf3cd008e64500f8fac632d_13153&search_date=20062022&expected_price_uuid=78a4c754-3486-4081-86ac-11971e8b0a24&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 213,
-      "departure_at": "2022-07-11T01:25:00+04:00",
-      "transfers": 1,
-      "duration": 1150,
-      "durationH": 19,
-      "link": "/search/EVN1107LED1?t=UT16574883001657557300001150EVNVKOLED_e411d801de60ed4de8a2fa47a97cce82_12578&search_date=20062022&expected_price_uuid=7c5ed687-8ff6-4e97-aa70-7d52caa777cd&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 213,
-      "departure_at": "2022-07-06T01:25:00+04:00",
-      "transfers": 1,
-      "duration": 1170,
-      "durationH": 20,
-      "link": "/search/EVN0607LED2?t=UT16570563001657126500001170EVNVKOLED_b095aff42fb450feb2b50b33ebdea0c7_25156&search_date=20062022&expected_price_uuid=ccf5fc55-2c96-42fd-a6d6-491d17d34db1&expected_price_currency=rub"
+      "duration": 915,
+      "durationH": 15,
+      "link": "/search/EVN0807LED1?t=WZ16572696001657324500000915EVNDMESVOLED_ddba866eab0a77a525b9146de37bc3d2_13153&search_date=20062022&expected_price_uuid=fc3c96e2-60bf-45e3-bb54-2f3a13c6e53f&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1499,7 +1576,7 @@ window.data = {
       "transfers": 1,
       "duration": 1180,
       "durationH": 20,
-      "link": "/search/EVN1207LED1?t=UT16575747001657645500001180EVNVKOLED_7137e72fd3106b5d0bca6783bedd539f_12578&search_date=20062022&expected_price_uuid=c42f1c55-622a-4079-96c0-680ffafe8447&expected_price_currency=rub"
+      "link": "/search/EVN1207LED1?t=UT16575747001657645500001180EVNVKOLED_7137e72fd3106b5d0bca6783bedd539f_12578&search_date=20062022&expected_price_uuid=d2cf4987-5030-40f1-aa05-bba8687acc6f&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1513,59 +1590,15 @@ window.data = {
       "link": "/search/EVN1007LED1?t=UT16574814001657557300001265EVNVKOLED_904450ca14a052a96624a9fd6cdc33c5_12578&search_date=20062022&expected_price_uuid=60ad647f-5fd4-455d-a516-e8d25cdd3482&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 218,
-      "departure_at": "2022-08-25T19:40:00+04:00",
-      "transfers": 1,
-      "duration": 1425,
-      "durationH": 24,
-      "link": "/search/EVN2508MOW1?t=DP16614420001661527500001425EVNMRVVKO_a17d52e1ca763b127c8a367b8e650433_12880&search_date=20062022&expected_price_uuid=a00b4dbb-d6ef-4b6e-a69d-1055f8f180f6&expected_price_currency=rub"
-    },
-    {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 213,
-      "departure_at": "2022-07-01T18:40:00+04:00",
+      "price": 229,
+      "departure_at": "2022-08-16T14:00:00+04:00",
       "transfers": 1,
-      "duration": 1590,
-      "durationH": 27,
-      "link": "/search/EVN0107LED1?t=UT16566864001656781800001590EVNVKOLED_3d02a2bfcfb68012601284ce0ee7b77f_12578&search_date=20062022&expected_price_uuid=24b83e1b-aa03-4fbe-ab9e-8ae74d428525&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 203,
-      "departure_at": "2022-07-04T20:45:00+04:00",
-      "transfers": 1,
-      "duration": 1780,
-      "durationH": 30,
-      "link": "/search/EVN0407LED1?t=5N16569531001657059900001780EVNMRVLED_c05f29f2541da3ac0db9f62f5e10fa1f_11959&search_date=20062022&expected_price_uuid=17fef4bc-e697-41c9-a68f-40c65f843dd6&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 231,
-      "departure_at": "2022-08-24T11:25:00+04:00",
-      "transfers": 1,
-      "duration": 810,
-      "durationH": 14,
-      "link": "/search/EVN2408MOW3?t=DP16613259001661374500000810EVNMRVVKO_c2c37b605bd3db0763d1957270d862aa_40908&search_date=20062022&expected_price_uuid=0c75e29e-9821-4a2a-b2bd-e7330e1077f4&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 223,
-      "departure_at": "2022-08-10T11:25:00+04:00",
-      "transfers": 1,
-      "duration": 810,
-      "durationH": 14,
-      "link": "/search/EVN1008MOW1?t=DP16601163001660164900000810EVNMRVVKO_1e615c092fca3d5f6c6d235d50842453_13166&search_date=20062022&expected_price_uuid=7dc55eb7-5259-4b18-abc0-3e6af9fc7f3d&expected_price_currency=rub"
+      "duration": 1040,
+      "durationH": 17,
+      "link": "/search/EVN1608LED1?t=SU16606440001660706400001040EVNMCXLED_9ceb4adddaa677eff1b41d112a23e9f7_13500&search_date=20062022&expected_price_uuid=eb2e5a1a-1019-4c34-9da7-5efa45a5f2bf&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1579,37 +1612,37 @@ window.data = {
       "link": "/search/EVN2307LED2?t=SU16585704001658632800001040EVNMCXLED_28927f6862dfd8808689c9969bad436c_26830&search_date=20062022&expected_price_uuid=94953e3d-1789-4202-a1ce-767825c01072&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
+      "route": "EVN-LED",
       "origin": "EVN",
-      "destination": "MOW",
-      "price": 218,
-      "departure_at": "2022-08-12T20:05:00+04:00",
-      "transfers": 1,
-      "duration": 1400,
-      "durationH": 23,
-      "link": "/search/EVN1208MOW1?t=DP16603203001660404300001400EVNMRVVKO_d6756625890adf587055fa68dd49b2ae_12880&search_date=20062022&expected_price_uuid=bf1ecd95-0f4d-4e85-9904-b6957629380b&expected_price_currency=rub"
+      "destination": "LED",
+      "price": 224,
+      "departure_at": "2022-08-02T02:45:00+04:00",
+      "transfers": 2,
+      "duration": 1090,
+      "durationH": 18,
+      "link": "/search/EVN0208LED1?t=N416593939001659459300001090EVNMRVSVOLED_44edf7aecdab391af3685980d5b7dca2_13198&search_date=20062022&expected_price_uuid=59a6baa5-f77a-42e1-af76-12ed196e259b&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
+      "route": "EVN-LED",
       "origin": "EVN",
-      "destination": "MOW",
-      "price": 210,
-      "departure_at": "2022-08-18T19:40:00+04:00",
+      "destination": "LED",
+      "price": 228,
+      "departure_at": "2022-07-26T02:45:00+04:00",
       "transfers": 1,
-      "duration": 1425,
+      "duration": 1420,
       "durationH": 24,
-      "link": "/search/EVN1808MOW1?t=DP16608372001660922700001425EVNMRVVKO_369f418c34f5b3ec51b4cb6d1c42b958_12380&search_date=20062022&expected_price_uuid=fc939355-777f-4629-8731-812bbbe83475&expected_price_currency=rub"
+      "link": "/search/EVN2607LED1?t=5N16587891001658874300001420EVNMRVLED_abfceef6faf9ec76de22893091cbead8_13446&search_date=20062022&expected_price_uuid=8c9ca870-7f3d-45ec-a920-7bd4026433e1&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
+      "route": "EVN-LED",
       "origin": "EVN",
-      "destination": "MOW",
-      "price": 218,
-      "departure_at": "2022-08-11T19:40:00+04:00",
+      "destination": "LED",
+      "price": 228,
+      "departure_at": "2022-07-19T02:45:00+04:00",
       "transfers": 1,
-      "duration": 1425,
+      "duration": 1420,
       "durationH": 24,
-      "link": "/search/EVN1108MOW1?t=DP16602324001660317900001425EVNMRVVKO_082ed0b1b8dead32781c61d4b10efe5a_12880&search_date=20062022&expected_price_uuid=998fa501-7bbb-40a1-b39b-0cccac955eac&expected_price_currency=rub"
+      "link": "/search/EVN1907LED1?t=5N16581843001658269500001420EVNMRVLED_ea9515a71f738fcbfc7ef854836ad13e_13446&search_date=20062022&expected_price_uuid=7f3f0d39-8ced-4e64-b1ad-83d6414fa869&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
@@ -1626,78 +1659,23 @@ window.data = {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 234,
-      "departure_at": "2022-08-07T10:45:00+04:00",
+      "price": 218,
+      "departure_at": "2022-07-29T20:05:00+04:00",
       "transfers": 1,
-      "duration": 410,
-      "durationH": 7,
-      "link": "/search/EVN0708MOW2?t=SU16598547001659879300000410EVNAERSVO_a9fdb03a49813e84a303607f6aeefacd_27642&search_date=20062022&expected_price_uuid=f57d0d05-7a72-4202-8dc8-9a5b2f6e1101&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 244,
-      "departure_at": "2022-07-15T14:40:00+04:00",
-      "transfers": 1,
-      "duration": 575,
-      "durationH": 10,
-      "link": "/search/EVN1507LED1?t=WZ16578816001657916100000575EVNZIAVKOLED_51ac402917a84ae5ad5408ff0efd1292_14418&search_date=20062022&expected_price_uuid=ec24a7c7-bc45-4e5c-a0d7-76ac3b17df39&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 235,
-      "departure_at": "2022-08-31T11:25:00+04:00",
-      "transfers": 1,
-      "duration": 850,
-      "durationH": 14,
-      "link": "/search/EVN3108LED1?t=5N16619307001661981700000850EVNMRVLED_043a7692080357bedf53ed1736126e02_13867&search_date=20062022&expected_price_uuid=616dca13-dde9-4a64-b9f3-59f7a5a00873&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 237,
-      "departure_at": "2022-09-04T19:00:00+04:00",
-      "transfers": 1,
-      "duration": 1035,
-      "durationH": 17,
-      "link": "/search/EVN0409LED1?t=DP16623036001662365700001035EVNAERLED_6833227deeb37732edf40841487af9b6_13976&search_date=20062022&expected_price_uuid=0beaa0e5-7fb9-4737-a41f-cce546e130a0&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 233,
-      "departure_at": "2022-07-14T01:25:00+04:00",
-      "transfers": 1,
-      "duration": 1180,
-      "durationH": 20,
-      "link": "/search/EVN1407LED1?t=UT16577475001657818300001180EVNVKOLED_9e94af30c089ff9ad0fa5f9f023d3340_13758&search_date=20062022&expected_price_uuid=56f75435-da47-4b70-ba70-6372913fdb85&expected_price_currency=rub"
+      "duration": 1555,
+      "durationH": 26,
+      "link": "/search/EVN2907MOW1?t=DP16591107001659204000001555EVNMRVVKO_9a840ab820b5b7bc5a1d2f8bf56d889e_12880&search_date=20062022&expected_price_uuid=7c7a9024-d580-4f2a-902e-1098434e6781&expected_price_currency=rub"
     },
     {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
-      "price": 230,
-      "departure_at": "2022-08-15T15:40:00+04:00",
+      "price": 231,
+      "departure_at": "2022-08-14T11:10:00+04:00",
       "transfers": 1,
-      "duration": 1345,
-      "durationH": 22,
-      "link": "/search/EVN1508MOW1?t=DP16605636001660644300001345EVNMRVVKO_8573765d7861af5a62185add03395728_13575&search_date=20062022&expected_price_uuid=d0ac0152-b5e9-4397-85f3-75ec9e5768ec&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 232,
-      "departure_at": "2022-08-13T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1630,
+      "duration": 1615,
       "durationH": 27,
-      "link": "/search/EVN1308MOW1?t=I816603848001660482600001630EVNMCXDME_d08fdb955fda9737bd615b132d9654f1_13691&search_date=20062022&expected_price_uuid=e349a28e-305b-4f6d-9a4d-94e64394e2e2&expected_price_currency=rub"
+      "link": "/search/EVN1408MOW1?t=DP16604610001660557900001615EVNMRVVKO_9eaccd3cf3f43450c1510b6ebbf34cca_13636&search_date=20062022&expected_price_uuid=dea65c7d-bcc6-4157-be30-0c82cbbd0c12&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1714,12 +1692,45 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 224,
-      "departure_at": "2022-08-16T14:00:00+04:00",
+      "price": 227,
+      "departure_at": "2022-09-04T09:45:00+04:00",
       "transfers": 1,
-      "duration": 1640,
-      "durationH": 27,
-      "link": "/search/EVN1608LED1?t=DP16606440001660742400001640EVNMCXLED_f8ea8748c0be25e5db2f9d3e3da2de1e_13197&search_date=20062022&expected_price_uuid=75be6597-24c0-47ee-9c8a-42e93edb44de&expected_price_currency=rub"
+      "duration": 2145,
+      "durationH": 36,
+      "link": "/search/EVN0409LED1?t=5N16622703001662399000002145EVNAERLED_9c56cccafe05bfeb398618b0f763eead_13370&search_date=20062022&expected_price_uuid=aa48d8e9-24b7-4c71-809e-dc7b06afecfd&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 244,
+      "departure_at": "2022-07-15T14:40:00+04:00",
+      "transfers": 1,
+      "duration": 575,
+      "durationH": 10,
+      "link": "/search/EVN1507LED1?t=WZ16578816001657916100000575EVNZIAVKOLED_51ac402917a84ae5ad5408ff0efd1292_14418&search_date=20062022&expected_price_uuid=ec24a7c7-bc45-4e5c-a0d7-76ac3b17df39&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 240,
+      "departure_at": "2022-09-02T13:35:00+04:00",
+      "transfers": 1,
+      "duration": 720,
+      "durationH": 12,
+      "link": "/search/EVN0209LED2?t=5N16621113001662154500000720EVNMRVLED_7eaf0116c42a802343108963d7eba7a7_28343&search_date=20062022&expected_price_uuid=8f08e921-67c2-4f9a-8722-0876186402bd&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 233,
+      "departure_at": "2022-07-14T01:25:00+04:00",
+      "transfers": 1,
+      "duration": 1180,
+      "durationH": 20,
+      "link": "/search/EVN1407LED2?t=UT16577475001657818300001180EVNVKOLED_9e94af30c089ff9ad0fa5f9f023d3340_27516&search_date=20062022&expected_price_uuid=d3628461-2ab6-4f33-85f6-031580cb8d2d&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1755,6 +1766,17 @@ window.data = {
       "link": "/search/EVN1807LED1?t=SU16581309001658166600000595EVNMRVSVOLED_c563badcbfd7b1b330d757786dae92a1_14251&search_date=20062022&expected_price_uuid=7a864633-b787-47f7-aa57-d4988233144a&expected_price_currency=rub"
     },
     {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 237,
+      "departure_at": "2022-07-22T13:35:00+04:00",
+      "transfers": 1,
+      "duration": 620,
+      "durationH": 10,
+      "link": "/search/EVN2207MOW2?t=5N16584825001658519700000620EVNMRVSVO_e89f536445b6fb050fa23bdf7187978c_27956&search_date=20062022&expected_price_uuid=8f3a5d87-86ad-4b8d-a68f-b6ed3ff15859&expected_price_currency=rub"
+    },
+    {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
@@ -1774,18 +1796,7 @@ window.data = {
       "transfers": 2,
       "duration": 675,
       "durationH": 11,
-      "link": "/search/EVN2707LED1?t=SU16589256001658966100000675EVNKUFSVOLED_03904ee2638615ea9017cd70c5079ec2_14678&search_date=20062022&expected_price_uuid=52478333-0c45-45a0-9590-f33c86628e9b&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 240,
-      "departure_at": "2022-09-02T13:35:00+04:00",
-      "transfers": 1,
-      "duration": 720,
-      "durationH": 12,
-      "link": "/search/EVN0209LED2?t=5N16621113001662154500000720EVNMRVLED_7eaf0116c42a802343108963d7eba7a7_28343&search_date=20062022&expected_price_uuid=8f08e921-67c2-4f9a-8722-0876186402bd&expected_price_currency=rub"
+      "link": "/search/EVN2707LED1?t=SU16589256001658966100000675EVNKUFSVOLED_03904ee2638615ea9017cd70c5079ec2_14678&search_date=20062022&expected_price_uuid=7cf5df30-a6b7-4ecc-9eb3-873ae029d69d&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1807,7 +1818,7 @@ window.data = {
       "transfers": 2,
       "duration": 845,
       "durationH": 14,
-      "link": "/search/EVN3007LED1?t=SU16592109001659261600000845EVNMRVSVOLED_176138ee09fa345d582ed399d1be8eea_14251&search_date=20062022&expected_price_uuid=5d5f7e0e-0def-4261-b16d-abab254fde16&expected_price_currency=rub"
+      "link": "/search/EVN3007LED1?t=SU16592109001659261600000845EVNMRVSVOLED_176138ee09fa345d582ed399d1be8eea_14251&search_date=20062022&expected_price_uuid=827acb00-9921-493e-be86-cf5b1b9797bc&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1821,37 +1832,70 @@ window.data = {
       "link": "/search/EVN0608LED1?t=SU16598157001659867600000865EVNMRVSVOLED_5e7095abd7b5113d7b4c438831f3532e_14251&search_date=20062022&expected_price_uuid=b4bb49d2-7805-47c6-a2dc-504be6116bb6&expected_price_currency=rub"
     },
     {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 230,
+      "departure_at": "2022-08-09T11:10:00+04:00",
+      "transfers": 2,
+      "duration": 1425,
+      "durationH": 24,
+      "link": "/search/EVN0908LED1?t=DP16600290001660114500001425EVNMRVVKOLED_7f924b0d19e6e5a15646717f59cfce3c_13552&search_date=20062022&expected_price_uuid=86c8a94c-f2a0-4d67-ada2-ee039c2a80d0&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 247,
+      "departure_at": "2022-08-27T14:00:00+04:00",
+      "transfers": 1,
+      "duration": 1040,
+      "durationH": 17,
+      "link": "/search/EVN2708LED1?t=SU16615944001661656800001040EVNMCXLED_40be3929622d0d892766b73dee9695c2_14580&search_date=20062022&expected_price_uuid=b2609b73-958f-42f5-861d-c0a034e4713a&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 249,
+      "departure_at": "2022-07-20T16:40:00+04:00",
+      "transfers": 2,
+      "duration": 1130,
+      "durationH": 19,
+      "link": "/search/EVN2007LED1?t=SU16583208001658388600001130EVNKUFSVOLED_fb663d097cff234cf0e875cce3ae7689_14678&search_date=20062022&expected_price_uuid=b865b1db-295e-4620-8d51-420f5877de28&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 246,
+      "departure_at": "2022-08-12T13:35:00+04:00",
+      "transfers": 2,
+      "duration": 1280,
+      "durationH": 21,
+      "link": "/search/EVN1208LED1?t=DP16602969001660373700001280EVNMRVVKOLED_bbb8c89379bea0d9ae5ae45ffd8cfd68_14531&search_date=20062022&expected_price_uuid=7c1decbc-2d4e-407d-a1ae-8684502d0465&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 234,
+      "departure_at": "2022-08-21T10:45:00+04:00",
+      "transfers": 1,
+      "duration": 1475,
+      "durationH": 25,
+      "link": "/search/EVN2108MOW3?t=SU16610643001661152800001475EVNAERSVO_ae3b3d649675fce79a4ebb22bfa84d25_41463&search_date=20062022&expected_price_uuid=e4b9dca7-866c-4c53-a628-3f8cf453987d&expected_price_currency=rub"
+    },
+    {
       "route": "EVN-MOW",
       "origin": "EVN",
       "destination": "MOW",
       "price": 236,
-      "departure_at": "2022-07-22T20:45:00+04:00",
+      "departure_at": "2022-08-11T19:40:00+04:00",
       "transfers": 1,
-      "duration": 1285,
-      "durationH": 21,
-      "link": "/search/EVN2207MOW1?t=SU16585083001658585400001285EVNMRVSVO_17013703d3ce8f567a84fe446f037a33_13910&search_date=20062022&expected_price_uuid=c7a86b0d-bccb-4f13-aa44-de2b3d8699a1&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 235,
-      "departure_at": "2022-07-29T20:05:00+04:00",
-      "transfers": 1,
-      "duration": 1385,
-      "durationH": 23,
-      "link": "/search/EVN2907MOW2?t=Y716591107001659193800001385EVNMRVDME_7fd247f23b1bdac86d71a010a891c845_27715&search_date=20062022&expected_price_uuid=f56bfa50-b774-483d-9c49-6c56fa7ccc3a&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-MOW",
-      "origin": "EVN",
-      "destination": "MOW",
-      "price": 230,
-      "departure_at": "2022-08-22T15:40:00+04:00",
-      "transfers": 1,
-      "duration": 1665,
+      "duration": 1700,
       "durationH": 28,
-      "link": "/search/EVN2208MOW1?t=DP16611684001661268300001665EVNMRVVKO_95a2b6e09eab2666ac465eaca0009f8f_13575&search_date=20062022&expected_price_uuid=f0a63595-1104-446f-8896-ca097f3022d0&expected_price_currency=rub"
+      "link": "/search/EVN1108MOW2?t=N416602324001660334400001700EVNMRVSVO_360b3d843de87c45ef251c3b857da7f0_27894&search_date=20062022&expected_price_uuid=3fb0e13d-0f45-4d6f-bc4a-408cc8b8854b&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1865,15 +1909,26 @@ window.data = {
       "link": "/search/EVN2308LED1?t=DP16612083001661324100001930EVNMRVVKOLED_e88f596d52fc25c506ea5911865dc017_13552&search_date=20062022&expected_price_uuid=fdb9c502-b111-4cf7-9503-85ee46594849&expected_price_currency=rub"
     },
     {
-      "route": "EVN-LED",
+      "route": "EVN-MOW",
       "origin": "EVN",
-      "destination": "LED",
+      "destination": "MOW",
       "price": 230,
-      "departure_at": "2022-08-09T02:45:00+04:00",
-      "transfers": 2,
-      "duration": 1930,
-      "durationH": 32,
-      "link": "/search/EVN0908LED1?t=DP16599987001660114500001930EVNMRVVKOLED_ccf9742e1dd6650bc30328ca6dca2917_13552&search_date=20062022&expected_price_uuid=b38a27f3-bb93-4bee-8a4d-1ac2462dd870&expected_price_currency=rub"
+      "departure_at": "2022-08-29T15:40:00+04:00",
+      "transfers": 1,
+      "duration": 1995,
+      "durationH": 33,
+      "link": "/search/EVN2908MOW1?t=DP16617732001661892900001995EVNMRVVKO_0e890b893ebc78b9e357a0d27ce67fe9_13575&search_date=20062022&expected_price_uuid=54baecf2-1c59-48e8-85d8-21fd1205566e&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-MOW",
+      "origin": "EVN",
+      "destination": "MOW",
+      "price": 230,
+      "departure_at": "2022-08-15T15:40:00+04:00",
+      "transfers": 1,
+      "duration": 1995,
+      "durationH": 33,
+      "link": "/search/EVN1508MOW1?t=DP16605636001660683300001995EVNMRVVKO_fe90af5173c9ba25d4d25860efb00526_13575&search_date=20062022&expected_price_uuid=96e4a950-2d48-4821-9006-1b293841796f&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1901,23 +1956,12 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 246,
-      "departure_at": "2022-08-12T13:35:00+04:00",
-      "transfers": 2,
-      "duration": 1280,
-      "durationH": 21,
-      "link": "/search/EVN1208LED1?t=DP16602969001660373700001280EVNMRVVKOLED_bbb8c89379bea0d9ae5ae45ffd8cfd68_14531&search_date=20062022&expected_price_uuid=7c1decbc-2d4e-407d-a1ae-8684502d0465&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
       "price": 268,
       "departure_at": "2022-08-13T17:05:00+04:00",
       "transfers": 0,
       "duration": 260,
       "durationH": 4,
-      "link": "/search/EVN1308LED2?t=UT16603959001660411500000260EVNLED_538dac77401fbfa1408ea267094d61c6_31626&search_date=20062022&expected_price_uuid=46c7a448-4bfd-4de4-98f5-d180bbd38260&expected_price_currency=rub"
+      "link": "/search/EVN1308LED1?t=UT16603959001660411500000260EVNLED_538dac77401fbfa1408ea267094d61c6_15813&search_date=20062022&expected_price_uuid=eed0e661-aa88-4bd9-971e-09a798471e72&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1931,15 +1975,15 @@ window.data = {
       "link": "/search/EVN2208LED2?t=5N16611684001661204100000595EVNMRVLED_44faf95703e792ad60cb31ec2ee61aad_30684&search_date=20062022&expected_price_uuid=c9feb35c-0aec-4fda-9638-f8075f84de88&expected_price_currency=rub"
     },
     {
-      "route": "EVN-MOW",
+      "route": "EVN-LED",
       "origin": "EVN",
-      "destination": "MOW",
-      "price": 248,
-      "departure_at": "2022-08-26T13:35:00+04:00",
+      "destination": "LED",
+      "price": 278,
+      "departure_at": "2022-07-24T12:40:00+04:00",
       "transfers": 1,
-      "duration": 680,
-      "durationH": 11,
-      "link": "/search/EVN2608MOW2?t=DP16615065001661547300000680EVNMRVVKO_0d7c1b06a2cf7ef5ba7213f02b87aa31_29238&search_date=20062022&expected_price_uuid=f292b215-2b2a-4735-b34e-3aefb25af939&expected_price_currency=rub"
+      "duration": 555,
+      "durationH": 9,
+      "link": "/search/EVN2407LED1?t=WZ16586520001658685300000555EVNDMELED_18f96249562131a049230512ae6fd872_16389&search_date=20062022&expected_price_uuid=f969abe2-7b26-40f4-a449-51d9c19f3b85&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1956,6 +2000,17 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
+      "price": 266,
+      "departure_at": "2022-07-17T22:25:00+04:00",
+      "transfers": 1,
+      "duration": 600,
+      "durationH": 10,
+      "link": "/search/EVN1707LED1?t=WZ16580823001658118300000600EVNDMESVOLED_4dd651559c98fb61b1e6f56ba138cb3f_15682&search_date=20062022&expected_price_uuid=2e14e648-50d4-4e69-99ba-7ac7401f4135&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
       "price": 256,
       "departure_at": "2022-08-19T13:35:00+04:00",
       "transfers": 1,
@@ -1967,12 +2022,12 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 261,
+      "price": 257,
       "departure_at": "2022-07-29T13:35:00+04:00",
       "transfers": 1,
       "duration": 720,
       "durationH": 12,
-      "link": "/search/EVN2907LED1?t=5N16590873001659130500000720EVNMRVLED_3133e7c91e36fc73e605e031da024800_15413&search_date=20062022&expected_price_uuid=d1c8d1ad-d08b-4e86-a1af-8b45cb39234f&expected_price_currency=rub"
+      "link": "/search/EVN2907LED1?t=5N16590873001659130500000720EVNMRVLED_3133e7c91e36fc73e605e031da024800_15143&search_date=20062022&expected_price_uuid=ab22eba5-466c-4bb3-84c2-14dc91ef5b2d&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -1984,17 +2039,6 @@ window.data = {
       "duration": 765,
       "durationH": 13,
       "link": "/search/EVN2408LED1?t=DP16613259001661371800000765EVNMRVLED_ffa6a97b42fb18b6d9106e288e334758_14850&search_date=20062022&expected_price_uuid=aa493baa-8c5e-4ac8-80cb-5b18f7e66e76&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 247,
-      "departure_at": "2022-08-27T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1040,
-      "durationH": 17,
-      "link": "/search/EVN2708LED1?t=SU16615944001661656800001040EVNMCXLED_40be3929622d0d892766b73dee9695c2_14580&search_date=20062022&expected_price_uuid=a9dc4405-07c2-4540-b6d7-b15918334d29&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -2012,55 +2056,11 @@ window.data = {
       "origin": "EVN",
       "destination": "LED",
       "price": 249,
-      "departure_at": "2022-07-19T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1040,
-      "durationH": 17,
-      "link": "/search/EVN1907LED1?t=SU16582248001658287200001040EVNMCXLED_5c72210c84d6dd063a1e23cfc0dadacc_14680&search_date=20062022&expected_price_uuid=88298382-1db2-46d9-bf9c-9d0b70a5fd21&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 249,
       "departure_at": "2022-08-03T16:40:00+04:00",
       "transfers": 2,
       "duration": 1130,
       "durationH": 19,
       "link": "/search/EVN0308LED1?t=SU16595304001659598200001130EVNKUFSVOLED_b44c16b1a31738417c4cca65cf1e1c05_14678&search_date=20062022&expected_price_uuid=6a39baa7-db8e-4411-b016-29f4a6cfaee0&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 249,
-      "departure_at": "2022-07-20T16:40:00+04:00",
-      "transfers": 2,
-      "duration": 1130,
-      "durationH": 19,
-      "link": "/search/EVN2007LED1?t=SU16583208001658388600001130EVNKUFSVOLED_fb663d097cff234cf0e875cce3ae7689_14678&search_date=20062022&expected_price_uuid=b865b1db-295e-4620-8d51-420f5877de28&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 251,
-      "departure_at": "2022-08-20T14:00:00+04:00",
-      "transfers": 2,
-      "duration": 1250,
-      "durationH": 21,
-      "link": "/search/EVN2008LED1?t=SU16609896001661064600001250EVNMCXSVOLED_c81ea1745686cceddb8e6cad6bb39da0_14820&search_date=20062022&expected_price_uuid=5f277840-c891-40c3-9232-258a33a389d0&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 246,
-      "departure_at": "2022-08-26T13:35:00+04:00",
-      "transfers": 2,
-      "duration": 1280,
-      "durationH": 21,
-      "link": "/search/EVN2608LED1?t=DP16615065001661583300001280EVNMRVVKOLED_ccc216ee1da1ddccf346d4daffc84a60_14531&search_date=20062022&expected_price_uuid=358fba7b-ed2e-4db8-aeb8-f9bbbcc0b2ce&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -2077,45 +2077,34 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 252,
-      "departure_at": "2022-08-02T02:45:00+04:00",
-      "transfers": 1,
-      "duration": 1420,
-      "durationH": 24,
-      "link": "/search/EVN0208LED1?t=5N16593939001659479100001420EVNMRVLED_445487d298e621983c999e5af505fde3_14882&search_date=20062022&expected_price_uuid=02880c31-e26e-46ba-9006-bd6ccbb233aa&expected_price_currency=rub"
+      "price": 258,
+      "departure_at": "2022-08-26T13:35:00+04:00",
+      "transfers": 2,
+      "duration": 1280,
+      "durationH": 21,
+      "link": "/search/EVN2608LED3?t=DP16615065001661583300001280EVNMRVVKOLED_ccc216ee1da1ddccf346d4daffc84a60_45705&search_date=20062022&expected_price_uuid=ae0cb808-19d9-4460-80a9-bfbbebd142a3&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 278,
-      "departure_at": "2022-07-24T12:40:00+04:00",
-      "transfers": 1,
-      "duration": 555,
-      "durationH": 9,
-      "link": "/search/EVN2407LED1?t=WZ16586520001658685300000555EVNDMELED_18f96249562131a049230512ae6fd872_16389&search_date=20062022&expected_price_uuid=f969abe2-7b26-40f4-a449-51d9c19f3b85&expected_price_currency=rub"
+      "price": 251,
+      "departure_at": "2022-08-20T14:00:00+04:00",
+      "transfers": 2,
+      "duration": 1385,
+      "durationH": 23,
+      "link": "/search/EVN2008LED1?t=SU16609896001661072700001385EVNMCXSVOLED_18d52aed0d38d3b424645447b3d6d15b_14820&search_date=20062022&expected_price_uuid=99f1984c-1913-476a-8864-dbdebd269c49&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 266,
-      "departure_at": "2022-07-17T22:25:00+04:00",
+      "price": 258,
+      "departure_at": "2022-08-31T10:00:00+04:00",
       "transfers": 1,
-      "duration": 600,
-      "durationH": 10,
-      "link": "/search/EVN1707LED1?t=WZ16580823001658118300000600EVNDMESVOLED_4dd651559c98fb61b1e6f56ba138cb3f_15682&search_date=20062022&expected_price_uuid=2e14e648-50d4-4e69-99ba-7ac7401f4135&expected_price_currency=rub"
-    },
-    {
-      "route": "EVN-LED",
-      "origin": "EVN",
-      "destination": "LED",
-      "price": 264,
-      "departure_at": "2022-07-26T14:00:00+04:00",
-      "transfers": 1,
-      "duration": 1040,
-      "durationH": 17,
-      "link": "/search/EVN2607LED1?t=SU16588296001658892000001040EVNMCXLED_f286ebbb34941075c01ce8398a940e14_15570&search_date=20062022&expected_price_uuid=1768dabf-730c-4df2-97e0-92249ccc9743&expected_price_currency=rub"
+      "duration": 2130,
+      "durationH": 36,
+      "link": "/search/EVN3108LED1?t=5N16619256001662053400002130EVNAERLED_dddfce4d327a0264ef9838b8902b7b60_15210&search_date=20062022&expected_price_uuid=cf170347-4ca7-436f-8ee0-226e5864d9c6&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -2126,7 +2115,18 @@ window.data = {
       "transfers": 0,
       "duration": 265,
       "durationH": 4,
-      "link": "/search/EVN2107LED1?t=SU16584090001658424900000265EVNLED_663e7bdc6d74371e59ffe4abe2eb8e23_16636&search_date=20062022&expected_price_uuid=10d9eb36-94f3-4c8b-9107-3e7700c8b78f&expected_price_currency=rub"
+      "link": "/search/EVN2107LED1?t=SU16584090001658424900000265EVNLED_663e7bdc6d74371e59ffe4abe2eb8e23_16636&search_date=20062022&expected_price_uuid=f352bfd1-93b6-437d-b1a2-afb55862d7fe&expected_price_currency=rub"
+    },
+    {
+      "route": "EVN-LED",
+      "origin": "EVN",
+      "destination": "LED",
+      "price": 287,
+      "departure_at": "2022-07-01T14:15:00+04:00",
+      "transfers": 0,
+      "duration": 265,
+      "durationH": 4,
+      "link": "/search/EVN0107LED1?t=SU16566705001656686400000265EVNLED_98912d2cd9037c24cb4b5ba4abd9fb0e_16920&search_date=20062022&expected_price_uuid=9ae01516-0c70-4127-a3bf-ca9c24e6d7bd&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -2143,12 +2143,12 @@ window.data = {
       "route": "EVN-LED",
       "origin": "EVN",
       "destination": "LED",
-      "price": 270,
+      "price": 269,
       "departure_at": "2022-08-17T07:50:00+04:00",
       "transfers": 2,
       "duration": 660,
       "durationH": 11,
-      "link": "/search/EVN1708LED5?t=SU16607082001660747800000660EVNAERSVOLED_95cd74c5f5408ca19841222243ad817b_79670&search_date=20062022&expected_price_uuid=f90afca6-b32c-4ab7-b419-25fd0a9315f3&expected_price_currency=rub"
+      "link": "/search/EVN1708LED1?t=SU16607082001660747800000660EVNAERSVOLED_95cd74c5f5408ca19841222243ad817b_15879&search_date=20062022&expected_price_uuid=7f2df2c3-36be-4627-85e2-63f2ffef55ab&expected_price_currency=rub"
     },
     {
       "route": "EVN-LED",
@@ -2236,7 +2236,7 @@ window.data = {
       "transfers": 1,
       "duration": 1180,
       "durationH": 20,
-      "link": "/search/EVN2807LED1?t=UT16589571001659027900001180EVNVKOLED_09d1db8ccca9ba1c3ebfa8233b7b7358_17298&search_date=20062022&expected_price_uuid=6b139443-b5e3-4c11-942d-885778615522&expected_price_currency=rub"
+      "link": "/search/EVN2807LED1?t=UT16589571001659027900001180EVNVKOLED_09d1db8ccca9ba1c3ebfa8233b7b7358_17298&search_date=20062022&expected_price_uuid=69fdba8a-ea0e-4303-a47a-b796f076a5ff&expected_price_currency=rub"
     }
   ]
 }
