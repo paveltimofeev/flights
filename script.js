@@ -39,6 +39,7 @@ function onCellClick (cellEl, idx) {
   if (!isMobile) {
     window.open('https://www.aviasales.ru' + link, '_blank').focus();
     cellEl.classList.add('cell--clicked');
+    ym(89225289,'reachGoal','OPEN')
   }
   else {
     
@@ -61,6 +62,7 @@ function onCellClick (cellEl, idx) {
 function onMobileOpenButtonClick () {
   if (mobileSelectedLink) {
      window.open('https://www.aviasales.ru' + mobileSelectedLink, '_blank').focus();
+     ym(89225289,'reachGoal','OPEN')
   }
   if (mobileSelectedCell) {
     mobileSelectedCell.classList.add('cell--clicked');
