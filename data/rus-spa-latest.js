@@ -1,5 +1,5 @@
 window.data = {
-  "date": "2022-06-20T07:38:09.598Z",
+  "date": "2022-06-20T08:22:39.845Z",
   "params": {
     "from": [
       "LED",
@@ -25,7 +25,7 @@ window.data = {
     },
     "dateRange": {
       "days": 100,
-      "since": "2022-06-20T07:35:19.252Z"
+      "since": "2022-06-20T08:19:47.840Z"
     },
     "currency": "eur",
     "request": {
@@ -44,10 +44,21 @@ window.data = {
     "minDuration": 545,
     "maxDuration": 4315,
     "maxTransfers": 4,
-    "failedRequests": 522,
+    "failedRequests": 521,
     "totalRequests": 1200
   },
   "results": [
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 296,
+      "departure_at": "2022-09-11T09:45:00+03:00",
+      "transfers": 2,
+      "duration": 1730,
+      "durationH": 29,
+      "link": "/search/MOW1109BCN1?t=PC16628787001662982500001730VKOKRRSAWBCN_a5002723b3f609833da91ac948c1ff13_17839&search_date=20062022&expected_price_uuid=889e20e3-ce6c-481f-9a72-5c65b58238d7&expected_price_currency=rub"
+    },
     {
       "route": "MOW-MAD",
       "origin": "MOW",
@@ -55,9 +66,9 @@ window.data = {
       "price": 285,
       "departure_at": "2022-09-08T09:45:00+03:00",
       "transfers": 2,
-      "duration": 3195,
-      "durationH": 53,
-      "link": "/search/MOW0809MAD1?t=PC16626195001662811200003195VKOKRRSAWMAD_51ace398c29070fcca76a795c2b22621_17202&search_date=20062022&expected_price_uuid=b6fa1efc-c583-45ec-aa05-508f0c5970ff&expected_price_currency=rub"
+      "duration": 1755,
+      "durationH": 29,
+      "link": "/search/MOW0809MAD1?t=PC16626195001662724800001755VKOKRRSAWMAD_cff51fdf4c095080a3ce140dcceb78e3_17202&search_date=20062022&expected_price_uuid=8452b26f-55a0-486c-8fc1-f019e8569e66&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -79,7 +90,7 @@ window.data = {
       "transfers": 1,
       "duration": 720,
       "durationH": 12,
-      "link": "/search/MOW1609MAD1?t=AT16633029001663346100000720DMECMNMAD_e217a1087251b40835d2fa1775e5ffa4_20490&search_date=19062022&expected_price_uuid=4bcf664b-55c5-43b6-9971-78133f8e31e1&expected_price_currency=rub"
+      "link": "/search/MOW1609MAD1?t=AT16633029001663346100000720DMECMNMAD_e217a1087251b40835d2fa1775e5ffa4_20540&search_date=20062022&expected_price_uuid=15d80055-57ca-4efb-9934-cea64679e02b&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -108,22 +119,11 @@ window.data = {
       "origin": "MOW",
       "destination": "BCN",
       "price": 344,
-      "departure_at": "2022-09-10T10:50:00+03:00",
-      "transfers": 2,
-      "duration": 1665,
-      "durationH": 28,
-      "link": "/search/MOW1009BCN1?t=PC16627962001662896100001665VKOKRRSAWBCN_6873473990dbe782731517a45caa7f12_20758&search_date=20062022&expected_price_uuid=11174781-e7c1-4182-8955-da8962bd08bf&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 344,
       "departure_at": "2022-09-08T10:50:00+03:00",
       "transfers": 2,
       "duration": 1665,
       "durationH": 28,
-      "link": "/search/MOW0809BCN1?t=PC16626234001662723300001665VKOKRRSAWBCN_fa4a4da5b64c997f91ba3c9d5fe9533c_20758&search_date=20062022&expected_price_uuid=f36ed122-e546-4727-84e6-7c26e3812c25&expected_price_currency=rub"
+      "link": "/search/MOW0809BCN1?t=PC16626234001662723300001665VKOKRRSAWBCN_fa4a4da5b64c997f91ba3c9d5fe9533c_20758&search_date=20062022&expected_price_uuid=bf07d500-6cff-4e18-97b2-09f9f609cd73&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -159,15 +159,15 @@ window.data = {
       "link": "/search/LED2009BCN2?t=SU16636620001663760100001635LEDSVOISTSAWBCN_4c6baf58e1f87dacc48686f14b25849d_44594&search_date=19062022&expected_price_uuid=1cffe34f-2da2-4d0b-adcd-c5fbcdfe4879&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
+      "route": "MOW-BCN",
       "origin": "MOW",
-      "destination": "AGP",
-      "price": 388,
-      "departure_at": "2022-09-23T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 750,
-      "durationH": 13,
-      "link": "/search/MOW2309AGP1?t=AT16639077001663952700000750DMECMNAGP_20610a8dd6d1ed949d11aacea1d84571_23390&search_date=19062022&expected_price_uuid=9561cac8-eedc-4dee-b809-7befb1245b27&expected_price_currency=rub"
+      "destination": "BCN",
+      "price": 368,
+      "departure_at": "2022-09-21T16:40:00+03:00",
+      "transfers": 2,
+      "duration": 1915,
+      "durationH": 32,
+      "link": "/search/MOW2109BCN1?t=SU16637676001663882500001915SVOISTSAWARNBCN_cd2ab1ba41dde0e3a696eda808dd3094_22218&search_date=20062022&expected_price_uuid=5e36f87b-90bf-4081-b12f-8ee97f6efd53&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -190,6 +190,17 @@ window.data = {
       "duration": 1705,
       "durationH": 28,
       "link": "/search/MOW2009MAD1?t=SU16636812001663783500001705SVOISTSAWGVAMAD_e71e384021e88b83c1c51025d4ad1f2f_22672&search_date=19062022&expected_price_uuid=eafe8068-23ed-42a9-a323-a8f12d6bfb7c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 364,
+      "departure_at": "2022-06-21T09:30:00+03:00",
+      "transfers": 3,
+      "duration": 1805,
+      "durationH": 30,
+      "link": "/search/MOW2106BCN1?t=IO16557930001655901300001805DMEISTSAWCGNPMIBCN_13fb90bdf8221539047ddaf903a156b2_21974&search_date=20062022&expected_price_uuid=fb817515-59b4-40b1-898e-9821d6eeeaf1&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -240,6 +251,17 @@ window.data = {
       "origin": "MOW",
       "destination": "MAD",
       "price": 386,
+      "departure_at": "2022-09-22T16:40:00+03:00",
+      "transfers": 1,
+      "duration": 1325,
+      "durationH": 22,
+      "link": "/search/MOW2209MAD1?t=SU16638540001663933500001325SVOISTSAWMAD_c09aaabe8c19d309dced34e0c2c138c6_23281&search_date=19062022&expected_price_uuid=cdb829b0-fb89-4b84-b621-0b70a6c26669&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 386,
       "departure_at": "2022-09-19T16:40:00+03:00",
       "transfers": 1,
       "duration": 1325,
@@ -269,15 +291,37 @@ window.data = {
       "link": "/search/MOW2809BCN2?t=SU16643724001664473200001680SVOISTSAWGVABCN_d6f69b2996dce6720853e4d9986ac09a_43138&search_date=19062022&expected_price_uuid=1b78e666-dc44-4a93-a10e-95380c1823f6&expected_price_currency=rub"
     },
     {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 350,
+      "departure_at": "2022-09-12T14:50:00+03:00",
+      "transfers": 3,
+      "duration": 1955,
+      "durationH": 33,
+      "link": "/search/LED1209BCN1?t=SU16629834001663100700001955LEDSVOISTSAWZRHBCN_99fc4ec55d6887e91dc3ca0920f8c078_21097&search_date=20062022&expected_price_uuid=d6a625f8-d2a2-4518-9b3d-37c673846c5f&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 376,
-      "departure_at": "2022-07-05T02:55:00+03:00",
+      "price": 344,
+      "departure_at": "2022-09-10T01:55:00+03:00",
       "transfers": 2,
-      "duration": 1260,
-      "durationH": 21,
-      "link": "/search/MOW0507BCN1?t=TK16569789001657054500001260VKOAYTISTBCN_da884e1d077d632de9e2d6b586f28c9e_22705&search_date=20062022&expected_price_uuid=6c40f9cc-aac7-4553-b108-490e54e53c55&expected_price_currency=rub"
+      "duration": 2200,
+      "durationH": 37,
+      "link": "/search/MOW1009BCN1?t=PC16627641001662896100002200VKOKRRSAWBCN_1fe5d7fdc4456aaf0a2f4ae31503b582_20758&search_date=20062022&expected_price_uuid=f6da4b80-86cb-4ddf-8509-79fc7954f968&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 344,
+      "departure_at": "2022-09-05T01:55:00+03:00",
+      "transfers": 2,
+      "duration": 2200,
+      "durationH": 37,
+      "link": "/search/MOW0509BCN1?t=PC16623321001662464100002200VKOKRRSAWBCN_244ae2787121992ade547c56766b1880_20758&search_date=20062022&expected_price_uuid=1e8ba511-2a25-4047-ba98-62b87e2dce70&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -302,28 +346,6 @@ window.data = {
       "link": "/search/MOW2709BCN1?t=SU16642860001664400300001905SVOISTSAWVCEBCN_ea788c0e6a4ba0432647182891a6f46f_21824&search_date=18062022&expected_price_uuid=593b9074-01eb-4b3f-84cb-f6c71de1cb02&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 350,
-      "departure_at": "2022-09-12T14:50:00+03:00",
-      "transfers": 3,
-      "duration": 1955,
-      "durationH": 33,
-      "link": "/search/LED1209BCN1?t=SU16629834001663100700001955LEDSVOISTSAWZRHBCN_99fc4ec55d6887e91dc3ca0920f8c078_21097&search_date=20062022&expected_price_uuid=d6a625f8-d2a2-4518-9b3d-37c673846c5f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 368,
-      "departure_at": "2022-09-21T16:40:00+03:00",
-      "transfers": 2,
-      "duration": 1915,
-      "durationH": 32,
-      "link": "/search/MOW2109BCN1?t=SU16637676001663882500001915SVOISTSAWARNBCN_cd2ab1ba41dde0e3a696eda808dd3094_22218&search_date=20062022&expected_price_uuid=5e36f87b-90bf-4081-b12f-8ee97f6efd53&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
@@ -333,6 +355,17 @@ window.data = {
       "duration": 1915,
       "durationH": 32,
       "link": "/search/MOW1909BCN1?t=SU16635948001663709700001915SVOISTSAWARNBCN_74db5102079b82741045c6afa8c76cd1_22218&search_date=20062022&expected_price_uuid=0d112bf2-408c-4330-af96-78ec14e3fc25&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 379,
+      "departure_at": "2022-09-24T12:00:00+03:00",
+      "transfers": 3,
+      "duration": 2025,
+      "durationH": 34,
+      "link": "/search/LED2409BCN2?t=SU16640100001664131500002025LEDSVOISTSAWSTNLTNBCN_213a62b1c50efc4012d7520d25f612fd_45806&search_date=19062022&expected_price_uuid=5be577bf-3a8a-42fe-86f9-9170df3528f8&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -368,26 +401,48 @@ window.data = {
       "link": "/search/LED1209MAD1?t=SU16629873001663137000002495LEDSVOISTBEGMXPMAD_233443c73a7e637be20e712d5f94e844_21296&search_date=19062022&expected_price_uuid=8b3d7a4c-60be-44bf-9d4b-dcbe426738ad&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
+      "route": "LED-MAD",
+      "origin": "LED",
       "destination": "MAD",
-      "price": 386,
-      "departure_at": "2022-09-22T16:40:00+03:00",
-      "transfers": 1,
-      "duration": 1325,
-      "durationH": 22,
-      "link": "/search/MOW2209MAD1?t=SU16638540001663933500001325SVOISTSAWMAD_c09aaabe8c19d309dced34e0c2c138c6_23281&search_date=19062022&expected_price_uuid=cdb829b0-fb89-4b84-b621-0b70a6c26669&expected_price_currency=rub"
+      "price": 356,
+      "departure_at": "2022-09-25T12:00:00+03:00",
+      "transfers": 4,
+      "duration": 2740,
+      "durationH": 46,
+      "link": "/search/LED2509MAD1?t=SU16640964001664260800002740LEDSVOISTBEGMXPBGYMAD_1c31b3137c9562f414d023732f08eed2_21489&search_date=18062022&expected_price_uuid=24bf4727-3236-4f67-9606-a4edec3d5c8f&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 379,
-      "departure_at": "2022-09-24T12:00:00+03:00",
-      "transfers": 3,
-      "duration": 2025,
-      "durationH": 34,
-      "link": "/search/LED2409BCN2?t=SU16640100001664131500002025LEDSVOISTSAWSTNLTNBCN_213a62b1c50efc4012d7520d25f612fd_45806&search_date=19062022&expected_price_uuid=5be577bf-3a8a-42fe-86f9-9170df3528f8&expected_price_currency=rub"
+      "price": 344,
+      "departure_at": "2022-09-09T10:50:00+03:00",
+      "transfers": 2,
+      "duration": 3105,
+      "durationH": 52,
+      "link": "/search/MOW0909BCN1?t=PC16627098001662896100003105VKOKRRSAWBCN_08df13a0011db6123d21e365fcea921a_20758&search_date=20062022&expected_price_uuid=29d3eda8-9f5e-46cc-a657-4c6ed345f13a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 388,
+      "departure_at": "2022-09-23T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 750,
+      "durationH": 13,
+      "link": "/search/MOW2309AGP1?t=AT16639077001663952700000750DMECMNAGP_20610a8dd6d1ed949d11aacea1d84571_23390&search_date=19062022&expected_price_uuid=9561cac8-eedc-4dee-b809-7befb1245b27&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 378,
+      "departure_at": "2022-09-22T22:50:00+03:00",
+      "transfers": 2,
+      "duration": 2235,
+      "durationH": 37,
+      "link": "/search/MOW2209BCN1?t=SU16638762001664010300002235SVOISTSAWGVABCN_e348aac401cc692ac681edad955f182a_22802&search_date=19062022&expected_price_uuid=225c6918-e110-4675-a71a-2ca1eb559aac&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -401,6 +456,17 @@ window.data = {
       "link": "/search/LED2109MAD1?t=SU16637484001663882500002235LEDSVOISTSAWBGYMAD_4c4daa8de6b43b73f7fffa29dd2e6417_22679&search_date=18062022&expected_price_uuid=95afd9b4-23a2-4421-968f-d51685d5c88e&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 375,
+      "departure_at": "2022-09-25T22:50:00+03:00",
+      "transfers": 2,
+      "duration": 2525,
+      "durationH": 42,
+      "link": "/search/MOW2509MAD1?t=SU16641354001664286900002525SVOISTSAWBSLMAD_38e4f5acb7573a2a7df891c464855fea_22607&search_date=19062022&expected_price_uuid=54551d15-7272-4aac-b11b-e7a679e3183b&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
@@ -412,15 +478,26 @@ window.data = {
       "link": "/search/MOW1809BCN1?t=SU16635084001663662900002575SVOISTSAWARNBCN_bd572d6694ddb8a71da811046502863d_22348&search_date=20062022&expected_price_uuid=02a24289-fe9e-44ca-8b07-5e1ad3ae124f&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 363,
+      "departure_at": "2022-09-25T16:40:00+03:00",
+      "transfers": 2,
+      "duration": 2670,
+      "durationH": 45,
+      "link": "/search/MOW2509BCN1?t=SU16641132001664273400002670SVOISTSAWBSLBCN_8ffd427a16d2ec3a4280f22f6f377746_21894&search_date=20062022&expected_price_uuid=e6511dca-47c1-4374-82b5-5e298d54746e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
       "destination": "MAD",
-      "price": 356,
-      "departure_at": "2022-09-25T12:00:00+03:00",
-      "transfers": 4,
-      "duration": 2740,
-      "durationH": 46,
-      "link": "/search/LED2509MAD1?t=SU16640964001664260800002740LEDSVOISTBEGMXPBGYMAD_1c31b3137c9562f414d023732f08eed2_21489&search_date=18062022&expected_price_uuid=24bf4727-3236-4f67-9606-a4edec3d5c8f&expected_price_currency=rub"
+      "price": 363,
+      "departure_at": "2022-09-26T16:40:00+03:00",
+      "transfers": 2,
+      "duration": 2680,
+      "durationH": 45,
+      "link": "/search/MOW2609MAD1?t=SU16641996001664360400002680SVOISTSAWCRLMAD_4088d063ce5cedc87ba979be5b8af365_21894&search_date=19062022&expected_price_uuid=44ff8306-3e7b-4de9-998c-ffcc0f720c64&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -432,17 +509,6 @@ window.data = {
       "duration": 720,
       "durationH": 12,
       "link": "/search/MOW0909MAD1?t=AT16626981001662741300000720DMECMNMAD_6ab77ad707468cdf4aee89cee82c51a2_24060&search_date=17062022&expected_price_uuid=ed0999c7-5172-47b5-9197-1360d9406421&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 399,
-      "departure_at": "2022-09-09T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 740,
-      "durationH": 12,
-      "link": "/search/MOW0909BCN1?t=AT16626981001662742500000740DMECMNBCN_0982583de6cebc5d4dbe8ab45b3f9302_24060&search_date=19062022&expected_price_uuid=e4cc715c-3fde-4341-b78c-d138ba5a6af2&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -492,6 +558,17 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
+      "price": 395,
+      "departure_at": "2022-09-24T22:50:00+03:00",
+      "transfers": 2,
+      "duration": 1520,
+      "durationH": 25,
+      "link": "/search/MOW2409BCN1?t=SU16640490001664140200001520SVOISTSAWBSLBCN_a47d8d2b43ed0b97dc7207949d9dbf38_23841&search_date=20062022&expected_price_uuid=e515f945-50d4-4641-96e6-991e5f8823cd&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
       "price": 385,
       "departure_at": "2022-09-12T22:50:00+03:00",
       "transfers": 2,
@@ -511,15 +588,15 @@ window.data = {
       "link": "/search/MOW2709MAD1?t=SU16642860001664388300001705SVOISTSAWGVAMAD_9a6b75ee45e207524b336f1143b2783d_23127&search_date=20062022&expected_price_uuid=6a4faf28-881b-4d13-beef-00aa6e9a49bb&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
+      "route": "MOW-BCN",
       "origin": "MOW",
-      "destination": "MAD",
-      "price": 381,
-      "departure_at": "2022-09-04T09:45:00+03:00",
+      "destination": "BCN",
+      "price": 385,
+      "departure_at": "2022-09-15T09:45:00+03:00",
       "transfers": 2,
-      "duration": 1755,
+      "duration": 1730,
       "durationH": 29,
-      "link": "/search/MOW0409MAD1?t=PC16622739001662379200001755VKOKRRSAWMAD_e73dec0361b70dc1dcaacc25a82453c3_23001&search_date=20062022&expected_price_uuid=55c12e2f-3e70-4388-a481-f17938a1b3ec&expected_price_currency=rub"
+      "link": "/search/MOW1509BCN2?t=PC16632243001663328100001730VKOKRRSAWBCN_4d9485c0522ca7c12f722e46319a61b1_46434&search_date=20062022&expected_price_uuid=d4136baa-3451-4164-961b-cc31bb37a47f&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -536,17 +613,6 @@ window.data = {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 394,
-      "departure_at": "2022-09-22T12:55:00+03:00",
-      "transfers": 3,
-      "duration": 1825,
-      "durationH": 30,
-      "link": "/search/LED2209BCN1?t=SU16638405001663950000001825LEDSVOISTSAWBGYMXPBCN_daf29761c8471e7d8a2fc3979b564934_23798&search_date=19062022&expected_price_uuid=e7d99c21-4605-4611-9c51-4629fdebaeaf&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
       "price": 382,
       "departure_at": "2022-09-08T12:55:00+03:00",
       "transfers": 3,
@@ -558,111 +624,45 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 378,
-      "departure_at": "2022-09-22T22:50:00+03:00",
+      "price": 404,
+      "departure_at": "2022-07-24T23:00:00+03:00",
       "transfers": 2,
-      "duration": 2235,
-      "durationH": 37,
-      "link": "/search/MOW2209BCN1?t=SU16638762001664010300002235SVOISTSAWGVABCN_e348aac401cc692ac681edad955f182a_22802&search_date=19062022&expected_price_uuid=225c6918-e110-4675-a71a-2ca1eb559aac&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 375,
-      "departure_at": "2022-09-25T22:50:00+03:00",
-      "transfers": 2,
-      "duration": 2525,
-      "durationH": 42,
-      "link": "/search/MOW2509MAD1?t=SU16641354001664286900002525SVOISTSAWBSLMAD_38e4f5acb7573a2a7df891c464855fea_22607&search_date=19062022&expected_price_uuid=54551d15-7272-4aac-b11b-e7a679e3183b&expected_price_currency=rub"
+      "duration": 1600,
+      "durationH": 27,
+      "link": "/search/MOW2407BCN1?t=HY16586928001658788800001600DMETASRIXBCN_ba7288f2a0e148d1a6cffba11b9ff38e_24403&search_date=20062022&expected_price_uuid=85cdd517-d1d9-4cba-af3a-f57aea147b8f&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 363,
-      "departure_at": "2022-09-25T16:40:00+03:00",
+      "price": 394,
+      "departure_at": "2022-09-07T04:00:00+03:00",
       "transfers": 2,
-      "duration": 2670,
-      "durationH": 45,
-      "link": "/search/MOW2509BCN1?t=SU16641132001664273400002670SVOISTSAWBSLBCN_8ffd427a16d2ec3a4280f22f6f377746_21894&search_date=20062022&expected_price_uuid=e6511dca-47c1-4374-82b5-5e298d54746e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 363,
-      "departure_at": "2022-09-26T16:40:00+03:00",
-      "transfers": 2,
-      "duration": 2680,
-      "durationH": 45,
-      "link": "/search/MOW2609MAD1?t=SU16641996001664360400002680SVOISTSAWCRLMAD_4088d063ce5cedc87ba979be5b8af365_21894&search_date=19062022&expected_price_uuid=44ff8306-3e7b-4de9-998c-ffcc0f720c64&expected_price_currency=rub"
+      "duration": 2375,
+      "durationH": 40,
+      "link": "/search/MOW0709BCN1?t=TK16625124001662654900002375VKOESBDUSBCN_5c3c3760b006c256afbd0de8782b7c6e_23806&search_date=19062022&expected_price_uuid=ed2fb2fb-06f3-4614-bc34-0a963f219610&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
-      "price": 410,
-      "departure_at": "2022-09-18T16:40:00+03:00",
-      "transfers": 3,
-      "duration": 1900,
-      "durationH": 32,
-      "link": "/search/MOW1809AGP1?t=SU16635084001663622400001900SVOISTSAWCRLMANAGP_5064fae6e76e5123b3564984b29e5f52_24722&search_date=19062022&expected_price_uuid=96cac65d-425f-4481-8b36-7d67a7f1a633&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 410,
-      "departure_at": "2022-09-24T12:00:00+03:00",
-      "transfers": 3,
-      "duration": 1920,
-      "durationH": 32,
-      "link": "/search/LED2409MAD2?t=SU16640100001664125200001920LEDSVOISTSAWSTNMAD_02541d8717d3193b1f799aed097c530d_49500&search_date=19062022&expected_price_uuid=4ea7aee5-3ab0-4dc8-9c1f-e54dff01cd2d&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 407,
-      "departure_at": "2022-09-20T12:55:00+03:00",
-      "transfers": 3,
-      "duration": 1990,
-      "durationH": 33,
-      "link": "/search/LED2009SVQ2?t=SU16636677001663787100001990LEDSVOISTSAWBGYMXPSVQ_a5cd23e9132827703e1264138a33e696_49132&search_date=19062022&expected_price_uuid=f7e86163-77c0-4ebd-9d4c-1820b598491c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 393,
-      "departure_at": "2022-09-20T22:50:00+03:00",
+      "price": 388,
+      "departure_at": "2022-09-09T07:35:00+03:00",
       "transfers": 2,
-      "duration": 2120,
-      "durationH": 35,
-      "link": "/search/MOW2009BCN1?t=SU16637034001663830600002120SVOISTBEGBCN_952d600f103bf90e97b6a09ba0f9aae1_23747&search_date=20062022&expected_price_uuid=717552d8-11e4-4fa9-b4e2-03cadc7a2fc5&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 394,
-      "departure_at": "2022-09-19T11:20:00+03:00",
-      "transfers": 3,
-      "duration": 2295,
-      "durationH": 38,
-      "link": "/search/LED1909AGP1?t=SU16635756001663713300002295LEDSVOISTSAWDUSNRNAGP_ed7c64bbef5a8104726e4b2dc7ab6403_23782&search_date=19062022&expected_price_uuid=a38cf1ef-d5de-4227-9c14-f1521e4f550e&expected_price_currency=rub"
+      "duration": 2445,
+      "durationH": 41,
+      "link": "/search/MOW0909AGP1?t=AT16626981001662844800002445DMECMNRAKAGP_09325c4db42b1a5852f606436837198c_23400&search_date=20062022&expected_price_uuid=13c33d31-8fdf-478e-88d2-fcaf484c9a18&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 389,
-      "departure_at": "2022-09-20T12:00:00+03:00",
+      "price": 386,
+      "departure_at": "2022-09-08T20:35:00+03:00",
       "transfers": 3,
-      "duration": 2300,
-      "durationH": 38,
-      "link": "/search/LED2009MAD2?t=SU16636644001663802400002300LEDSVOISTATHMAD_0fe2a6834673e827fda40f582dc5bd72_46950&search_date=19062022&expected_price_uuid=cf859013-1c8e-4b59-b28d-bf7ff8dd7e09&expected_price_currency=rub"
+      "duration": 2545,
+      "durationH": 42,
+      "link": "/search/LED0809MAD1?t=PC16626585001662811200002545LEDVKOKRRSAWMAD_0ba40b57594c1a45388013350a9ed4dc_23325&search_date=17062022&expected_price_uuid=dddb6a93-e306-4159-99d6-a0bda30c4d6a&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -676,6 +676,17 @@ window.data = {
       "link": "/search/LED0709MAD1?t=PC16625721001662724800002545LEDVKOKRRSAWMAD_aa20e959b3489ebb07648403f03d2e44_23013&search_date=17062022&expected_price_uuid=6554c0b6-6331-467c-9557-0a097dc492cb&expected_price_currency=rub"
     },
     {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 389,
+      "departure_at": "2022-09-05T20:35:00+03:00",
+      "transfers": 3,
+      "duration": 2545,
+      "durationH": 42,
+      "link": "/search/LED0509MAD1?t=PC16623993001662552000002545LEDVKOKRRSAWMAD_684c9eb2e3a68ea908d03c5293e1cab8_23447&search_date=17062022&expected_price_uuid=574f59af-5fe9-4856-962a-1e7ab8ae2321&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
@@ -687,15 +698,81 @@ window.data = {
       "link": "/search/MOW1409BCN2?t=AT16631301001663174500000740DMECMNBCN_3eef0992a95dae1327d19a6e43becac0_49840&search_date=20062022&expected_price_uuid=a4de5be3-59d1-41aa-ba61-a6755773b4bb&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 412,
+      "departure_at": "2022-09-15T17:20:00+03:00",
+      "transfers": 2,
+      "duration": 1605,
+      "durationH": 27,
+      "link": "/search/LED1509AGP1?t=AT16632516001663347900001605LEDDMECMNAGP_ec2a7f8f66ac8aea28d9aa85cf42fa38_24878&search_date=15062022&expected_price_uuid=832fc55a-f4b5-4510-9521-7335699dd86d&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
-      "price": 416,
-      "departure_at": "2022-09-21T07:35:00+03:00",
+      "price": 437,
+      "departure_at": "2022-09-08T02:05:00+03:00",
       "transfers": 2,
-      "duration": 1050,
-      "durationH": 18,
-      "link": "/search/MOW2109AGP1?t=AT16637349001663797900001050DMECMNTNGAGP_40d69b0dd2643a4bb7003ea9f600aedf_25108&search_date=19062022&expected_price_uuid=b3ec653d-e62d-4fb6-a274-41a89b3a2e29&expected_price_currency=rub"
+      "duration": 975,
+      "durationH": 16,
+      "link": "/search/MOW0809AGP1?t=TK16625919001662650400000975VKOAYTISTAGP_adcd54e42e2d766deb99ed9d24a1edba_26350&search_date=16062022&expected_price_uuid=63c17208-75ec-4b2f-b7c8-53f0525ae620&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 420,
+      "departure_at": "2022-09-07T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 1635,
+      "durationH": 27,
+      "link": "/search/MOW0709AGP1?t=A416625709001662669000001635VKOISTSAWBUDAGP_3b08ffaabdd1e32badf3d522b9213b27_25369&search_date=19062022&expected_price_uuid=e53b3976-77e6-455f-a32c-199877026a0a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 430,
+      "departure_at": "2022-09-06T11:10:00+03:00",
+      "transfers": 2,
+      "duration": 1655,
+      "durationH": 28,
+      "link": "/search/MOW0609MAD1?t=PC16624518001662551100001655SVOAERISTSAWMAD_a3413d86a5f709781bb776a6588973cc_25954&search_date=19062022&expected_price_uuid=d2b3dbcb-7988-4252-b0e1-5f0ec7a9a79f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 430,
+      "departure_at": "2022-09-05T11:10:00+03:00",
+      "transfers": 2,
+      "duration": 1655,
+      "durationH": 28,
+      "link": "/search/MOW0509MAD1?t=PC16623654001662464700001655SVOAERISTSAWMAD_138c6320b058c2cb37e974b968fc72e9_25954&search_date=19062022&expected_price_uuid=1313d074-2705-4824-a46a-877811ebce9b&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 409,
+      "departure_at": "2022-09-15T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 1700,
+      "durationH": 28,
+      "link": "/search/LED1509BCN2?t=SU16632495001663351500001700LEDAERISTSAWBUDBCN_2f4b8b177dd1a3b97feb4e8b94212958_49342&search_date=19062022&expected_price_uuid=d5e805a2-df30-4c22-ba9b-c772eb75e0c3&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 427,
+      "departure_at": "2022-09-06T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 1740,
+      "durationH": 29,
+      "link": "/search/LED0609BCN1?t=SU16624719001662576300001740LEDAERISTBEGBCN_ed2280d9d18b7a93be882c384ccff085_25774&search_date=19062022&expected_price_uuid=c9cc305d-173c-4de5-85e4-64dfd5cda539&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -707,6 +784,17 @@ window.data = {
       "duration": 1820,
       "durationH": 30,
       "link": "/search/MOW0709MAD1?t=AT16625253001662634500001820DMECMNMAD_c2a607d6b155f319640143b94e771930_24500&search_date=18062022&expected_price_uuid=4e9055c6-dea2-453e-985f-e5bb53916244&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 394,
+      "departure_at": "2022-09-22T12:55:00+03:00",
+      "transfers": 3,
+      "duration": 1825,
+      "durationH": 30,
+      "link": "/search/LED2209BCN1?t=SU16638405001663950000001825LEDSVOISTSAWBGYMXPBCN_daf29761c8471e7d8a2fc3979b564934_23798&search_date=19062022&expected_price_uuid=e7d99c21-4605-4611-9c51-4629fdebaeaf&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -757,11 +845,11 @@ window.data = {
       "origin": "LED",
       "destination": "MAD",
       "price": 386,
-      "departure_at": "2022-09-15T11:50:00+03:00",
+      "departure_at": "2022-09-14T15:55:00+03:00",
       "transfers": 3,
-      "duration": 2255,
-      "durationH": 38,
-      "link": "/search/LED1509MAD1?t=PC16632318001663367100002255LEDAERISTSAWCPHMAD_b5ad291ebf632efcbf2049cdc3e4a0f8_23312&search_date=19062022&expected_price_uuid=cf96f59f-8f77-40c1-a7e1-a0cc0d288031&expected_price_currency=rub"
+      "duration": 1984,
+      "durationH": 33,
+      "link": "/search/LED1409MAD1?t=SU16631601001663279140001984LEDSVOISTSAWBERMAD_87e3ac6265a21073693362cfcb0186f7_23299&search_date=16062022&expected_price_uuid=9a0dc706-5d60-409a-a2b1-c8a2ae4e8d67&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -775,15 +863,26 @@ window.data = {
       "link": "/search/LED1309MAD1?t=SU16630737001663186800001885LEDSVOISTSAWBRUMAD_b39f030faa8eb373d4631e465149c031_24566&search_date=16062022&expected_price_uuid=906692c5-0e88-4861-a06a-6ce223efd469&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "MOW-AGP",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 400,
-      "departure_at": "2022-09-24T16:40:00+03:00",
-      "transfers": 2,
-      "duration": 1890,
+      "destination": "AGP",
+      "price": 410,
+      "departure_at": "2022-09-18T16:40:00+03:00",
+      "transfers": 3,
+      "duration": 1900,
       "durationH": 32,
-      "link": "/search/MOW2409BCN1?t=SU16640268001664140200001890SVOISTSAWBSLBCN_5cb3f6e760ed4a1c2328a28ebf7aa275_24165&search_date=19062022&expected_price_uuid=404ffe6e-29fc-4b99-947a-6810fe6a02d4&expected_price_currency=rub"
+      "link": "/search/MOW1809AGP1?t=SU16635084001663622400001900SVOISTSAWCRLMANAGP_5064fae6e76e5123b3564984b29e5f52_24722&search_date=19062022&expected_price_uuid=96cac65d-425f-4481-8b36-7d67a7f1a633&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 410,
+      "departure_at": "2022-09-24T12:00:00+03:00",
+      "transfers": 3,
+      "duration": 1920,
+      "durationH": 32,
+      "link": "/search/LED2409MAD2?t=SU16640100001664125200001920LEDSVOISTSAWSTNMAD_02541d8717d3193b1f799aed097c530d_49500&search_date=19062022&expected_price_uuid=4ea7aee5-3ab0-4dc8-9c1f-e54dff01cd2d&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -797,15 +896,26 @@ window.data = {
       "link": "/search/LED1109BCN1?t=SU16629009001663018500001960LEDSVOISTATHBLQBCN_816d614366bbf56b1b70c00d7524a634_24279&search_date=18062022&expected_price_uuid=17018e2d-8e5b-45ff-aa60-238f4ab7b026&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
+      "route": "LED-SVQ",
       "origin": "LED",
-      "destination": "MAD",
-      "price": 386,
-      "departure_at": "2022-09-14T15:55:00+03:00",
+      "destination": "SVQ",
+      "price": 407,
+      "departure_at": "2022-09-20T12:55:00+03:00",
       "transfers": 3,
-      "duration": 1984,
+      "duration": 1990,
       "durationH": 33,
-      "link": "/search/LED1409MAD1?t=SU16631601001663279140001984LEDSVOISTSAWBERMAD_87e3ac6265a21073693362cfcb0186f7_23299&search_date=16062022&expected_price_uuid=9a0dc706-5d60-409a-a2b1-c8a2ae4e8d67&expected_price_currency=rub"
+      "link": "/search/LED2009SVQ2?t=SU16636677001663787100001990LEDSVOISTSAWBGYMXPSVQ_a5cd23e9132827703e1264138a33e696_49132&search_date=19062022&expected_price_uuid=f7e86163-77c0-4ebd-9d4c-1820b598491c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 393,
+      "departure_at": "2022-09-20T22:50:00+03:00",
+      "transfers": 2,
+      "duration": 2120,
+      "durationH": 35,
+      "link": "/search/MOW2009BCN1?t=SU16637034001663830600002120SVOISTBEGBCN_952d600f103bf90e97b6a09ba0f9aae1_23747&search_date=20062022&expected_price_uuid=717552d8-11e4-4fa9-b4e2-03cadc7a2fc5&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -830,15 +940,26 @@ window.data = {
       "link": "/search/MOW2509GRX1?t=TK16641393001664272800002225SVOMSQISTCDGORYBCNGRX_7a16eee98e70334560b682236d481d90_24167&search_date=17062022&expected_price_uuid=589d0589-fe6c-413e-ba5f-ee49a4ca6927&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 386,
+      "departure_at": "2022-09-15T11:50:00+03:00",
+      "transfers": 3,
+      "duration": 2255,
+      "durationH": 38,
+      "link": "/search/LED1509MAD1?t=PC16632318001663367100002255LEDAERISTSAWCPHMAD_b5ad291ebf632efcbf2049cdc3e4a0f8_23312&search_date=19062022&expected_price_uuid=cf96f59f-8f77-40c1-a7e1-a0cc0d288031&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
       "price": 394,
-      "departure_at": "2022-09-07T04:00:00+03:00",
-      "transfers": 2,
-      "duration": 2375,
-      "durationH": 40,
-      "link": "/search/MOW0709BCN1?t=TK16625124001662654900002375VKOESBDUSBCN_5c3c3760b006c256afbd0de8782b7c6e_23806&search_date=19062022&expected_price_uuid=ed2fb2fb-06f3-4614-bc34-0a963f219610&expected_price_currency=rub"
+      "departure_at": "2022-09-19T11:20:00+03:00",
+      "transfers": 3,
+      "duration": 2295,
+      "durationH": 38,
+      "link": "/search/LED1909AGP1?t=SU16635756001663713300002295LEDSVOISTSAWDUSNRNAGP_ed7c64bbef5a8104726e4b2dc7ab6403_23782&search_date=19062022&expected_price_uuid=a38cf1ef-d5de-4227-9c14-f1521e4f550e&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -852,147 +973,37 @@ window.data = {
       "link": "/search/MOW2809AGP1?t=AT16643397001664484900002420DMECMNLISAGP_bb56278962adf766d16c588c0e20f7e7_23082&search_date=17062022&expected_price_uuid=680d1f8a-7e43-4f35-87cf-90d00fdc7717&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 386,
-      "departure_at": "2022-09-08T20:35:00+03:00",
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 403,
+      "departure_at": "2022-09-28T20:15:00+03:00",
       "transfers": 3,
-      "duration": 2545,
-      "durationH": 42,
-      "link": "/search/LED0809MAD1?t=PC16626585001662811200002545LEDVKOKRRSAWMAD_0ba40b57594c1a45388013350a9ed4dc_23325&search_date=17062022&expected_price_uuid=dddb6a93-e306-4159-99d6-a0bda30c4d6a&expected_price_currency=rub"
+      "duration": 2300,
+      "durationH": 38,
+      "link": "/search/MOW2809LEI1?t=A416643853001664523300002300VKOISTSAWPRGBCNLEI_174e3ddc649e482e97f91aa6322d4f29_24337&search_date=20062022&expected_price_uuid=25e03404-5b68-4483-bc82-3df659d73d7f&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
       "price": 389,
-      "departure_at": "2022-09-05T20:35:00+03:00",
+      "departure_at": "2022-09-20T12:00:00+03:00",
       "transfers": 3,
-      "duration": 2545,
-      "durationH": 42,
-      "link": "/search/LED0509MAD1?t=PC16623993001662552000002545LEDVKOKRRSAWMAD_684c9eb2e3a68ea908d03c5293e1cab8_23447&search_date=17062022&expected_price_uuid=574f59af-5fe9-4856-962a-1e7ab8ae2321&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 419,
-      "departure_at": "2022-09-09T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 750,
-      "durationH": 13,
-      "link": "/search/MOW0909AGP2?t=AT16626981001662743100000750DMECMNAGP_2a83bc6b2ac00c2276994651bdbf8ee9_50550&search_date=17062022&expected_price_uuid=0144d009-a1af-4cb7-9e52-8f4f7d37e527&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 429,
-      "departure_at": "2022-09-17T17:25:00+03:00",
-      "transfers": 3,
-      "duration": 1270,
-      "durationH": 21,
-      "link": "/search/MOW1709BCN1?t=PC16634247001663500900001270SVOMRVEVNSAWBCN_66dcb873289720e4e01e5b4d691cc401_25862&search_date=19062022&expected_price_uuid=e42a886e-4d67-44f9-b386-ed11f736579e&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 412,
-      "departure_at": "2022-09-15T17:20:00+03:00",
-      "transfers": 2,
-      "duration": 1605,
-      "durationH": 27,
-      "link": "/search/LED1509AGP1?t=AT16632516001663347900001605LEDDMECMNAGP_ec2a7f8f66ac8aea28d9aa85cf42fa38_24878&search_date=15062022&expected_price_uuid=832fc55a-f4b5-4510-9521-7335699dd86d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 410,
-      "departure_at": "2022-09-02T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 1615,
-      "durationH": 27,
-      "link": "/search/MOW0209AGP1?t=AT16620933001662190200001615DMECMNRAKAGP_0331303f34da13c68e00cf8f2a57de96_24748&search_date=19062022&expected_price_uuid=9d72a5ad-1fe4-40b8-8594-2cf8db44036b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 437,
-      "departure_at": "2022-09-08T02:05:00+03:00",
-      "transfers": 2,
-      "duration": 975,
-      "durationH": 16,
-      "link": "/search/MOW0809AGP1?t=TK16625919001662650400000975VKOAYTISTAGP_adcd54e42e2d766deb99ed9d24a1edba_26350&search_date=16062022&expected_price_uuid=63c17208-75ec-4b2f-b7c8-53f0525ae620&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 420,
-      "departure_at": "2022-09-07T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 1635,
-      "durationH": 27,
-      "link": "/search/MOW0709AGP1?t=A416625709001662669000001635VKOISTSAWBUDAGP_3b08ffaabdd1e32badf3d522b9213b27_25369&search_date=19062022&expected_price_uuid=e53b3976-77e6-455f-a32c-199877026a0a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 404,
-      "departure_at": "2022-07-24T11:45:00+03:00",
-      "transfers": 2,
-      "duration": 2275,
+      "duration": 2300,
       "durationH": 38,
-      "link": "/search/MOW2407BCN1?t=HY16586523001658788800002275DMETASRIXBCN_2f0b02c3d99fc3ba7d9ac052a49dc271_24403&search_date=20062022&expected_price_uuid=badde162-8a5a-4493-b076-e4982d520b0a&expected_price_currency=rub"
+      "link": "/search/LED2009MAD2?t=SU16636644001663802400002300LEDSVOISTATHMAD_0fe2a6834673e827fda40f582dc5bd72_46950&search_date=19062022&expected_price_uuid=cf859013-1c8e-4b59-b28d-bf7ff8dd7e09&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
+      "route": "MOW-GRX",
       "origin": "MOW",
-      "destination": "MAD",
-      "price": 430,
-      "departure_at": "2022-09-06T11:10:00+03:00",
-      "transfers": 2,
-      "duration": 1655,
-      "durationH": 28,
-      "link": "/search/MOW0609MAD1?t=PC16624518001662551100001655SVOAERISTSAWMAD_a3413d86a5f709781bb776a6588973cc_25954&search_date=19062022&expected_price_uuid=d2b3dbcb-7988-4252-b0e1-5f0ec7a9a79f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 430,
-      "departure_at": "2022-09-05T11:10:00+03:00",
-      "transfers": 2,
-      "duration": 1655,
-      "durationH": 28,
-      "link": "/search/MOW0509MAD1?t=PC16623654001662464700001655SVOAERISTSAWMAD_138c6320b058c2cb37e974b968fc72e9_25954&search_date=19062022&expected_price_uuid=1313d074-2705-4824-a46a-877811ebce9b&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
+      "destination": "GRX",
       "price": 409,
-      "departure_at": "2022-09-15T16:45:00+03:00",
+      "departure_at": "2022-09-28T20:15:00+03:00",
       "transfers": 3,
-      "duration": 1700,
-      "durationH": 28,
-      "link": "/search/LED1509BCN2?t=SU16632495001663351500001700LEDAERISTSAWBUDBCN_2f4b8b177dd1a3b97feb4e8b94212958_49342&search_date=19062022&expected_price_uuid=d5e805a2-df30-4c22-ba9b-c772eb75e0c3&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 408,
-      "departure_at": "2022-08-29T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 2235,
-      "durationH": 37,
-      "link": "/search/MOW2908BCN1?t=TK16617348001661868900002235VKOESBVIECRLBCN_f9adf2c4448f6fb152cb64bfe72497a3_24604&search_date=19062022&expected_price_uuid=76130d40-a08d-4d97-8b40-205079f68e28&expected_price_currency=rub"
+      "duration": 2470,
+      "durationH": 41,
+      "link": "/search/MOW2809GRX1?t=A416643853001664533500002470VKOISTVIEPMIGRX_1367efcc352574f9be471af5a331a9b6_24660&search_date=20062022&expected_price_uuid=2b2f51ae-1435-45f8-932a-0a9dc098fbb0&expected_price_currency=rub"
     },
     {
       "route": "MOW-GRX",
@@ -1017,15 +1028,37 @@ window.data = {
       "link": "/search/MOW2409MAD1?t=SU16640268001664177400002510SVOISTSAWBUDMAD_e9b3547e1704b333edd5cb76a3f46e98_23719&search_date=19062022&expected_price_uuid=0847b0f9-719c-48d6-b755-ce35682eb0bd&expected_price_currency=rub"
     },
     {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 416,
+      "departure_at": "2022-09-21T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 1050,
+      "durationH": 18,
+      "link": "/search/MOW2109AGP1?t=AT16637349001663797900001050DMECMNTNGAGP_40d69b0dd2643a4bb7003ea9f600aedf_25108&search_date=19062022&expected_price_uuid=b3ec653d-e62d-4fb6-a274-41a89b3a2e29&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 410,
+      "departure_at": "2022-09-02T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 1615,
+      "durationH": 27,
+      "link": "/search/MOW0209AGP1?t=AT16620933001662190200001615DMECMNRAKAGP_0331303f34da13c68e00cf8f2a57de96_24748&search_date=19062022&expected_price_uuid=9d72a5ad-1fe4-40b8-8594-2cf8db44036b&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 408,
-      "departure_at": "2022-09-04T20:35:00+03:00",
+      "price": 407,
+      "departure_at": "2022-09-14T10:40:00+03:00",
       "transfers": 3,
-      "duration": 2520,
-      "durationH": 42,
-      "link": "/search/LED0409BCN1?t=PC16623129001662464100002520LEDVKOKRRSAWBCN_f4f837c389a622babee9c32a910efc0d_24627&search_date=20062022&expected_price_uuid=f722d70d-d066-44fd-844f-bec43ef25ce9&expected_price_currency=rub"
+      "duration": 2299,
+      "durationH": 38,
+      "link": "/search/LED1409BCN2?t=SU16631412001663279140002299LEDSVOISTSAWBGYBCN_46be170aea654255c67c89fae5b427d2_49088&search_date=18062022&expected_price_uuid=6eab7a0c-ab3c-4edf-8d93-72ee79517a10&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -1042,12 +1075,12 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 430,
+      "price": 448,
       "departure_at": "2022-09-02T07:35:00+03:00",
       "transfers": 1,
       "duration": 740,
       "durationH": 12,
-      "link": "/search/MOW0209BCN1?t=AT16620933001662137700000740DMECMNBCN_c9e6aaba95075950a143cacbdb8374ce_25940&search_date=20062022&expected_price_uuid=13600942-15fd-4367-ba1e-29d9647b8b40&expected_price_currency=rub"
+      "link": "/search/MOW0209BCN2?t=AT16620933001662137700000740DMECMNBCN_c9e6aaba95075950a143cacbdb8374ce_54080&search_date=20062022&expected_price_uuid=baab098c-ecda-4604-89d6-3e02b78e913d&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -1098,11 +1131,22 @@ window.data = {
       "origin": "MOW",
       "destination": "MAD",
       "price": 430,
-      "departure_at": "2022-08-25T16:50:00+03:00",
+      "departure_at": "2022-09-04T20:50:00+03:00",
       "transfers": 2,
-      "duration": 1315,
-      "durationH": 22,
-      "link": "/search/MOW2508MAD1?t=PC16614354001661514300001315SVOAERISTSAWMAD_0cdf3b52538d50f3e0c1644b421165b8_25954&search_date=18062022&expected_price_uuid=886b0347-9bfb-4270-ac9e-00d9f42a544b&expected_price_currency=rub"
+      "duration": 1075,
+      "durationH": 18,
+      "link": "/search/MOW0409MAD1?t=PC16623138001662378300001075SVOAERISTSAWMAD_26b3dcaac20d92cc6f41e8e31b8a9e10_25954&search_date=20062022&expected_price_uuid=eaa1d5d0-5f6b-43e8-af84-ed47ccf19e7d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 429,
+      "departure_at": "2022-09-17T17:25:00+03:00",
+      "transfers": 3,
+      "duration": 1270,
+      "durationH": 21,
+      "link": "/search/MOW1709BCN1?t=PC16634247001663500900001270SVOMRVEVNSAWBCN_66dcb873289720e4e01e5b4d691cc401_25862&search_date=19062022&expected_price_uuid=e42a886e-4d67-44f9-b386-ed11f736579e&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -1179,7 +1223,7 @@ window.data = {
       "transfers": 2,
       "duration": 1615,
       "durationH": 27,
-      "link": "/search/MOW1908AGP1?t=AT16608837001660980600001615DMECMNRAKAGP_49f17a099356e31e80ffb182996742ca_26417&search_date=19062022&expected_price_uuid=c15816be-2e96-43f5-a273-e45c080a9077&expected_price_currency=rub"
+      "link": "/search/MOW1908AGP1?t=AT16608837001660980600001615DMECMNRAKAGP_b349fd9a4e687b9bff73eeefa876cf97_26413&search_date=20062022&expected_price_uuid=6fb4a27f-0078-4b7d-b954-11ffb6c29624&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -1193,26 +1237,15 @@ window.data = {
       "link": "/search/MOW0109MAD1?t=PC16620198001662119100001655SVOAERISTSAWMAD_247204ff6ca67caf01a37e6210843f5a_25954&search_date=19062022&expected_price_uuid=7115f474-8e32-475d-8d3f-66e4410a0d37&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "MOW-MAD",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 427,
-      "departure_at": "2022-07-17T20:50:00+03:00",
+      "destination": "MAD",
+      "price": 430,
+      "departure_at": "2022-08-25T11:10:00+03:00",
       "transfers": 2,
-      "duration": 1730,
-      "durationH": 29,
-      "link": "/search/MOW1707BCN1?t=HY16580802001658184000001730DMETASRIXBCN_3a99ac790893216bc43e4b2bdb83571c_25783&search_date=20062022&expected_price_uuid=12404ca0-f080-49e2-8be0-4c7f29d8a702&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 427,
-      "departure_at": "2022-09-06T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 1740,
-      "durationH": 29,
-      "link": "/search/LED0609BCN1?t=SU16624719001662576300001740LEDAERISTBEGBCN_ed2280d9d18b7a93be882c384ccff085_25774&search_date=19062022&expected_price_uuid=c9cc305d-173c-4de5-85e4-64dfd5cda539&expected_price_currency=rub"
+      "duration": 1655,
+      "durationH": 28,
+      "link": "/search/MOW2508MAD1?t=PC16614150001661514300001655SVOAERISTSAWMAD_b2e77773e83a69e8479c02728069c4f2_25954&search_date=20062022&expected_price_uuid=a3aaae98-b33e-4a40-90b2-832bd63fcb9f&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -1237,26 +1270,48 @@ window.data = {
       "link": "/search/MOW2409AGP2?t=SU16640268001664132700001765SVOISTSAWSTNAGP_2001afe6e0d31c616fa053b6c54a91dd_52332&search_date=20062022&expected_price_uuid=2eb0c574-5ae8-47a5-8713-dc6c2d8ba823&expected_price_currency=rub"
     },
     {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 436,
+      "departure_at": "2022-09-10T04:00:00+03:00",
+      "transfers": 2,
+      "duration": 1855,
+      "durationH": 31,
+      "link": "/search/MOW1009AGP1?t=TK16627716001662882900001855VKOESBSTNLGWAGP_9588cb20296e6333a2190fb8393b3886_26299&search_date=19062022&expected_price_uuid=8eeecd48-d358-4d8c-87d5-5d793a3cbff9&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 419,
-      "departure_at": "2022-09-09T15:35:00+03:00",
+      "price": 426,
+      "departure_at": "2022-09-09T16:45:00+03:00",
       "transfers": 3,
-      "duration": 1935,
-      "durationH": 32,
-      "link": "/search/LED0909BCN1?t=SU16627269001662843000001935LEDAERISTSAWBUDBCN_c7bda4c67e3e2e03276e488eec5e2e88_25303&search_date=19062022&expected_price_uuid=58fefa5c-3f5f-4852-b443-b4cab0c28540&expected_price_currency=rub"
+      "duration": 1865,
+      "durationH": 31,
+      "link": "/search/LED0909BCN1?t=SU16627311001662843000001865LEDAERISTSAWBUDBCN_917854fe17349743d935d5e6d577dc8f_25699&search_date=20062022&expected_price_uuid=d1da13ee-68a1-4c80-ba94-64c103f9f952&expected_price_currency=rub"
     },
     {
       "route": "MOW-SVQ",
       "origin": "MOW",
       "destination": "SVQ",
-      "price": 416,
+      "price": 425,
       "departure_at": "2022-09-02T07:35:00+03:00",
       "transfers": 2,
       "duration": 1950,
       "durationH": 33,
-      "link": "/search/MOW0209SVQ1?t=AT16620933001662210300001950DMECMNRAKSVQ_836e40282e625bff2fcb0fab20340af9_25131&search_date=19062022&expected_price_uuid=29b09ae8-e637-4d0a-afe1-d6ded47f2cc3&expected_price_currency=rub"
+      "link": "/search/MOW0209SVQ1?t=AT16620933001662210300001950DMECMNRAKSVQ_836e40282e625bff2fcb0fab20340af9_25629&search_date=20062022&expected_price_uuid=9b8cc26c-6c32-40f1-9153-24a2c3168aca&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 451,
+      "departure_at": "2022-09-12T14:50:00+03:00",
+      "transfers": 3,
+      "duration": 1800,
+      "durationH": 30,
+      "link": "/search/LED1209AGP1?t=SU16629834001663091400001800LEDSVOISTLHRLTNAGP_58273986946184d733b981ae5d33692e_27208&search_date=13062022&expected_price_uuid=92e22a8a-3ca4-4ffc-b9ec-adc563704df7&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -1290,28 +1345,6 @@ window.data = {
       "duration": 2070,
       "durationH": 35,
       "link": "/search/MOW1909SVQ1?t=SU16636170001663741200002070SVOISTVIEPMISVQ_43aa0d4cbe3593bbb5e80fdecf0c2e78_24972&search_date=15062022&expected_price_uuid=2675dcb1-af96-418e-818a-83d68495f8b0&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 407,
-      "departure_at": "2022-09-14T10:40:00+03:00",
-      "transfers": 3,
-      "duration": 2299,
-      "durationH": 38,
-      "link": "/search/LED1409BCN2?t=SU16631412001663279140002299LEDSVOISTSAWBGYBCN_46be170aea654255c67c89fae5b427d2_49088&search_date=18062022&expected_price_uuid=6eab7a0c-ab3c-4edf-8d93-72ee79517a10&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 430,
-      "departure_at": "2022-08-28T04:30:00+03:00",
-      "transfers": 2,
-      "duration": 2055,
-      "durationH": 34,
-      "link": "/search/MOW2808MAD2?t=PC16616502001661773500002055SVOAERISTSAWMAD_9948c0a51be12305c4852b580c250ce8_51909&search_date=19062022&expected_price_uuid=937787c8-f1a9-47cf-8f62-6099e512150e&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -1358,48 +1391,15 @@ window.data = {
       "link": "/search/MOW0609BCN1?t=TK16624191001662568500002490VKOAYTDUSBCN_a0cab3660cc9a388a021386f0f5febd8_25035&search_date=19062022&expected_price_uuid=956612e4-5477-449a-bc7c-ed29b7fe6f9c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 436,
-      "departure_at": "2022-09-10T04:00:00+03:00",
-      "transfers": 2,
-      "duration": 1855,
-      "durationH": 31,
-      "link": "/search/MOW1009AGP1?t=TK16627716001662882900001855VKOESBSTNLGWAGP_9588cb20296e6333a2190fb8393b3886_26299&search_date=19062022&expected_price_uuid=8eeecd48-d358-4d8c-87d5-5d793a3cbff9&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 442,
-      "departure_at": "2022-09-19T04:00:00+03:00",
-      "transfers": 2,
-      "duration": 1890,
-      "durationH": 32,
-      "link": "/search/MOW1909AGP1?t=TK16635492001663662600001890VKOESBSTNLGWAGP_d5a123ec99e5d995e43623f6c6fd0928_26652&search_date=13062022&expected_price_uuid=6ce17a0f-87b7-4761-87e3-852372f9f921&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 424,
-      "departure_at": "2022-09-26T15:10:00+03:00",
-      "transfers": 2,
-      "duration": 2005,
-      "durationH": 33,
-      "link": "/search/MOW2609AGP1?t=PC16641942001664314500002005DMESAWORYAGP_acd19bb40883b3d59d96f75c5d404b42_25575&search_date=13062022&expected_price_uuid=a52d897d-73d5-44d2-816f-0339c6763d2d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
-      "price": 420,
-      "departure_at": "2022-09-11T18:40:00+03:00",
+      "price": 408,
+      "departure_at": "2022-09-04T20:35:00+03:00",
       "transfers": 3,
-      "duration": 2455,
-      "durationH": 41,
-      "link": "/search/MOW1109BCN1?t=PC16629108001663058100002455SVOAERISTSAWARNBCN_1d63f14dbc13c89af3b80329cace429c_25345&search_date=19062022&expected_price_uuid=1864bdcb-04eb-430c-a8db-4fbe3b3c7242&expected_price_currency=rub"
+      "duration": 2520,
+      "durationH": 42,
+      "link": "/search/LED0409BCN1?t=PC16623129001662464100002520LEDVKOKRRSAWBCN_f4f837c389a622babee9c32a910efc0d_24627&search_date=20062022&expected_price_uuid=f722d70d-d066-44fd-844f-bec43ef25ce9&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -1413,17 +1413,6 @@ window.data = {
       "link": "/search/LED1009MAD2?t=SU16627998001662967800002800LEDAERISTSAWBUDMAD_d734226ebdbddcc6df2f2e484dbf4d70_50246&search_date=19062022&expected_price_uuid=8f83c7bf-ff2a-4842-b0c4-9545a4087fe0&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 423,
-      "departure_at": "2022-09-05T11:30:00+03:00",
-      "transfers": 3,
-      "duration": 2990,
-      "durationH": 50,
-      "link": "/search/MOW0509BCN1?t=SU16623666001662546000002990SVOAERISTSAWOSLBCN_e3277d6974812e735f540b9b6f75f8c5_25540&search_date=19062022&expected_price_uuid=4df57639-47a8-465f-a7d2-265df31117df&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
@@ -1435,26 +1424,37 @@ window.data = {
       "link": "/search/MOW1009MAD1?t=A316627935001662975900003040SVOMRVEVNATHMAD_11e76c82ee6034aaef658173cd5eb5a7_24970&search_date=20062022&expected_price_uuid=bd921ad7-6c9f-442a-92be-cfccf183dcab&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "MOW-AGP",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 417,
-      "departure_at": "2022-09-15T06:10:00+03:00",
-      "transfers": 3,
-      "duration": 3550,
-      "durationH": 59,
-      "link": "/search/MOW1509BCN2?t=PC16632114001663424400003550SVOAERISTSAWOSLBCN_d415f72d45f9b83ca22d6ab224f9b486_50301&search_date=19062022&expected_price_uuid=5877232b-dcca-493a-9aab-9b2ea9cc237c&expected_price_currency=rub"
+      "destination": "AGP",
+      "price": 419,
+      "departure_at": "2022-08-17T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 3105,
+      "durationH": 52,
+      "link": "/search/MOW1708AGP1?t=AT16607109001660897200003105DMECMNAGAAGP_4052cc7f1366e310820426262ed6e29d_25286&search_date=20062022&expected_price_uuid=55546f74-1326-4da0-8208-dbbdd93dff8b&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
-      "origin": "LED",
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 463,
+      "departure_at": "2022-08-12T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 720,
+      "durationH": 12,
+      "link": "/search/MOW1208MAD1?t=AT16602789001660322100000720DMECMNMAD_6a7ab62995605da228a41592aef351d8_27970&search_date=20062022&expected_price_uuid=f5290798-68d1-440d-9f6d-835fc0ac5a1b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
       "destination": "AGP",
-      "price": 451,
-      "departure_at": "2022-09-12T14:50:00+03:00",
-      "transfers": 3,
-      "duration": 1800,
-      "durationH": 30,
-      "link": "/search/LED1209AGP1?t=SU16629834001663091400001800LEDSVOISTLHRLTNAGP_58273986946184d733b981ae5d33692e_27208&search_date=13062022&expected_price_uuid=92e22a8a-3ca4-4ffc-b9ec-adc563704df7&expected_price_currency=rub"
+      "price": 442,
+      "departure_at": "2022-09-19T04:00:00+03:00",
+      "transfers": 2,
+      "duration": 1890,
+      "durationH": 32,
+      "link": "/search/MOW1909AGP1?t=TK16635492001663662600001890VKOESBSTNLGWAGP_d5a123ec99e5d995e43623f6c6fd0928_26652&search_date=13062022&expected_price_uuid=6ce17a0f-87b7-4761-87e3-852372f9f921&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -1468,6 +1468,17 @@ window.data = {
       "link": "/search/LED0609AGP1?t=PC16624677001662582600001915LEDAERISTSAWCPHLGWAGP_046b6926610046207f97b01b79296c0c_27742&search_date=16062022&expected_price_uuid=34844126-d246-47bf-b5d2-c788b922065c&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 442,
+      "departure_at": "2022-08-31T15:15:00+03:00",
+      "transfers": 3,
+      "duration": 2024,
+      "durationH": 34,
+      "link": "/search/MOW3108BCN1?t=TK16619481001662069540002024VKOISTVIEBGYBCN_e260b355175eca0508226dcc00b41ce6_26665&search_date=20062022&expected_price_uuid=28863ad3-b21c-48b5-900d-c30536b6a7e0&expected_price_currency=rub"
+    },
+    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -1477,6 +1488,17 @@ window.data = {
       "duration": 2030,
       "durationH": 34,
       "link": "/search/LED0909MAD1?t=TK16627269001662848700002030LEDAERISTSAWCPHMAD_008a07f81325a9cf33c39d07dde8ef17_26872&search_date=17062022&expected_price_uuid=6b2b6140-9eef-4525-841b-54af21d95b83&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 430,
+      "departure_at": "2022-08-28T04:30:00+03:00",
+      "transfers": 2,
+      "duration": 2055,
+      "durationH": 34,
+      "link": "/search/MOW2808MAD2?t=PC16616502001661773500002055SVOAERISTSAWMAD_9948c0a51be12305c4852b580c250ce8_51909&search_date=19062022&expected_price_uuid=937787c8-f1a9-47cf-8f62-6099e512150e&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -1534,37 +1556,15 @@ window.data = {
       "link": "/search/MOW2509AGP1?t=SU16641132001664267400002570SVOISTSAWPRGSTNLGWAGP_4ebc30be88c5b310f0333ada3342a207_25176&search_date=18062022&expected_price_uuid=b54e8b5f-ba8f-4f66-8a03-7ef53c3cb378&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 420,
-      "departure_at": "2022-08-17T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 3105,
-      "durationH": 52,
-      "link": "/search/MOW1708AGP1?t=AT16607109001660897200003105DMECMNAGAAGP_4052cc7f1366e310820426262ed6e29d_25361&search_date=19062022&expected_price_uuid=037889ad-de9f-4711-8be6-411c8e5cb710&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 445,
+      "price": 448,
       "departure_at": "2022-08-24T04:00:00+03:00",
       "transfers": 2,
       "duration": 2405,
       "durationH": 40,
-      "link": "/search/MOW2408BCN2?t=TK16613028001661447100002405VKOESBDUSBCN_b692dde58cd0fba2bdf2892c7a2e32a1_53692&search_date=20062022&expected_price_uuid=1bd19d5d-0632-4a49-bd93-0561894f62cf&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 430,
-      "departure_at": "2022-08-01T17:35:00+03:00",
-      "transfers": 2,
-      "duration": 2515,
-      "durationH": 42,
-      "link": "/search/MOW0108MAD1?t=TK16593645001659515400002515DMEKZNISTMAD_b604da793f8b29faa80d048c7490b045_25932&search_date=20062022&expected_price_uuid=53dc3978-b055-42fb-b824-5eae9e1a744b&expected_price_currency=rub"
+      "link": "/search/MOW2408BCN1?t=TK16613028001661447100002405VKOESBDUSBCN_b692dde58cd0fba2bdf2892c7a2e32a1_27009&search_date=20062022&expected_price_uuid=ac14892e-876d-4199-aef5-bc30bed64267&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -1589,17 +1589,6 @@ window.data = {
       "link": "/search/MOW3108MAD1?t=PC16619322001662120000003130VKOKRRSAWMAD_3c2e5354fa3dcb53db956caef1e765cf_25499&search_date=20062022&expected_price_uuid=a618f742-a0ff-468d-b783-83093c943be4&expected_price_currency=rub"
     },
     {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 426,
-      "departure_at": "2022-08-17T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 3505,
-      "durationH": 58,
-      "link": "/search/MOW1708SVQ1?t=AT16607109001660921200003505DMECMNAGASVQ_d97a230dadee84d0908db509e4ba29e2_25723&search_date=19062022&expected_price_uuid=3c063428-b5bf-4f72-a842-65031b8c894f&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
@@ -1609,50 +1598,6 @@ window.data = {
       "duration": 1795,
       "durationH": 30,
       "link": "/search/MOW0309BCN1?t=PC16622196001662327300001795SVOAERISTSAWARNBCN_19a9b992f6ac1689b8fcc911c3f5e931_27487&search_date=19062022&expected_price_uuid=d7362caf-175e-41d8-ada2-f2c83c680496&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 482,
-      "departure_at": "2022-08-19T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 720,
-      "durationH": 12,
-      "link": "/search/MOW1908MAD1?t=AT16608837001660926900000720DMECMNMAD_b9c0a566068459ff3d75baa996841a29_29090&search_date=20062022&expected_price_uuid=62240d3f-60ca-4a2d-a045-8611af548d7b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 463,
-      "departure_at": "2022-08-17T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 720,
-      "durationH": 12,
-      "link": "/search/MOW1708MAD1?t=AT16607109001660754100000720DMECMNMAD_2b98015b6693379594acbe4c34d59333_27970&search_date=20062022&expected_price_uuid=b2b2a81c-8fb0-414c-8dad-ade635ff65cb&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 463,
-      "departure_at": "2022-08-12T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 720,
-      "durationH": 12,
-      "link": "/search/MOW1208MAD1?t=AT16602789001660322100000720DMECMNMAD_6a7ab62995605da228a41592aef351d8_27970&search_date=20062022&expected_price_uuid=f5290798-68d1-440d-9f6d-835fc0ac5a1b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 465,
-      "departure_at": "2022-07-10T23:00:00+03:00",
-      "transfers": 2,
-      "duration": 1600,
-      "durationH": 27,
-      "link": "/search/MOW1007BCN1?t=HY16574832001657579200001600DMETASRIXBCN_2a9095f64623b4b2149f713a507256da_28037&search_date=20062022&expected_price_uuid=333187a7-d4da-4366-a0a4-6fa04b7ae88d&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -1688,15 +1633,15 @@ window.data = {
       "link": "/search/MOW3108AGP1?t=AT16619205001662044400002065DMECMNRAKAGP_431ac3b1a84bec1d366ace91254a289a_26884&search_date=19062022&expected_price_uuid=18f7794e-c91b-4b7e-8c01-43c700243d91&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 471,
-      "departure_at": "2022-07-11T22:30:00+03:00",
+      "price": 427,
+      "departure_at": "2022-07-17T09:05:00+03:00",
       "transfers": 2,
-      "duration": 1610,
-      "durationH": 27,
-      "link": "/search/LED1107BCN1?t=HY16575678001657664400001610LEDTASLHRLGWBCN_71ece58189144fbce51c5d0a162861bd_28414&search_date=19062022&expected_price_uuid=10da0217-cb3f-4b15-9728-c70bba870704&expected_price_currency=rub"
+      "duration": 2435,
+      "durationH": 41,
+      "link": "/search/MOW1707BCN1?t=HY16580379001658184000002435DMETASRIXBCN_0eb4c56259e969f9d192d1a00e4adc1e_25785&search_date=20062022&expected_price_uuid=55f96f1a-502c-431b-9ac2-bed91219f570&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -1721,6 +1666,17 @@ window.data = {
       "link": "/search/MOW0408AGP1?t=HY16596432001659774600002190DMETASRIXAGP_456e5df2ba17448d3956ffa9ed67a9eb_27347&search_date=20062022&expected_price_uuid=eb6c327e-1018-46d5-8fb5-c59bd82b5c7a&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 462,
+      "departure_at": "2022-08-29T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 2235,
+      "durationH": 37,
+      "link": "/search/MOW2908BCN1?t=TK16617348001661868900002235VKOESBVIECRLBCN_f9adf2c4448f6fb152cb64bfe72497a3_27864&search_date=20062022&expected_price_uuid=7091f27a-3802-444c-94f1-d04590b3cbfc&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
@@ -1730,28 +1686,6 @@ window.data = {
       "duration": 2265,
       "durationH": 38,
       "link": "/search/MOW1509MAD1?t=SU16632312001663367100002265SVOAERISTSAWCPHMAD_b0f1bdff12a70d26f4c55026a56be518_26578&search_date=19062022&expected_price_uuid=2ef9a1e7-f832-43ca-b393-39c4901be8ed&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 435,
-      "departure_at": "2022-07-26T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2530,
-      "durationH": 42,
-      "link": "/search/LED2607BCN1?t=SU16588431001658994900002530LEDAERISTSAWVIEBCN_a6a7a3ed9c8a835020bfb8162fd4593c_26268&search_date=20062022&expected_price_uuid=428fd3c7-3a98-4f28-ade1-ab68e130267e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 457,
-      "departure_at": "2022-08-07T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2305,
-      "durationH": 38,
-      "link": "/search/MOW0708AGP1?t=HY16598946001660032900002305DMETASRIXAGP_c47ab87fa5d3dc314078075bc4edb654_27601&search_date=20062022&expected_price_uuid=97fe1cf2-4750-484c-8290-b1ef1e4361e8&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -1765,15 +1699,15 @@ window.data = {
       "link": "/search/LED1409AGP1?t=SU16631031001663241700002310LEDAERISTBEGCDGBVAAGP_c3c1007a2a83b4003463892dd931ce86_26654&search_date=18062022&expected_price_uuid=1f564eae-9ec6-437b-a086-18a244bb19a5&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
-      "price": 460,
-      "departure_at": "2022-08-14T20:50:00+03:00",
+      "price": 435,
+      "departure_at": "2022-07-26T16:45:00+03:00",
       "transfers": 3,
-      "duration": 2435,
-      "durationH": 41,
-      "link": "/search/MOW1408BCN2?t=HY16604994001660645500002435DMETASRIXOSLBCN_d2a787e9fccf8f5e9569b18f6fe5153d_55554&search_date=20062022&expected_price_uuid=d86ea439-622c-4ee7-9fef-cf29a2043177&expected_price_currency=rub"
+      "duration": 2530,
+      "durationH": 42,
+      "link": "/search/LED2607BCN1?t=SU16588431001658994900002530LEDAERISTSAWVIEBCN_a6a7a3ed9c8a835020bfb8162fd4593c_26268&search_date=20062022&expected_price_uuid=428fd3c7-3a98-4f28-ade1-ab68e130267e&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -1785,17 +1719,6 @@ window.data = {
       "duration": 2470,
       "durationH": 41,
       "link": "/search/MOW0209MAD1?t=AT16620933001662241500002470DMECMNAGAMAD_fb1def907635f43aff470bfec678e8f4_27695&search_date=19062022&expected_price_uuid=d2f0da7a-0752-470b-88e6-744bea387de4&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-GRX",
-      "origin": "MOW",
-      "destination": "GRX",
-      "price": 441,
-      "departure_at": "2022-09-23T16:40:00+03:00",
-      "transfers": 3,
-      "duration": 2515,
-      "durationH": 42,
-      "link": "/search/MOW2309GRX1?t=SU16639404001664091300002515SVOISTBEGCDGORYGRX_1bf7b404d967b2d0215b5155b6b0f8bd_26610&search_date=15062022&expected_price_uuid=9ef85837-3162-46ef-8289-918747e8ba36&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -1818,28 +1741,6 @@ window.data = {
       "duration": 2575,
       "durationH": 43,
       "link": "/search/LED1709MAD1?t=FR16634181001663572600002575LEDAERISTSAWBUDMAD_659759964a86ec9dced4125321ea0c9d_26493&search_date=19062022&expected_price_uuid=57b0bb3c-67e8-4089-9a0a-4882945b1744&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 440,
-      "departure_at": "2022-09-15T02:55:00+03:00",
-      "transfers": 3,
-      "duration": 2625,
-      "durationH": 44,
-      "link": "/search/MOW1509AGP1?t=W916631997001663357200002625SVOAERAYTLTNAGP_2538eb7fde3c7e76d05ea4f3a8336902_26545&search_date=17062022&expected_price_uuid=28f557b2-89e1-44ec-965f-e8656308c852&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 437,
-      "departure_at": "2022-08-01T15:10:00+03:00",
-      "transfers": 2,
-      "duration": 2650,
-      "durationH": 44,
-      "link": "/search/LED0108BCN1?t=TK16593558001659514800002650LEDSVOVKOISTBCN_b994cfe63a8d9a81aed279e52070f021_26353&search_date=20062022&expected_price_uuid=a00920d3-7dcc-475b-9b69-f1a133f83db8&expected_price_currency=rub"
     },
     {
       "route": "LED-GRX",
@@ -1867,12 +1768,23 @@ window.data = {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
-      "price": 441,
-      "departure_at": "2022-07-14T11:45:00+03:00",
+      "price": 440,
+      "departure_at": "2022-08-22T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 3355,
+      "durationH": 56,
+      "link": "/search/MOW2208AGP1?t=TK16611300001661331300003355VKOESBBERLGWAGP_e3b7f9b496b642d2e3e43122b0857d7d_26582&search_date=20062022&expected_price_uuid=a251588a-16eb-4071-bb6a-b697ed30b13f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 426,
+      "departure_at": "2022-08-17T07:35:00+03:00",
       "transfers": 2,
-      "duration": 2865,
-      "durationH": 48,
-      "link": "/search/MOW1407AGP1?t=HY16577883001657960200002865DMETASRIXAGP_5ce0f63df90e10f47dae8d512af68702_26627&search_date=20062022&expected_price_uuid=2796dded-7429-49c5-8257-5d5b8ad02916&expected_price_currency=rub"
+      "duration": 3505,
+      "durationH": 58,
+      "link": "/search/MOW1708SVQ1?t=AT16607109001660921200003505DMECMNAGASVQ_d97a230dadee84d0908db509e4ba29e2_25723&search_date=19062022&expected_price_uuid=3c063428-b5bf-4f72-a842-65031b8c894f&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -1884,6 +1796,50 @@ window.data = {
       "duration": 545,
       "durationH": 9,
       "link": "/search/MOW2408AGP2?t=AT16613157001661348400000545DMECMNAGP_57fac97163077e63afee1a335b71ed63_58796&search_date=17062022&expected_price_uuid=d85a77e8-96d6-43ed-b75a-8bcff0d9570f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 482,
+      "departure_at": "2022-08-19T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 720,
+      "durationH": 12,
+      "link": "/search/MOW1908MAD1?t=AT16608837001660926900000720DMECMNMAD_b9c0a566068459ff3d75baa996841a29_29090&search_date=20062022&expected_price_uuid=62240d3f-60ca-4a2d-a045-8611af548d7b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 463,
+      "departure_at": "2022-08-17T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 720,
+      "durationH": 12,
+      "link": "/search/MOW1708MAD1?t=AT16607109001660754100000720DMECMNMAD_2b98015b6693379594acbe4c34d59333_27970&search_date=20062022&expected_price_uuid=b2b2a81c-8fb0-414c-8dad-ade635ff65cb&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 440,
+      "departure_at": "2022-09-15T02:55:00+03:00",
+      "transfers": 3,
+      "duration": 2625,
+      "durationH": 44,
+      "link": "/search/MOW1509AGP1?t=W916631997001663357200002625SVOAERAYTLTNAGP_2538eb7fde3c7e76d05ea4f3a8336902_26545&search_date=17062022&expected_price_uuid=28f557b2-89e1-44ec-965f-e8656308c852&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 437,
+      "departure_at": "2022-08-01T15:10:00+03:00",
+      "transfers": 2,
+      "duration": 2650,
+      "durationH": 44,
+      "link": "/search/LED0108BCN1?t=TK16593558001659514800002650LEDSVOVKOISTBCN_b994cfe63a8d9a81aed279e52070f021_26353&search_date=20062022&expected_price_uuid=a00920d3-7dcc-475b-9b69-f1a133f83db8&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -1963,15 +1919,15 @@ window.data = {
       "link": "/search/MOW0208MAD2?t=PC16594482001659527100001315SVOAERISTSAWMAD_4cad2ad4de9ee7a9474ceabf4f9dfc95_58739&search_date=20062022&expected_price_uuid=4960fb20-db0e-420e-af41-e2c43f70838d&expected_price_currency=rub"
     },
     {
-      "route": "MOW-GRX",
+      "route": "MOW-BCN",
       "origin": "MOW",
-      "destination": "GRX",
-      "price": 479,
-      "departure_at": "2022-09-21T07:35:00+03:00",
-      "transfers": 3,
-      "duration": 1580,
-      "durationH": 26,
-      "link": "/search/MOW2109GRX1?t=AT16637349001663829700001580DMECMNRAKBCNGRX_a7c7dbac0d8f0158862379a22d2b6b42_28904&search_date=13062022&expected_price_uuid=1b4774a4-30c1-4484-ab4a-da830d092758&expected_price_currency=rub"
+      "destination": "BCN",
+      "price": 489,
+      "departure_at": "2022-07-10T12:40:00+03:00",
+      "transfers": 2,
+      "duration": 1360,
+      "durationH": 23,
+      "link": "/search/MOW1007BCN3?t=TK16574460001657527600001360DMEKZNISTBCN_74d6501cb4a5ac881eaa61e490aa3a89_88622&search_date=20062022&expected_price_uuid=3267ca9e-23c7-4c24-81c5-cf1e44664fca&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -1983,6 +1939,17 @@ window.data = {
       "duration": 1600,
       "durationH": 27,
       "link": "/search/MOW3107BCN1?t=HY16592976001659393600001600DMETASRIXBCN_325f34a94aa3d0514d3335d96398cfb5_28483&search_date=19062022&expected_price_uuid=e378357e-35f1-4984-ab05-05ce347ee232&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 471,
+      "departure_at": "2022-07-11T22:30:00+03:00",
+      "transfers": 2,
+      "duration": 1610,
+      "durationH": 27,
+      "link": "/search/LED1107BCN1?t=HY16575678001657664400001610LEDTASLHRLGWBCN_71ece58189144fbce51c5d0a162861bd_28414&search_date=20062022&expected_price_uuid=dcc3730a-5457-445d-b401-8fc5bc1ab391&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -2029,17 +1996,6 @@ window.data = {
       "link": "/search/MOW1108MAD1?t=PC16602072001660304700001625SVOAERISTSAWMAD_9d53bda4427a818ea9137e1be0b34026_29369&search_date=19062022&expected_price_uuid=aac2611a-1ffd-4425-8ba3-947f64549f8c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 487,
-      "departure_at": "2022-08-03T11:40:00+03:00",
-      "transfers": 2,
-      "duration": 1625,
-      "durationH": 27,
-      "link": "/search/MOW0308MAD1?t=PC16595160001659613500001625SVOAERISTSAWMAD_002433a6a71fc7c3f2adf2c3a7d5880e_29369&search_date=20062022&expected_price_uuid=7fcf15a6-7d35-4c5d-97fd-c89836370c05&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -2051,17 +2007,6 @@ window.data = {
       "link": "/search/MOW1409AGP1?t=SU16631850001663284000001650SVOISTATHAGP_578b96a3da5769c36ff431129ce4d072_28610&search_date=18062022&expected_price_uuid=d2de6e57-1083-462e-a391-06b079be271c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 487,
-      "departure_at": "2022-08-09T11:10:00+03:00",
-      "transfers": 2,
-      "duration": 1655,
-      "durationH": 28,
-      "link": "/search/MOW0908MAD1?t=PC16600326001660131900001655SVOAERISTSAWMAD_8f340ebe8f31acba758bd035e6dbfd62_29369&search_date=20062022&expected_price_uuid=2477d435-67d2-4201-99a3-2f7d773a7a4f&expected_price_currency=rub"
-    },
-    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -2071,6 +2016,83 @@ window.data = {
       "duration": 1730,
       "durationH": 29,
       "link": "/search/LED2108BCN1?t=SU16610895001661193300001730LEDAERISTSAWBEGBCN_538efaeceea792e736bf1c17384396b1_28000&search_date=19062022&expected_price_uuid=6d55c5c9-6f62-453b-be34-62cc85c0e59d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 469,
+      "departure_at": "2022-09-24T15:10:00+03:00",
+      "transfers": 2,
+      "duration": 1850,
+      "durationH": 31,
+      "link": "/search/MOW2409SVQ1?t=PC16640214001664132400001850DMESAWSTNSVQ_cab2dee8717a06377001d00bbe773a7c_28302&search_date=14062022&expected_price_uuid=4591465b-d206-4dc3-9220-06b9eb20410f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 460,
+      "departure_at": "2022-09-28T22:50:00+03:00",
+      "transfers": 3,
+      "duration": 2060,
+      "durationH": 34,
+      "link": "/search/MOW2809SVQ2?t=SU16643946001664518200002060SVOISTVIEBCNSVQ_9f85f033aae0f89c2f9c17ce95b8592c_55498&search_date=19062022&expected_price_uuid=71cf3117-bad7-4619-92e5-5399d250195c&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 457,
+      "departure_at": "2022-09-06T11:50:00+03:00",
+      "transfers": 3,
+      "duration": 2235,
+      "durationH": 37,
+      "link": "/search/LED0609MAD1?t=FR16624542001662588300002235LEDAERISTSAWBERMAD_650044b7b9102c55cab155b2253f3247_27596&search_date=16062022&expected_price_uuid=c4cd4d16-d4dc-4929-87d2-f9485c14aba8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 457,
+      "departure_at": "2022-08-07T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2305,
+      "durationH": 38,
+      "link": "/search/MOW0708AGP1?t=HY16598946001660032900002305DMETASRIXAGP_c47ab87fa5d3dc314078075bc4edb654_27601&search_date=20062022&expected_price_uuid=97fe1cf2-4750-484c-8290-b1ef1e4361e8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 455,
+      "departure_at": "2022-09-04T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 2325,
+      "durationH": 39,
+      "link": "/search/MOW0409BCN1?t=PC16623138001662453300002325SVOAERISTSAWARNBCN_9c6d16d38d9cb22703d693ad02bea79c_27487&search_date=19062022&expected_price_uuid=46aafa3b-8545-4ba8-9de0-abc3d167c757&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-GRX",
+      "origin": "MOW",
+      "destination": "GRX",
+      "price": 441,
+      "departure_at": "2022-09-23T16:40:00+03:00",
+      "transfers": 3,
+      "duration": 2515,
+      "durationH": 42,
+      "link": "/search/MOW2309GRX1?t=SU16639404001664091300002515SVOISTBEGCDGORYGRX_1bf7b404d967b2d0215b5155b6b0f8bd_26610&search_date=15062022&expected_price_uuid=9ef85837-3162-46ef-8289-918747e8ba36&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 487,
+      "departure_at": "2022-08-03T11:40:00+03:00",
+      "transfers": 2,
+      "duration": 1625,
+      "durationH": 27,
+      "link": "/search/MOW0308MAD1?t=PC16595160001659613500001625SVOAERISTSAWMAD_002433a6a71fc7c3f2adf2c3a7d5880e_29369&search_date=20062022&expected_price_uuid=7fcf15a6-7d35-4c5d-97fd-c89836370c05&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -2092,106 +2114,29 @@ window.data = {
       "transfers": 2,
       "duration": 1790,
       "durationH": 30,
-      "link": "/search/MOW0808BCN1?t=TK16599204001660027800001790VKOESBVIEBCN_cae12d57dbf7be8ee4a7af63319e3db9_28705&search_date=20062022&expected_price_uuid=c8c7e5b4-e3f1-4976-b696-11c9e34ce878&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 469,
-      "departure_at": "2022-09-24T15:10:00+03:00",
-      "transfers": 2,
-      "duration": 1850,
-      "durationH": 31,
-      "link": "/search/MOW2409SVQ1?t=PC16640214001664132400001850DMESAWSTNSVQ_cab2dee8717a06377001d00bbe773a7c_28302&search_date=14062022&expected_price_uuid=4591465b-d206-4dc3-9220-06b9eb20410f&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 457,
-      "departure_at": "2022-09-06T11:50:00+03:00",
-      "transfers": 3,
-      "duration": 2235,
-      "durationH": 37,
-      "link": "/search/LED0609MAD1?t=FR16624542001662588300002235LEDAERISTSAWBERMAD_650044b7b9102c55cab155b2253f3247_27596&search_date=16062022&expected_price_uuid=c4cd4d16-d4dc-4929-87d2-f9485c14aba8&expected_price_currency=rub"
+      "link": "/search/MOW0808BCN1?t=TK16599204001660027800001790VKOESBVIEBCN_cae12d57dbf7be8ee4a7af63319e3db9_28705&search_date=20062022&expected_price_uuid=dae7c0b1-2fe8-4a3b-aa49-b533411eda09&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 455,
-      "departure_at": "2022-09-04T20:50:00+03:00",
+      "price": 485,
+      "departure_at": "2022-06-24T13:50:00+03:00",
       "transfers": 3,
-      "duration": 2325,
-      "durationH": 39,
-      "link": "/search/MOW0409BCN1?t=PC16623138001662453300002325SVOAERISTSAWARNBCN_9c6d16d38d9cb22703d693ad02bea79c_27487&search_date=19062022&expected_price_uuid=46aafa3b-8545-4ba8-9de0-abc3d167c757&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 456,
-      "departure_at": "2022-09-17T22:50:00+03:00",
-      "transfers": 2,
-      "duration": 2755,
-      "durationH": 46,
-      "link": "/search/MOW1709MAD1?t=SU16634442001663609500002755SVOISTSAWBUDMAD_c98adb7b597858b462b0ed8be7ceef74_27507&search_date=19062022&expected_price_uuid=905cb5ea-5980-425a-b39c-a25391d0cd50&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 482,
-      "departure_at": "2022-09-17T16:10:00+03:00",
-      "transfers": 2,
-      "duration": 1950,
-      "durationH": 33,
-      "link": "/search/MOW1709AGP1?t=GF16634202001663537200001950DMEBAHMXPAGP_d89c269c9c8f5535c6169e3ee67dd3da_29076&search_date=20062022&expected_price_uuid=c0a4e38b-2a6b-4ba8-b8a9-8d47a0e0670a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 460,
-      "departure_at": "2022-09-28T22:50:00+03:00",
-      "transfers": 3,
-      "duration": 2060,
+      "duration": 2065,
       "durationH": 34,
-      "link": "/search/MOW2809SVQ2?t=SU16643946001664518200002060SVOISTVIEBCNSVQ_9f85f033aae0f89c2f9c17ce95b8592c_55498&search_date=19062022&expected_price_uuid=71cf3117-bad7-4619-92e5-5399d250195c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 458,
-      "departure_at": "2022-08-22T23:00:00+03:00",
-      "transfers": 2,
-      "duration": 2210,
-      "durationH": 37,
-      "link": "/search/MOW2208AGP1?t=HY16611984001661331000002210DMETASLHRLTNAGP_b113b17d30d035054de7e5d85041427b_27655&search_date=19062022&expected_price_uuid=e8942456-309a-406f-8841-1ce7078ccea6&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 493,
-      "departure_at": "2022-09-01T14:55:00+03:00",
-      "transfers": 2,
-      "duration": 1910,
-      "durationH": 32,
-      "link": "/search/LED0109AGP1?t=PC16620333001662147900001910LEDSAWSTNLGWAGP_1c95e6309ad317b5ba75156118fe5605_29726&search_date=14062022&expected_price_uuid=a3ffaafe-5fc3-4c22-a188-dac3450356dd&expected_price_currency=rub"
+      "link": "/search/MOW2406BCN1?t=XC16560678001656191700002065SVOAERAYTSTNLGWBCN_0251d0bdc43c19e32f623a7ce60d34e8_29275&search_date=20062022&expected_price_uuid=edd69d67-38ce-48c3-9280-f82deca17c3d&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 471,
-      "departure_at": "2022-08-22T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 2235,
-      "durationH": 37,
-      "link": "/search/MOW2208BCN1?t=TK16611300001661264100002235VKOESBVIECRLBCN_43c330a98b4ef59c0705fafcaafc3a35_28445&search_date=20062022&expected_price_uuid=f0130fde-4af4-4b68-872a-2dbbf63a1484&expected_price_currency=rub"
+      "price": 492,
+      "departure_at": "2022-07-09T23:55:00+03:00",
+      "transfers": 2,
+      "duration": 2125,
+      "durationH": 35,
+      "link": "/search/MOW0907BCN1?t=TK16574001001657527600002125DMEKZNISTBCN_7b687b3f2e33129ee0f64fa7cacd7590_29689&search_date=20062022&expected_price_uuid=d5badffe-3c80-4d37-935e-d1448f37ebe8&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -2203,6 +2148,17 @@ window.data = {
       "duration": 2860,
       "durationH": 48,
       "link": "/search/LED2707BCN1?t=SU16589088001659080400002860LEDAERISTSAWBUDBCN_970b5236355fbf08b981ed4754044b22_28302&search_date=19062022&expected_price_uuid=2c748c5e-b0a6-4f90-a4c9-542e355824a3&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 457,
+      "departure_at": "2022-08-04T09:45:00+03:00",
+      "transfers": 2,
+      "duration": 2960,
+      "durationH": 49,
+      "link": "/search/MOW0408MAD1?t=JU16595955001659773100002960VKOKRRBEGMAD_f0abd923d96cd1195526d9783faf6399_27590&search_date=20062022&expected_price_uuid=5369ae5f-c667-4f1f-8a59-fe188ae6ea5f&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -2230,12 +2186,122 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 509,
-      "departure_at": "2022-08-15T20:50:00+03:00",
+      "price": 485,
+      "departure_at": "2022-08-07T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 1540,
+      "durationH": 26,
+      "link": "/search/MOW0708BCN1?t=HY16598946001659987000001540DMETASRIXOSLBCN_34895cf91a025f08f2996e91fd806a8c_29254&search_date=20062022&expected_price_uuid=2bb8c5fb-cf59-405a-b7d2-c80a9426f69d&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 512,
+      "departure_at": "2022-07-25T00:05:00+03:00",
+      "transfers": 4,
+      "duration": 1495,
+      "durationH": 25,
+      "link": "/search/LED2507BCN1?t=SU16586967001658786400001495LEDAERISTBEGMXPBCN_1bf446275ad43cafeb11055442085335_30923&search_date=19062022&expected_price_uuid=c081689f-47b4-450d-87bd-238505ac2e7e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 487,
+      "departure_at": "2022-07-26T11:30:00+03:00",
       "transfers": 2,
-      "duration": 1750,
-      "durationH": 29,
-      "link": "/search/MOW1508BCN1?t=HY16605858001660690800001750DMETASLHRLGWBCN_604001592cd390213709f6fba72fc1a6_30732&search_date=20062022&expected_price_uuid=7e622b25-3000-4283-94bc-1b217a7b46e7&expected_price_currency=rub"
+      "duration": 1635,
+      "durationH": 27,
+      "link": "/search/MOW2607MAD1?t=PC16588242001658922300001635SVOAERISTSAWMAD_461ec7b6eaaab5adce882d39a3e17868_29369&search_date=20062022&expected_price_uuid=713e3724-7d79-4377-b22e-de148a8f3a0e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 487,
+      "departure_at": "2022-08-09T11:10:00+03:00",
+      "transfers": 2,
+      "duration": 1655,
+      "durationH": 28,
+      "link": "/search/MOW0908MAD1?t=PC16600326001660131900001655SVOAERISTSAWMAD_8f340ebe8f31acba758bd035e6dbfd62_29369&search_date=20062022&expected_price_uuid=2477d435-67d2-4201-99a3-2f7d773a7a4f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 470,
+      "departure_at": "2022-08-17T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 1805,
+      "durationH": 30,
+      "link": "/search/MOW1708BCN1?t=AT16607109001660819200001805DMECMNBCN_d50230b0886a3e4d71d96df02b3f4b31_28350&search_date=20062022&expected_price_uuid=b2d6bfc0-05f5-4cce-973f-7eb06db68823&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 499,
+      "departure_at": "2022-07-20T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 1660,
+      "durationH": 28,
+      "link": "/search/MOW2007BCN1?t=A416583373001658436900001660VKOISTSAWBUDBCN_56987e8bfaa81947c735a94b465a1e42_30143&search_date=20062022&expected_price_uuid=42569102-0ae1-43ac-a41d-a1df9a76deed&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 475,
+      "departure_at": "2022-07-26T00:05:00+03:00",
+      "transfers": 3,
+      "duration": 2675,
+      "durationH": 45,
+      "link": "/search/LED2607MAD1?t=SU16587831001658943600002675LEDAERISTSAWOTPMAD_c3e8a95540cf2b0f3a96232f59005f10_28657&search_date=19062022&expected_price_uuid=f3c50f02-39a0-486c-a1d4-1b527dc1fc67&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 456,
+      "departure_at": "2022-09-17T22:50:00+03:00",
+      "transfers": 2,
+      "duration": 2755,
+      "durationH": 46,
+      "link": "/search/MOW1709MAD1?t=SU16634442001663609500002755SVOISTSAWBUDMAD_c98adb7b597858b462b0ed8be7ceef74_27507&search_date=19062022&expected_price_uuid=905cb5ea-5980-425a-b39c-a25391d0cd50&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 476,
+      "departure_at": "2022-07-26T11:30:00+03:00",
+      "transfers": 3,
+      "duration": 2770,
+      "durationH": 46,
+      "link": "/search/MOW2607BCN1?t=SU16588242001658990400002770SVOAERISTSAWVIEBCN_e7339d550e820f3678ec9d232ce46ed2_28724&search_date=20062022&expected_price_uuid=6fe067d5-8c72-45b4-89e7-078fd6da083b&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 502,
+      "departure_at": "2022-07-27T11:00:00+03:00",
+      "transfers": 2,
+      "duration": 1680,
+      "durationH": 28,
+      "link": "/search/LED2707MAD1?t=SU16589088001659009600001680LEDAERISTSAWMAD_003cb9f7631dff1bb6c967599295de9e_30300&search_date=19062022&expected_price_uuid=e0130e8e-69b8-4c3e-acfa-b3d592b36360&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 504,
+      "departure_at": "2022-09-02T15:35:00+03:00",
+      "transfers": 4,
+      "duration": 1855,
+      "durationH": 31,
+      "link": "/search/LED0209MAD1?t=TK16621221001662233400001855LEDAERISTSAWCPHSTNMAD_2a69e0652a6ed1fa1a997a0b1e8af444_30426&search_date=17062022&expected_price_uuid=4f4d7794-6aac-458b-aa91-23934a413b83&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -2260,6 +2326,39 @@ window.data = {
       "link": "/search/MOW1508AGP1?t=SK16605252001660638600001890VKOESBARNAGP_aa5c0d9e9da0a66337b5ca0d9b8fc0f9_29404&search_date=20062022&expected_price_uuid=fe82ae1d-1e8f-4ad0-9773-822967bce873&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 493,
+      "departure_at": "2022-09-01T14:55:00+03:00",
+      "transfers": 2,
+      "duration": 1910,
+      "durationH": 32,
+      "link": "/search/LED0109AGP1?t=PC16620333001662147900001910LEDSAWSTNLGWAGP_1c95e6309ad317b5ba75156118fe5605_29726&search_date=14062022&expected_price_uuid=a3ffaafe-5fc3-4c22-a188-dac3450356dd&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 482,
+      "departure_at": "2022-09-17T16:10:00+03:00",
+      "transfers": 2,
+      "duration": 1950,
+      "durationH": 33,
+      "link": "/search/MOW1709AGP1?t=GF16634202001663537200001950DMEBAHMXPAGP_d89c269c9c8f5535c6169e3ee67dd3da_29076&search_date=20062022&expected_price_uuid=c0a4e38b-2a6b-4ba8-b8a9-8d47a0e0670a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 485,
+      "departure_at": "2022-08-05T01:55:00+03:00",
+      "transfers": 2,
+      "duration": 1990,
+      "durationH": 33,
+      "link": "/search/MOW0508MAD1?t=JU16596537001659773100001990VKOKRRBEGMAD_344352a32dd70d7cb2f7ed9619e4484b_29246&search_date=20062022&expected_price_uuid=cfdc105c-4a44-43f6-a7f1-53d3ac92bd3d&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -2269,6 +2368,17 @@ window.data = {
       "duration": 1995,
       "durationH": 33,
       "link": "/search/LED2807BCN1?t=SU16589982001659117900001995LEDAERISTSAWBUDBCN_41039f5cc08cd4f6f2fe886f06c70134_29891&search_date=19062022&expected_price_uuid=f57ad7dc-d749-4feb-8ce4-f670f8dc4d32&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 487,
+      "departure_at": "2022-08-16T04:30:00+03:00",
+      "transfers": 2,
+      "duration": 2055,
+      "durationH": 34,
+      "link": "/search/MOW1608MAD1?t=PC16606134001660736700002055SVOAERISTSAWMAD_0617822a0755312e99d40edf86f790fc_29369&search_date=19062022&expected_price_uuid=49f46454-ef9d-45fd-b76f-018f374b1446&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -2293,83 +2403,6 @@ window.data = {
       "link": "/search/MOW2409LEI1?t=SU16640490001664176800002130SVOISTSAWCRLLEI_5f86516dfb29cc8bb64097fb93b76d3e_29043&search_date=16062022&expected_price_uuid=b05f7f53-4657-42af-94b6-af69921199fd&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 485,
-      "departure_at": "2022-08-08T22:30:00+03:00",
-      "transfers": 3,
-      "duration": 2150,
-      "durationH": 36,
-      "link": "/search/LED0808BCN1?t=HY16599870001660116000002150LEDTASLHRLTNIBZBCN_c007ce2578d0188e6cf3a774568aceeb_29258&search_date=19062022&expected_price_uuid=a4d6ffb6-daff-4504-9ba6-7d57dd6a1603&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 480,
-      "departure_at": "2022-09-10T12:55:00+03:00",
-      "transfers": 3,
-      "duration": 2170,
-      "durationH": 36,
-      "link": "/search/LED1009AGP1?t=SU16628037001662933900002170LEDSVOISTSAWCRLBRUAGP_26c539c49b359c91d1cc0a63454cf9ac_28968&search_date=13062022&expected_price_uuid=c91d3a3f-72d0-4367-83d4-8062d1bb322c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 462,
-      "departure_at": "2022-09-05T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2345,
-      "durationH": 39,
-      "link": "/search/MOW0509AGP1?t=HY16624002001662540900002345DMETASLHRLGWAGP_f2a6bf9a00b0c5084e48d902a19b6851_27901&search_date=19062022&expected_price_uuid=20072b27-2730-438a-93e6-aae92bda7233&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 472,
-      "departure_at": "2022-08-07T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 2820,
-      "durationH": 47,
-      "link": "/search/MOW0708BCN1?t=HY16598946001660063800002820DMETASRIXARNBCN_a53ab66c49226015cbf45bcc631f135e_28496&search_date=20062022&expected_price_uuid=39f6d99a-0edc-4c23-b84d-b54dc50b48c8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 457,
-      "departure_at": "2022-08-04T09:45:00+03:00",
-      "transfers": 2,
-      "duration": 2960,
-      "durationH": 49,
-      "link": "/search/MOW0408MAD1?t=JU16595955001659773100002960VKOKRRBEGMAD_f0abd923d96cd1195526d9783faf6399_27590&search_date=20062022&expected_price_uuid=5369ae5f-c667-4f1f-8a59-fe188ae6ea5f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 507,
-      "departure_at": "2022-08-12T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 1950,
-      "durationH": 33,
-      "link": "/search/MOW1208SVQ1?t=AT16602789001660395900001950DMECMNRAKSVQ_634c9b99f8a2ed7ba61a246d911c43a8_30595&search_date=19062022&expected_price_uuid=d8860887-51ed-47fb-b070-034bb5478bf8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 485,
-      "departure_at": "2022-08-05T01:55:00+03:00",
-      "transfers": 2,
-      "duration": 1990,
-      "durationH": 33,
-      "link": "/search/MOW0508MAD1?t=JU16596537001659773100001990VKOKRRBEGMAD_344352a32dd70d7cb2f7ed9619e4484b_29246&search_date=20062022&expected_price_uuid=cfdc105c-4a44-43f6-a7f1-53d3ac92bd3d&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -2381,15 +2414,15 @@ window.data = {
       "link": "/search/MOW1507AGP1?t=TK16578399001657962600002045VKOAYTISTAGP_18e29f04bf4aa230641f5c4b5f456d00_30620&search_date=20062022&expected_price_uuid=2afb2ae9-7731-4ed9-b12d-7226bcb11893&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 487,
-      "departure_at": "2022-07-26T04:30:00+03:00",
-      "transfers": 2,
-      "duration": 2055,
-      "durationH": 34,
-      "link": "/search/MOW2607MAD1?t=PC16587990001658922300002055SVOAERISTSAWMAD_cc0a9f608d28f64afa315d9c1aec9e81_29369&search_date=20062022&expected_price_uuid=bcd7dfab-4b77-40ce-bad5-fc9fec1550c0&expected_price_currency=rub"
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 485,
+      "departure_at": "2022-08-08T22:30:00+03:00",
+      "transfers": 3,
+      "duration": 2150,
+      "durationH": 36,
+      "link": "/search/LED0808BCN1?t=HY16599870001660116000002150LEDTASLHRLTNIBZBCN_c007ce2578d0188e6cf3a774568aceeb_29258&search_date=19062022&expected_price_uuid=a4d6ffb6-daff-4504-9ba6-7d57dd6a1603&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -2403,37 +2436,37 @@ window.data = {
       "link": "/search/LED1807BCN1?t=HY16581726001658301600002150LEDTASLHRLTNIBZBCN_c037a7214a62a0ce8712656214b66d58_29388&search_date=19062022&expected_price_uuid=9677fb4d-f1ec-4a2e-b621-9e6463a3fd54&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
+      "route": "LED-AGP",
       "origin": "LED",
-      "destination": "BCN",
-      "price": 509,
-      "departure_at": "2022-07-10T13:15:00+03:00",
-      "transfers": 2,
-      "duration": 2185,
+      "destination": "AGP",
+      "price": 480,
+      "departure_at": "2022-09-10T12:55:00+03:00",
+      "transfers": 3,
+      "duration": 2170,
       "durationH": 36,
-      "link": "/search/LED1007BCN1?t=HY16574481001657579200002185LEDTASRIXBCN_988aed6d688c249f7ff928ee3ef4925c_30736&search_date=20062022&expected_price_uuid=d5c137d1-6a4d-406c-8dcf-af4a1e51d7e7&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 484,
-      "departure_at": "2022-07-11T11:45:00+03:00",
-      "transfers": 2,
-      "duration": 2895,
-      "durationH": 48,
-      "link": "/search/MOW1107SVQ1?t=HY16575291001657702800002895DMETASLHRSTNSVQ_30b510b0bf35edd044323ac9793559c9_29217&search_date=19062022&expected_price_uuid=cfdeb316-1f42-4508-a8a9-4d264792b8f6&expected_price_currency=rub"
+      "link": "/search/LED1009AGP1?t=SU16628037001662933900002170LEDSVOISTSAWCRLBRUAGP_26c539c49b359c91d1cc0a63454cf9ac_28968&search_date=13062022&expected_price_uuid=c91d3a3f-72d0-4367-83d4-8062d1bb322c&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 509,
-      "departure_at": "2022-08-01T20:50:00+03:00",
+      "price": 471,
+      "departure_at": "2022-08-22T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 2235,
+      "durationH": 37,
+      "link": "/search/MOW2208BCN1?t=TK16611300001661264100002235VKOESBVIECRLBCN_43c330a98b4ef59c0705fafcaafc3a35_28445&search_date=20062022&expected_price_uuid=f0130fde-4af4-4b68-872a-2dbbf63a1484&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 479,
+      "departure_at": "2022-08-21T20:50:00+03:00",
       "transfers": 2,
-      "duration": 2310,
-      "durationH": 39,
-      "link": "/search/MOW0108BCN1?t=HY16593762001659514800002310DMETASLHRLGWBCN_4355857ca63ee94e289e313cede7b025_30732&search_date=20062022&expected_price_uuid=d14b85bf-892e-4f3e-b738-a9a480319180&expected_price_currency=rub"
+      "duration": 2305,
+      "durationH": 38,
+      "link": "/search/MOW2108AGP1?t=HY16611042001661242500002305DMETASRIXAGP_473a43509c419f6a5f6045016ca36f30_28884&search_date=18062022&expected_price_uuid=ab0e533b-e81d-4f79-8f89-0039a8f57275&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -2447,37 +2480,15 @@ window.data = {
       "link": "/search/LED0408MAD1?t=SU16595607001659700800002335LEDAERISTSAWMAD_468422e6162ee4c8c6a8ded3eef50758_29190&search_date=18062022&expected_price_uuid=3eeb3a2f-d1f1-426e-9b5a-65571c5b18d3&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 492,
-      "departure_at": "2022-09-01T08:45:00+03:00",
-      "transfers": 3,
-      "duration": 2414,
-      "durationH": 40,
-      "link": "/search/LED0109MAD1?t=FR16620111001662155940002414LEDAERISTSAWBERMAD_c64856961451fd76f597aa5d8d54e6d6_29686&search_date=19062022&expected_price_uuid=5167aa06-1a33-4117-a87b-b3a0fdb424c3&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
+      "route": "MOW-AGP",
+      "origin": "MOW",
       "destination": "AGP",
-      "price": 487,
-      "departure_at": "2022-08-22T06:35:00+03:00",
-      "transfers": 3,
-      "duration": 2485,
-      "durationH": 41,
-      "link": "/search/LED2208AGP1?t=SU16611393001661288400002485LEDAERISTSAWCPHAGP_c7f83a0671a903961a645066f7cf90a1_29414&search_date=19062022&expected_price_uuid=c24bc308-db9d-4cbf-b936-7331030e5a74&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 478,
-      "departure_at": "2022-09-03T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 2575,
-      "durationH": 43,
-      "link": "/search/LED0309MAD1?t=FR16622085001662363000002575LEDAERISTSAWBUDMAD_b87bbb81f71f9b0ea87e91dc27b93026_28874&search_date=18062022&expected_price_uuid=09400140-9826-4504-b456-c58c175813b1&expected_price_currency=rub"
+      "price": 462,
+      "departure_at": "2022-09-05T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2345,
+      "durationH": 39,
+      "link": "/search/MOW0509AGP1?t=HY16624002001662540900002345DMETASLHRLGWAGP_f2a6bf9a00b0c5084e48d902a19b6851_27901&search_date=19062022&expected_price_uuid=20072b27-2730-438a-93e6-aae92bda7233&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -2491,39 +2502,6 @@ window.data = {
       "link": "/search/MOW0409AGP1?t=A416623117001662470100002640VKOISTSAWBUDMXPBGYAGP_09f716fad9279bcadebf0763e434776f_27822&search_date=17062022&expected_price_uuid=5a6de246-3b5b-4338-8358-bffb24d68ccb&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 498,
-      "departure_at": "2022-09-04T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2640,
-      "durationH": 44,
-      "link": "/search/LED0409MAD1?t=SU16622991001662457500002640LEDAERISTATHMAD_163f13ff477450b5bba6050e68483024_30060&search_date=17062022&expected_price_uuid=5d3bb136-7d3b-4b21-97c2-7c9126569772&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 481,
-      "departure_at": "2022-08-29T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 2675,
-      "durationH": 45,
-      "link": "/search/MOW2908AGP1?t=TK16617348001661895300002675VKOESBBERDUBAGP_c44a24f399a08a477f38536b58d98529_29034&search_date=19062022&expected_price_uuid=4d9c9c89-3875-4453-8167-065e789153d2&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 475,
-      "departure_at": "2022-07-26T00:05:00+03:00",
-      "transfers": 3,
-      "duration": 2675,
-      "durationH": 45,
-      "link": "/search/LED2607MAD1?t=SU16587831001658943600002675LEDAERISTSAWOTPMAD_c3e8a95540cf2b0f3a96232f59005f10_28657&search_date=19062022&expected_price_uuid=f3c50f02-39a0-486c-a1d4-1b527dc1fc67&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-GRX",
       "origin": "MOW",
       "destination": "GRX",
@@ -2533,17 +2511,6 @@ window.data = {
       "duration": 2730,
       "durationH": 46,
       "link": "/search/MOW2609GRX1?t=SU16641996001664363400002730SVOISTSAWPRGBCNBIOGRX_a2fe372ed977adc6c06f45e3cd508cc3_28025&search_date=18062022&expected_price_uuid=9ccf9e16-af8f-4093-a476-6d8a6e12b484&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 476,
-      "departure_at": "2022-07-26T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 2790,
-      "durationH": 47,
-      "link": "/search/MOW2607BCN1?t=SU16588230001658990400002790SVOAERISTSAWVIEBCN_e585e791deac9e2474b1447ab69529ac_28724&search_date=20062022&expected_price_uuid=638af466-2248-45b6-8171-4fb9d57ee03f&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -2579,15 +2546,224 @@ window.data = {
       "link": "/search/LED0508MAD1?t=AT16596507001659717300001110LEDSVODMECMNMAD_089c3c2ebb326763a6572fa26b606761_31076&search_date=19062022&expected_price_uuid=83f5e646-b424-4951-b4c0-235d542a89f7&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 503,
+      "departure_at": "2022-09-24T08:10:00+03:00",
+      "transfers": 3,
+      "duration": 1605,
+      "durationH": 27,
+      "link": "/search/LED2409AGP1?t=PC16639962001664092500001605LEDVKODMESAWSTNLGWAGP_09cc940093dd2e3f9974fc71c1329c8f_30382&search_date=15062022&expected_price_uuid=4c877557-a13e-4e23-80c6-fd333b258bcb&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 553,
-      "departure_at": "2022-08-26T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 740,
-      "durationH": 12,
-      "link": "/search/MOW2608BCN2?t=AT16614885001661532900000740DMECMNBCN_f78562c6eee5e34c6a98aaffd42ead74_66800&search_date=20062022&expected_price_uuid=c3611d3d-b190-455a-aca8-186f921ce035&expected_price_currency=rub"
+      "price": 509,
+      "departure_at": "2022-08-15T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 1750,
+      "durationH": 29,
+      "link": "/search/MOW1508BCN1?t=HY16605858001660690800001750DMETASLHRLGWBCN_604001592cd390213709f6fba72fc1a6_30732&search_date=20062022&expected_price_uuid=7e622b25-3000-4283-94bc-1b217a7b46e7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 507,
+      "departure_at": "2022-08-12T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 1950,
+      "durationH": 33,
+      "link": "/search/MOW1208SVQ1?t=AT16602789001660395900001950DMECMNRAKSVQ_634c9b99f8a2ed7ba61a246d911c43a8_30595&search_date=19062022&expected_price_uuid=d8860887-51ed-47fb-b070-034bb5478bf8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 494,
+      "departure_at": "2022-09-22T01:40:00+03:00",
+      "transfers": 3,
+      "duration": 1975,
+      "durationH": 33,
+      "link": "/search/MOW2209LEI1?t=PC16638000001663918500001975DMEADBSTNLGWBCNLEI_09581c883f9ad0a44e7ecb563b9adaa0_29791&search_date=14062022&expected_price_uuid=ad046061-a021-41ce-b7b9-e043cb110081&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 516,
+      "departure_at": "2022-07-29T11:25:00+03:00",
+      "transfers": 3,
+      "duration": 2080,
+      "durationH": 35,
+      "link": "/search/MOW2907BCN1?t=SU16590831001659207900002080SVOAERISTSAWOTPBCN_558c2f9c520178488588186775a4b8c9_31125&search_date=20062022&expected_price_uuid=810b1bd6-6e2f-4b7f-9a11-904ac1eecbca&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 495,
+      "departure_at": "2022-08-08T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2340,
+      "durationH": 39,
+      "link": "/search/MOW0808AGP1?t=HY16599810001660121400002340DMETASLHRLTNAGP_8776e3e661de4151fb67fd4d568ef36f_29902&search_date=20062022&expected_price_uuid=516e7859-fc62-4a41-a033-033bb94817f4&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 492,
+      "departure_at": "2022-09-01T08:45:00+03:00",
+      "transfers": 3,
+      "duration": 2414,
+      "durationH": 40,
+      "link": "/search/LED0109MAD1?t=FR16620111001662155940002414LEDAERISTSAWBERMAD_c64856961451fd76f597aa5d8d54e6d6_29686&search_date=19062022&expected_price_uuid=5167aa06-1a33-4117-a87b-b3a0fdb424c3&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 498,
+      "departure_at": "2022-08-14T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 2445,
+      "durationH": 41,
+      "link": "/search/MOW1408BCN1?t=HY16604994001660646100002445DMETASRIXAMSBCN_d85d4ecf31f317667d1a8cf0da0a4f88_30039&search_date=20062022&expected_price_uuid=fda17d69-fbd3-436f-b0b8-0615585bbd8d&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 487,
+      "departure_at": "2022-08-22T06:35:00+03:00",
+      "transfers": 3,
+      "duration": 2485,
+      "durationH": 41,
+      "link": "/search/LED2208AGP1?t=SU16611393001661288400002485LEDAERISTSAWCPHAGP_c7f83a0671a903961a645066f7cf90a1_29414&search_date=19062022&expected_price_uuid=c24bc308-db9d-4cbf-b936-7331030e5a74&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 494,
+      "departure_at": "2022-09-01T15:15:00+03:00",
+      "transfers": 3,
+      "duration": 2515,
+      "durationH": 42,
+      "link": "/search/MOW0109SVQ1?t=TK16620345001662185400002515VKOISTSAWMUCBCNSVQ_8c4c770487d154d3cd25ba13737b5420_29790&search_date=18062022&expected_price_uuid=05991872-d979-4a40-81b2-978b404ca04d&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 478,
+      "departure_at": "2022-09-03T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 2575,
+      "durationH": 43,
+      "link": "/search/LED0309MAD1?t=FR16622085001662363000002575LEDAERISTSAWBUDMAD_b87bbb81f71f9b0ea87e91dc27b93026_28874&search_date=18062022&expected_price_uuid=09400140-9826-4504-b456-c58c175813b1&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 481,
+      "departure_at": "2022-08-29T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 2675,
+      "durationH": 45,
+      "link": "/search/MOW2908AGP1?t=TK16617348001661895300002675VKOESBBERDUBAGP_c44a24f399a08a477f38536b58d98529_29034&search_date=19062022&expected_price_uuid=4d9c9c89-3875-4453-8167-065e789153d2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 557,
+      "departure_at": "2022-07-28T06:20:00+03:00",
+      "transfers": 2,
+      "duration": 970,
+      "durationH": 16,
+      "link": "/search/MOW2807BCN1?t=TK16589784001659036600000970VKOISTMANBCN_6a3ae7b432d45e4ee4bc68cff6beae5c_33637&search_date=19062022&expected_price_uuid=bd0e9a87-3b88-4a0a-ae5e-1cb910008272&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 532,
+      "departure_at": "2022-08-07T23:00:00+03:00",
+      "transfers": 3,
+      "duration": 1460,
+      "durationH": 24,
+      "link": "/search/MOW0708MAD1?t=HY16599024001659990000001460DMETASRIXDUSMAD_79a8a37b18698ac6da475608b3477a93_32132&search_date=19062022&expected_price_uuid=d3ec5e81-c523-4948-9fd4-c544531e729b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 545,
+      "departure_at": "2022-07-27T11:40:00+03:00",
+      "transfers": 2,
+      "duration": 1640,
+      "durationH": 27,
+      "link": "/search/MOW2707MAD1?t=PC16589112001659009600001640SVOAERISTSAWMAD_f34809c1a555232b57962a7c29406379_32878&search_date=19062022&expected_price_uuid=df021d2b-18fa-488c-80d3-1ac9a7eb5c43&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 532,
+      "departure_at": "2022-08-01T11:30:00+03:00",
+      "transfers": 2,
+      "duration": 1650,
+      "durationH": 28,
+      "link": "/search/MOW0108MAD1?t=PC16593426001659441600001650SVOAERISTSAWMAD_c931b132a4b7e511b590bf48e480262c_32099&search_date=20062022&expected_price_uuid=915f0591-c42b-491a-a6b6-37e0f5217d72&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 520,
+      "departure_at": "2022-08-03T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 1865,
+      "durationH": 31,
+      "link": "/search/MOW0308BCN1?t=SU16595346001659646500001865SVOAERISTSAWBUDBCN_d6794096b58fa7187930e7e646c8c342_31354&search_date=20062022&expected_price_uuid=952112f0-dc9e-4cf2-8d6a-099e28a090b6&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 509,
+      "departure_at": "2022-07-10T13:15:00+03:00",
+      "transfers": 2,
+      "duration": 2185,
+      "durationH": 36,
+      "link": "/search/LED1007BCN1?t=HY16574481001657579200002185LEDTASRIXBCN_988aed6d688c249f7ff928ee3ef4925c_30736&search_date=20062022&expected_price_uuid=d5c137d1-6a4d-406c-8dcf-af4a1e51d7e7&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 485,
+      "departure_at": "2022-08-22T22:30:00+03:00",
+      "transfers": 3,
+      "duration": 2780,
+      "durationH": 46,
+      "link": "/search/LED2208BCN1?t=HY16611966001661363400002780LEDTASLHRLGWMXPBCN_1e383d18eb6a722c2506bf2760793cbf_29258&search_date=20062022&expected_price_uuid=d859929d-fe86-41f5-9d0e-02ffb78f26c8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 484,
+      "departure_at": "2022-07-11T11:45:00+03:00",
+      "transfers": 2,
+      "duration": 2895,
+      "durationH": 48,
+      "link": "/search/MOW1107SVQ1?t=HY16575291001657702800002895DMETASLHRSTNSVQ_30b510b0bf35edd044323ac9793559c9_29217&search_date=19062022&expected_price_uuid=cfdeb316-1f42-4508-a8a9-4d264792b8f6&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -2612,37 +2788,15 @@ window.data = {
       "link": "/search/LED3008MAD1?t=PC16618635001661947200001395LEDMRVSAWMAD_7c9838c708e8e5520e32d8a339af6ad4_31895&search_date=13062022&expected_price_uuid=971ca720-5e61-4145-a9c4-25233e190f4d&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 512,
-      "departure_at": "2022-07-25T00:05:00+03:00",
-      "transfers": 4,
-      "duration": 1495,
-      "durationH": 25,
-      "link": "/search/LED2507BCN1?t=SU16586967001658786400001495LEDAERISTBEGMXPBCN_1bf446275ad43cafeb11055442085335_30923&search_date=19062022&expected_price_uuid=c081689f-47b4-450d-87bd-238505ac2e7e&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 503,
-      "departure_at": "2022-09-24T08:10:00+03:00",
+      "price": 526,
+      "departure_at": "2022-08-21T23:00:00+03:00",
       "transfers": 3,
-      "duration": 1605,
-      "durationH": 27,
-      "link": "/search/LED2409AGP1?t=PC16639962001664092500001605LEDVKODMESAWSTNLGWAGP_09cc940093dd2e3f9974fc71c1329c8f_30382&search_date=15062022&expected_price_uuid=4c877557-a13e-4e23-80c6-fd333b258bcb&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 502,
-      "departure_at": "2022-07-27T11:00:00+03:00",
-      "transfers": 2,
-      "duration": 1680,
-      "durationH": 28,
-      "link": "/search/LED2707MAD1?t=SU16589088001659009600001680LEDAERISTSAWMAD_003cb9f7631dff1bb6c967599295de9e_30300&search_date=19062022&expected_price_uuid=e0130e8e-69b8-4c3e-acfa-b3d592b36360&expected_price_currency=rub"
+      "duration": 1485,
+      "durationH": 25,
+      "link": "/search/MOW2108BCN1?t=HY16611120001661201100001485DMETASRIXAMSBCN_defda4a09b02eced6a30f99bb87ca4fb_31761&search_date=20062022&expected_price_uuid=dec493c4-0c89-484e-80b8-8041e5ef750b&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -2670,111 +2824,56 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 507,
-      "departure_at": "2022-08-31T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 1805,
-      "durationH": 30,
-      "link": "/search/MOW3108BCN2?t=AT16619205001662028800001805DMECMNBCN_76336173da2f0d41c533864ebfa74eb4_61140&search_date=20062022&expected_price_uuid=35de005b-4d2c-44fd-9ff4-6c411d199d94&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 503,
-      "departure_at": "2022-08-17T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 1805,
-      "durationH": 30,
-      "link": "/search/MOW1708BCN2?t=AT16607109001660819200001805DMECMNBCN_d50230b0886a3e4d71d96df02b3f4b31_60700&search_date=20062022&expected_price_uuid=e00241c7-3f6c-4b27-9cae-945ef7aefcb6&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 504,
-      "departure_at": "2022-09-02T15:35:00+03:00",
-      "transfers": 4,
-      "duration": 1855,
-      "durationH": 31,
-      "link": "/search/LED0209MAD1?t=TK16621221001662233400001855LEDAERISTSAWCPHSTNMAD_2a69e0652a6ed1fa1a997a0b1e8af444_30426&search_date=17062022&expected_price_uuid=4f4d7794-6aac-458b-aa91-23934a413b83&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 494,
-      "departure_at": "2022-09-22T01:40:00+03:00",
-      "transfers": 3,
-      "duration": 1975,
-      "durationH": 33,
-      "link": "/search/MOW2209LEI1?t=PC16638000001663918500001975DMEADBSTNLGWBCNLEI_09581c883f9ad0a44e7ecb563b9adaa0_29791&search_date=14062022&expected_price_uuid=ad046061-a021-41ce-b7b9-e043cb110081&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 487,
-      "departure_at": "2022-08-16T04:30:00+03:00",
+      "price": 509,
+      "departure_at": "2022-08-01T20:50:00+03:00",
       "transfers": 2,
-      "duration": 2055,
-      "durationH": 34,
-      "link": "/search/MOW1608MAD1?t=PC16606134001660736700002055SVOAERISTSAWMAD_0617822a0755312e99d40edf86f790fc_29369&search_date=19062022&expected_price_uuid=49f46454-ef9d-45fd-b76f-018f374b1446&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 479,
-      "departure_at": "2022-08-21T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2305,
-      "durationH": 38,
-      "link": "/search/MOW2108AGP1?t=HY16611042001661242500002305DMETASRIXAGP_473a43509c419f6a5f6045016ca36f30_28884&search_date=18062022&expected_price_uuid=ab0e533b-e81d-4f79-8f89-0039a8f57275&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 495,
-      "departure_at": "2022-08-08T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2340,
+      "duration": 2310,
       "durationH": 39,
-      "link": "/search/MOW0808AGP1?t=HY16599810001660121400002340DMETASLHRLTNAGP_8776e3e661de4151fb67fd4d568ef36f_29902&search_date=20062022&expected_price_uuid=516e7859-fc62-4a41-a033-033bb94817f4&expected_price_currency=rub"
+      "link": "/search/MOW0108BCN1?t=HY16593762001659514800002310DMETASLHRLGWBCN_4355857ca63ee94e289e313cede7b025_30732&search_date=20062022&expected_price_uuid=d14b85bf-892e-4f3e-b738-a9a480319180&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 511,
+      "departure_at": "2022-08-05T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 2445,
+      "durationH": 41,
+      "link": "/search/MOW0508AGP1?t=AT16596741001659820800002445DMECMNRAKAGP_0fdcddcf263ea702b09a94af26166035_30852&search_date=19062022&expected_price_uuid=c2ce0587-a9e3-48ad-9bdb-c4eb79a59b5b&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 482,
-      "departure_at": "2022-08-22T22:30:00+03:00",
+      "price": 502,
+      "departure_at": "2022-08-09T16:45:00+03:00",
       "transfers": 3,
-      "duration": 2780,
-      "durationH": 46,
-      "link": "/search/LED2208BCN1?t=HY16611966001661363400002780LEDTASLHRLGWMXPBCN_1e383d18eb6a722c2506bf2760793cbf_29064&search_date=19062022&expected_price_uuid=d4b4c4e4-937c-401f-83df-ab03b05b5fc8&expected_price_currency=rub"
+      "duration": 2465,
+      "durationH": 41,
+      "link": "/search/LED0908BCN1?t=SU16600527001660200600002465LEDAERISTSAWVIEBCN_a47509f1b816f2a20c30b5fc1bf265fc_30307&search_date=19062022&expected_price_uuid=1e020939-a089-4845-b14b-2be0ff7518f4&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 532,
-      "departure_at": "2022-08-07T23:00:00+03:00",
-      "transfers": 3,
-      "duration": 1460,
-      "durationH": 24,
-      "link": "/search/MOW0708MAD1?t=HY16599024001659990000001460DMETASRIXDUSMAD_79a8a37b18698ac6da475608b3477a93_32132&search_date=19062022&expected_price_uuid=d3ec5e81-c523-4948-9fd4-c544531e729b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
-      "price": 520,
-      "departure_at": "2022-08-03T16:50:00+03:00",
+      "price": 499,
+      "departure_at": "2022-08-04T09:30:00+03:00",
+      "transfers": 2,
+      "duration": 3130,
+      "durationH": 52,
+      "link": "/search/LED0408BCN1?t=AT16595946001659782400003130LEDDMECMNBCN_c118d43146efd742e2122c4cce2215f1_30106&search_date=19062022&expected_price_uuid=ab201485-a8b6-40f1-8e35-13a19b600e6f&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 552,
+      "departure_at": "2022-07-28T15:35:00+03:00",
       "transfers": 3,
-      "duration": 1865,
-      "durationH": 31,
-      "link": "/search/MOW0308BCN1?t=SU16595346001659646500001865SVOAERISTSAWBUDBCN_d6794096b58fa7187930e7e646c8c342_31354&search_date=20062022&expected_price_uuid=952112f0-dc9e-4cf2-8d6a-099e28a090b6&expected_price_currency=rub"
+      "duration": 1650,
+      "durationH": 28,
+      "link": "/search/LED2807AGP2?t=SU16590117001659110700001650LEDAERISTSAWVIEAGP_6d4f1ef9c07e42ae56141501167eea8f_66600&search_date=18062022&expected_price_uuid=57b56166-daa6-4f50-b206-813f08edc276&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -2788,15 +2887,15 @@ window.data = {
       "link": "/search/LED0208BCN2?t=SU16594479001659559800001865LEDAERISTSAWMUCBCN_a09d933a06ac1a1aa125dabb49275ade_63444&search_date=18062022&expected_price_uuid=cae91aa2-2378-4408-aa4a-6b73369ed95c&expected_price_currency=rub"
     },
     {
-      "route": "LED-MAD",
+      "route": "LED-BCN",
       "origin": "LED",
-      "destination": "MAD",
-      "price": 529,
-      "departure_at": "2022-08-16T10:00:00+03:00",
+      "destination": "BCN",
+      "price": 530,
+      "departure_at": "2022-08-03T00:05:00+03:00",
       "transfers": 3,
-      "duration": 2085,
-      "durationH": 35,
-      "link": "/search/LED1608MAD1?t=SU16606332001660758300002085LEDVKOSVOISTSAWBUDMAD_8005f240eeb9a4dd0dcd3894264964b2_31936&search_date=15062022&expected_price_uuid=a6daa18f-8edc-4bff-bfc8-ec21fbab9431&expected_price_currency=rub"
+      "duration": 2025,
+      "durationH": 34,
+      "link": "/search/LED0308BCN2?t=SU16594743001659595800002025LEDAERISTVIEBCN_9709c53e212fd1581093893871f7f2f2_64016&search_date=17062022&expected_price_uuid=8a5410eb-7fa2-4689-8ef7-8960e93dd527&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -2816,9 +2915,9 @@ window.data = {
       "price": 513,
       "departure_at": "2022-07-16T16:55:00+03:00",
       "transfers": 2,
-      "duration": 2130,
-      "durationH": 36,
-      "link": "/search/MOW1607BCN1?t=MS16579797001658107500002130DMECAIMXPBCN_3b6d5e8971390e011b23719de836ca02_30943&search_date=20062022&expected_price_uuid=06c5d015-6ee0-4513-ac58-f6b602aff893&expected_price_currency=rub"
+      "duration": 2125,
+      "durationH": 35,
+      "link": "/search/MOW1607BCN1?t=MS16579797001658107200002125DMECAIMXPBCN_3169a2a620a374390922e9527e5938b9_30943&search_date=20062022&expected_price_uuid=a9b80944-1905-4551-becc-d86ba7f82728&expected_price_currency=rub"
     },
     {
       "route": "MOW-GRX",
@@ -2898,48 +2997,15 @@ window.data = {
       "link": "/search/MOW0509SVQ1?t=HY16624080001662543600002260DMETASLHRSTNMRSSVQ_41c79b6950826d2b46bc5f4e34212b48_29858&search_date=19062022&expected_price_uuid=58027dac-8717-47b1-8d2e-8558acd4094f&expected_price_currency=rub"
     },
     {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 494,
-      "departure_at": "2022-09-01T15:15:00+03:00",
-      "transfers": 3,
-      "duration": 2515,
-      "durationH": 42,
-      "link": "/search/MOW0109SVQ1?t=TK16620345001662185400002515VKOISTSAWMUCBCNSVQ_8c4c770487d154d3cd25ba13737b5420_29790&search_date=18062022&expected_price_uuid=05991872-d979-4a40-81b2-978b404ca04d&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 521,
-      "departure_at": "2022-08-21T11:45:00+03:00",
-      "transfers": 2,
-      "duration": 2275,
-      "durationH": 38,
-      "link": "/search/MOW2108BCN1?t=HY16610715001661208000002275DMETASRIXBCN_2826aa5f8e7c63155fab95288c478cca_31436&search_date=20062022&expected_price_uuid=fc4aa29a-3845-40bc-bf11-7f9d27df891c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 507,
-      "departure_at": "2022-09-06T18:40:00+03:00",
-      "transfers": 4,
-      "duration": 2380,
-      "durationH": 40,
-      "link": "/search/MOW0609AGP2?t=FR16624788001662621600002380SVOAERISTSAWATHBGYAGP_ebb03a2b371a45e7acba39a93ba81f6d_61246&search_date=18062022&expected_price_uuid=8bc0a9e7-1bdf-4be3-8b06-91bd9bd539e2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
       "price": 511,
-      "departure_at": "2022-08-05T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 2445,
-      "durationH": 41,
-      "link": "/search/MOW0508AGP1?t=AT16596741001659820800002445DMECMNRAKAGP_0fdcddcf263ea702b09a94af26166035_30852&search_date=19062022&expected_price_uuid=c2ce0587-a9e3-48ad-9bdb-c4eb79a59b5b&expected_price_currency=rub"
+      "departure_at": "2022-08-04T23:00:00+03:00",
+      "transfers": 3,
+      "duration": 2265,
+      "durationH": 38,
+      "link": "/search/MOW0408BCN1?t=HY16596432001659779100002265DMETASRIXOSLBCN_9397118d56b1742016bdf59e8066d13b_30847&search_date=20062022&expected_price_uuid=ae98fdf4-5b4b-47c4-b741-5c59b6f65e0d&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -2956,12 +3022,34 @@ window.data = {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 502,
-      "departure_at": "2022-08-09T16:45:00+03:00",
+      "price": 517,
+      "departure_at": "2022-08-28T16:45:00+03:00",
       "transfers": 3,
-      "duration": 2465,
+      "duration": 2485,
       "durationH": 41,
-      "link": "/search/LED0908BCN1?t=SU16600527001660200600002465LEDAERISTSAWVIEBCN_a47509f1b816f2a20c30b5fc1bf265fc_30307&search_date=19062022&expected_price_uuid=1e020939-a089-4845-b14b-2be0ff7518f4&expected_price_currency=rub"
+      "link": "/search/LED2808BCN1?t=SU16616943001661843400002485LEDAERISTSAWBEGBCN_5dcd9a9064161b481d0bf1b6bb536a66_31211&search_date=18062022&expected_price_uuid=cc534b02-c3f3-4bd3-860d-ff31fc2210d2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 508,
+      "departure_at": "2022-08-27T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 2620,
+      "durationH": 44,
+      "link": "/search/MOW2708BCN1?t=TK16615620001661719200002620VKOESBVIEMXPBCN_6ad25d72d906c087a2f98809b1f07da0_30652&search_date=20062022&expected_price_uuid=724ebce8-150a-4b3b-ae92-4673e9be6efa&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 498,
+      "departure_at": "2022-09-04T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2640,
+      "durationH": 44,
+      "link": "/search/LED0409MAD1?t=SU16622991001662457500002640LEDAERISTATHMAD_163f13ff477450b5bba6050e68483024_30060&search_date=17062022&expected_price_uuid=5d3bb136-7d3b-4b21-97c2-7c9126569772&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -2975,28 +3063,6 @@ window.data = {
       "link": "/search/MOW1808AGP1?t=HY16608450001661015700002845DMETASRIXOSLAGP_49d21e1c2b0d6f1bb65749f3d4a0b440_30054&search_date=19062022&expected_price_uuid=2337fa76-44c9-412e-b1a8-8fadb9ec6c40&expected_price_currency=rub"
     },
     {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 487,
-      "departure_at": "2022-09-08T15:10:00+03:00",
-      "transfers": 3,
-      "duration": 3055,
-      "durationH": 51,
-      "link": "/search/MOW0809SVQ1?t=PC16626390001662822300003055DMESAWMUCBCNSVQ_426085fb8774fb3ef47d33b221d863e4_29402&search_date=16062022&expected_price_uuid=2fd8ac02-1573-4005-a362-b424a575f71d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 495,
-      "departure_at": "2022-09-26T16:40:00+03:00",
-      "transfers": 4,
-      "duration": 3065,
-      "durationH": 51,
-      "link": "/search/MOW2609LEI1?t=SU16641996001664383500003065SVOISTSAWAMSBCNBRUCRLLEI_cff377f531db7700abc1e65112d1d414_29870&search_date=18062022&expected_price_uuid=25b43c66-953b-460c-8f35-f539b4d8cef1&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-GRX",
       "origin": "MOW",
       "destination": "GRX",
@@ -3006,39 +3072,6 @@ window.data = {
       "duration": 2565,
       "durationH": 43,
       "link": "/search/MOW0409GRX1?t=PC16622934001662447300002565DMESAWNUEBCNGRX_466b7d60c0faef5abe8830b3a1f09c13_31566&search_date=13062022&expected_price_uuid=8f3c7ea4-73a2-4a26-a6ad-4fec5cf94886&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 517,
-      "departure_at": "2022-08-22T09:20:00+03:00",
-      "transfers": 4,
-      "duration": 2890,
-      "durationH": 48,
-      "link": "/search/LED2208MAD1?t=HY16611492001661322600002890LEDDMETASLHRLGWMXPMAD_9754d2521793d0da2dc4211e07360b2b_31205&search_date=20062022&expected_price_uuid=d536890e-709b-475d-b701-c27ed0ae0e0a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 504,
-      "departure_at": "2022-08-15T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2945,
-      "durationH": 49,
-      "link": "/search/MOW1508MAD4?t=HY16605858001660762500002945DMETASLHRSTNMAD_481d3004d4513e9097afb4f88bf786e5_121556&search_date=20062022&expected_price_uuid=ae0e8675-7c9a-44af-86ae-75d2dbc22e6b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 507,
-      "departure_at": "2022-08-01T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 3040,
-      "durationH": 51,
-      "link": "/search/MOW0108AGP1?t=HY16593762001659558600003040DMETASLHRLGWAGP_3beceff5513383f5225b85217c764df8_30609&search_date=19062022&expected_price_uuid=ad05ebe1-53fb-4f64-ae00-5a558ed3ed9e&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -3055,34 +3088,12 @@ window.data = {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 499,
-      "departure_at": "2022-08-04T09:30:00+03:00",
-      "transfers": 2,
-      "duration": 3130,
-      "durationH": 52,
-      "link": "/search/LED0408BCN1?t=AT16595946001659782400003130LEDDMECMNBCN_c118d43146efd742e2122c4cce2215f1_30106&search_date=19062022&expected_price_uuid=ab201485-a8b6-40f1-8e35-13a19b600e6f&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
       "price": 510,
       "departure_at": "2022-08-11T13:15:00+03:00",
       "transfers": 3,
       "duration": 3440,
       "durationH": 57,
       "link": "/search/LED1108BCN1?t=HY16602129001660419300003440LEDTASLHRSTNBLLBCN_e23f5e58f6760809698ced281b61d384_30751&search_date=19062022&expected_price_uuid=8b8376b6-d50a-417b-8d4f-6df9abd34c41&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 557,
-      "departure_at": "2022-07-28T06:20:00+03:00",
-      "transfers": 2,
-      "duration": 970,
-      "durationH": 16,
-      "link": "/search/MOW2807BCN1?t=TK16589784001659036600000970VKOISTMANBCN_6a3ae7b432d45e4ee4bc68cff6beae5c_33637&search_date=19062022&expected_price_uuid=bd0e9a87-3b88-4a0a-ae5e-1cb910008272&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -3107,17 +3118,6 @@ window.data = {
       "link": "/search/MOW0309SVQ2?t=TK16621668001662243900001285VKOESBGVABODSVQ_7cebfb175ca9aace961d4e7efd556448_67636&search_date=15062022&expected_price_uuid=ceb4055e-2356-46f6-bf42-d434586822eb&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 548,
-      "departure_at": "2022-07-17T16:50:00+03:00",
-      "transfers": 2,
-      "duration": 1315,
-      "durationH": 22,
-      "link": "/search/MOW1707MAD2?t=PC16580658001658144700001315SVOAERISTSAWMAD_66bfe3301808c1af80719297cc00cfd6_66118&search_date=20062022&expected_price_uuid=bd3ba8a7-4a84-48f6-a1cb-347ce13f1bc4&expected_price_currency=rub"
-    },
-    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -3127,17 +3127,6 @@ window.data = {
       "duration": 1465,
       "durationH": 24,
       "link": "/search/LED1608BCN1?t=AT16606674001660755300001465LEDDMECMNBCN_4fa5ab77bb69f4fa9b5336d8331f249b_33148&search_date=20062022&expected_price_uuid=246e7a4a-d3d3-485d-a7c9-89fe32576ed2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 524,
-      "departure_at": "2022-08-18T23:00:00+03:00",
-      "transfers": 3,
-      "duration": 1485,
-      "durationH": 25,
-      "link": "/search/MOW1808BCN1?t=HY16608528001660941900001485DMETASRIXAMSBCN_9945cd33f6b77cec34fae21d9040f10e_31610&search_date=20062022&expected_price_uuid=163d8eff-a55d-421e-affc-3f8dec2585eb&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -3151,26 +3140,15 @@ window.data = {
       "link": "/search/LED3108BCN2?t=SU16619364001662032100001595LEDSVOISTSAWBCN_513d017deecccd5c84d8023d8e981376_65544&search_date=19062022&expected_price_uuid=0be45a92-6d0b-478b-8561-52bcf150630f&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 545,
-      "departure_at": "2022-07-27T11:40:00+03:00",
-      "transfers": 2,
-      "duration": 1640,
-      "durationH": 27,
-      "link": "/search/MOW2707MAD1?t=PC16589112001659009600001640SVOAERISTSAWMAD_f34809c1a555232b57962a7c29406379_32878&search_date=19062022&expected_price_uuid=df021d2b-18fa-488c-80d3-1ac9a7eb5c43&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
+      "route": "LED-BCN",
       "origin": "LED",
-      "destination": "AGP",
-      "price": 552,
-      "departure_at": "2022-07-28T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1650,
-      "durationH": 28,
-      "link": "/search/LED2807AGP2?t=SU16590117001659110700001650LEDAERISTSAWVIEAGP_6d4f1ef9c07e42ae56141501167eea8f_66600&search_date=18062022&expected_price_uuid=57b56166-daa6-4f50-b206-813f08edc276&expected_price_currency=rub"
+      "destination": "BCN",
+      "price": 549,
+      "departure_at": "2022-08-18T17:20:00+03:00",
+      "transfers": 2,
+      "duration": 1595,
+      "durationH": 27,
+      "link": "/search/LED1808BCN1?t=AT16608324001660928100001595LEDDMECMNBCN_b52ec58244e7be691f17f8af9ba4d81b_33148&search_date=20062022&expected_price_uuid=f027361c-a655-479f-a9cc-163608bc79e4&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -3181,18 +3159,7 @@ window.data = {
       "transfers": 2,
       "duration": 1655,
       "durationH": 28,
-      "link": "/search/MOW2507MAD1?t=PC16587366001658835900001655SVOAERISTSAWMAD_dd255b2977f826804cd3b242688b5e9e_32554&search_date=20062022&expected_price_uuid=86d8e67a-e3a3-465e-9d01-04cb4d530feb&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 543,
-      "departure_at": "2022-07-13T09:45:00+03:00",
-      "transfers": 2,
-      "duration": 1740,
-      "durationH": 29,
-      "link": "/search/MOW1307MAD1?t=PC16576947001657799100001740VKOGRVISTSAWMAD_098f43f19e170f1b7c37974cda73cdae_32746&search_date=20062022&expected_price_uuid=3d51b213-b79b-476c-a486-2004d3a07358&expected_price_currency=rub"
+      "link": "/search/MOW2507MAD1?t=PC16587366001658835900001655SVOAERISTSAWMAD_0b6a6a4dfa785cfd17fd3625c4b61d1b_32554&search_date=20062022&expected_price_uuid=0f8e7312-1a46-4de9-bb7d-4be0f44dbd87&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -3204,6 +3171,17 @@ window.data = {
       "duration": 1815,
       "durationH": 30,
       "link": "/search/LED1008MAD1?t=SU16601103001660219200001815LEDAERISTSAWMAD_6e1213a0c69a4f7caca4a0b5bf94b5aa_32430&search_date=17062022&expected_price_uuid=5d9cf4e9-90f2-4c34-9c1b-842eb3e3ecce&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 568,
+      "departure_at": "2022-07-28T11:40:00+03:00",
+      "transfers": 2,
+      "duration": 1755,
+      "durationH": 29,
+      "link": "/search/MOW2807MAD1?t=PC16589976001659102900001755SVOAERISTSAWMAD_b08e28d45c7e1fc1895a010ad98d4dfe_34305&search_date=19062022&expected_price_uuid=cd5bd8dc-ba9f-4c5f-9cd4-9c07f5f9bcff&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -3228,15 +3206,59 @@ window.data = {
       "link": "/search/LED2007BCN1?t=SU16583205001658436900001940LEDAERISTSAWBUDBCN_7f0775bd632631965059efe9cf993807_31244&search_date=19062022&expected_price_uuid=0a831fa0-bcbb-48ee-89f1-05b4b27a5d66&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 539,
+      "departure_at": "2022-07-21T04:30:00+03:00",
+      "transfers": 2,
+      "duration": 2055,
+      "durationH": 34,
+      "link": "/search/MOW2107MAD1?t=PC16583670001658490300002055SVOAERISTSAWMAD_6580fa75be1e2409a025006003ab6c9b_32554&search_date=20062022&expected_price_uuid=1538a7c7-614a-44d8-8f34-edac4071323a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 526,
+      "departure_at": "2022-07-25T00:05:00+03:00",
+      "transfers": 3,
+      "duration": 2070,
+      "durationH": 35,
+      "link": "/search/LED2507MAD1?t=SU16586967001658820900002070LEDAERISTAMSMAD_9be5e32c247ea540324de864c6182d25_31736&search_date=18062022&expected_price_uuid=a1e0a3b1-fdcd-4f69-89c5-7f36eb2d6169&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 529,
+      "departure_at": "2022-08-16T10:00:00+03:00",
+      "transfers": 3,
+      "duration": 2085,
+      "durationH": 35,
+      "link": "/search/LED1608MAD1?t=SU16606332001660758300002085LEDVKOSVOISTSAWBUDMAD_8005f240eeb9a4dd0dcd3894264964b2_31936&search_date=15062022&expected_price_uuid=a6daa18f-8edc-4bff-bfc8-ec21fbab9431&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 536,
-      "departure_at": "2022-08-15T00:05:00+03:00",
+      "price": 540,
+      "departure_at": "2022-07-29T11:50:00+03:00",
       "transfers": 3,
-      "duration": 2130,
+      "duration": 2160,
       "durationH": 36,
-      "link": "/search/LED1508BCN2?t=SU16605111001660638900002130LEDAERISTATHBCN_b539666fb10c5c50d43d96ec8328e09d_64726&search_date=18062022&expected_price_uuid=23c90f20-022e-4810-9daf-f4ca8d1c46f6&expected_price_currency=rub"
+      "link": "/search/LED2907BCN1?t=SU16590846001659214200002160LEDAERISTSAWBUDBCN_e978750e1888955f12a26d2b065cfd35_32604&search_date=19062022&expected_price_uuid=cb6ec58c-5a3c-48e6-bee4-98adccb445ab&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 529,
+      "departure_at": "2022-07-21T08:45:00+03:00",
+      "transfers": 3,
+      "duration": 2170,
+      "durationH": 36,
+      "link": "/search/LED2107MAD1?t=SU16583823001658512500002170LEDAERISTSOFMAD_e6c5e1a68d9b73f0b10ce828d4c1d9ad_31921&search_date=18062022&expected_price_uuid=503468ee-01c7-4c70-8444-826cf0b667ba&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
@@ -3261,6 +3283,72 @@ window.data = {
       "link": "/search/MOW1408MAD1?t=HY16604994001660634400002250DMETASFRAMAD_57de9d061c770dcdf720519f5b76dfd5_31894&search_date=19062022&expected_price_uuid=ffb53c88-a70a-47d4-9f34-2a3464dea75d&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 524,
+      "departure_at": "2022-07-24T19:10:00+03:00",
+      "transfers": 3,
+      "duration": 2365,
+      "durationH": 39,
+      "link": "/search/MOW2407MAD1?t=SU16586790001658820900002365SVOAERISTAMSMAD_dbbd126fd55daed58bbf8970f1817f5b_31596&search_date=20062022&expected_price_uuid=88c45559-22d1-42dc-97e2-3f66a3e65692&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 507,
+      "departure_at": "2022-09-06T18:40:00+03:00",
+      "transfers": 4,
+      "duration": 2380,
+      "durationH": 40,
+      "link": "/search/MOW0609AGP2?t=FR16624788001662621600002380SVOAERISTSAWATHBGYAGP_ebb03a2b371a45e7acba39a93ba81f6d_61246&search_date=18062022&expected_price_uuid=8bc0a9e7-1bdf-4be3-8b06-91bd9bd539e2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 526,
+      "departure_at": "2022-07-31T23:00:00+03:00",
+      "transfers": 3,
+      "duration": 2435,
+      "durationH": 41,
+      "link": "/search/MOW3107MAD1?t=HY16592976001659443700002435DMETASRIXWAWMAD_070b228bc993fd604b80f9e49ebaab64_31760&search_date=20062022&expected_price_uuid=d9f05ba7-1366-4fa3-8082-0626f84bffd2&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 523,
+      "departure_at": "2022-07-18T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2480,
+      "durationH": 41,
+      "link": "/search/LED1807AGP1?t=SU16581519001658300700002480LEDAERISTSAWVIEAGP_792eb09f2e54d338f025bda9ea09e6ee_31538&search_date=18062022&expected_price_uuid=4f6cd832-2fef-4efb-8898-e707d3548923&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 530,
+      "departure_at": "2022-07-17T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 2535,
+      "durationH": 42,
+      "link": "/search/LED1707BCN1?t=SU16580613001658213400002535LEDAERISTSAWVIEBCN_a65960548b39ab973258e122ef9918ff_31970&search_date=19062022&expected_price_uuid=a43465b9-f474-413a-9291-b59791a3fd7e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 514,
+      "departure_at": "2022-07-21T23:00:00+03:00",
+      "transfers": 2,
+      "duration": 2560,
+      "durationH": 43,
+      "link": "/search/MOW2107BCN1?t=HY16584336001658587200002560DMETASRIXBCN_67e12cf6d4e3face057e30f80acdca3a_31009&search_date=20062022&expected_price_uuid=fbe660c2-5aac-401d-b1ab-af84c1c72265&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -3272,37 +3360,169 @@ window.data = {
       "link": "/search/MOW0309AGP1?t=TK16621668001662327600002680VKOESBFRAHHNBGYMXPAGP_f31e96673f1e4bc18f4a394b7c6e791e_31869&search_date=19062022&expected_price_uuid=6fefe48b-da33-40bf-99a4-796a429f7ecc&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 517,
-      "departure_at": "2022-08-20T21:00:00+03:00",
-      "transfers": 3,
-      "duration": 3160,
-      "durationH": 53,
-      "link": "/search/LED2008BCN1?t=TK16610184001661208000003160LEDVKOESBBERBCN_68024958a5eab808fe83d6cc9e3324ae_31211&search_date=18062022&expected_price_uuid=406aee23-651f-4201-a69f-0cc018a94bae&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 549,
-      "departure_at": "2022-08-18T17:20:00+03:00",
+      "price": 529,
+      "departure_at": "2022-07-14T20:50:00+03:00",
       "transfers": 2,
-      "duration": 1595,
-      "durationH": 27,
-      "link": "/search/LED1808BCN1?t=AT16608324001660928100001595LEDDMECMNBCN_b52ec58244e7be691f17f8af9ba4d81b_33148&search_date=20062022&expected_price_uuid=f027361c-a655-479f-a9cc-163608bc79e4&expected_price_currency=rub"
+      "duration": 2690,
+      "durationH": 45,
+      "link": "/search/MOW1407BCN1?t=HY16578210001657982400002690DMETASRIXBCN_dfebe8cfa34785355c2735ed4b55aa49_31929&search_date=20062022&expected_price_uuid=fce19066-ae21-452d-a964-d7e7bea47a86&expected_price_currency=rub"
     },
     {
-      "route": "LED-GRX",
+      "route": "LED-MAD",
       "origin": "LED",
-      "destination": "GRX",
-      "price": 534,
-      "departure_at": "2022-09-05T12:30:00+03:00",
-      "transfers": 4,
-      "duration": 1980,
-      "durationH": 33,
-      "link": "/search/LED0509GRX1?t=SU16623702001662489000001980LEDAERISTSAWCPHLGWGRX_2d3ca0d8c39c1cb153e21d04042e0d87_32241&search_date=13062022&expected_price_uuid=3286d553-a989-446f-a08f-fd01337557f1&expected_price_currency=rub"
+      "destination": "MAD",
+      "price": 556,
+      "departure_at": "2022-07-28T06:35:00+03:00",
+      "transfers": 3,
+      "duration": 2420,
+      "durationH": 40,
+      "link": "/search/LED2807MAD1?t=SU16589793001659124500002420LEDAERISTSAWOTPMAD_6fb930e678db1f026dc30dd28c43026a_33550&search_date=19062022&expected_price_uuid=fc998b3b-006d-4846-befd-3026b11f1370&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 531,
+      "departure_at": "2022-07-27T02:05:00+03:00",
+      "transfers": 3,
+      "duration": 2725,
+      "durationH": 45,
+      "link": "/search/MOW2707AGP1?t=TK16588767001659040200002725VKOAYTBRUBCNAGP_1f00050f6a7fbe0ddbf33cd4552edeff_32039&search_date=20062022&expected_price_uuid=af71bde0-489e-4d66-a578-52dbedc2af25&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 521,
+      "departure_at": "2022-07-27T11:10:00+03:00",
+      "transfers": 3,
+      "duration": 2765,
+      "durationH": 46,
+      "link": "/search/MOW2707BCN1?t=SU16589094001659075300002765SVOAERISTSAWVIEBCN_4161f034a4a3a31d6707d10f1ba49951_31450&search_date=19062022&expected_price_uuid=6cf1b035-0aa7-4f42-924b-dcda238b381c&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 518,
+      "departure_at": "2022-07-24T16:45:00+03:00",
+      "transfers": 2,
+      "duration": 2775,
+      "durationH": 46,
+      "link": "/search/LED2407MAD1?t=SU16586703001658836800002775LEDAERISTSAWMAD_5f4b361b064a286bc50b0a9dab17ecda_31271&search_date=18062022&expected_price_uuid=bdb3a45f-60b9-4d91-9d6b-47552f62ac66&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 506,
+      "departure_at": "2022-07-23T11:50:00+03:00",
+      "transfers": 3,
+      "duration": 2800,
+      "durationH": 47,
+      "link": "/search/LED2307MAD1?t=SU16585662001658734200002800LEDAERISTSAWBUDMAD_50c292b23a59b6a797546f0c1de45180_30521&search_date=19062022&expected_price_uuid=e8712ed3-a6bc-4a40-beba-a1bcd00041d2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 504,
+      "departure_at": "2022-08-15T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2945,
+      "durationH": 49,
+      "link": "/search/MOW1508MAD4?t=HY16605858001660762500002945DMETASLHRSTNMAD_481d3004d4513e9097afb4f88bf786e5_121556&search_date=20062022&expected_price_uuid=ae0e8675-7c9a-44af-86ae-75d2dbc22e6b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 507,
+      "departure_at": "2022-08-01T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 3040,
+      "durationH": 51,
+      "link": "/search/MOW0108AGP1?t=HY16593762001659558600003040DMETASLHRLGWAGP_3beceff5513383f5225b85217c764df8_30609&search_date=19062022&expected_price_uuid=ad05ebe1-53fb-4f64-ae00-5a558ed3ed9e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 487,
+      "departure_at": "2022-09-08T15:10:00+03:00",
+      "transfers": 3,
+      "duration": 3055,
+      "durationH": 51,
+      "link": "/search/MOW0809SVQ1?t=PC16626390001662822300003055DMESAWMUCBCNSVQ_426085fb8774fb3ef47d33b221d863e4_29402&search_date=16062022&expected_price_uuid=2fd8ac02-1573-4005-a362-b424a575f71d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 513,
+      "departure_at": "2022-07-25T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 3040,
+      "durationH": 51,
+      "link": "/search/MOW2507AGP1?t=HY16587714001658953800003040DMETASLHRLGWAGP_34d2ececca3e184cd61bd41ffa8647e7_30959&search_date=19062022&expected_price_uuid=31f0ef8d-d802-4251-9856-dc866f9b3d38&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 494,
+      "departure_at": "2022-07-23T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 3135,
+      "durationH": 52,
+      "link": "/search/MOW2307BCN1?t=SU16585842001658772300003135SVOAERISTSAWBUDBCN_215f3270428c22a8abe34fd600ba1bfd_29827&search_date=20062022&expected_price_uuid=fee1d080-5d2c-4439-bffd-e8bd71f08263&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 537,
+      "departure_at": "2022-08-05T00:05:00+03:00",
+      "transfers": 3,
+      "duration": 1535,
+      "durationH": 26,
+      "link": "/search/LED0508BCN1?t=SU16596471001659739200001535LEDAERISTATHBCN_74d441923ba197e273c5b8973be36415_32402&search_date=19062022&expected_price_uuid=8cfda0e5-1ec5-4f06-8d8b-b39dcd217713&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 566,
+      "departure_at": "2022-07-17T20:15:00+03:00",
+      "transfers": 1,
+      "duration": 1110,
+      "durationH": 19,
+      "link": "/search/MOW1707MAD1?t=A416580781001658144700001110VKOISTSAWMAD_87e257dea165b276c1412b4b0bcbc245_34136&search_date=20062022&expected_price_uuid=d3318183-6937-4dcb-b7e0-96d3541febd8&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 557,
+      "departure_at": "2022-08-06T14:10:00+03:00",
+      "transfers": 3,
+      "duration": 1865,
+      "durationH": 31,
+      "link": "/search/LED0608BCN1?t=SU16597842001659896100001865LEDAERISTSAWBUDBCN_76e9e32967f44df19de0c8c0278e67c9_33643&search_date=18062022&expected_price_uuid=7b74cc70-aef9-4de2-aa15-6aeb58a35f9d&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-SVQ",
+      "origin": "LED",
+      "destination": "SVQ",
+      "price": 562,
+      "departure_at": "2022-07-19T12:05:00+03:00",
+      "transfers": 3,
+      "duration": 1935,
+      "durationH": 32,
+      "link": "/search/LED1907SVQ1?t=SU16582215001658337600001935LEDAERISTSAWOTPSVQ_e29c55aa44eb71b52926009a8aec2808_33914&search_date=18062022&expected_price_uuid=3bbb2380-56ab-46cc-8029-88aef3c5a6f9&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -3316,103 +3536,26 @@ window.data = {
       "link": "/search/LED1907BCN1?t=SU16582017001658320500001980LEDAERISTVIEBCN_b0dfef0d33904b69576a31be3c01b87b_32893&search_date=19062022&expected_price_uuid=cc70a1e3-9dfc-461a-bef2-f5962bf2903a&expected_price_currency=rub"
     },
     {
-      "route": "LED-GRX",
+      "route": "LED-MAD",
       "origin": "LED",
-      "destination": "GRX",
-      "price": 543,
-      "departure_at": "2022-09-07T08:05:00+03:00",
-      "transfers": 3,
-      "duration": 2025,
-      "durationH": 34,
-      "link": "/search/LED0709GRX1?t=PC16625271001662648600002025LEDVKODMESAWSTNLGWGRX_66879ee25ae510354b08aee2eaa4415d_32792&search_date=13062022&expected_price_uuid=69b842f3-fbd4-4944-98b5-cd4888a6bfbe&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 530,
-      "departure_at": "2022-08-03T00:05:00+03:00",
-      "transfers": 3,
-      "duration": 2025,
-      "durationH": 34,
-      "link": "/search/LED0308BCN2?t=SU16594743001659595800002025LEDAERISTVIEBCN_9709c53e212fd1581093893871f7f2f2_64016&search_date=17062022&expected_price_uuid=8a5410eb-7fa2-4689-8ef7-8960e93dd527&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
       "destination": "MAD",
-      "price": 539,
-      "departure_at": "2022-07-21T04:30:00+03:00",
-      "transfers": 2,
-      "duration": 2055,
-      "durationH": 34,
-      "link": "/search/MOW2107MAD2?t=PC16583670001658490300002055SVOAERISTSAWMAD_6580fa75be1e2409a025006003ab6c9b_65110&search_date=20062022&expected_price_uuid=56b40b1d-b966-4829-b26e-4b84654acdec&expected_price_currency=rub"
+      "price": 554,
+      "departure_at": "2022-08-06T00:45:00+03:00",
+      "transfers": 3,
+      "duration": 1995,
+      "durationH": 33,
+      "link": "/search/LED0608MAD1?t=SU16597359001659855600001995LEDDMESVOISTVIEMAD_fcdf9957c616dcca4709ac72a8408031_33422&search_date=15062022&expected_price_uuid=9f7ebc27-0ece-412e-9928-98fa5063c23a&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 526,
-      "departure_at": "2022-07-25T00:05:00+03:00",
+      "price": 553,
+      "departure_at": "2022-07-20T11:00:00+03:00",
       "transfers": 3,
-      "duration": 2070,
+      "duration": 2095,
       "durationH": 35,
-      "link": "/search/LED2507MAD1?t=SU16586967001658820900002070LEDAERISTAMSMAD_9be5e32c247ea540324de864c6182d25_31736&search_date=18062022&expected_price_uuid=a1e0a3b1-fdcd-4f69-89c5-7f36eb2d6169&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 536,
-      "departure_at": "2022-09-23T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 2125,
-      "durationH": 35,
-      "link": "/search/MOW2309LEI1?t=AT16639077001664035200002125DMECMNBCNLEI_2ed64f4f98917053b51d569947500fb9_32360&search_date=15062022&expected_price_uuid=f734f441-a6d6-44e6-bfd7-0720b220a69e&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 529,
-      "departure_at": "2022-07-21T08:45:00+03:00",
-      "transfers": 3,
-      "duration": 2170,
-      "durationH": 36,
-      "link": "/search/LED2107MAD1?t=SU16583823001658512500002170LEDAERISTSOFMAD_e6c5e1a68d9b73f0b10ce828d4c1d9ad_31921&search_date=18062022&expected_price_uuid=503468ee-01c7-4c70-8444-826cf0b667ba&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 511,
-      "departure_at": "2022-08-04T23:00:00+03:00",
-      "transfers": 3,
-      "duration": 2265,
-      "durationH": 38,
-      "link": "/search/MOW0408BCN1?t=HY16596432001659779100002265DMETASRIXOSLBCN_9397118d56b1742016bdf59e8066d13b_30847&search_date=20062022&expected_price_uuid=ae98fdf4-5b4b-47c4-b741-5c59b6f65e0d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 534,
-      "departure_at": "2022-09-27T01:45:00+03:00",
-      "transfers": 4,
-      "duration": 2520,
-      "durationH": 42,
-      "link": "/search/MOW2709LEI1?t=SU16642323001664383500002520SVOAEREVNATHBRUCRLLEI_4fa8107d5ca239ca80c0b42b30bd8588_32203&search_date=19062022&expected_price_uuid=3743501e-b159-4fe6-8272-247a6d070704&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 522,
-      "departure_at": "2022-09-17T16:10:00+03:00",
-      "transfers": 3,
-      "duration": 3035,
-      "durationH": 51,
-      "link": "/search/MOW1709LEI1?t=GF16634202001663602300003035DMEBAHMXPBCNLEI_08d81251c6526aecb5ca2b7f7f03acaa_31500&search_date=18062022&expected_price_uuid=454e61ec-658f-480c-b825-286294f22dab&expected_price_currency=rub"
+      "link": "/search/LED2007MAD1?t=SU16583040001658429700002095LEDAERISTSAWBUDMAD_fa7d6e638f556a85355d26ce55713eb0_33369&search_date=18062022&expected_price_uuid=28046e73-85e0-4e25-b168-958d1eecc39d&expected_price_currency=rub"
     },
     {
       "route": "LED-SVQ",
@@ -3426,6 +3569,17 @@ window.data = {
       "link": "/search/LED3108SVQ1?t=SU16619328001662064200002190LEDAERISTSAWBGYSVQ_5e2374656b0e361fd9d269d25bb096de_33603&search_date=13062022&expected_price_uuid=d626eb09-d27b-43b6-ae47-e4b1564d2321&expected_price_currency=rub"
     },
     {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 562,
+      "departure_at": "2022-08-08T01:05:00+03:00",
+      "transfers": 3,
+      "duration": 2190,
+      "durationH": 37,
+      "link": "/search/LED0808MAD1?t=PC16599099001660041300002190LEDSVODMESAWSTNMAD_a179eb6dae053a71f05b6e5b6a373f66_33938&search_date=17062022&expected_price_uuid=70baa831-52f3-44e1-b791-4e4a825924a8&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -3435,6 +3589,17 @@ window.data = {
       "duration": 2195,
       "durationH": 37,
       "link": "/search/LED2408BCN1?t=AT16612923001661424000002195LEDSVODMECMNBCN_76a222f63d7f4e464fe77a015fcdaad4_33661&search_date=19062022&expected_price_uuid=9214f104-391f-4c2a-9855-037fa4f9500d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 537,
+      "departure_at": "2022-08-05T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2215,
+      "durationH": 37,
+      "link": "/search/MOW0508BCN1?t=HY16597218001659854700002215DMETASFRAHHNBCN_57e5ed877bff49a73376306c9c60e17c_32390&search_date=19062022&expected_price_uuid=c9cacc17-7c14-4628-9a59-b13704c7219f&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -3470,6 +3635,50 @@ window.data = {
       "link": "/search/MOW1007AGP1?t=HY16574754001657613700002305DMETASRIXAGP_5007bb8e8b3369e30c2ae4dc2e37d81f_31374&search_date=19062022&expected_price_uuid=fcaa2b55-b7ed-40b5-97b1-fd703c534162&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 538,
+      "departure_at": "2022-08-03T08:45:00+03:00",
+      "transfers": 3,
+      "duration": 2325,
+      "durationH": 39,
+      "link": "/search/LED0308AGP1?t=SU16595055001659645000002325LEDAERISTSAWBUDAGP_15fdfb6132c0776fd9289396ff6e093b_32453&search_date=15062022&expected_price_uuid=60617dcb-10fd-48fe-ae17-89aefde150a2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 541,
+      "departure_at": "2022-06-24T08:55:00+03:00",
+      "transfers": 3,
+      "duration": 2404,
+      "durationH": 40,
+      "link": "/search/MOW2406MAD1?t=XC16560501001656194340002404SVOAERAYTSTNLGWMAD_fc4a4970dca38db327f2f371b7cd1784_32629&search_date=20062022&expected_price_uuid=7a8cedec-7e46-42d4-8f9f-8aac5460778c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 526,
+      "departure_at": "2022-07-10T23:00:00+03:00",
+      "transfers": 3,
+      "duration": 2435,
+      "durationH": 41,
+      "link": "/search/MOW1007MAD3?t=HY16574832001657629300002435DMETASRIXWAWMAD_8707250ae7441fafcfecddc10cee9f7e_95280&search_date=20062022&expected_price_uuid=09fdd8a3-432b-4d53-ad2e-94adc33f2790&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 536,
+      "departure_at": "2022-08-02T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 2460,
+      "durationH": 41,
+      "link": "/search/MOW0208BCN1?t=SU16594482001659595800002460SVOAERISTSAWVIEBCN_a82f57f10ef9d12131a62c724a80bcb3_32358&search_date=19062022&expected_price_uuid=50fdcf86-8992-49a6-8f66-b0e21b5fe871&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-GRX",
       "origin": "MOW",
       "destination": "GRX",
@@ -3481,37 +3690,37 @@ window.data = {
       "link": "/search/MOW2208GRX1?t=HY16611906001661338500002465DMETASLHRLGWBIOGRX_89fce6b6a19511692374e1ad7b0590f9_32376&search_date=17062022&expected_price_uuid=64ace2e8-cae3-4099-977a-dff3ef15a144&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 523,
-      "departure_at": "2022-07-18T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2480,
-      "durationH": 41,
-      "link": "/search/LED1807AGP1?t=SU16581519001658300700002480LEDAERISTSAWVIEAGP_792eb09f2e54d338f025bda9ea09e6ee_31538&search_date=18062022&expected_price_uuid=4f6cd832-2fef-4efb-8898-e707d3548923&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 517,
-      "departure_at": "2022-08-28T16:45:00+03:00",
+      "price": 516,
+      "departure_at": "2022-08-26T16:50:00+03:00",
       "transfers": 3,
       "duration": 2485,
       "durationH": 41,
-      "link": "/search/LED2808BCN1?t=SU16616943001661843400002485LEDAERISTSAWBEGBCN_5dcd9a9064161b481d0bf1b6bb536a66_31211&search_date=18062022&expected_price_uuid=cc534b02-c3f3-4bd3-860d-ff31fc2210d2&expected_price_currency=rub"
+      "link": "/search/MOW2608BCN1?t=SU16615218001661670900002485SVOAERISTSAWHELBCN_6c72df605f31545b9ce806eb7f1c1dd6_31121&search_date=20062022&expected_price_uuid=7c10c0c2-2a2b-4fb4-b0c7-cb9724a1fb19&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 514,
+      "departure_at": "2022-07-10T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 3790,
+      "durationH": 63,
+      "link": "/search/MOW1007SVQ1?t=HY16574754001657702800003790DMETASFRAHHNIBZSVQ_0143d05c6b2c562da771d0bbfbdeb6ab_31038&search_date=18062022&expected_price_uuid=ce1b1b57-8c5c-405d-8161-79788594b452&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
-      "price": 524,
+      "price": 541,
       "departure_at": "2022-07-23T16:50:00+03:00",
       "transfers": 3,
       "duration": 2500,
       "durationH": 42,
-      "link": "/search/MOW2307MAD1?t=SU16585842001658734200002500SVOAERISTSAWBUDMAD_2d51828618eec61f36e1d90a4f77bbaa_31644&search_date=19062022&expected_price_uuid=d29fd573-4aa4-41c9-8460-3fb0b57fa937&expected_price_currency=rub"
+      "link": "/search/MOW2307MAD1?t=SU16585842001658734200002500SVOAERISTSAWBUDMAD_2d51828618eec61f36e1d90a4f77bbaa_32625&search_date=20062022&expected_price_uuid=89fca180-1f9c-4e45-b6f8-fb1bc7ac2610&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -3528,474 +3737,12 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 514,
-      "departure_at": "2022-07-21T23:00:00+03:00",
+      "price": 529,
+      "departure_at": "2022-08-18T23:00:00+03:00",
       "transfers": 2,
       "duration": 2560,
       "durationH": 43,
-      "link": "/search/MOW2107BCN2?t=HY16584336001658587200002560DMETASRIXBCN_67e12cf6d4e3face057e30f80acdca3a_62018&search_date=20062022&expected_price_uuid=5de0f196-6a94-4e8f-a658-ae9d38ba109a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 508,
-      "departure_at": "2022-08-27T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 2620,
-      "durationH": 44,
-      "link": "/search/MOW2708BCN1?t=TK16615620001661719200002620VKOESBVIEMXPBCN_6ad25d72d906c087a2f98809b1f07da0_30652&search_date=19062022&expected_price_uuid=753ce861-2dd9-4fff-b0ac-dc6907a51edf&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 518,
-      "departure_at": "2022-07-24T16:45:00+03:00",
-      "transfers": 2,
-      "duration": 2775,
-      "durationH": 46,
-      "link": "/search/LED2407MAD1?t=SU16586703001658836800002775LEDAERISTSAWMAD_5f4b361b064a286bc50b0a9dab17ecda_31271&search_date=18062022&expected_price_uuid=bdb3a45f-60b9-4d91-9d6b-47552f62ac66&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 506,
-      "departure_at": "2022-07-23T11:50:00+03:00",
-      "transfers": 3,
-      "duration": 2800,
-      "durationH": 47,
-      "link": "/search/LED2307MAD1?t=SU16585662001658734200002800LEDAERISTSAWBUDMAD_50c292b23a59b6a797546f0c1de45180_30521&search_date=19062022&expected_price_uuid=e8712ed3-a6bc-4a40-beba-a1bcd00041d2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 494,
-      "departure_at": "2022-07-23T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 3135,
-      "durationH": 52,
-      "link": "/search/MOW2307BCN1?t=SU16585842001658772300003135SVOAERISTSAWBUDBCN_215f3270428c22a8abe34fd600ba1bfd_29827&search_date=20062022&expected_price_uuid=3fb5354c-3959-4c64-aeae-796cfaddc287&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 537,
-      "departure_at": "2022-08-05T00:05:00+03:00",
-      "transfers": 3,
-      "duration": 1535,
-      "durationH": 26,
-      "link": "/search/LED0508BCN1?t=SU16596471001659739200001535LEDAERISTATHBCN_74d441923ba197e273c5b8973be36415_32402&search_date=19062022&expected_price_uuid=8cfda0e5-1ec5-4f06-8d8b-b39dcd217713&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 526,
-      "departure_at": "2022-07-31T23:00:00+03:00",
-      "transfers": 3,
-      "duration": 2435,
-      "durationH": 41,
-      "link": "/search/MOW3107MAD1?t=HY16592976001659443700002435DMETASRIXWAWMAD_070b228bc993fd604b80f9e49ebaab64_31760&search_date=20062022&expected_price_uuid=3329b179-6af5-4430-a76e-4f0600d6f0bc&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 521,
-      "departure_at": "2022-07-24T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 2840,
-      "durationH": 47,
-      "link": "/search/MOW2407AGP1?t=HY16586850001658855400002840DMETASRIXOSLAGP_b184b5eef8fe0d140af44df9dd6be451_31470&search_date=20062022&expected_price_uuid=9b2c6cec-ff6a-475c-b0dd-48c07df165ec&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 513,
-      "departure_at": "2022-07-25T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 3040,
-      "durationH": 51,
-      "link": "/search/MOW2507AGP1?t=HY16587714001658953800003040DMETASLHRLGWAGP_34d2ececca3e184cd61bd41ffa8647e7_30959&search_date=19062022&expected_price_uuid=31f0ef8d-d802-4251-9856-dc866f9b3d38&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 517,
-      "departure_at": "2022-07-24T04:30:00+03:00",
-      "transfers": 3,
-      "duration": 3280,
-      "durationH": 55,
-      "link": "/search/MOW2407MAD1?t=SU16586262001658823000003280SVOAERISTSAWVIEMAD_bba940e11910a6976d4e6fce28ef8cd5_31190&search_date=19062022&expected_price_uuid=ad353d33-679c-4383-ad39-8a6e831ac1b4&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 575,
-      "departure_at": "2022-07-21T15:25:00+03:00",
-      "transfers": 2,
-      "duration": 1435,
-      "durationH": 24,
-      "link": "/search/LED2107AGP1?t=TK16584063001658492400001435LEDISTSOFAGP_5119653d139fd96384862c659c58c064_34700&search_date=19062022&expected_price_uuid=329854c6-aaa3-4bb9-b298-940785e52363&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 576,
-      "departure_at": "2022-07-22T11:50:00+03:00",
-      "transfers": 2,
-      "duration": 1630,
-      "durationH": 27,
-      "link": "/search/LED2207MAD1?t=SU16584798001658577600001630LEDAERISTSAWMAD_811d66696af6b6881fe65db0096c4eaf_34750&search_date=17062022&expected_price_uuid=1e4a1fe5-2772-49ac-81f4-904f2228124a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 571,
-      "departure_at": "2022-07-20T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 1745,
-      "durationH": 29,
-      "link": "/search/MOW2007MAD1?t=SU16583250001658429700001745SVOAERISTSAWBUDMAD_083ef14704f26d7c4a1d1d90731e864e_34473&search_date=19062022&expected_price_uuid=61ee79fe-3629-4ff3-9c32-c43b1caaa121&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 568,
-      "departure_at": "2022-07-28T11:40:00+03:00",
-      "transfers": 2,
-      "duration": 1755,
-      "durationH": 29,
-      "link": "/search/MOW2807MAD1?t=PC16589976001659102900001755SVOAERISTSAWMAD_b08e28d45c7e1fc1895a010ad98d4dfe_34305&search_date=19062022&expected_price_uuid=cd5bd8dc-ba9f-4c5f-9cd4-9c07f5f9bcff&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 557,
-      "departure_at": "2022-08-06T14:10:00+03:00",
-      "transfers": 3,
-      "duration": 1865,
-      "durationH": 31,
-      "link": "/search/LED0608BCN1?t=SU16597842001659896100001865LEDAERISTSAWBUDBCN_76e9e32967f44df19de0c8c0278e67c9_33643&search_date=18062022&expected_price_uuid=7b74cc70-aef9-4de2-aa15-6aeb58a35f9d&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 573,
-      "departure_at": "2022-07-22T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1935,
-      "durationH": 32,
-      "link": "/search/LED2207BCN1?t=SU16584933001658609400001935LEDAERISTSAWBUDBCN_927e4a726ae0998f9126557d68e18e77_34602&search_date=19062022&expected_price_uuid=03bc976b-244b-4fff-9fd0-3ecbd793c018&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 554,
-      "departure_at": "2022-08-06T00:45:00+03:00",
-      "transfers": 3,
-      "duration": 1995,
-      "durationH": 33,
-      "link": "/search/LED0608MAD1?t=SU16597359001659855600001995LEDDMESVOISTVIEMAD_fcdf9957c616dcca4709ac72a8408031_33422&search_date=15062022&expected_price_uuid=9f7ebc27-0ece-412e-9928-98fa5063c23a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 577,
-      "departure_at": "2022-07-20T02:20:00+03:00",
-      "transfers": 2,
-      "duration": 2075,
-      "durationH": 35,
-      "link": "/search/MOW2007LEI1?t=PC16582728001658397300002075DMEAYTMANLEI_dc3eca66eac851196b7f28d6f263042b_34794&search_date=15062022&expected_price_uuid=b958c470-4778-4216-b5e0-a75581da379d&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 553,
-      "departure_at": "2022-07-20T11:00:00+03:00",
-      "transfers": 3,
-      "duration": 2095,
-      "durationH": 35,
-      "link": "/search/LED2007MAD1?t=SU16583040001658429700002095LEDAERISTSAWBUDMAD_fa7d6e638f556a85355d26ce55713eb0_33369&search_date=18062022&expected_price_uuid=28046e73-85e0-4e25-b168-958d1eecc39d&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 540,
-      "departure_at": "2022-07-29T11:50:00+03:00",
-      "transfers": 3,
-      "duration": 2160,
-      "durationH": 36,
-      "link": "/search/LED2907BCN1?t=SU16590846001659214200002160LEDAERISTSAWBUDBCN_e978750e1888955f12a26d2b065cfd35_32604&search_date=19062022&expected_price_uuid=cb6ec58c-5a3c-48e6-bee4-98adccb445ab&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 562,
-      "departure_at": "2022-08-08T01:05:00+03:00",
-      "transfers": 3,
-      "duration": 2190,
-      "durationH": 37,
-      "link": "/search/LED0808MAD1?t=PC16599099001660041300002190LEDSVODMESAWSTNMAD_a179eb6dae053a71f05b6e5b6a373f66_33938&search_date=17062022&expected_price_uuid=70baa831-52f3-44e1-b791-4e4a825924a8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 537,
-      "departure_at": "2022-08-05T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2215,
-      "durationH": 37,
-      "link": "/search/MOW0508BCN1?t=HY16597218001659854700002215DMETASFRAHHNBCN_57e5ed877bff49a73376306c9c60e17c_32390&search_date=19062022&expected_price_uuid=c9cacc17-7c14-4628-9a59-b13704c7219f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 554,
-      "departure_at": "2022-07-22T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2215,
-      "durationH": 37,
-      "link": "/search/MOW2207BCN1?t=HY16585122001658645100002215DMETASFRAHHNBCN_bdac3dde1a555a1f1a963c7fe0f67b4e_33436&search_date=20062022&expected_price_uuid=ea935874-ba2e-46f8-81ad-c45d138cb3fd&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 538,
-      "departure_at": "2022-08-03T08:45:00+03:00",
-      "transfers": 3,
-      "duration": 2325,
-      "durationH": 39,
-      "link": "/search/LED0308AGP1?t=SU16595055001659645000002325LEDAERISTSAWBUDAGP_15fdfb6132c0776fd9289396ff6e093b_32453&search_date=15062022&expected_price_uuid=60617dcb-10fd-48fe-ae17-89aefde150a2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 546,
-      "departure_at": "2022-08-01T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2350,
-      "durationH": 39,
-      "link": "/search/MOW0108SVQ1?t=HY16593762001659517200002350DMETASLHRSTNSVQ_00383a49c806973d39a525e1ef4ea0b1_32977&search_date=17062022&expected_price_uuid=0961040f-c685-4871-a7e5-fafc3ce8e7f7&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 556,
-      "departure_at": "2022-07-28T06:35:00+03:00",
-      "transfers": 3,
-      "duration": 2420,
-      "durationH": 40,
-      "link": "/search/LED2807MAD1?t=SU16589793001659124500002420LEDAERISTSAWOTPMAD_6fb930e678db1f026dc30dd28c43026a_33550&search_date=19062022&expected_price_uuid=fc998b3b-006d-4846-befd-3026b11f1370&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 536,
-      "departure_at": "2022-08-02T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 2460,
-      "durationH": 41,
-      "link": "/search/MOW0208BCN1?t=SU16594482001659595800002460SVOAERISTSAWVIEBCN_a82f57f10ef9d12131a62c724a80bcb3_32358&search_date=19062022&expected_price_uuid=50fdcf86-8992-49a6-8f66-b0e21b5fe871&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 530,
-      "departure_at": "2022-07-17T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 2535,
-      "durationH": 42,
-      "link": "/search/LED1707BCN1?t=SU16580613001658213400002535LEDAERISTSAWVIEBCN_a65960548b39ab973258e122ef9918ff_31970&search_date=19062022&expected_price_uuid=a43465b9-f474-413a-9291-b59791a3fd7e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 529,
-      "departure_at": "2022-07-14T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 2690,
-      "durationH": 45,
-      "link": "/search/MOW1407BCN1?t=HY16578210001657982400002690DMETASRIXBCN_dfebe8cfa34785355c2735ed4b55aa49_31929&search_date=20062022&expected_price_uuid=e1346971-7096-45cd-b1b7-a9c4a6652fe4&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 531,
-      "departure_at": "2022-07-27T02:05:00+03:00",
-      "transfers": 3,
-      "duration": 2725,
-      "durationH": 45,
-      "link": "/search/MOW2707AGP1?t=TK16588767001659040200002725VKOAYTBRUBCNAGP_1f00050f6a7fbe0ddbf33cd4552edeff_32039&search_date=20062022&expected_price_uuid=af71bde0-489e-4d66-a578-52dbedc2af25&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 521,
-      "departure_at": "2022-07-27T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 2765,
-      "durationH": 46,
-      "link": "/search/MOW2707BCN1?t=SU16589094001659075300002765SVOAERISTSAWVIEBCN_4161f034a4a3a31d6707d10f1ba49951_31450&search_date=19062022&expected_price_uuid=6cf1b035-0aa7-4f42-924b-dcda238b381c&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 562,
-      "departure_at": "2022-07-19T12:05:00+03:00",
-      "transfers": 3,
-      "duration": 1935,
-      "durationH": 32,
-      "link": "/search/LED1907SVQ1?t=SU16582215001658337600001935LEDAERISTSAWOTPSVQ_e29c55aa44eb71b52926009a8aec2808_33914&search_date=18062022&expected_price_uuid=3bbb2380-56ab-46cc-8029-88aef3c5a6f9&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 539,
-      "departure_at": "2022-07-18T11:45:00+03:00",
-      "transfers": 2,
-      "duration": 2890,
-      "durationH": 48,
-      "link": "/search/MOW1807AGP1?t=HY16581339001658307300002890DMETASLHRLGWAGP_9a365b18cbd9236b06fa71555ca3f1eb_32525&search_date=20062022&expected_price_uuid=561ce5e0-1c0b-413f-a2f0-1c40771e6a91&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 572,
-      "departure_at": "2022-08-06T01:40:00+03:00",
-      "transfers": 1,
-      "duration": 565,
-      "durationH": 9,
-      "link": "/search/MOW0608MAD1?t=JU16597392001659773100000565SVOBEGMAD_58c75587b90d54e14d536c1441195a01_34501&search_date=19062022&expected_price_uuid=d1cec558-7fbb-40fe-b2cc-6de1aaaf362e&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 596,
-      "departure_at": "2022-07-18T15:35:00+03:00",
-      "transfers": 2,
-      "duration": 1405,
-      "durationH": 23,
-      "link": "/search/LED1807MAD2?t=SU16581477001658232000001405LEDAERISTSAWMAD_260812636d74e36f6c0efc1f17babbf4_71930&search_date=17062022&expected_price_uuid=06d178b3-5602-4eca-82d3-15b814dbf927&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 591,
-      "departure_at": "2022-07-15T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 1675,
-      "durationH": 28,
-      "link": "/search/MOW1507BCN1?t=HY16579074001658007900001675DMETASFRAHHNSTNBCN_84b25b8e816924c2b6f69ec69b01df7a_35679&search_date=20062022&expected_price_uuid=e6ea2009-81a8-44f5-82f8-30e45eadbf71&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 582,
-      "departure_at": "2022-07-31T12:50:00+03:00",
-      "transfers": 3,
-      "duration": 1935,
-      "durationH": 32,
-      "link": "/search/LED3107BCN1?t=SU16592610001659377100001935LEDAERISTSAWBUDBCN_0a2b5087d2eb9fa2d9854d4589bbc3aa_35148&search_date=19062022&expected_price_uuid=e49605e1-1daa-4e33-89fd-e03b92f2e041&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 582,
-      "departure_at": "2022-07-19T15:25:00+03:00",
-      "transfers": 2,
-      "duration": 2040,
-      "durationH": 34,
-      "link": "/search/LED1907MAD1?t=TK16582335001658355900002040LEDISTSOFMAD_68c930884662f3bf49d48cf1eec15fd9_35113&search_date=20062022&expected_price_uuid=c0a63a5a-cb51-41e1-aa77-1d73f1ec627a&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 570,
-      "departure_at": "2022-08-02T11:50:00+03:00",
-      "transfers": 3,
-      "duration": 2140,
-      "durationH": 36,
-      "link": "/search/LED0208AGP1?t=SU16594302001659558600002140LEDAERISTSAWSTNLGWAGP_b185d4758780b0aec059ffae16c85613_34400&search_date=15062022&expected_price_uuid=d2b57ca4-50b1-4026-b0b4-02ab0eea0250&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 575,
-      "departure_at": "2022-07-25T11:45:00+03:00",
-      "transfers": 2,
-      "duration": 2255,
-      "durationH": 38,
-      "link": "/search/MOW2507BCN1?t=HY16587387001658874000002255DMETASLHRLGWBCN_661ef3caef14a4caa83a3d9fb52a1a1c_34730&search_date=20062022&expected_price_uuid=8a11e611-265f-4625-87e0-10481c29edfb&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 561,
-      "departure_at": "2022-07-19T06:35:00+03:00",
-      "transfers": 3,
-      "duration": 2425,
-      "durationH": 40,
-      "link": "/search/LED1907AGP1?t=SU16582017001658347200002425LEDAERISTSAWVIEAGP_cbbde758aaa6af9f90d24c5096d33bf0_33847&search_date=19062022&expected_price_uuid=099d3615-2a08-4249-a601-f3d669043013&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 551,
-      "departure_at": "2022-07-21T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2465,
-      "durationH": 41,
-      "link": "/search/LED2107BCN1?t=SU16584111001658559000002465LEDAERISTSAWVIEBCN_b6329c729f35f243825a2f28989dfa01_33264&search_date=19062022&expected_price_uuid=eb177631-6104-46e6-b4e1-376a281f8c17&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 553,
-      "departure_at": "2022-07-11T15:35:00+03:00",
-      "transfers": 4,
-      "duration": 2640,
-      "durationH": 44,
-      "link": "/search/LED1107SVQ1?t=SU16575429001657701300002640LEDAERISTSAWCRLMANSVQ_c4465f4425ef8de27b89e598d3ef6f9f_33394&search_date=14062022&expected_price_uuid=206b0739-03db-4f13-85fb-5f7f15b945fb&expected_price_currency=rub"
+      "link": "/search/MOW1808BCN1?t=HY16608528001661006400002560DMETASRIXBCN_61a49a8bdb86cc7adbe722a9ce5e6867_31929&search_date=20062022&expected_price_uuid=0736b239-7d85-432d-a8d2-04d6dca8b565&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -4009,26 +3756,37 @@ window.data = {
       "link": "/search/LED1808MAD1?t=5N16608228001660982700002665LEDAERBEGMAD_56de1fcb2194715aa7c8798d5d9105e5_31937&search_date=18062022&expected_price_uuid=1e99f360-ccde-4db6-9ca8-a41022f40684&expected_price_currency=rub"
     },
     {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 559,
-      "departure_at": "2022-07-10T16:45:00+03:00",
-      "transfers": 4,
-      "duration": 2830,
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 521,
+      "departure_at": "2022-07-24T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 2840,
       "durationH": 47,
-      "link": "/search/LED1007SVQ1?t=SU16574607001657630500002830LEDAERISTSAWFRAHHNIBZSVQ_b2277142222cca3676220fbb61b45699_33739&search_date=13062022&expected_price_uuid=fb0df246-437e-4047-b829-eea2b11a3d24&expected_price_currency=rub"
+      "link": "/search/MOW2407AGP1?t=HY16586850001658855400002840DMETASRIXOSLAGP_b184b5eef8fe0d140af44df9dd6be451_31470&search_date=20062022&expected_price_uuid=9b2c6cec-ff6a-475c-b0dd-48c07df165ec&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
+      "route": "LED-MAD",
       "origin": "LED",
-      "destination": "AGP",
-      "price": 553,
-      "departure_at": "2022-07-20T00:05:00+03:00",
-      "transfers": 3,
-      "duration": 2845,
-      "durationH": 47,
-      "link": "/search/LED2007AGP1?t=SU16582647001658435400002845LEDAERISTSAWBUDAGP_f5f3928ab9f6b24d503e32a541bbe76a_33394&search_date=19062022&expected_price_uuid=267c7881-a6a5-49a3-897e-723f27c6dc25&expected_price_currency=rub"
+      "destination": "MAD",
+      "price": 517,
+      "departure_at": "2022-08-22T09:20:00+03:00",
+      "transfers": 4,
+      "duration": 2890,
+      "durationH": 48,
+      "link": "/search/LED2208MAD1?t=HY16611492001661322600002890LEDDMETASLHRLGWMXPMAD_9754d2521793d0da2dc4211e07360b2b_31205&search_date=20062022&expected_price_uuid=d536890e-709b-475d-b701-c27ed0ae0e0a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 495,
+      "departure_at": "2022-09-26T16:40:00+03:00",
+      "transfers": 4,
+      "duration": 3065,
+      "durationH": 51,
+      "link": "/search/MOW2609LEI1?t=SU16641996001664383500003065SVOISTSAWAMSBCNBRUCRLLEI_cff377f531db7700abc1e65112d1d414_29870&search_date=18062022&expected_price_uuid=25b43c66-953b-460c-8f35-f539b4d8cef1&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -4042,37 +3800,15 @@ window.data = {
       "link": "/search/LED2908MAD1?t=SU16617612001661936700002925LEDSVOISTSAWBERBGYMAD_3cecb10752164f922be17c59eb9fb692_31746&search_date=20062022&expected_price_uuid=92315f86-28c4-4829-8c26-4cca3c7d7b65&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
-      "price": 547,
-      "departure_at": "2022-07-09T02:05:00+03:00",
+      "price": 517,
+      "departure_at": "2022-08-20T21:00:00+03:00",
       "transfers": 3,
-      "duration": 3020,
-      "durationH": 50,
-      "link": "/search/MOW0907BCN1?t=TK16573215001657502700003020VKOAYTVIEMXPBCN_89ea23e64b525077b9a31fb90c8557df_33022&search_date=20062022&expected_price_uuid=bbc05422-7367-44cc-bf05-f44b5ab7b4b8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 545,
-      "departure_at": "2022-07-07T09:05:00+03:00",
-      "transfers": 2,
-      "duration": 3025,
-      "durationH": 50,
-      "link": "/search/MOW0707AGP1?t=HY16571739001657355400003025DMETASRIXAGP_612d7db22f52fe2dbad39aa25edd218f_32865&search_date=20062022&expected_price_uuid=e60aef2e-7594-41a3-a265-ca96817f19da&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 523,
-      "departure_at": "2022-07-10T12:25:00+03:00",
-      "transfers": 3,
-      "duration": 3115,
-      "durationH": 52,
-      "link": "/search/MOW1007MAD1?t=TK16574451001657632000003115VKOISTMXPLISMAD_367a003c6be6dc0e4aecb6dad1023ee3_31559&search_date=20062022&expected_price_uuid=9d41a3ca-e1f4-486a-998e-e75696e9d094&expected_price_currency=rub"
+      "duration": 3160,
+      "durationH": 53,
+      "link": "/search/LED2008BCN1?t=TK16610184001661208000003160LEDVKOESBBERBCN_68024958a5eab808fe83d6cc9e3324ae_31211&search_date=18062022&expected_price_uuid=406aee23-651f-4201-a69f-0cc018a94bae&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -4084,28 +3820,6 @@ window.data = {
       "duration": 3480,
       "durationH": 58,
       "link": "/search/LED2508BCN1?t=HY16614225001661631300003480LEDTASLHRSTNEINBCN_bf5e3709f684eadc2307d0e7dd3bf05c_31011&search_date=19062022&expected_price_uuid=4c483036-be5a-4da8-b769-b7c350e69293&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 514,
-      "departure_at": "2022-07-10T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 3790,
-      "durationH": 63,
-      "link": "/search/MOW1007SVQ1?t=HY16574754001657702800003790DMETASFRAHHNIBZSVQ_0143d05c6b2c562da771d0bbfbdeb6ab_31038&search_date=18062022&expected_price_uuid=ce1b1b57-8c5c-405d-8161-79788594b452&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 552,
-      "departure_at": "2022-07-20T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 3870,
-      "durationH": 65,
-      "link": "/search/MOW2007BCN2?t=TK16582788001658511000003870VKOESBDUSXRYBCN_182d512ae526d1a13425350af6373eac_66581&search_date=20062022&expected_price_uuid=03d992bb-d246-4bb0-8313-11f0e2d832a9&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -4152,15 +3866,37 @@ window.data = {
       "link": "/search/MOW1308MAD1?t=JU16603440001660377900000565SVOBEGMAD_9f1d8581282144e85954c2c38d1c914e_34259&search_date=19062022&expected_price_uuid=d65ff446-4dee-4ae1-8f37-7960f90c8047&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 572,
+      "departure_at": "2022-08-06T01:40:00+03:00",
+      "transfers": 1,
+      "duration": 565,
+      "durationH": 9,
+      "link": "/search/MOW0608MAD1?t=JU16597392001659773100000565SVOBEGMAD_58c75587b90d54e14d536c1441195a01_34501&search_date=19062022&expected_price_uuid=d1cec558-7fbb-40fe-b2cc-6de1aaaf362e&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
       "origin": "LED",
-      "destination": "BCN",
+      "destination": "AGP",
       "price": 575,
-      "departure_at": "2022-08-12T01:05:00+03:00",
+      "departure_at": "2022-07-21T15:25:00+03:00",
       "transfers": 2,
-      "duration": 1130,
-      "durationH": 19,
-      "link": "/search/LED1208BCN1?t=AT16602555001660323300001130LEDSVODMECMNBCN_f238416d34576665e0afdd17f31e383d_34691&search_date=19062022&expected_price_uuid=cd5bebe7-9ab6-4d25-a426-f1a0b9afd83c&expected_price_currency=rub"
+      "duration": 1435,
+      "durationH": 24,
+      "link": "/search/LED2107AGP1?t=TK16584063001658492400001435LEDISTSOFAGP_5119653d139fd96384862c659c58c064_34700&search_date=19062022&expected_price_uuid=329854c6-aaa3-4bb9-b298-940785e52363&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 576,
+      "departure_at": "2022-07-22T11:50:00+03:00",
+      "transfers": 2,
+      "duration": 1630,
+      "durationH": 27,
+      "link": "/search/LED2207MAD1?t=SU16584798001658577600001630LEDAERISTSAWMAD_811d66696af6b6881fe65db0096c4eaf_34750&search_date=17062022&expected_price_uuid=1e4a1fe5-2772-49ac-81f4-904f2228124a&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -4172,6 +3908,50 @@ window.data = {
       "duration": 1710,
       "durationH": 29,
       "link": "/search/LED1307BCN1?t=TK16577151001657817700001710LEDISTSOFBCN_83ad4e0fb4f4ad1f072aaa02fe7418e0_34099&search_date=19062022&expected_price_uuid=4f82c73a-d32f-4df4-8fa2-f0ac868242a6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 543,
+      "departure_at": "2022-07-13T09:45:00+03:00",
+      "transfers": 2,
+      "duration": 1740,
+      "durationH": 29,
+      "link": "/search/MOW1307MAD1?t=PC16576947001657799100001740VKOGRVISTSAWMAD_098f43f19e170f1b7c37974cda73cdae_32746&search_date=20062022&expected_price_uuid=3d51b213-b79b-476c-a486-2004d3a07358&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 575,
+      "departure_at": "2022-08-12T01:05:00+03:00",
+      "transfers": 2,
+      "duration": 1130,
+      "durationH": 19,
+      "link": "/search/LED1208BCN1?t=AT16602555001660323300001130LEDSVODMECMNBCN_f238416d34576665e0afdd17f31e383d_34691&search_date=19062022&expected_price_uuid=cd5bebe7-9ab6-4d25-a426-f1a0b9afd83c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 557,
+      "departure_at": "2022-08-13T04:00:00+03:00",
+      "transfers": 2,
+      "duration": 1785,
+      "durationH": 30,
+      "link": "/search/MOW1308BCN1?t=TK16603524001660459500001785VKOESBVIEBCN_8456c18d6771a744a1d5184100b32f07_33615&search_date=20062022&expected_price_uuid=7a5baf8b-5964-4f9f-896e-148fe450ae4f&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 536,
+      "departure_at": "2022-08-15T00:05:00+03:00",
+      "transfers": 3,
+      "duration": 2130,
+      "durationH": 36,
+      "link": "/search/LED1508BCN2?t=SU16605111001660638900002130LEDAERISTATHBCN_b539666fb10c5c50d43d96ec8328e09d_64726&search_date=18062022&expected_price_uuid=23c90f20-022e-4810-9daf-f4ca8d1c46f6&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -4196,26 +3976,48 @@ window.data = {
       "link": "/search/MOW2708AGP1?t=W616615620001661672700001845VKOESBVIEAGP_0ef027a3c1f1691d1f81a5a8a4fc793e_33491&search_date=19062022&expected_price_uuid=9ad12a45-95d7-4755-93e3-c2d9d07f2707&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 589,
-      "departure_at": "2022-06-21T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1725,
-      "durationH": 29,
-      "link": "/search/MOW2106BCN1?t=MS16558197001655923200001725DMECAILHRLTNBCN_c3fd3ddb12d89d1015b984f5a6f5d9e5_35565&search_date=20062022&expected_price_uuid=b53b2d07-3311-431b-820c-5135d62c6a02&expected_price_currency=rub"
+      "route": "LED-GRX",
+      "origin": "LED",
+      "destination": "GRX",
+      "price": 534,
+      "departure_at": "2022-09-05T12:30:00+03:00",
+      "transfers": 4,
+      "duration": 1980,
+      "durationH": 33,
+      "link": "/search/LED0509GRX1?t=SU16623702001662489000001980LEDAERISTSAWCPHLGWGRX_2d3ca0d8c39c1cb153e21d04042e0d87_32241&search_date=13062022&expected_price_uuid=3286d553-a989-446f-a08f-fd01337557f1&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "LED-GRX",
+      "origin": "LED",
+      "destination": "GRX",
+      "price": 543,
+      "departure_at": "2022-09-07T08:05:00+03:00",
+      "transfers": 3,
+      "duration": 2025,
+      "durationH": 34,
+      "link": "/search/LED0709GRX1?t=PC16625271001662648600002025LEDVKODMESAWSTNLGWGRX_66879ee25ae510354b08aee2eaa4415d_32792&search_date=13062022&expected_price_uuid=69b842f3-fbd4-4944-98b5-cd4888a6bfbe&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 588,
-      "departure_at": "2022-07-04T17:35:00+03:00",
+      "destination": "LEI",
+      "price": 536,
+      "departure_at": "2022-09-23T07:35:00+03:00",
       "transfers": 2,
-      "duration": 1820,
-      "durationH": 30,
-      "link": "/search/MOW0407BCN1?t=TK16569453001657054500001820DMEKZNISTBCN_c61b2b76d4494e4752c9fc4e75ac1a61_35475&search_date=20062022&expected_price_uuid=83d1bf2d-2928-4dbc-8a85-e18c6280153c&expected_price_currency=rub"
+      "duration": 2125,
+      "durationH": 35,
+      "link": "/search/MOW2309LEI1?t=AT16639077001664035200002125DMECMNBCNLEI_2ed64f4f98917053b51d569947500fb9_32360&search_date=15062022&expected_price_uuid=f734f441-a6d6-44e6-bfd7-0720b220a69e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 571,
+      "departure_at": "2022-07-20T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 1745,
+      "durationH": 29,
+      "link": "/search/MOW2007MAD1?t=SU16583250001658429700001745SVOAERISTSAWBUDMAD_083ef14704f26d7c4a1d1d90731e864e_34473&search_date=19062022&expected_price_uuid=61ee79fe-3629-4ff3-9c32-c43b1caaa121&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -4240,15 +4042,15 @@ window.data = {
       "link": "/search/MOW1008GRX1?t=PC16600890001660200600001860DMEAYTBERBCNGRX_3c7c58c0d3b0bb55a957a9f99f26de6f_34886&search_date=13062022&expected_price_uuid=c8960420-cb06-40e3-9109-4de8484484b2&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
-      "price": 567,
-      "departure_at": "2022-06-26T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1870,
-      "durationH": 31,
-      "link": "/search/MOW2606BCN1?t=MS16562517001656363900001870DMECAIMUCBCN_c5fdab7b184c18b20e4b9e337f7b29ce_34201&search_date=20062022&expected_price_uuid=bc3f2b0e-8ad3-4c5a-a425-890bd5ac565a&expected_price_currency=rub"
+      "price": 573,
+      "departure_at": "2022-07-22T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 1935,
+      "durationH": 32,
+      "link": "/search/LED2207BCN1?t=SU16584933001658609400001935LEDAERISTSAWBUDBCN_927e4a726ae0998f9126557d68e18e77_34602&search_date=19062022&expected_price_uuid=03bc976b-244b-4fff-9fd0-3ecbd793c018&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -4284,6 +4086,17 @@ window.data = {
       "link": "/search/LED1107MAD1?t=HY16575678001657692000002070LEDTASLHRLGWSCQMAD_65a9d69e2cd6c0f35d1164fd55e0b5ce_34015&search_date=19062022&expected_price_uuid=15660061-2179-46b0-9640-6d0bc983e7eb&expected_price_currency=rub"
     },
     {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 577,
+      "departure_at": "2022-07-20T02:20:00+03:00",
+      "transfers": 2,
+      "duration": 2075,
+      "durationH": 35,
+      "link": "/search/MOW2007LEI1?t=PC16582728001658397300002075DMEAYTMANLEI_dc3eca66eac851196b7f28d6f263042b_34794&search_date=15062022&expected_price_uuid=b958c470-4778-4216-b5e0-a75581da379d&expected_price_currency=rub"
+    },
+    {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
@@ -4298,12 +4111,56 @@ window.data = {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 568,
-      "departure_at": "2022-08-13T16:55:00+03:00",
+      "price": 554,
+      "departure_at": "2022-07-22T20:50:00+03:00",
       "transfers": 2,
-      "duration": 2410,
-      "durationH": 40,
-      "link": "/search/MOW1308BCN1?t=MS16603989001660543500002410DMECAIMXPBCN_0da24696ef64595aa9d22e1629ed4804_34284&search_date=20062022&expected_price_uuid=2c7f77d0-96be-4e9f-a979-c188170ed2e0&expected_price_currency=rub"
+      "duration": 2215,
+      "durationH": 37,
+      "link": "/search/MOW2207BCN1?t=HY16585122001658645100002215DMETASFRAHHNBCN_bdac3dde1a555a1f1a963c7fe0f67b4e_33436&search_date=20062022&expected_price_uuid=ea935874-ba2e-46f8-81ad-c45d138cb3fd&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 546,
+      "departure_at": "2022-08-01T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 2350,
+      "durationH": 39,
+      "link": "/search/MOW0108SVQ1?t=HY16593762001659517200002350DMETASLHRSTNSVQ_00383a49c806973d39a525e1ef4ea0b1_32977&search_date=17062022&expected_price_uuid=0961040f-c685-4871-a7e5-fafc3ce8e7f7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 575,
+      "departure_at": "2022-07-25T11:45:00+03:00",
+      "transfers": 2,
+      "duration": 2255,
+      "durationH": 38,
+      "link": "/search/MOW2507BCN1?t=HY16587387001658874000002255DMETASLHRLGWBCN_661ef3caef14a4caa83a3d9fb52a1a1c_34730&search_date=20062022&expected_price_uuid=8a11e611-265f-4625-87e0-10481c29edfb&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 551,
+      "departure_at": "2022-07-21T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2465,
+      "durationH": 41,
+      "link": "/search/LED2107BCN1?t=SU16584111001658559000002465LEDAERISTSAWVIEBCN_b6329c729f35f243825a2f28989dfa01_33264&search_date=19062022&expected_price_uuid=eb177631-6104-46e6-b4e1-376a281f8c17&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 534,
+      "departure_at": "2022-09-27T01:45:00+03:00",
+      "transfers": 4,
+      "duration": 2520,
+      "durationH": 42,
+      "link": "/search/MOW2709LEI1?t=SU16642323001664383500002520SVOAEREVNATHBRUCRLLEI_4fa8107d5ca239ca80c0b42b30bd8588_32203&search_date=19062022&expected_price_uuid=3743501e-b159-4fe6-8272-247a6d070704&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -4350,26 +4207,15 @@ window.data = {
       "link": "/search/LED2308BCN3?t=SU16612623001661419500002620LEDAERISTZRHBCN_348be69a79db768789b1e48ef0c88253_100506&search_date=19062022&expected_price_uuid=f876337e-e987-4372-8db3-c236b74e4113&expected_price_currency=rub"
     },
     {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 585,
-      "departure_at": "2022-09-21T02:00:00+03:00",
-      "transfers": 3,
-      "duration": 2095,
-      "durationH": 35,
-      "link": "/search/MOW2109LEI1?t=SU16637148001663840500002095SVOAYTOSLMANLEI_8672e4f845a6ba2c0ee21c2397104fd7_35309&search_date=19062022&expected_price_uuid=c0607224-dc43-4c07-84a3-ae655e8f9f78&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-GRX",
-      "origin": "MOW",
-      "destination": "GRX",
-      "price": 564,
-      "departure_at": "2022-09-07T13:35:00+03:00",
+      "route": "LED-SVQ",
+      "origin": "LED",
+      "destination": "SVQ",
+      "price": 553,
+      "departure_at": "2022-07-11T15:35:00+03:00",
       "transfers": 4,
-      "duration": 2660,
+      "duration": 2640,
       "durationH": 44,
-      "link": "/search/MOW0709GRX1?t=SU16625469001662706500002660SVOEVNATHCDGBCNGRX_84569325b506e6a44e63470e4736fac2_34010&search_date=17062022&expected_price_uuid=414c1868-bb90-471a-b3f4-f1e7641445e2&expected_price_currency=rub"
+      "link": "/search/LED1107SVQ1?t=SU16575429001657701300002640LEDAERISTSAWCRLMANSVQ_c4465f4425ef8de27b89e598d3ef6f9f_33394&search_date=14062022&expected_price_uuid=206b0739-03db-4f13-85fb-5f7f15b945fb&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -4405,6 +4251,94 @@ window.data = {
       "link": "/search/LED2308MAD1?t=SU16612623001661429100002780LEDAERISTOTPBUDMAD_9d66855cd44388c8ce286985fed95393_33039&search_date=18062022&expected_price_uuid=f4cb1985-fa4a-4b78-8eba-041e8cf3a65a&expected_price_currency=rub"
     },
     {
+      "route": "LED-SVQ",
+      "origin": "LED",
+      "destination": "SVQ",
+      "price": 559,
+      "departure_at": "2022-07-10T16:45:00+03:00",
+      "transfers": 4,
+      "duration": 2830,
+      "durationH": 47,
+      "link": "/search/LED1007SVQ1?t=SU16574607001657630500002830LEDAERISTSAWFRAHHNIBZSVQ_b2277142222cca3676220fbb61b45699_33739&search_date=13062022&expected_price_uuid=fb0df246-437e-4047-b829-eea2b11a3d24&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 553,
+      "departure_at": "2022-07-20T00:05:00+03:00",
+      "transfers": 3,
+      "duration": 2845,
+      "durationH": 47,
+      "link": "/search/LED2007AGP1?t=SU16582647001658435400002845LEDAERISTSAWBUDAGP_f5f3928ab9f6b24d503e32a541bbe76a_33394&search_date=19062022&expected_price_uuid=267c7881-a6a5-49a3-897e-723f27c6dc25&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 539,
+      "departure_at": "2022-07-18T11:45:00+03:00",
+      "transfers": 2,
+      "duration": 2890,
+      "durationH": 48,
+      "link": "/search/MOW1807AGP1?t=HY16581339001658307300002890DMETASLHRLGWAGP_9a365b18cbd9236b06fa71555ca3f1eb_32525&search_date=20062022&expected_price_uuid=561ce5e0-1c0b-413f-a2f0-1c40771e6a91&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 545,
+      "departure_at": "2022-07-07T09:05:00+03:00",
+      "transfers": 2,
+      "duration": 3025,
+      "durationH": 50,
+      "link": "/search/MOW0707AGP1?t=HY16571739001657355400003025DMETASRIXAGP_612d7db22f52fe2dbad39aa25edd218f_32865&search_date=20062022&expected_price_uuid=e60aef2e-7594-41a3-a265-ca96817f19da&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 522,
+      "departure_at": "2022-09-17T16:10:00+03:00",
+      "transfers": 3,
+      "duration": 3035,
+      "durationH": 51,
+      "link": "/search/MOW1709LEI1?t=GF16634202001663602300003035DMEBAHMXPBCNLEI_08d81251c6526aecb5ca2b7f7f03acaa_31500&search_date=18062022&expected_price_uuid=454e61ec-658f-480c-b825-286294f22dab&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 546,
+      "departure_at": "2022-07-19T04:30:00+03:00",
+      "transfers": 3,
+      "duration": 3190,
+      "durationH": 53,
+      "link": "/search/MOW1907BCN1?t=SU16581942001658385600003190SVOAERISTSAWVIEBCN_cbe20df418c6d2d67a4c8f089d4731d9_32948&search_date=19062022&expected_price_uuid=375c58d2-3748-432a-b1a4-81f78af3bbd5&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 596,
+      "departure_at": "2022-07-18T15:35:00+03:00",
+      "transfers": 2,
+      "duration": 1405,
+      "durationH": 23,
+      "link": "/search/LED1807MAD2?t=SU16581477001658232000001405LEDAERISTSAWMAD_260812636d74e36f6c0efc1f17babbf4_71930&search_date=17062022&expected_price_uuid=06d178b3-5602-4eca-82d3-15b814dbf927&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 582,
+      "departure_at": "2022-07-21T23:00:00+03:00",
+      "transfers": 2,
+      "duration": 2540,
+      "durationH": 42,
+      "link": "/search/MOW2107AGP2?t=HY16584336001658586000002540DMETASRIXAGP_ef89ff3b63609a40b30e557c7dcdd671_70226&search_date=20062022&expected_price_uuid=6e2d32d0-67c9-4edf-bfba-835fcba6f7ce&expected_price_currency=rub"
+    },
+    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -4425,6 +4359,17 @@ window.data = {
       "duration": 3200,
       "durationH": 53,
       "link": "/search/MOW2008MAD2?t=TK16609572001661149200003200VKOESBFRAHHNBGYMXPMAD_b149bb08d681ce5623d6a33c3501c215_67696&search_date=19062022&expected_price_uuid=125b14a2-f763-4234-b8ba-b83534294f8e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 614,
+      "departure_at": "2022-07-22T16:10:00+03:00",
+      "transfers": 1,
+      "duration": 865,
+      "durationH": 14,
+      "link": "/search/MOW2207AGP3?t=GF16584954001658547300000865DMEBAHAGP_8cc906dc3e65ff67425e8e7437ead6ba_111215&search_date=19062022&expected_price_uuid=309a3aa8-225b-48c8-99b4-c26cdefdc1e5&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -4460,6 +4405,105 @@ window.data = {
       "link": "/search/MOW2308AGP1?t=PC16612566001661353200001610DMESAWARNAGP_46e0c18f474b35114c91734acaabc72e_35265&search_date=17062022&expected_price_uuid=b7ca9144-5586-4cd4-94e3-d064689071d2&expected_price_currency=rub"
     },
     {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 622,
+      "departure_at": "2022-07-26T11:55:00+03:00",
+      "transfers": 1,
+      "duration": 1350,
+      "durationH": 23,
+      "link": "/search/MOW2607AGP1?t=EY16588257001658906700001350SVOAUHAGP_f896fc380363a8ae7915f2bb7a06c5e9_37541&search_date=20062022&expected_price_uuid=5e693567-97a7-4184-b47e-c23c34994b06&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 614,
+      "departure_at": "2022-06-28T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 1665,
+      "durationH": 28,
+      "link": "/search/MOW2806BCN2?t=MS16564245001656524400001665DMECAITUNBCN_9ca2e147b6215358936259ab25fb86b7_74116&search_date=20062022&expected_price_uuid=184cae1b-c3ac-4d97-95ca-a54bad0a9c14&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 617,
+      "departure_at": "2022-07-16T10:50:00+03:00",
+      "transfers": 2,
+      "duration": 1690,
+      "durationH": 28,
+      "link": "/search/MOW1607MAD1?t=PC16579578001658059200001690DMEFRUSAWMAD_cfa063d7ce859fdb339277866b24f5fe_37265&search_date=19062022&expected_price_uuid=e1a197b0-1053-45d1-b8a1-4c43c82fb783&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 588,
+      "departure_at": "2022-07-04T17:35:00+03:00",
+      "transfers": 2,
+      "duration": 1820,
+      "durationH": 30,
+      "link": "/search/MOW0407BCN1?t=TK16569453001657054500001820DMEKZNISTBCN_c61b2b76d4494e4752c9fc4e75ac1a61_35475&search_date=20062022&expected_price_uuid=155f80ce-bf84-46f7-8610-367ddae34105&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 620,
+      "departure_at": "2022-07-22T11:10:00+03:00",
+      "transfers": 2,
+      "duration": 1705,
+      "durationH": 28,
+      "link": "/search/MOW2207MAD1?t=A416584774001658579700001705VKOEVNWAWMAD_d7826beefa94df3dd192dcd27a5c693a_37429&search_date=19062022&expected_price_uuid=ae7c1c91-7f84-4ebe-8503-90a7a40bc5a4&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 598,
+      "departure_at": "2022-07-15T18:25:00+03:00",
+      "transfers": 2,
+      "duration": 1775,
+      "durationH": 30,
+      "link": "/search/MOW1507BCN1?t=TK16578987001658005200001775SVOKZNISTBCN_740cd8d417b2480247ca7189ac2bce6f_36115&search_date=20062022&expected_price_uuid=d4d3f7f5-ea53-4d95-a294-e0f35cfc3b47&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 582,
+      "departure_at": "2022-07-31T12:50:00+03:00",
+      "transfers": 3,
+      "duration": 1935,
+      "durationH": 32,
+      "link": "/search/LED3107BCN1?t=SU16592610001659377100001935LEDAERISTSAWBUDBCN_0a2b5087d2eb9fa2d9854d4589bbc3aa_35148&search_date=19062022&expected_price_uuid=e49605e1-1daa-4e33-89fd-e03b92f2e041&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 582,
+      "departure_at": "2022-07-19T15:25:00+03:00",
+      "transfers": 2,
+      "duration": 2040,
+      "durationH": 34,
+      "link": "/search/LED1907MAD1?t=TK16582335001658355900002040LEDISTSOFMAD_68c930884662f3bf49d48cf1eec15fd9_35113&search_date=20062022&expected_price_uuid=c0a63a5a-cb51-41e1-aa77-1d73f1ec627a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 585,
+      "departure_at": "2022-09-21T02:00:00+03:00",
+      "transfers": 3,
+      "duration": 2095,
+      "durationH": 35,
+      "link": "/search/MOW2109LEI1?t=SU16637148001663840500002095SVOAYTOSLMANLEI_8672e4f845a6ba2c0ee21c2397104fd7_35309&search_date=19062022&expected_price_uuid=c0607224-dc43-4c07-84a3-ae655e8f9f78&expected_price_currency=rub"
+    },
+    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -4469,6 +4513,17 @@ window.data = {
       "duration": 2135,
       "durationH": 36,
       "link": "/search/LED2608MAD1?t=SU16615110001661639100002135LEDSVOISTSAWCPHMAD_0864ffa928e4afd9952a23ac8f6a3faa_35351&search_date=16062022&expected_price_uuid=7a7daf37-35c8-4583-a91e-908eae5c4f0c&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 570,
+      "departure_at": "2022-08-02T11:50:00+03:00",
+      "transfers": 3,
+      "duration": 2140,
+      "durationH": 36,
+      "link": "/search/LED0208AGP1?t=SU16594302001659558600002140LEDAERISTSAWSTNLGWAGP_b185d4758780b0aec059ffae16c85613_34400&search_date=15062022&expected_price_uuid=d2b57ca4-50b1-4026-b0b4-02ab0eea0250&expected_price_currency=rub"
     },
     {
       "route": "MOW-GRX",
@@ -4493,59 +4548,103 @@ window.data = {
       "link": "/search/LED2708BCN2?t=SU16615713001661710200002315LEDAERISTSAWCPHBCN_02751a53bbc306e6b064f3f29e508cff_67510&search_date=17062022&expected_price_uuid=24f65d7b-5f3b-443e-9688-042b2ea9d996&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 563,
-      "departure_at": "2022-06-25T16:55:00+03:00",
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 564,
+      "departure_at": "2022-08-07T22:20:00+03:00",
       "transfers": 2,
-      "duration": 3105,
-      "durationH": 52,
-      "link": "/search/MOW2506MAD1?t=MS16561653001656351600003105DMECAIOTPMAD_50b6998b63b6ef61c789a328429d9f7b_33971&search_date=20062022&expected_price_uuid=e4015d1d-16e9-4fe3-bcc1-e8a40d65a9ab&expected_price_currency=rub"
+      "duration": 2415,
+      "durationH": 40,
+      "link": "/search/LED0708BCN1?t=SU16599000001660044900002415LEDAERISTSAWBCN_0b246fa4ff4b96dcf4bc018dfc41cea8_34065&search_date=17062022&expected_price_uuid=0b242040-b61d-483b-9d72-514c6cc503ad&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 561,
+      "departure_at": "2022-07-19T06:35:00+03:00",
+      "transfers": 3,
+      "duration": 2425,
+      "durationH": 40,
+      "link": "/search/LED1907AGP1?t=SU16582017001658347200002425LEDAERISTSAWVIEAGP_cbbde758aaa6af9f90d24c5096d33bf0_33847&search_date=19062022&expected_price_uuid=099d3615-2a08-4249-a601-f3d669043013&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
+      "destination": "BCN",
+      "price": 556,
+      "departure_at": "2022-08-06T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 3135,
+      "durationH": 52,
+      "link": "/search/MOW0608BCN1?t=SU16597938001659981900003135SVOAERISTSAWBUDBCN_0e534566c00b519cec210a00b4e49fd2_33527&search_date=20062022&expected_price_uuid=9076a500-450f-4ca3-863d-5147a9ebc7d3&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 614,
+      "departure_at": "2022-07-29T16:10:00+03:00",
+      "transfers": 1,
+      "duration": 865,
+      "durationH": 14,
+      "link": "/search/MOW2907AGP2?t=GF16591002001659152100000865DMEBAHAGP_e0660ab4687f78dc9785d889d0e2fa15_74143&search_date=19062022&expected_price_uuid=3b5e1676-9bfa-4994-a2cc-78ad8ccd811b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 597,
+      "departure_at": "2022-08-03T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 1635,
+      "durationH": 27,
+      "link": "/search/MOW0308AGP1?t=A416595469001659645000001635VKOISTSAWBUDAGP_5eccac1588e5f5185b149c2d2d59e43a_36028&search_date=19062022&expected_price_uuid=06dd0293-b7f6-454f-aa17-8ddeaa0479d5&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 570,
+      "departure_at": "2022-07-19T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 2535,
+      "durationH": 42,
+      "link": "/search/MOW1907MAD1?t=SU16582386001658390700002535SVOAERISTSAWVIEMAD_9569b0c95021362022ea834683f7dbdf_34375&search_date=20062022&expected_price_uuid=f43e3cf7-f469-4ebf-b174-311d87bd5b91&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 632,
+      "departure_at": "2022-07-18T09:45:00+03:00",
+      "transfers": 2,
+      "duration": 1755,
+      "durationH": 29,
+      "link": "/search/MOW1807MAD1?t=PC16581267001658232000001755VKOGRVISTSAWMAD_5f1c717c24dc17eaa2f116997bbaca2a_38145&search_date=20062022&expected_price_uuid=bf554d5b-069a-4fe4-8fd8-b73bacc765db&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
       "destination": "BCN",
       "price": 614,
-      "departure_at": "2022-06-28T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1665,
-      "durationH": 28,
-      "link": "/search/MOW2806BCN2?t=MS16564245001656524400001665DMECAITUNBCN_9ca2e147b6215358936259ab25fb86b7_74116&search_date=20062022&expected_price_uuid=184cae1b-c3ac-4d97-95ca-a54bad0a9c14&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 605,
-      "departure_at": "2022-06-24T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1924,
-      "durationH": 32,
-      "link": "/search/MOW2406MAD1?t=MS16560789001656194340001924DMECAILHRLGWMAD_198ede245b03ace7e57f2eb08d2252e0_36491&search_date=20062022&expected_price_uuid=6f71a951-eda9-4cf9-9184-8865cef73df1&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 595,
-      "departure_at": "2022-07-03T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1985,
-      "durationH": 33,
-      "link": "/search/MOW0307BCN1?t=MS16568565001656975600001985DMECAILHRLGWBCN_31f91f4a84e74373f982d7348534c311_35897&search_date=20062022&expected_price_uuid=068c1119-98c8-4274-add1-37b7f31a8821&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 617,
-      "departure_at": "2022-07-08T02:05:00+03:00",
+      "departure_at": "2022-07-23T10:35:00+03:00",
       "transfers": 3,
-      "duration": 2045,
-      "durationH": 34,
-      "link": "/search/MOW0807BCN1?t=TK16572351001657357800002045VKOAYTISTFCOBCN_f10907c8e83b472830d8d723b74cf322_37266&search_date=20062022&expected_price_uuid=ef2ccf91-9982-4824-973e-6b1260ced492&expected_price_currency=rub"
+      "duration": 1795,
+      "durationH": 30,
+      "link": "/search/LED2307BCN2?t=SU16585617001658669400001795LEDAERISTSAWNUEBCN_aabb07537f9654011031d4d66d188d26_74078&search_date=19062022&expected_price_uuid=46335968-af4f-4d39-a0fa-757f7363942a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 597,
+      "departure_at": "2022-07-27T16:45:00+03:00",
+      "transfers": 4,
+      "duration": 1980,
+      "durationH": 33,
+      "link": "/search/LED2707AGP2?t=SU16589295001659048300001980LEDAERISTFRAHHNPMIAGP_dc532a37ac8e80ed4d2f3d2e447d3225_72028&search_date=18062022&expected_price_uuid=82be2654-5746-4350-a8c2-51d1b39cd583&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -4581,6 +4680,39 @@ window.data = {
       "link": "/search/MOW1207MAD1?t=SU16575795001657715700002270SVOAEREVNWAWMAD_46ba3448697b52b012327969ba78bfba_35898&search_date=19062022&expected_price_uuid=7251deed-9deb-43ed-9121-56a7425c3ad0&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 597,
+      "departure_at": "2022-07-13T09:45:00+03:00",
+      "transfers": 4,
+      "duration": 2340,
+      "durationH": 39,
+      "link": "/search/MOW1307BCN1?t=UT16576947001657835100002340VKOGRVISTSAWVIEMAHBCN_2bcaf3f85284fbf45a8ca9ef4ae7784b_36018&search_date=20062022&expected_price_uuid=c0c4d8b8-d7f9-420f-ac89-2148775090f0&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 608,
+      "departure_at": "2022-07-05T23:00:00+03:00",
+      "transfers": 2,
+      "duration": 2375,
+      "durationH": 40,
+      "link": "/search/MOW0507BCN1?t=PC16570512001657193700002375DMEOSSSAWBCN_9db1b75818204cea62f7418e07aa206e_36704&search_date=20062022&expected_price_uuid=8e86086c-4627-45eb-a2ed-d65b417c69ad&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 590,
+      "departure_at": "2022-07-29T06:35:00+03:00",
+      "transfers": 3,
+      "duration": 2380,
+      "durationH": 40,
+      "link": "/search/LED2907AGP1?t=SU16590657001659208500002380LEDAERISTSOFAGP_aaeba8508855ae726d43be4907c6ba7c_35613&search_date=19062022&expected_price_uuid=bf377783-0cb6-4f32-9f75-2240b4fc4c80&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-SVQ",
       "origin": "MOW",
       "destination": "SVQ",
@@ -4590,171 +4722,6 @@ window.data = {
       "duration": 2410,
       "durationH": 40,
       "link": "/search/MOW1907SVQ1?t=WZ16582044001658349000002410ZIAISTVIEBCNSVQ_d8b578283382b00162c207447e1bbc95_35360&search_date=15062022&expected_price_uuid=19fa6af3-4c72-43c8-8c19-70a5c2eca509&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 564,
-      "departure_at": "2022-08-07T22:20:00+03:00",
-      "transfers": 2,
-      "duration": 2415,
-      "durationH": 40,
-      "link": "/search/LED0708BCN1?t=SU16599000001660044900002415LEDAERISTSAWBCN_0b246fa4ff4b96dcf4bc018dfc41cea8_34065&search_date=17062022&expected_price_uuid=0b242040-b61d-483b-9d72-514c6cc503ad&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 582,
-      "departure_at": "2022-07-21T23:00:00+03:00",
-      "transfers": 2,
-      "duration": 2540,
-      "durationH": 42,
-      "link": "/search/MOW2107AGP2?t=HY16584336001658586000002540DMETASRIXAGP_ef89ff3b63609a40b30e557c7dcdd671_70226&search_date=20062022&expected_price_uuid=dd80d078-323a-488b-ae84-3154b0c16756&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 614,
-      "departure_at": "2022-07-22T16:10:00+03:00",
-      "transfers": 1,
-      "duration": 865,
-      "durationH": 14,
-      "link": "/search/MOW2207AGP3?t=GF16584954001658547300000865DMEBAHAGP_8cc906dc3e65ff67425e8e7437ead6ba_111215&search_date=19062022&expected_price_uuid=309a3aa8-225b-48c8-99b4-c26cdefdc1e5&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 585,
-      "departure_at": "2022-07-14T06:35:00+03:00",
-      "transfers": 3,
-      "duration": 2585,
-      "durationH": 43,
-      "link": "/search/LED1407BCN1?t=SU16577697001657924800002585LEDAERISTSAWLYSBCN_dd4eec9554b30a5bd2782376d89e7f10_35299&search_date=19062022&expected_price_uuid=cb0f90c2-9618-4784-b215-77b0f6647d6e&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 588,
-      "departure_at": "2022-07-13T15:25:00+03:00",
-      "transfers": 2,
-      "duration": 2590,
-      "durationH": 43,
-      "link": "/search/LED1307MAD2?t=TK16577151001657870500002590LEDISTSOFMAD_b0ecc2517cdaa71b993c2f6573250f46_70920&search_date=18062022&expected_price_uuid=086d9637-d547-4226-baef-0e355c2678a6&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 594,
-      "departure_at": "2022-07-11T11:45:00+03:00",
-      "transfers": 3,
-      "duration": 2870,
-      "durationH": 48,
-      "link": "/search/MOW1107BCN1?t=HY16575291001657701300002870DMETASLHRLISBCN_4848c2c6800c77b8ac1ead035b59a6f2_35868&search_date=20062022&expected_price_uuid=7cfd52a8-4c53-48fc-afdb-fdab782738c6&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 570,
-      "departure_at": "2022-07-19T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 2875,
-      "durationH": 48,
-      "link": "/search/MOW1907MAD1?t=SU16582182001658390700002875SVOAERISTSAWVIEMAD_d734a8b32963bf1957d9baf465ab48c2_34375&search_date=20062022&expected_price_uuid=c33605a5-af90-4f95-8c16-3595b8f9ca13&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 556,
-      "departure_at": "2022-08-06T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 3135,
-      "durationH": 52,
-      "link": "/search/MOW0608BCN1?t=SU16597938001659981900003135SVOAERISTSAWBUDBCN_0e534566c00b519cec210a00b4e49fd2_33527&search_date=20062022&expected_price_uuid=9076a500-450f-4ca3-863d-5147a9ebc7d3&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 546,
-      "departure_at": "2022-07-19T04:30:00+03:00",
-      "transfers": 3,
-      "duration": 3190,
-      "durationH": 53,
-      "link": "/search/MOW1907BCN1?t=SU16581942001658385600003190SVOAERISTSAWVIEBCN_cbe20df418c6d2d67a4c8f089d4731d9_32948&search_date=19062022&expected_price_uuid=375c58d2-3748-432a-b1a4-81f78af3bbd5&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 614,
-      "departure_at": "2022-07-29T16:10:00+03:00",
-      "transfers": 1,
-      "duration": 865,
-      "durationH": 14,
-      "link": "/search/MOW2907AGP2?t=GF16591002001659152100000865DMEBAHAGP_e0660ab4687f78dc9785d889d0e2fa15_74143&search_date=19062022&expected_price_uuid=3b5e1676-9bfa-4994-a2cc-78ad8ccd811b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 622,
-      "departure_at": "2022-07-26T11:55:00+03:00",
-      "transfers": 1,
-      "duration": 1350,
-      "durationH": 23,
-      "link": "/search/MOW2607AGP1?t=EY16588257001658906700001350SVOAUHAGP_f896fc380363a8ae7915f2bb7a06c5e9_37541&search_date=20062022&expected_price_uuid=5e693567-97a7-4184-b47e-c23c34994b06&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 597,
-      "departure_at": "2022-08-03T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 1635,
-      "durationH": 27,
-      "link": "/search/MOW0308AGP1?t=A416595469001659645000001635VKOISTSAWBUDAGP_5eccac1588e5f5185b149c2d2d59e43a_36028&search_date=19062022&expected_price_uuid=06dd0293-b7f6-454f-aa17-8ddeaa0479d5&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 615,
-      "departure_at": "2022-08-06T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 1685,
-      "durationH": 28,
-      "link": "/search/LED0608AGP1?t=SU16597935001659894600001685LEDAERISTLHRLTNAGP_39ba1c7be55c71306bcf2d7d416bd77f_37142&search_date=15062022&expected_price_uuid=f08c6a88-ca2c-49e7-a29a-f797eb504d69&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 617,
-      "departure_at": "2022-07-16T10:50:00+03:00",
-      "transfers": 2,
-      "duration": 1690,
-      "durationH": 28,
-      "link": "/search/MOW1607MAD1?t=PC16579578001658059200001690DMEFRUSAWMAD_cfa063d7ce859fdb339277866b24f5fe_37265&search_date=19062022&expected_price_uuid=e1a197b0-1053-45d1-b8a1-4c43c82fb783&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 620,
-      "departure_at": "2022-07-22T11:10:00+03:00",
-      "transfers": 2,
-      "duration": 1705,
-      "durationH": 28,
-      "link": "/search/MOW2207MAD1?t=A416584774001658579700001705VKOEVNWAWMAD_d7826beefa94df3dd192dcd27a5c693a_37429&search_date=19062022&expected_price_uuid=ae7c1c91-7f84-4ebe-8503-90a7a40bc5a4&expected_price_currency=rub"
     },
     {
       "route": "MOW-LEI",
@@ -4779,48 +4746,15 @@ window.data = {
       "link": "/search/MOW3008AGP3?t=EY16618497001661953800001735SVOAUHDUBAGP_0d408fe0b55f29c66ca02b4b8ef40c1c_111645&search_date=19062022&expected_price_uuid=eab52add-548f-419f-845b-d7ae9636ba8d&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 614,
-      "departure_at": "2022-07-23T10:35:00+03:00",
-      "transfers": 3,
-      "duration": 1795,
-      "durationH": 30,
-      "link": "/search/LED2307BCN2?t=SU16585617001658669400001795LEDAERISTSAWNUEBCN_aabb07537f9654011031d4d66d188d26_74078&search_date=19062022&expected_price_uuid=46335968-af4f-4d39-a0fa-757f7363942a&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 625,
-      "departure_at": "2022-07-16T14:10:00+03:00",
-      "transfers": 3,
-      "duration": 1840,
-      "durationH": 31,
-      "link": "/search/LED1607BCN1?t=SU16579698001658080200001840LEDAERISTBEGBCN_26cfba9c969e50b1783be35fcda1eaa9_37734&search_date=19062022&expected_price_uuid=7543520a-938c-4a85-bd4e-ac787b0008d4&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
+      "route": "MOW-AGP",
+      "origin": "MOW",
       "destination": "AGP",
-      "price": 597,
-      "departure_at": "2022-07-27T16:45:00+03:00",
-      "transfers": 4,
-      "duration": 1980,
-      "durationH": 33,
-      "link": "/search/LED2707AGP2?t=SU16589295001659048300001980LEDAERISTFRAHHNPMIAGP_dc532a37ac8e80ed4d2f3d2e447d3225_72028&search_date=18062022&expected_price_uuid=82be2654-5746-4350-a8c2-51d1b39cd583&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 590,
-      "departure_at": "2022-07-29T06:35:00+03:00",
+      "price": 600,
+      "departure_at": "2022-07-16T16:55:00+03:00",
       "transfers": 3,
-      "duration": 2380,
-      "durationH": 40,
-      "link": "/search/LED2907AGP1?t=SU16590657001659208500002380LEDAERISTSOFAGP_aaeba8508855ae726d43be4907c6ba7c_35613&search_date=19062022&expected_price_uuid=bf377783-0cb6-4f32-9f75-2240b4fc4c80&expected_price_currency=rub"
+      "duration": 2435,
+      "durationH": 41,
+      "link": "/search/MOW1607AGP1?t=MS16579797001658125800002435DMECAIMXPBCNAGP_46c5c22c69a34e8608994388c3b2db35_36219&search_date=20062022&expected_price_uuid=1fcb317e-2be7-4913-b54c-7c531310066a&expected_price_currency=rub"
     },
     {
       "route": "LED-GRX",
@@ -4834,28 +4768,6 @@ window.data = {
       "link": "/search/LED2308GRX1?t=SU16612581001661410200002535LEDAERISTZRHBCNGRX_77e2854277dc1bb9d8c6f90ffaca4568_35533&search_date=19062022&expected_price_uuid=cc71688e-aa75-4ae9-af4e-c4620f80d31b&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 564,
-      "departure_at": "2022-08-28T23:00:00+03:00",
-      "transfers": 3,
-      "duration": 2605,
-      "durationH": 43,
-      "link": "/search/MOW2808AGP2?t=HY16617168001661873100002605DMETASRIXTLLAGP_a3e983c1817bcd7f240c7457038b58e9_68136&search_date=19062022&expected_price_uuid=604b2bad-2fae-4397-9fce-6ff82eb431cc&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 600,
-      "departure_at": "2022-07-16T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 2435,
-      "durationH": 41,
-      "link": "/search/MOW1607AGP1?t=MS16579797001658125800002435DMECAIMXPBCNAGP_46c5c22c69a34e8608994388c3b2db35_36219&search_date=20062022&expected_price_uuid=1fcb317e-2be7-4913-b54c-7c531310066a&expected_price_currency=rub"
-    },
-    {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
@@ -4867,81 +4779,59 @@ window.data = {
       "link": "/search/LED1707AGP1?t=SU16580655001658220000002575LEDAERISTSAWFCOMAHAGP_f28a79096f527df7bc96cc49e4056662_35909&search_date=18062022&expected_price_uuid=0d69d5bc-7a85-43d8-9d34-a10c340d6383&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 632,
-      "departure_at": "2022-07-18T09:45:00+03:00",
-      "transfers": 2,
-      "duration": 1755,
-      "durationH": 29,
-      "link": "/search/MOW1807MAD1?t=PC16581267001658232000001755VKOGRVISTSAWMAD_5f1c717c24dc17eaa2f116997bbaca2a_38145&search_date=20062022&expected_price_uuid=bf554d5b-069a-4fe4-8fd8-b73bacc765db&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 623,
-      "departure_at": "2022-08-09T11:30:00+03:00",
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 585,
+      "departure_at": "2022-07-14T06:35:00+03:00",
       "transfers": 3,
-      "duration": 2130,
-      "durationH": 36,
-      "link": "/search/MOW0908AGP1?t=SU16600338001660161600002130SVOAERISTSAWVIEAGP_2f044080dfd4d390fcece775b3070bfe_37605&search_date=19062022&expected_price_uuid=47b1f961-c56d-4b67-87c4-711f5136669d&expected_price_currency=rub"
+      "duration": 2585,
+      "durationH": 43,
+      "link": "/search/LED1407BCN1?t=SU16577697001657924800002585LEDAERISTSAWLYSBCN_dd4eec9554b30a5bd2782376d89e7f10_35299&search_date=19062022&expected_price_uuid=cb0f90c2-9618-4784-b215-77b0f6647d6e&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 601,
-      "departure_at": "2022-07-31T22:20:00+03:00",
+      "price": 588,
+      "departure_at": "2022-07-13T15:25:00+03:00",
       "transfers": 2,
-      "duration": 2440,
-      "durationH": 41,
-      "link": "/search/LED3107MAD2?t=SU16592952001659441600002440LEDAERISTSAWMAD_885aa216a706fb50fa66628f3b1aead6_72590&search_date=19062022&expected_price_uuid=18ef8c82-daf0-4722-b030-bc9540bbe413&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-GRX",
-      "origin": "LED",
-      "destination": "GRX",
-      "price": 629,
-      "departure_at": "2022-08-06T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 2540,
-      "durationH": 42,
-      "link": "/search/LED0608GRX1?t=SU16597893001659941700002540LEDAERISTSAWBCNGRX_732a1c2c0068d5750e999e95326bda65_37985&search_date=15062022&expected_price_uuid=f87fe445-0005-41f6-b49b-a10174cc7ea4&expected_price_currency=rub"
+      "duration": 2590,
+      "durationH": 43,
+      "link": "/search/LED1307MAD2?t=TK16577151001657870500002590LEDISTSOFMAD_b0ecc2517cdaa71b993c2f6573250f46_70920&search_date=18062022&expected_price_uuid=086d9637-d547-4226-baef-0e355c2678a6&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
-      "price": 616,
-      "departure_at": "2022-07-20T04:30:00+03:00",
+      "price": 564,
+      "departure_at": "2022-08-28T23:00:00+03:00",
       "transfers": 3,
-      "duration": 2580,
+      "duration": 2605,
       "durationH": 43,
-      "link": "/search/MOW2007AGP1?t=SU16582806001658435400002580SVOAERISTSAWBUDAGP_2457217d7620cadb016463862d7fec94_37174&search_date=20062022&expected_price_uuid=543db4e6-9f6f-47c9-b1c8-831afb657c33&expected_price_currency=rub"
+      "link": "/search/MOW2808AGP2?t=HY16617168001661873100002605DMETASRIXTLLAGP_a3e983c1817bcd7f240c7457038b58e9_68136&search_date=19062022&expected_price_uuid=604b2bad-2fae-4397-9fce-6ff82eb431cc&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "MOW-GRX",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 606,
-      "departure_at": "2022-07-30T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 2685,
-      "durationH": 45,
-      "link": "/search/MOW3007BCN1?t=TK16591428001659303900002685VKOESBVIEBRSBCN_7b2659f41f3bd5ce58fd0c8720c878ea_36556&search_date=20062022&expected_price_uuid=18475b33-aa2f-4781-8e41-6c222c0405e5&expected_price_currency=rub"
+      "destination": "GRX",
+      "price": 564,
+      "departure_at": "2022-09-07T13:35:00+03:00",
+      "transfers": 4,
+      "duration": 2660,
+      "durationH": 44,
+      "link": "/search/MOW0709GRX1?t=SU16625469001662706500002660SVOEVNATHCDGBCNGRX_84569325b506e6a44e63470e4736fac2_34010&search_date=17062022&expected_price_uuid=414c1868-bb90-471a-b3f4-f1e7641445e2&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 593,
-      "departure_at": "2022-07-24T12:50:00+03:00",
-      "transfers": 3,
-      "duration": 2750,
-      "durationH": 46,
-      "link": "/search/LED2407AGP1?t=SU16586562001658821200002750LEDAERISTSAWOTPAGP_30450ca644594f58330ac33b63c10678_35770&search_date=19062022&expected_price_uuid=6e5e50d0-5672-48b0-9750-19da4864f18b&expected_price_currency=rub"
+      "route": "MOW-GRX",
+      "origin": "MOW",
+      "destination": "GRX",
+      "price": 610,
+      "departure_at": "2022-07-11T18:05:00+03:00",
+      "transfers": 4,
+      "duration": 2610,
+      "durationH": 44,
+      "link": "/search/MOW1107GRX1?t=HY16575519001657708500002610VKOLEDTASLHRSTNPMIGRX_340b689efac0ab1a0426e4cc386aa5a2_36799&search_date=19062022&expected_price_uuid=81efc15e-ecb3-4970-a17f-7b39adbeb4fb&expected_price_currency=rub"
     },
     {
       "route": "MOW-SVQ",
@@ -4955,15 +4845,26 @@ window.data = {
       "link": "/search/MOW2707SVQ1?t=PC16588794001659047400002800DMEAYTCPHLISSVQ_31d2e9df7649bc77ed9d5537f0100ffc_35654&search_date=14062022&expected_price_uuid=f1eee6f2-a383-4397-8f46-b3629b57d790&expected_price_currency=rub"
     },
     {
-      "route": "MOW-LEI",
+      "route": "MOW-BCN",
       "origin": "MOW",
-      "destination": "LEI",
-      "price": 568,
-      "departure_at": "2022-08-27T04:00:00+03:00",
+      "destination": "BCN",
+      "price": 594,
+      "departure_at": "2022-07-11T11:45:00+03:00",
       "transfers": 3,
-      "duration": 3485,
-      "durationH": 58,
-      "link": "/search/MOW2708LEI1?t=TK16615620001661771100003485VKOESBGVABCNLEI_e26473767fb05c8b2679a8fa3039fce2_34254&search_date=15062022&expected_price_uuid=862b4251-c489-4084-938a-85c00493ac94&expected_price_currency=rub"
+      "duration": 2870,
+      "durationH": 48,
+      "link": "/search/MOW1107BCN1?t=HY16575291001657701300002870DMETASLHRLISBCN_4848c2c6800c77b8ac1ead035b59a6f2_35868&search_date=20062022&expected_price_uuid=7cfd52a8-4c53-48fc-afdb-fdab782738c6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 600,
+      "departure_at": "2022-07-11T00:15:00+03:00",
+      "transfers": 3,
+      "duration": 2940,
+      "durationH": 49,
+      "link": "/search/MOW1107AGP1?t=HY16574877001657664100002940VKOLEDTASLHRLTNAGP_7d02c651676da3b1d992d9260fa5912f_36196&search_date=19062022&expected_price_uuid=ec73b3f1-11cb-448c-84c0-13d90a6ced85&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -4980,6 +4881,39 @@ window.data = {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
+      "price": 602,
+      "departure_at": "2022-07-10T13:15:00+03:00",
+      "transfers": 3,
+      "duration": 2960,
+      "durationH": 49,
+      "link": "/search/LED1007AGP1?t=HY16574481001657625700002960LEDTASFRAHHNIBZAGP_f1827349c537cdb64cd445887a5352bb_36348&search_date=18062022&expected_price_uuid=9e4c55e7-8267-477e-828e-8e520d54d520&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 593,
+      "departure_at": "2022-07-03T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 3220,
+      "durationH": 54,
+      "link": "/search/MOW0307SVQ1?t=MS16568565001657049700003220DMECAILHRLTNSVQ_6a471ecb967f915a6b638341fdab6e62_35763&search_date=19062022&expected_price_uuid=8b1fef30-e759-4094-a953-c8f4f51b3a6c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 568,
+      "departure_at": "2022-08-27T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 3485,
+      "durationH": 58,
+      "link": "/search/MOW2708LEI1?t=TK16615620001661771100003485VKOESBGVABCNLEI_e26473767fb05c8b2679a8fa3039fce2_34254&search_date=15062022&expected_price_uuid=862b4251-c489-4084-938a-85c00493ac94&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
       "price": 639,
       "departure_at": "2022-07-30T11:50:00+03:00",
       "transfers": 2,
@@ -4988,15 +4922,37 @@ window.data = {
       "link": "/search/LED3007AGP2?t=SU16591710001659259200001470LEDAERISTAGP_18ae3f2a75ffff4d44ba7b0bd423a0e1_77080&search_date=15062022&expected_price_uuid=0b999fd7-f85b-4dae-816d-ec3ead5afaa8&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 629,
-      "departure_at": "2022-07-28T11:55:00+03:00",
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 638,
+      "departure_at": "2022-07-04T22:25:00+03:00",
       "transfers": 2,
-      "duration": 1755,
-      "durationH": 29,
-      "link": "/search/MOW2807AGP1?t=EY16589985001659103800001755SVOAUHMADAGP_97264c8e5a00a68548dbebed6fbd0076_37952&search_date=19062022&expected_price_uuid=cb952350-2b34-4850-935a-1a342d336e5a&expected_price_currency=rub"
+      "duration": 1530,
+      "durationH": 26,
+      "link": "/search/LED0407BCN1?t=TK16569627001657054500001530LEDKZNISTBCN_9aeccf3f17490ac4eb1a2b472327e90f_38511&search_date=20062022&expected_price_uuid=78144ad3-d823-4602-8825-aa5de8a03d97&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 615,
+      "departure_at": "2022-08-06T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 1685,
+      "durationH": 28,
+      "link": "/search/LED0608AGP1?t=SU16597935001659894600001685LEDAERISTLHRLTNAGP_39ba1c7be55c71306bcf2d7d416bd77f_37142&search_date=15062022&expected_price_uuid=f08c6a88-ca2c-49e7-a29a-f797eb504d69&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 623,
+      "departure_at": "2022-07-06T10:20:00+03:00",
+      "transfers": 2,
+      "duration": 1695,
+      "durationH": 28,
+      "link": "/search/MOW0607BCN1?t=PC16570920001657193700001695DMEOSSSAWBCN_a27d819d8f1d160e7464054c446bec47_37571&search_date=20062022&expected_price_uuid=dcd930a8-bbb0-4f58-b39f-a2bff735e32f&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5010,17 +4966,6 @@ window.data = {
       "link": "/search/LED1208MAD1?t=AT16602570001660374000001950LEDSVODMECMNBCNMAD_c8c039d60140c4101954b7dc3a93ecd6_37843&search_date=18062022&expected_price_uuid=9ea5b606-5833-4fe6-9d1e-3be747ec0a35&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 627,
-      "departure_at": "2022-07-24T01:05:00+03:00",
-      "transfers": 4,
-      "duration": 2015,
-      "durationH": 34,
-      "link": "/search/LED2407BCN1?t=SU16586139001658734800002015LEDSVOAERISTSAWBUDBCN_0f6ccd8921ace36c54f2503a3da578ec_37864&search_date=19062022&expected_price_uuid=3d7e4839-7627-4454-b310-157496722b1e&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -5030,94 +4975,6 @@ window.data = {
       "duration": 2025,
       "durationH": 34,
       "link": "/search/MOW1608AGP1?t=PC16606518001660773300002025DMESAWCPHAGP_5429d7a092c0ba84ee8c739ff2096978_36727&search_date=17062022&expected_price_uuid=e1b124db-432c-4cb7-96b3-f7f20a70e4d3&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-GRX",
-      "origin": "LED",
-      "destination": "GRX",
-      "price": 612,
-      "departure_at": "2022-07-26T10:00:00+03:00",
-      "transfers": 3,
-      "duration": 2230,
-      "durationH": 37,
-      "link": "/search/LED2607GRX1?t=SU16588188001658952600002230LEDAERISTSAWBCNGRX_e9ad34b57e7df8e720dbbc7d69679feb_36913&search_date=19062022&expected_price_uuid=9e0ffffc-2479-4096-a8a6-63faf6237f42&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 610,
-      "departure_at": "2022-07-25T22:30:00+03:00",
-      "transfers": 2,
-      "duration": 2245,
-      "durationH": 37,
-      "link": "/search/LED2507AGP1?t=HY16587774001658912100002245LEDTASLHRLGWAGP_0403664a655f1c7142446f493a4c4725_36799&search_date=15062022&expected_price_uuid=7ea0fabb-dc53-41a6-9bcf-b26f2b58506c&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 676,
-      "departure_at": "2022-07-26T01:05:00+03:00",
-      "transfers": 2,
-      "duration": 2000,
-      "durationH": 33,
-      "link": "/search/LED2607AGP1?t=EY16587867001658906700002000LEDSVOAUHAGP_68d6af46650416fe87643c1d0de92bda_40799&search_date=15062022&expected_price_uuid=92716414-97e3-4a6b-ab96-77327940d9f1&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 648,
-      "departure_at": "2022-07-31T12:50:00+03:00",
-      "transfers": 3,
-      "duration": 2030,
-      "durationH": 34,
-      "link": "/search/LED3107AGP1?t=SU16592610001659382800002030LEDAERISTSAWSTNLTNAGP_f5e255dcdc94c6ee8329902432d9bfca_39078&search_date=19062022&expected_price_uuid=56fda96d-7c04-4c93-9028-d8d4603eceab&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 685,
-      "departure_at": "2022-07-16T00:05:00+03:00",
-      "transfers": 3,
-      "duration": 2070,
-      "durationH": 35,
-      "link": "/search/LED1607AGP1?t=SU16579191001658043300002070LEDAERISTVIEAGP_e306ab3791471396ec52ce663872742a_41317&search_date=18062022&expected_price_uuid=1c576a0a-77e8-40cf-9235-f70c2e555b3a&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 653,
-      "departure_at": "2022-07-15T13:05:00+03:00",
-      "transfers": 3,
-      "duration": 2140,
-      "durationH": 36,
-      "link": "/search/LED1507BCN1?t=SU16578795001658007900002140LEDAERISTSAWSTNBCN_e600f3400aa69333dab628886bbb8a6a_39402&search_date=19062022&expected_price_uuid=ed0791f6-afb2-4dc2-ac18-3a1672c00467&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 633,
-      "departure_at": "2022-07-19T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 2150,
-      "durationH": 36,
-      "link": "/search/MOW1907AGP1?t=SU16582182001658347200002150SVOAERISTSAWVIEAGP_edc25fb52b45ac8b641d63569a092929_38188&search_date=18062022&expected_price_uuid=5d75d638-c85a-4a66-a680-b1a6ce61fb4a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 617,
-      "departure_at": "2022-08-02T10:55:00+03:00",
-      "transfers": 3,
-      "duration": 2165,
-      "durationH": 36,
-      "link": "/search/MOW0208AGP1?t=SU16594269001659556800002165SVOAERISTSAWVIEAGP_59de6e2e4841e4e22835ce5adae35d8b_37243&search_date=19062022&expected_price_uuid=0d0b1800-b643-44e7-85f9-f4dd684cf57c&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5186,17 +5043,6 @@ window.data = {
       "link": "/search/MOW1608BCN1?t=UT16606671001660824900002630VKOEVNKIVBCN_7f043807ddf3a6777aa961dd0c8bdd07_35821&search_date=19062022&expected_price_uuid=2456672a-b29e-4571-a88c-93b5623f816f&expected_price_currency=rub"
     },
     {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 629,
-      "departure_at": "2022-07-29T10:15:00+03:00",
-      "transfers": 4,
-      "duration": 2340,
-      "durationH": 39,
-      "link": "/search/MOW2907SVQ1?t=PC16590789001659219300002340DMELEDSAWSTNBLLSVQ_7cee15a54455f5611fb1296624c031ca_37986&search_date=15062022&expected_price_uuid=cc0a167b-357a-420f-8c4c-a83d6a506ccf&expected_price_currency=rub"
-    },
-    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -5208,81 +5054,15 @@ window.data = {
       "link": "/search/LED1408MAD1?t=HY16604721001660634400002705LEDTASFRAMAD_1e6f19bb13373f494c0bd518f24bb008_36132&search_date=15062022&expected_price_uuid=40f36d09-4e33-46ec-bc17-1ca7b141f982&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 604,
-      "departure_at": "2022-07-07T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 2895,
-      "durationH": 48,
-      "link": "/search/MOW0707BCN1?t=HY16572162001657389900002895DMETASRIXHELBCN_9a34f08120df823c04158283c0ffb2df_36450&search_date=20062022&expected_price_uuid=060fc859-0380-47d1-bd42-3da4613bd9b6&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 600,
-      "departure_at": "2022-07-11T00:15:00+03:00",
-      "transfers": 3,
-      "duration": 2940,
-      "durationH": 49,
-      "link": "/search/MOW1107AGP1?t=HY16574877001657664100002940VKOLEDTASLHRLTNAGP_7d02c651676da3b1d992d9260fa5912f_36196&search_date=19062022&expected_price_uuid=ec73b3f1-11cb-448c-84c0-13d90a6ced85&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 602,
-      "departure_at": "2022-07-10T13:15:00+03:00",
-      "transfers": 3,
-      "duration": 2960,
-      "durationH": 49,
-      "link": "/search/LED1007AGP1?t=HY16574481001657625700002960LEDTASFRAHHNIBZAGP_f1827349c537cdb64cd445887a5352bb_36348&search_date=18062022&expected_price_uuid=9e4c55e7-8267-477e-828e-8e520d54d520&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 593,
-      "departure_at": "2022-07-03T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 3220,
-      "durationH": 54,
-      "link": "/search/MOW0307SVQ1?t=MS16568565001657049700003220DMECAILHRLTNSVQ_6a471ecb967f915a6b638341fdab6e62_35763&search_date=19062022&expected_price_uuid=8b1fef30-e759-4094-a953-c8f4f51b3a6c&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
-      "price": 642,
-      "departure_at": "2022-07-09T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 1430,
-      "durationH": 24,
-      "link": "/search/MOW0907MAD1?t=A416573506001657436400001430VKOEVNVIEMAD_57a78f1bb6823bfea8311840b96a9fab_38757&search_date=19062022&expected_price_uuid=b48f5c01-173c-4196-8935-09452468d1b5&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 638,
-      "departure_at": "2022-07-04T22:25:00+03:00",
-      "transfers": 2,
-      "duration": 1530,
-      "durationH": 26,
-      "link": "/search/LED0407BCN1?t=TK16569627001657054500001530LEDKZNISTBCN_9aeccf3f17490ac4eb1a2b472327e90f_38511&search_date=20062022&expected_price_uuid=78144ad3-d823-4602-8825-aa5de8a03d97&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 643,
+      "price": 640,
       "departure_at": "2022-07-06T09:45:00+03:00",
       "transfers": 2,
       "duration": 1740,
       "durationH": 29,
-      "link": "/search/MOW0607MAD1?t=PC16570899001657194300001740VKOGRVISTSAWMAD_2cf8bf526c88ae007880a9dc00a3a9f1_38820&search_date=20062022&expected_price_uuid=ca99e292-8b25-489c-b666-30b8efb3eefd&expected_price_currency=rub"
+      "link": "/search/MOW0607MAD1?t=PC16570899001657194300001740VKOGRVISTSAWMAD_2cf8bf526c88ae007880a9dc00a3a9f1_38646&search_date=20062022&expected_price_uuid=b6da1f63-0caf-4424-9f84-04e706c3064a&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
@@ -5307,26 +5087,202 @@ window.data = {
       "link": "/search/MOW0607LEI1?t=PC16570632001657187700002075DMEAYTMANLEI_8517cba1403770144da833b62ff1534c_37165&search_date=14062022&expected_price_uuid=7a47b0d5-5b14-42b3-abf5-201e703988df&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
+      "route": "MOW-AGP",
       "origin": "MOW",
-      "destination": "BCN",
-      "price": 615,
-      "departure_at": "2022-07-13T09:45:00+03:00",
+      "destination": "AGP",
+      "price": 616,
+      "departure_at": "2022-07-20T04:30:00+03:00",
       "transfers": 3,
-      "duration": 2260,
-      "durationH": 38,
-      "link": "/search/MOW1307BCN1?t=UT16576947001657830300002260VKOGRVISTSAWZRHBCN_b10ea1318c866e7c5438601ddf38eaeb_37123&search_date=20062022&expected_price_uuid=0823fbc1-7ce3-4abd-9c82-09b8c982a8c6&expected_price_currency=rub"
+      "duration": 2580,
+      "durationH": 43,
+      "link": "/search/MOW2007AGP1?t=SU16582806001658435400002580SVOAERISTSAWBUDAGP_2457217d7620cadb016463862d7fec94_37174&search_date=20062022&expected_price_uuid=543db4e6-9f6f-47c9-b1c8-831afb657c33&expected_price_currency=rub"
     },
     {
-      "route": "MOW-GRX",
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 593,
+      "departure_at": "2022-07-24T12:50:00+03:00",
+      "transfers": 3,
+      "duration": 2750,
+      "durationH": 46,
+      "link": "/search/LED2407AGP1?t=SU16586562001658821200002750LEDAERISTSAWOTPAGP_30450ca644594f58330ac33b63c10678_35770&search_date=19062022&expected_price_uuid=6e5e50d0-5672-48b0-9750-19da4864f18b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
       "origin": "MOW",
-      "destination": "GRX",
-      "price": 610,
-      "departure_at": "2022-07-11T18:05:00+03:00",
+      "destination": "AGP",
+      "price": 629,
+      "departure_at": "2022-07-28T11:55:00+03:00",
+      "transfers": 2,
+      "duration": 1755,
+      "durationH": 29,
+      "link": "/search/MOW2807AGP1?t=EY16589985001659103800001755SVOAUHMADAGP_97264c8e5a00a68548dbebed6fbd0076_37952&search_date=19062022&expected_price_uuid=cb952350-2b34-4850-935a-1a342d336e5a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 654,
+      "departure_at": "2022-07-15T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 1765,
+      "durationH": 29,
+      "link": "/search/LED1507AGP1?t=SU16578885001657994400001765LEDAERISTSAWBUDAGP_95fee5674032a9a72b16af0ff9feff4b_39455&search_date=17062022&expected_price_uuid=7b239a59-5b4b-49d1-89a2-c0cb9c5a6b22&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 625,
+      "departure_at": "2022-07-14T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 1775,
+      "durationH": 30,
+      "link": "/search/MOW1407AGP2?t=HY16578210001657927500001775DMETASRIXHELAGP_a6b1af5bae2437bbba2352701a91984d_75446&search_date=20062022&expected_price_uuid=f1c5e6f7-b8f2-4a56-a015-a187b9e266f3&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 652,
+      "departure_at": "2022-07-12T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 1855,
+      "durationH": 31,
+      "link": "/search/LED1207AGP1?t=SU16576293001657740600001855LEDAERISTSAWSTNAGP_1c657c29c4e756c3e44b96b37e3a1063_39372&search_date=15062022&expected_price_uuid=cb20ebef-a443-4c07-a9a6-2a9f19a28698&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 627,
+      "departure_at": "2022-07-24T01:05:00+03:00",
       "transfers": 4,
-      "duration": 2610,
-      "durationH": 44,
-      "link": "/search/MOW1107GRX1?t=HY16575519001657708500002610VKOLEDTASLHRSTNPMIGRX_340b689efac0ab1a0426e4cc386aa5a2_36799&search_date=19062022&expected_price_uuid=81efc15e-ecb3-4970-a17f-7b39adbeb4fb&expected_price_currency=rub"
+      "duration": 2015,
+      "durationH": 34,
+      "link": "/search/LED2407BCN1?t=SU16586139001658734800002015LEDSVOAERISTSAWBUDBCN_0f6ccd8921ace36c54f2503a3da578ec_37864&search_date=19062022&expected_price_uuid=3d7e4839-7627-4454-b310-157496722b1e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 677,
+      "departure_at": "2022-07-08T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 1945,
+      "durationH": 32,
+      "link": "/search/MOW0807MAD1?t=MS16572885001657405200001945DMECAICMNLISMAD_2a444665b511ed8a4872eafa9571c1c7_40867&search_date=20062022&expected_price_uuid=62fdac0c-6f65-42fa-b894-fb514a2e68e7&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 648,
+      "departure_at": "2022-07-31T12:50:00+03:00",
+      "transfers": 3,
+      "duration": 2030,
+      "durationH": 34,
+      "link": "/search/LED3107AGP1?t=SU16592610001659382800002030LEDAERISTSAWSTNLTNAGP_f5e255dcdc94c6ee8329902432d9bfca_39078&search_date=19062022&expected_price_uuid=56fda96d-7c04-4c93-9028-d8d4603eceab&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 651,
+      "departure_at": "2022-07-13T09:45:00+03:00",
+      "transfers": 3,
+      "duration": 2105,
+      "durationH": 35,
+      "link": "/search/MOW1307AGP1?t=PC16576947001657821000002105VKOGRVISTSAWSTNLTNAGP_09f59e2f524bf9d32fe2882ad63646b9_39259&search_date=20062022&expected_price_uuid=c29edf9e-18ca-48f5-b3ca-3d94c421dde5&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 623,
+      "departure_at": "2022-08-09T11:30:00+03:00",
+      "transfers": 3,
+      "duration": 2130,
+      "durationH": 36,
+      "link": "/search/MOW0908AGP1?t=SU16600338001660161600002130SVOAERISTSAWVIEAGP_2f044080dfd4d390fcece775b3070bfe_37605&search_date=19062022&expected_price_uuid=47b1f961-c56d-4b67-87c4-711f5136669d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 617,
+      "departure_at": "2022-08-02T10:55:00+03:00",
+      "transfers": 3,
+      "duration": 2165,
+      "durationH": 36,
+      "link": "/search/MOW0208AGP1?t=SU16594269001659556800002165SVOAERISTSAWVIEAGP_59de6e2e4841e4e22835ce5adae35d8b_37243&search_date=19062022&expected_price_uuid=0d0b1800-b643-44e7-85f9-f4dd684cf57c&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-GRX",
+      "origin": "LED",
+      "destination": "GRX",
+      "price": 612,
+      "departure_at": "2022-07-26T10:00:00+03:00",
+      "transfers": 3,
+      "duration": 2230,
+      "durationH": 37,
+      "link": "/search/LED2607GRX1?t=SU16588188001658952600002230LEDAERISTSAWBCNGRX_e9ad34b57e7df8e720dbbc7d69679feb_36913&search_date=19062022&expected_price_uuid=9e0ffffc-2479-4096-a8a6-63faf6237f42&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 610,
+      "departure_at": "2022-07-25T22:30:00+03:00",
+      "transfers": 2,
+      "duration": 2245,
+      "durationH": 37,
+      "link": "/search/LED2507AGP1?t=HY16587774001658912100002245LEDTASLHRLGWAGP_0403664a655f1c7142446f493a4c4725_36799&search_date=15062022&expected_price_uuid=7ea0fabb-dc53-41a6-9bcf-b26f2b58506c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 658,
+      "departure_at": "2022-07-07T09:05:00+03:00",
+      "transfers": 3,
+      "duration": 2180,
+      "durationH": 36,
+      "link": "/search/MOW0707MAD2?t=HY16571739001657304700002180DMETASRIXHELMAD_9665b09cb72258bd784ce992ee571fed_79410&search_date=20062022&expected_price_uuid=fa596adf-9966-4eba-9944-ed926c072821&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 656,
+      "departure_at": "2022-07-13T11:00:00+03:00",
+      "transfers": 4,
+      "duration": 2325,
+      "durationH": 39,
+      "link": "/search/LED1307AGP2?t=SU16576992001657838700002325LEDAERISTSAWSTNPMIAGP_9ca5abad8f53615f6358b3cd2c75b607_79150&search_date=15062022&expected_price_uuid=dc32401e-a0c0-4da8-beb7-f2c8b88ef58d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 629,
+      "departure_at": "2022-07-29T10:15:00+03:00",
+      "transfers": 4,
+      "duration": 2340,
+      "durationH": 39,
+      "link": "/search/MOW2907SVQ1?t=PC16590789001659219300002340DMELEDSAWSTNBLLSVQ_7cee15a54455f5611fb1296624c031ca_37986&search_date=15062022&expected_price_uuid=cc0a167b-357a-420f-8c4c-a83d6a506ccf&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 601,
+      "departure_at": "2022-07-31T22:20:00+03:00",
+      "transfers": 2,
+      "duration": 2440,
+      "durationH": 41,
+      "link": "/search/LED3107MAD2?t=SU16592952001659441600002440LEDAERISTSAWMAD_885aa216a706fb50fa66628f3b1aead6_72590&search_date=19062022&expected_price_uuid=18ef8c82-daf0-4722-b030-bc9540bbe413&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -5340,59 +5296,48 @@ window.data = {
       "link": "/search/MOW0507MAD1?t=SU16570374001657197300002665SVOAEREVNWAWMAD_1c494a781c795391e0d7a037e1228752_37999&search_date=20062022&expected_price_uuid=5354d414-dda4-47c6-8efe-18b2c1fdc97e&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
+      "route": "LED-AGP",
+      "origin": "LED",
       "destination": "AGP",
-      "price": 624,
-      "departure_at": "2022-06-26T16:55:00+03:00",
-      "transfers": 4,
-      "duration": 2895,
-      "durationH": 48,
-      "link": "/search/MOW2606AGP1?t=MS16562517001656425400002895DMECAIATHMXPMADAGP_21d8c29a452e2b701578126e46a29f42_37671&search_date=20062022&expected_price_uuid=c9c38879-4da1-429f-b3f5-5a43a8bc4473&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 605,
-      "departure_at": "2022-06-30T16:55:00+03:00",
+      "price": 676,
+      "departure_at": "2022-07-26T01:05:00+03:00",
       "transfers": 2,
-      "duration": 3115,
-      "durationH": 52,
-      "link": "/search/MOW3006BCN1?t=MS16565973001656784200003115DMECAIMXPBCN_eee0025e352ae289d3d7f004654f07d8_36519&search_date=20062022&expected_price_uuid=97289b34-0085-4887-8f8b-5e854b533482&expected_price_currency=rub"
+      "duration": 2000,
+      "durationH": 33,
+      "link": "/search/LED2607AGP1?t=EY16587867001658906700002000LEDSVOAUHAGP_68d6af46650416fe87643c1d0de92bda_40799&search_date=15062022&expected_price_uuid=92716414-97e3-4a6b-ab96-77327940d9f1&expected_price_currency=rub"
     },
     {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 632,
-      "departure_at": "2022-07-13T21:00:00+03:00",
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 653,
+      "departure_at": "2022-07-15T13:05:00+03:00",
       "transfers": 3,
-      "duration": 4315,
-      "durationH": 72,
-      "link": "/search/MOW1307LEI1?t=HY16577352001657994100004315DMETASFRAHHNSTNLEI_7bc6f106dd179a5ded0a1fa246319571_38128&search_date=17062022&expected_price_uuid=2dc0a41f-e9ea-4678-a7df-9e4572de9ac3&expected_price_currency=rub"
+      "duration": 2140,
+      "durationH": 36,
+      "link": "/search/LED1507BCN1?t=SU16578795001658007900002140LEDAERISTSAWSTNBCN_e600f3400aa69333dab628886bbb8a6a_39402&search_date=19062022&expected_price_uuid=ed0791f6-afb2-4dc2-ac18-3a1672c00467&expected_price_currency=rub"
     },
     {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
-      "price": 669,
-      "departure_at": "2022-07-13T21:00:00+03:00",
+      "price": 633,
+      "departure_at": "2022-07-19T11:10:00+03:00",
       "transfers": 3,
-      "duration": 1725,
-      "durationH": 29,
-      "link": "/search/MOW1307AGP1?t=HY16577352001657838700001725DMETASFRAHHNPMIAGP_77e20b1a27a02901b2036c3237cd26c8_40373&search_date=20062022&expected_price_uuid=d14a373a-7246-4115-a6a3-cb3323c2181d&expected_price_currency=rub"
+      "duration": 2150,
+      "durationH": 36,
+      "link": "/search/MOW1907AGP1?t=SU16582182001658347200002150SVOAERISTSAWVIEAGP_edc25fb52b45ac8b641d63569a092929_38188&search_date=18062022&expected_price_uuid=5d75d638-c85a-4a66-a680-b1a6ce61fb4a&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
-      "price": 652,
-      "departure_at": "2022-07-12T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1855,
-      "durationH": 31,
-      "link": "/search/LED1207AGP1?t=SU16576293001657740600001855LEDAERISTSAWSTNAGP_1c657c29c4e756c3e44b96b37e3a1063_39372&search_date=15062022&expected_price_uuid=cb20ebef-a443-4c07-a9a6-2a9f19a28698&expected_price_currency=rub"
+      "price": 664,
+      "departure_at": "2022-07-06T13:50:00+03:00",
+      "transfers": 4,
+      "duration": 2155,
+      "durationH": 36,
+      "link": "/search/LED0607AGP1?t=HY16571046001657233900002155LEDSVODMETASFRAHHNPMIAGP_d3e58d0d7985feb191dbea16094ab6ec_40095&search_date=14062022&expected_price_uuid=4481e2b9-80f0-48c6-ad31-631c1b4789a9&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5417,6 +5362,17 @@ window.data = {
       "link": "/search/MOW3007MAD1?t=MS16591893001659337200002465DMECAIMXPBCNMAD_404dde64cb9e367dc1ebc8751dde20d3_38417&search_date=20062022&expected_price_uuid=1bee4adb-2080-4ce3-b576-9db425ec1d12&expected_price_currency=rub"
     },
     {
+      "route": "LED-GRX",
+      "origin": "LED",
+      "destination": "GRX",
+      "price": 629,
+      "departure_at": "2022-08-06T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 2540,
+      "durationH": 42,
+      "link": "/search/LED0608GRX1?t=SU16597893001659941700002540LEDAERISTSAWBCNGRX_732a1c2c0068d5750e999e95326bda65_37985&search_date=15062022&expected_price_uuid=f87fe445-0005-41f6-b49b-a10174cc7ea4&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -5439,6 +5395,17 @@ window.data = {
       "link": "/search/LED1707SVQ1?t=SU16580613001658219100002630LEDAERISTVIESVQ_b0188049cdbc90d45b4360be447c44b0_37296&search_date=16062022&expected_price_uuid=e85c8564-2c3d-4e87-af1a-3e38a965afc6&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 606,
+      "departure_at": "2022-07-30T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 2685,
+      "durationH": 45,
+      "link": "/search/MOW3007BCN1?t=TK16591428001659303900002685VKOESBVIEBRSBCN_7b2659f41f3bd5ce58fd0c8720c878ea_36556&search_date=20062022&expected_price_uuid=18475b33-aa2f-4781-8e41-6c222c0405e5&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -5459,6 +5426,17 @@ window.data = {
       "duration": 3155,
       "durationH": 53,
       "link": "/search/MOW1407MAD1?t=HY16577787001657968000003155DMETASLHRLISMAD_5d0b838b5ef860ac087090dac78fcc9d_37512&search_date=19062022&expected_price_uuid=3d075b85-58a6-4e55-85f2-ccb0d4e0c79e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 632,
+      "departure_at": "2022-07-13T21:00:00+03:00",
+      "transfers": 3,
+      "duration": 4315,
+      "durationH": 72,
+      "link": "/search/MOW1307LEI1?t=HY16577352001657994100004315DMETASFRAHHNSTNLEI_7bc6f106dd179a5ded0a1fa246319571_38128&search_date=17062022&expected_price_uuid=2dc0a41f-e9ea-4678-a7df-9e4572de9ac3&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5494,17 +5472,6 @@ window.data = {
       "link": "/search/LED1008BCN1?t=EY16601013001660199400001635LEDSVOAUHBCN_53231d25d3680810eb1feb7fc8ae35e5_40015&search_date=19062022&expected_price_uuid=3b1856c9-1857-472f-abee-96483464c109&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 654,
-      "departure_at": "2022-07-15T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1765,
-      "durationH": 29,
-      "link": "/search/LED1507AGP1?t=SU16578885001657994400001765LEDAERISTSAWBUDAGP_95fee5674032a9a72b16af0ff9feff4b_39455&search_date=17062022&expected_price_uuid=7b239a59-5b4b-49d1-89a2-c0cb9c5a6b22&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-SVQ",
       "origin": "MOW",
       "destination": "SVQ",
@@ -5527,92 +5494,15 @@ window.data = {
       "link": "/search/MOW1308AGP1?t=TK16603524001660473900002025VKOESBGVAZRHAGP_0d728c3a9a7593064dc0d728b1f8ac75_39032&search_date=19062022&expected_price_uuid=e4735ca4-94a0-49b4-a603-cb807876087e&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 661,
-      "departure_at": "2022-07-15T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 2425,
-      "durationH": 40,
-      "link": "/search/MOW1507MAD3?t=MS16578933001658038800002425DMECAILHRSTNOPOMAD_36955f035e9e29b1df254f2d24e6a1f7_119736&search_date=20062022&expected_price_uuid=5a60435d-8c3a-45b7-9227-54dc6c738809&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 655,
-      "departure_at": "2022-07-16T04:30:00+03:00",
-      "transfers": 3,
-      "duration": 2510,
-      "durationH": 42,
-      "link": "/search/MOW1607SVQ1?t=W616579350001658085600002510SVOAERISTSAWOTPSVQ_578497f658330c4689be1d1cbba51ad5_39549&search_date=18062022&expected_price_uuid=0181dbf5-360d-438d-ab1a-5546a157e315&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 631,
-      "departure_at": "2022-07-12T01:20:00+03:00",
-      "transfers": 3,
-      "duration": 3410,
-      "durationH": 57,
-      "link": "/search/MOW1207BCN3?t=UT16575780001657782600003410VKOGRVISTBEGBCN_25aa1647f0e368ecd850566aacb6039e_114322&search_date=20062022&expected_price_uuid=56c447c3-2f01-4c68-93e8-3ae11350044e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 685,
-      "departure_at": "2022-07-06T09:45:00+03:00",
-      "transfers": 3,
-      "duration": 1900,
-      "durationH": 32,
-      "link": "/search/MOW0607BCN1?t=UT16570899001657203900001900VKOGRVISTSAWLYSBCN_ca9aaf895469bb71504231372bf72324_41368&search_date=20062022&expected_price_uuid=c253edff-6d78-439a-86ec-2d6f6bb7901b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 677,
-      "departure_at": "2022-07-08T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 1945,
-      "durationH": 32,
-      "link": "/search/MOW0807MAD1?t=MS16572885001657405200001945DMECAICMNLISMAD_2a444665b511ed8a4872eafa9571c1c7_40867&search_date=20062022&expected_price_uuid=62fdac0c-6f65-42fa-b894-fb514a2e68e7&expected_price_currency=rub"
-    },
-    {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
-      "price": 664,
-      "departure_at": "2022-07-06T13:50:00+03:00",
-      "transfers": 4,
-      "duration": 2155,
-      "durationH": 36,
-      "link": "/search/LED0607AGP1?t=HY16571046001657233900002155LEDSVODMETASFRAHHNPMIAGP_d3e58d0d7985feb191dbea16094ab6ec_40095&search_date=14062022&expected_price_uuid=4481e2b9-80f0-48c6-ad31-631c1b4789a9&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 658,
-      "departure_at": "2022-07-07T09:05:00+03:00",
+      "price": 685,
+      "departure_at": "2022-07-16T00:05:00+03:00",
       "transfers": 3,
-      "duration": 2180,
-      "durationH": 36,
-      "link": "/search/MOW0707MAD2?t=HY16571739001657304700002180DMETASRIXHELMAD_9665b09cb72258bd784ce992ee571fed_79410&search_date=20062022&expected_price_uuid=fa596adf-9966-4eba-9944-ed926c072821&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 665,
-      "departure_at": "2022-06-30T01:45:00+03:00",
-      "transfers": 3,
-      "duration": 2270,
-      "durationH": 38,
-      "link": "/search/MOW3006MAD1?t=SU16565427001656678900002270SVOAEREVNWAWMAD_8c31e24007f0f7adcd93cbd1514951a1_40122&search_date=20062022&expected_price_uuid=9f21ae0b-5539-4195-9be7-dc7ff967194e&expected_price_currency=rub"
+      "duration": 2070,
+      "durationH": 35,
+      "link": "/search/LED1607AGP1?t=SU16579191001658043300002070LEDAERISTVIEAGP_e306ab3791471396ec52ce663872742a_41317&search_date=18062022&expected_price_uuid=1c576a0a-77e8-40cf-9235-f70c2e555b3a&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -5624,17 +5514,6 @@ window.data = {
       "duration": 2320,
       "durationH": 39,
       "link": "/search/LED0507AGP1?t=JU16570083001657147500002320LEDBEGHHNPMIAGP_d885942f1724ef70f5627bfd51a3769d_40206&search_date=19062022&expected_price_uuid=c506caa4-eb14-4862-9dad-43722a1a8023&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 656,
-      "departure_at": "2022-07-13T11:00:00+03:00",
-      "transfers": 4,
-      "duration": 2325,
-      "durationH": 39,
-      "link": "/search/LED1307AGP2?t=SU16576992001657838700002325LEDAERISTSAWSTNPMIAGP_9ca5abad8f53615f6358b3cd2c75b607_79150&search_date=15062022&expected_price_uuid=dc32401e-a0c0-4da8-beb7-f2c8b88ef58d&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5659,15 +5538,59 @@ window.data = {
       "link": "/search/MOW0807AGP1?t=FZ16572603001657403100002380VKODXBBUDBRSAGP_531172aa9320a5dce8ed9e4a41156661_40680&search_date=19062022&expected_price_uuid=d7426872-5274-4475-9d3e-2d0b7d5c3e67&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 652,
+      "departure_at": "2022-07-08T22:25:00+03:00",
+      "transfers": 2,
+      "duration": 2410,
+      "durationH": 40,
+      "link": "/search/MOW0807BCN3?t=PC16573083001657452900002410DMEFRUSAWBCN_98e62c49a63ee5cc0e27ee6c07404f79_118067&search_date=20062022&expected_price_uuid=08fe66df-2744-4686-b9f1-d64e03ab78bc&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 661,
+      "departure_at": "2022-07-15T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 2425,
+      "durationH": 40,
+      "link": "/search/MOW1507MAD3?t=MS16578933001658038800002425DMECAILHRSTNOPOMAD_36955f035e9e29b1df254f2d24e6a1f7_119736&search_date=20062022&expected_price_uuid=5a60435d-8c3a-45b7-9227-54dc6c738809&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
-      "price": 669,
-      "departure_at": "2022-06-25T00:45:00+03:00",
-      "transfers": 2,
-      "duration": 2380,
-      "durationH": 40,
-      "link": "/search/LED2506BCN1?t=MS16561071001656249900002380LEDDMECAIBCN_f002a99331d721fbe7371d1a265d879f_40404&search_date=19062022&expected_price_uuid=42d39998-2229-4e33-b9dd-ca841ee95680&expected_price_currency=rub"
+      "price": 656,
+      "departure_at": "2022-07-16T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2430,
+      "durationH": 41,
+      "link": "/search/LED1607BCN1?t=SU16579791001658124900002430LEDAERISTSAWVIEBCN_3f9c374fde8251214b4b29015e91b83d_39569&search_date=20062022&expected_price_uuid=62b85543-442c-4499-8937-6809be667472&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 655,
+      "departure_at": "2022-07-16T04:30:00+03:00",
+      "transfers": 3,
+      "duration": 2510,
+      "durationH": 42,
+      "link": "/search/MOW1607SVQ1?t=W616579350001658085600002510SVOAERISTSAWOTPSVQ_578497f658330c4689be1d1cbba51ad5_39549&search_date=18062022&expected_price_uuid=0181dbf5-360d-438d-ab1a-5546a157e315&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 631,
+      "departure_at": "2022-07-12T01:20:00+03:00",
+      "transfers": 3,
+      "duration": 3410,
+      "durationH": 57,
+      "link": "/search/MOW1207BCN3?t=UT16575780001657782600003410VKOGRVISTBEGBCN_25aa1647f0e368ecd850566aacb6039e_114322&search_date=20062022&expected_price_uuid=56c447c3-2f01-4c68-93e8-3ae11350044e&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -5681,17 +5604,6 @@ window.data = {
       "link": "/search/LED0607BCN1?t=HY16570827001657227900002420LEDVKODMETASFRAHHNPMIBCN_5bd1d1ed7696becb581368152ee9c983_40213&search_date=20062022&expected_price_uuid=a0398e89-6a73-41bd-8c78-0d1cb1ae1a0e&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 668,
-      "departure_at": "2022-06-23T01:30:00+03:00",
-      "transfers": 2,
-      "duration": 2650,
-      "durationH": 44,
-      "link": "/search/MOW2306BCN1?t=JU16559370001656096000002650SVOLEDBEGBCN_3e1b6ea9aa1a5a1aa986770971f4e08e_40307&search_date=20062022&expected_price_uuid=9c16a7a5-8b5f-4550-b1d7-0fd69bca6d9f&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-SVQ",
       "origin": "MOW",
       "destination": "SVQ",
@@ -5703,147 +5615,15 @@ window.data = {
       "link": "/search/MOW0607SVQ1?t=HY16571304001657290900002675DMETASFRAHHNBGYMXPSVQ_090e4347f1849ec6a7dee09338d3aedf_38317&search_date=16062022&expected_price_uuid=f40b1266-9e84-4dcd-b4b8-6dce1b5d4f2c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 649,
-      "departure_at": "2022-06-25T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 3030,
-      "durationH": 51,
-      "link": "/search/MOW2506BCN1?t=MS16561653001656347100003030DMECAIVIEBCN_6c7c317ff7c53a651450d5a8aae21e43_39155&search_date=20062022&expected_price_uuid=b6f34098-c084-493c-8f52-0850b370fd87&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
+      "route": "LED-BCN",
       "origin": "LED",
-      "destination": "AGP",
-      "price": 643,
-      "departure_at": "2022-06-25T20:55:00+03:00",
-      "transfers": 3,
-      "duration": 3835,
-      "durationH": 64,
-      "link": "/search/LED2506AGP1?t=MS16561797001656409800003835LEDSVODMECAILHRSTNAGP_5dd97a0db4f0c911a8c79558c2d27a94_38801&search_date=20062022&expected_price_uuid=19f8adac-0cb2-44c8-bfc2-d820e141dbd9&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 707,
-      "departure_at": "2022-07-02T03:45:00+03:00",
-      "transfers": 4,
-      "duration": 2115,
-      "durationH": 35,
-      "link": "/search/LED0207MAD2?t=PC16567227001656849600002115LEDSVOKUFEVNSAWMAD_a2955e74557dd0b1c8a2ea5661bb4802_85370&search_date=14062022&expected_price_uuid=06ca3d00-a664-41ac-91e9-5e882be5fa61&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
       "destination": "BCN",
-      "price": 705,
-      "departure_at": "2022-06-24T22:25:00+03:00",
+      "price": 669,
+      "departure_at": "2022-06-25T00:45:00+03:00",
       "transfers": 2,
-      "duration": 2410,
+      "duration": 2380,
       "durationH": 40,
-      "link": "/search/MOW2406BCN1?t=PC16560987001656243300002410DMEFRUSAWBCN_1137ddc2ca30a757147dda66bec9780f_42527&search_date=20062022&expected_price_uuid=626d82ef-4808-4958-ba82-274e0ab4cedf&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 685,
-      "departure_at": "2022-06-28T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 2490,
-      "durationH": 42,
-      "link": "/search/MOW2806AGP1?t=MS16564245001656573900002490DMECAIFCOAGP_894df688b163fc96bfe90b760f4de43c_41329&search_date=19062022&expected_price_uuid=0e3ef2d6-3d5b-48d5-bd89-6e9494613800&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 704,
-      "departure_at": "2022-06-24T14:55:00+03:00",
-      "transfers": 2,
-      "duration": 2625,
-      "durationH": 44,
-      "link": "/search/LED2406SVQ1?t=PC16560717001656229200002625LEDSAWSTNSVQ_0e31925571d97ecf913061fd99c19f22_42470&search_date=14062022&expected_price_uuid=326ab2dd-e9dd-40e0-b86a-cc1c865eeeb4&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 674,
-      "departure_at": "2022-06-28T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 2715,
-      "durationH": 45,
-      "link": "/search/MOW2806MAD1?t=MS16564245001656587400002715DMECAIFCOIBZMAD_b9870339d76c62a6aaa53673d7797fed_40657&search_date=19062022&expected_price_uuid=808c4db5-4f14-485f-8151-ed0909da918a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 642,
-      "departure_at": "2022-06-30T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 2905,
-      "durationH": 48,
-      "link": "/search/MOW3006AGP1?t=MS16565973001656771600002905DMECAICDGBVALPLAGP_2192ed88d35d5407ca558c1a57c7adec_38722&search_date=20062022&expected_price_uuid=98253cde-57fe-4495-abe5-87e723eeacbc&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 638,
-      "departure_at": "2022-07-07T02:20:00+03:00",
-      "transfers": 2,
-      "duration": 3425,
-      "durationH": 57,
-      "link": "/search/MOW0707LEI1?t=PC16571496001657355100003425DMEAYTMANLEI_a28f0529299d89e954c19cbc79d6aa2a_38505&search_date=15062022&expected_price_uuid=aab15d93-bc5f-42e9-a75f-d59d49f4c5a7&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 705,
-      "departure_at": "2022-07-05T16:30:00+03:00",
-      "transfers": 2,
-      "duration": 1960,
-      "durationH": 33,
-      "link": "/search/MOW0507SVQ1?t=FZ16570278001657145400001960VKODXBCTASVQ_726de9d792d9f93267e903a262ccf1f2_42557&search_date=19062022&expected_price_uuid=b8811733-1d02-4ba7-a670-94b369392cc8&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 698,
-      "departure_at": "2022-07-07T01:30:00+03:00",
-      "transfers": 4,
-      "duration": 2285,
-      "durationH": 38,
-      "link": "/search/LED0707MAD1?t=SU16571466001657283700002285LEDSVOAEREVNWAWMAD_877835b0f8eea0f07bf39158397f1f3d_42110&search_date=19062022&expected_price_uuid=29099072-3964-4359-815a-62ff380444b5&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 702,
-      "departure_at": "2022-07-04T00:10:00+03:00",
-      "transfers": 2,
-      "duration": 2365,
-      "durationH": 39,
-      "link": "/search/MOW0407MAD1?t=SU16568826001657024500002365SVOEVNWAWMAD_0eaf873cdfed21219b0ecf0cc3d228bd_42366&search_date=20062022&expected_price_uuid=9cd18ee4-c4e4-4a27-a411-d302d40d0278&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 683,
-      "departure_at": "2022-07-03T06:15:00+03:00",
-      "transfers": 3,
-      "duration": 2455,
-      "durationH": 41,
-      "link": "/search/LED0307MAD1?t=MS16568181001656965400002455LEDSVODMECAIMUCMAD_49a196e4a80654663ba91f79eb7c18b7_41239&search_date=19062022&expected_price_uuid=0b6ca5a1-d123-45e6-a88c-2b174d3ccf3e&expected_price_currency=rub"
+      "link": "/search/LED2506BCN1?t=MS16561071001656249900002380LEDDMECAIBCN_f002a99331d721fbe7371d1a265d879f_40404&search_date=19062022&expected_price_uuid=42d39998-2229-4e33-b9dd-ca841ee95680&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -5866,6 +5646,127 @@ window.data = {
       "duration": 2650,
       "durationH": 44,
       "link": "/search/MOW0308GRX1?t=SU16595346001659693600002650SVOAERISTSAWVIEBCNGRX_e4c614687fd7fe43b218913274aecd40_39630&search_date=18062022&expected_price_uuid=70ec6441-bbce-496b-89cb-c75743e6638d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 668,
+      "departure_at": "2022-06-23T01:30:00+03:00",
+      "transfers": 2,
+      "duration": 2650,
+      "durationH": 44,
+      "link": "/search/MOW2306BCN1?t=JU16559370001656096000002650SVOLEDBEGBCN_3e1b6ea9aa1a5a1aa986770971f4e08e_40307&search_date=20062022&expected_price_uuid=9c16a7a5-8b5f-4550-b1d7-0fd69bca6d9f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 638,
+      "departure_at": "2022-07-07T02:20:00+03:00",
+      "transfers": 2,
+      "duration": 3425,
+      "durationH": 57,
+      "link": "/search/MOW0707LEI1?t=PC16571496001657355100003425DMEAYTMANLEI_a28f0529299d89e954c19cbc79d6aa2a_38505&search_date=15062022&expected_price_uuid=aab15d93-bc5f-42e9-a75f-d59d49f4c5a7&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 643,
+      "departure_at": "2022-06-25T20:55:00+03:00",
+      "transfers": 3,
+      "duration": 3835,
+      "durationH": 64,
+      "link": "/search/LED2506AGP1?t=MS16561797001656409800003835LEDSVODMECAILHRSTNAGP_5dd97a0db4f0c911a8c79558c2d27a94_38801&search_date=20062022&expected_price_uuid=19f8adac-0cb2-44c8-bfc2-d820e141dbd9&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 705,
+      "departure_at": "2022-07-05T16:30:00+03:00",
+      "transfers": 2,
+      "duration": 1960,
+      "durationH": 33,
+      "link": "/search/MOW0507SVQ1?t=FZ16570278001657145400001960VKODXBCTASVQ_726de9d792d9f93267e903a262ccf1f2_42557&search_date=19062022&expected_price_uuid=b8811733-1d02-4ba7-a670-94b369392cc8&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 705,
+      "departure_at": "2022-06-24T11:50:00+03:00",
+      "transfers": 3,
+      "duration": 1995,
+      "durationH": 33,
+      "link": "/search/LED2406BCN1?t=SU16560606001656180300001995LEDAERAYTHELBCN_4df609b7ea8add9ad4e47a3ece3aec00_42570&search_date=20062022&expected_price_uuid=02ea7bee-c242-4fdf-bf10-91506b3809db&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 707,
+      "departure_at": "2022-07-02T03:45:00+03:00",
+      "transfers": 4,
+      "duration": 2115,
+      "durationH": 35,
+      "link": "/search/LED0207MAD2?t=PC16567227001656849600002115LEDSVOKUFEVNSAWMAD_a2955e74557dd0b1c8a2ea5661bb4802_85370&search_date=14062022&expected_price_uuid=06ca3d00-a664-41ac-91e9-5e882be5fa61&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 700,
+      "departure_at": "2022-07-08T01:05:00+03:00",
+      "transfers": 3,
+      "duration": 2285,
+      "durationH": 38,
+      "link": "/search/LED0807MAD1?t=FZ16572315001657368600002285LEDSVOVKODXBBUDMAD_3ac5221ef0dd418c962a3ddee9cc48c1_42234&search_date=19062022&expected_price_uuid=f2e4e314-6d16-4b4c-b29a-f5bc45c6dccb&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 698,
+      "departure_at": "2022-07-07T01:30:00+03:00",
+      "transfers": 4,
+      "duration": 2285,
+      "durationH": 38,
+      "link": "/search/LED0707MAD1?t=SU16571466001657283700002285LEDSVOAEREVNWAWMAD_877835b0f8eea0f07bf39158397f1f3d_42110&search_date=19062022&expected_price_uuid=29099072-3964-4359-815a-62ff380444b5&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 683,
+      "departure_at": "2022-07-03T06:15:00+03:00",
+      "transfers": 3,
+      "duration": 2455,
+      "durationH": 41,
+      "link": "/search/LED0307MAD1?t=MS16568181001656965400002455LEDSVODMECAIMUCMAD_49a196e4a80654663ba91f79eb7c18b7_41239&search_date=19062022&expected_price_uuid=0b6ca5a1-d123-45e6-a88c-2b174d3ccf3e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 685,
+      "departure_at": "2022-06-28T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 2490,
+      "durationH": 42,
+      "link": "/search/MOW2806AGP1?t=MS16564245001656573900002490DMECAIFCOAGP_894df688b163fc96bfe90b760f4de43c_41329&search_date=19062022&expected_price_uuid=0e3ef2d6-3d5b-48d5-bd89-6e9494613800&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 674,
+      "departure_at": "2022-06-28T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 2715,
+      "durationH": 45,
+      "link": "/search/MOW2806MAD1?t=MS16564245001656587400002715DMECAIFCOIBZMAD_b9870339d76c62a6aaa53673d7797fed_40657&search_date=19062022&expected_price_uuid=808c4db5-4f14-485f-8151-ed0909da918a&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -5899,6 +5800,28 @@ window.data = {
       "duration": 3285,
       "durationH": 55,
       "link": "/search/MOW0608AGP1?t=TK16597476001659944700003285VKOESBFRAAMSAGP_14a2e7786d81e743cb5d3caa53afa215_39068&search_date=19062022&expected_price_uuid=d9d319b5-eabd-4977-b521-09a2494c7a98&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-MAD",
+      "origin": "LED",
+      "destination": "MAD",
+      "price": 690,
+      "departure_at": "2022-06-28T06:05:00+03:00",
+      "transfers": 4,
+      "duration": 3095,
+      "durationH": 52,
+      "link": "/search/LED2806MAD1?t=MS16563855001656571200003095LEDVKODMECAILHRLTNOPOMAD_74e4b2cfb533cd6b6c7ef9f972a9a1a4_41623&search_date=19062022&expected_price_uuid=a882b7cf-59ee-4fde-9d5e-cba31afca849&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-SVQ",
+      "origin": "LED",
+      "destination": "SVQ",
+      "price": 676,
+      "departure_at": "2022-06-26T05:50:00+03:00",
+      "transfers": 3,
+      "duration": 3145,
+      "durationH": 52,
+      "link": "/search/LED2606SVQ1?t=MS16562118001656400500003145LEDSVODMECAIMXPBGYSVQ_b2f60c0ee5b3f0fddd05f6433bb9aa13_40808&search_date=13062022&expected_price_uuid=ade69d74-8c71-4a98-ac11-3122b8490fd6&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -5989,6 +5912,39 @@ window.data = {
       "link": "/search/MOW0207SVQ1?t=W616567443001656876000002195VKOGRVISTSAWOTPSVQ_3c4cb26a8f6c27974e3329053b4923b7_43398&search_date=15062022&expected_price_uuid=5818af56-91d0-4504-8f56-b45d87719716&expected_price_currency=rub"
     },
     {
+      "route": "MOW-GRX",
+      "origin": "MOW",
+      "destination": "GRX",
+      "price": 734,
+      "departure_at": "2022-07-13T21:00:00+03:00",
+      "transfers": 4,
+      "duration": 2215,
+      "durationH": 37,
+      "link": "/search/MOW1307GRX1?t=HY16577352001657868100002215DMETASFRAHHNSTNLGWBCNGRX_990209a3d06059b219301963d26135f3_44291&search_date=17062022&expected_price_uuid=40e14afb-d4c5-4e06-b3d7-5742ae40028d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 701,
+      "departure_at": "2022-07-03T23:50:00+03:00",
+      "transfers": 2,
+      "duration": 2325,
+      "durationH": 39,
+      "link": "/search/MOW0307BCN1?t=PC16568814001657020900002325VKONQZSAWBCN_a382417877a064d6b2b2dee60f525823_42304&search_date=20062022&expected_price_uuid=3e06a1e5-c841-451d-b234-c9e840583ad7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 702,
+      "departure_at": "2022-07-04T00:10:00+03:00",
+      "transfers": 2,
+      "duration": 2365,
+      "durationH": 39,
+      "link": "/search/MOW0407MAD1?t=SU16568826001657024500002365SVOEVNWAWMAD_0eaf873cdfed21219b0ecf0cc3d228bd_42366&search_date=20062022&expected_price_uuid=9cd18ee4-c4e4-4a27-a411-d302d40d0278&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
@@ -5998,6 +5954,28 @@ window.data = {
       "duration": 2395,
       "durationH": 40,
       "link": "/search/MOW0307MAD1?t=MS16568565001657000200002395DMECAIMXPPMIMAD_18a7fe808f59aaf93408da4c4626c1bc_41799&search_date=19062022&expected_price_uuid=61d2b380-6bdb-48ed-a8ea-aa5907a2f1e4&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 727,
+      "departure_at": "2022-06-26T07:55:00+03:00",
+      "transfers": 3,
+      "duration": 2440,
+      "durationH": 41,
+      "link": "/search/LED2606AGP1?t=MS16562193001656365700002440LEDVKODMECAICDGORYAGP_393688b9267287f913d613a85c42f817_43876&search_date=20062022&expected_price_uuid=1408b2b2-6680-4e06-820c-0dee3e30cde8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 722,
+      "departure_at": "2022-06-22T21:05:00+03:00",
+      "transfers": 3,
+      "duration": 2490,
+      "durationH": 42,
+      "link": "/search/MOW2206BCN1?t=PC16559211001656070500002490DMEEVNAYTSAWBCN_4b6e8bbb977e08b20b0f4067411b3849_43575&search_date=20062022&expected_price_uuid=b77e8031-9beb-4fed-9a17-966d56a0a4ce&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -6011,6 +5989,17 @@ window.data = {
       "link": "/search/LED0607MAD1?t=SU16571265001657283700002620LEDSVOAEREVNWAWMAD_4e08e943be605e87843955f67cf15feb_42110&search_date=19062022&expected_price_uuid=e9a366ce-4788-4cca-a43f-f0f734aaa1e3&expected_price_currency=rub"
     },
     {
+      "route": "LED-SVQ",
+      "origin": "LED",
+      "destination": "SVQ",
+      "price": 704,
+      "departure_at": "2022-06-24T14:55:00+03:00",
+      "transfers": 2,
+      "duration": 2625,
+      "durationH": 44,
+      "link": "/search/LED2406SVQ1?t=PC16560717001656229200002625LEDSAWSTNSVQ_0e31925571d97ecf913061fd99c19f22_42470&search_date=14062022&expected_price_uuid=326ab2dd-e9dd-40e0-b86a-cc1c865eeeb4&expected_price_currency=rub"
+    },
+    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -6020,6 +6009,17 @@ window.data = {
       "duration": 2795,
       "durationH": 47,
       "link": "/search/LED0507MAD1?t=SU16570296001657197300002795LEDSVOAEREVNWAWMAD_b43688e27d66e5e1a63c7527725355bb_42110&search_date=19062022&expected_price_uuid=5b550de2-2ee6-4cf1-87f2-edc73794b801&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 715,
+      "departure_at": "2022-07-08T01:30:00+03:00",
+      "transfers": 4,
+      "duration": 2900,
+      "durationH": 48,
+      "link": "/search/LED0807BCN1?t=UT16572330001657407000002900LEDSVOVKOGRVISTSAWCGNBCN_7d4c155ee105919948efe6bbc71db8d6_43170&search_date=20062022&expected_price_uuid=d4ad5ee0-4c15-465c-a5f3-2eb8217bd774&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -6088,17 +6088,6 @@ window.data = {
       "link": "/search/MOW0407AGP1?t=HY16569609001657091700002180DMEUGCISTSAWDUSAGP_7b4e09b01cc4429e121a3b297029d4d7_45027&search_date=20062022&expected_price_uuid=8fe2f5da-b90c-479a-825d-dd77ddc65d3d&expected_price_currency=rub"
     },
     {
-      "route": "MOW-GRX",
-      "origin": "MOW",
-      "destination": "GRX",
-      "price": 734,
-      "departure_at": "2022-07-13T21:00:00+03:00",
-      "transfers": 4,
-      "duration": 2215,
-      "durationH": 37,
-      "link": "/search/MOW1307GRX1?t=HY16577352001657868100002215DMETASFRAHHNSTNLGWBCNGRX_990209a3d06059b219301963d26135f3_44291&search_date=17062022&expected_price_uuid=40e14afb-d4c5-4e06-b3d7-5742ae40028d&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-SVQ",
       "origin": "MOW",
       "destination": "SVQ",
@@ -6108,17 +6097,6 @@ window.data = {
       "duration": 2220,
       "durationH": 37,
       "link": "/search/MOW0407SVQ1?t=HY16569648001657098000002220DMETASLHRSTNSVQ_2451fdcb54f27d598eae35582f756296_43087&search_date=19062022&expected_price_uuid=df25ead2-e2a3-4840-88cf-05b1db06a688&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 700,
-      "departure_at": "2022-07-08T01:05:00+03:00",
-      "transfers": 3,
-      "duration": 2285,
-      "durationH": 38,
-      "link": "/search/LED0807MAD1?t=FZ16572315001657368600002285LEDSVOVKODXBBUDMAD_3ac5221ef0dd418c962a3ddee9cc48c1_42234&search_date=19062022&expected_price_uuid=f2e4e314-6d16-4b4c-b29a-f5bc45c6dccb&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -6143,37 +6121,92 @@ window.data = {
       "link": "/search/MOW0307AGP3?t=MS16568565001657014300002630DMECAIMADAGP_de9ddec83911c4a2bf1477ad8696d8dc_131310&search_date=19062022&expected_price_uuid=11f49386-2efe-493d-a979-d1f229d1ec6e&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
+      "route": "LED-SVQ",
       "origin": "LED",
+      "destination": "SVQ",
+      "price": 726,
+      "departure_at": "2022-06-23T14:55:00+03:00",
+      "transfers": 2,
+      "duration": 3320,
+      "durationH": 55,
+      "link": "/search/LED2306SVQ1?t=PC16559853001656184500003320LEDSAWSTNLTNSVQ_efe40bbf60e181843fe6ea3ce78986fb_43829&search_date=14062022&expected_price_uuid=045fc0e3-9a25-4075-9b20-26539dc4dbde&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
       "destination": "BCN",
-      "price": 715,
-      "departure_at": "2022-07-08T01:30:00+03:00",
-      "transfers": 4,
-      "duration": 2900,
-      "durationH": 48,
-      "link": "/search/LED0807BCN1?t=UT16572330001657407000002900LEDSVOVKOGRVISTSAWCGNBCN_7d4c155ee105919948efe6bbc71db8d6_43170&search_date=20062022&expected_price_uuid=d4ad5ee0-4c15-465c-a5f3-2eb8217bd774&expected_price_currency=rub"
+      "price": 692,
+      "departure_at": "2022-06-30T03:10:00+03:00",
+      "transfers": 3,
+      "duration": 3565,
+      "durationH": 59,
+      "link": "/search/MOW3006BCN2?t=PC16565478001656761700003565VKOSCOTBSSAWBCN_09135323968d84bf7aa67c12012c4d8d_83495&search_date=20062022&expected_price_uuid=eb32d077-79dc-438f-bf45-26f89121ba67&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 702,
-      "departure_at": "2022-07-09T00:45:00+03:00",
-      "transfers": 4,
-      "duration": 3435,
-      "durationH": 57,
-      "link": "/search/LED0907MAD1?t=UT16573167001657522800003435LEDDMEVKOGRVISTVIEMAD_ec82c32588b6d2fbd39e9e77d756050c_42364&search_date=19062022&expected_price_uuid=520d8b1c-cb2c-4ff3-b530-50d3f5394cf5&expected_price_currency=rub"
+      "price": 678,
+      "departure_at": "2022-07-01T22:10:00+03:00",
+      "transfers": 2,
+      "duration": 3920,
+      "durationH": 65,
+      "link": "/search/LED0107MAD1?t=MS16567026001656937800003920LEDSVODMECAIMAD_e7169eaa2e8cba04e1fb6d0d6b175e3e_40929&search_date=20062022&expected_price_uuid=bcbf0114-c248-44aa-a54d-21f6ab3aa6a5&expected_price_currency=rub"
     },
     {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
       "price": 768,
-      "departure_at": "2022-07-02T16:05:00+03:00",
+      "departure_at": "2022-07-02T13:00:00+03:00",
       "transfers": 3,
-      "duration": 1350,
-      "durationH": 23,
-      "link": "/search/MOW0207BCN1?t=SU16567671001656848100001350SVOMRVEVNSAWBCN_db1a0af62062e01f7eaec0494fa99ef0_46348&search_date=20062022&expected_price_uuid=97029492-329f-4e1e-b3de-9add11b9c046&expected_price_currency=rub"
+      "duration": 1535,
+      "durationH": 26,
+      "link": "/search/MOW0207BCN1?t=SU16567560001656848100001535SVOMRVEVNSAWBCN_007cc346f5df8f91d937445c62c743da_46348&search_date=20062022&expected_price_uuid=e0d5d7cb-40e2-49dd-8478-1e3ace4562a6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 733,
+      "departure_at": "2022-06-27T10:50:00+03:00",
+      "transfers": 2,
+      "duration": 1665,
+      "durationH": 28,
+      "link": "/search/MOW2706BCN1?t=PC16563162001656416100001665DMEFRUSAWBCN_c26116419f79d0a8b6e0591e7426a7cd_44262&search_date=20062022&expected_price_uuid=49f73aac-3e7b-4650-85da-bc7052b01a7d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 706,
+      "departure_at": "2022-06-26T09:05:00+03:00",
+      "transfers": 2,
+      "duration": 3210,
+      "durationH": 54,
+      "link": "/search/MOW2606BCN1?t=WZ16562235001656416100003210ZIAEVNSAWBCN_90ba9f26eb40f246bcf2f5519be29104_42629&search_date=20062022&expected_price_uuid=e34a2954-264b-4d77-b89c-b1face8ca080&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 684,
+      "departure_at": "2022-07-01T23:50:00+03:00",
+      "transfers": 2,
+      "duration": 3875,
+      "durationH": 65,
+      "link": "/search/LED0107BCN1?t=MS16567086001656941100003875LEDSVODMECAIBCN_f94d9b51cc8e7ae74fd705cf28fc855c_41283&search_date=20062022&expected_price_uuid=8a8d90e6-e435-4a20-8d40-01a9affa8157&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 724,
+      "departure_at": "2022-09-26T19:15:00+03:00",
+      "transfers": 1,
+      "duration": 1015,
+      "durationH": 17,
+      "link": "/search/MOW2609AGP1?t=TK16642089001664269800001015VKOISTAGP_c0b91316f75abc9487fbcb2b89b6d28b_43674&search_date=16062022&expected_price_uuid=9586c4cb-65f3-4c36-91f4-f422ac4f9d94&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -6187,6 +6220,17 @@ window.data = {
       "link": "/search/MOW0207MAD1?t=PC16567371001656849600001875SVOMRVEVNSAWMAD_49598eb5a19402b85f7212ea2e6736d2_46377&search_date=19062022&expected_price_uuid=aa90a7aa-6612-41c6-8d85-f8c79bef7b7a&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 747,
+      "departure_at": "2022-06-30T04:35:00+03:00",
+      "transfers": 3,
+      "duration": 2100,
+      "durationH": 35,
+      "link": "/search/MOW3006MAD1?t=LO16565529001656678900002100SVOMRVEVNWAWMAD_8a4275bc9c30efc24bf5a2c47fe8cd59_45095&search_date=20062022&expected_price_uuid=4202fa45-006f-4ea9-aa72-50394a0d7d7e&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -6196,6 +6240,17 @@ window.data = {
       "duration": 2200,
       "durationH": 37,
       "link": "/search/MOW0507AGP2?t=UT16570035001657135500002200VKOGRVISTVIEBRSAGP_ae2723e0073a80b2e3df73435ea94b2c_92946&search_date=19062022&expected_price_uuid=d6b854bd-5eff-45af-b0d3-c3ecebe30c7c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 742,
+      "departure_at": "2022-06-27T02:00:00+03:00",
+      "transfers": 3,
+      "duration": 2220,
+      "durationH": 37,
+      "link": "/search/MOW2706MAD1?t=PC16562844001656417600002220VKOSCOEVNSAWMAD_db8addfb982694323ffa45cb6292776d_44791&search_date=20062022&expected_price_uuid=80ddf6a1-8555-40c5-8da6-0581848dffae&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -6231,6 +6286,17 @@ window.data = {
       "link": "/search/LED0507BCN1?t=SU16570287001657196100002790LEDAEREVNKIVBCN_e3c406248bab57ea5e502c757f32f1cc_44222&search_date=19062022&expected_price_uuid=d52e9b08-dd29-4938-b416-1d8a6cf63543&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 733,
+      "departure_at": "2022-07-09T09:45:00+03:00",
+      "transfers": 3,
+      "duration": 3030,
+      "durationH": 51,
+      "link": "/search/MOW0907MAD3?t=RO16573491001657530900003030VKOGRVISTOTPMAD_6a71902f183795bc924282f0351384b9_132697&search_date=20062022&expected_price_uuid=1aaa5226-e2f2-42fc-be20-812898a8de62&expected_price_currency=rub"
+    },
+    {
       "route": "LED-GRX",
       "origin": "LED",
       "destination": "GRX",
@@ -6245,89 +6311,23 @@ window.data = {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 690,
-      "departure_at": "2022-06-28T06:05:00+03:00",
+      "price": 702,
+      "departure_at": "2022-07-09T00:45:00+03:00",
       "transfers": 4,
-      "duration": 3095,
-      "durationH": 52,
-      "link": "/search/LED2806MAD1?t=MS16563855001656571200003095LEDVKODMECAILHRLTNOPOMAD_74e4b2cfb533cd6b6c7ef9f972a9a1a4_41623&search_date=19062022&expected_price_uuid=a882b7cf-59ee-4fde-9d5e-cba31afca849&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 676,
-      "departure_at": "2022-06-26T05:50:00+03:00",
-      "transfers": 3,
-      "duration": 3145,
-      "durationH": 52,
-      "link": "/search/LED2606SVQ1?t=MS16562118001656400500003145LEDSVODMECAIMXPBGYSVQ_b2f60c0ee5b3f0fddd05f6433bb9aa13_40808&search_date=13062022&expected_price_uuid=ade69d74-8c71-4a98-ac11-3122b8490fd6&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 683,
-      "departure_at": "2022-06-24T06:30:00+03:00",
-      "transfers": 3,
-      "duration": 3285,
-      "durationH": 55,
-      "link": "/search/LED2406BCN2?t=MS16560414001656238500003285LEDVKODMECAIMUCBCN_93b8db7d0b8ac07dbfd7b71a398b2ded_82468&search_date=20062022&expected_price_uuid=93b75a5c-8471-4931-b198-cabc58d9fcfb&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 684,
-      "departure_at": "2022-07-01T23:50:00+03:00",
-      "transfers": 2,
-      "duration": 3875,
-      "durationH": 65,
-      "link": "/search/LED0107BCN1?t=MS16567086001656941100003875LEDSVODMECAIBCN_f94d9b51cc8e7ae74fd705cf28fc855c_41283&search_date=20062022&expected_price_uuid=8a8d90e6-e435-4a20-8d40-01a9affa8157&expected_price_currency=rub"
+      "duration": 3435,
+      "durationH": 57,
+      "link": "/search/LED0907MAD1?t=UT16573167001657522800003435LEDDMEVKOGRVISTVIEMAD_ec82c32588b6d2fbd39e9e77d756050c_42364&search_date=19062022&expected_price_uuid=520d8b1c-cb2c-4ff3-b530-50d3f5394cf5&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
-      "price": 678,
-      "departure_at": "2022-07-01T22:10:00+03:00",
-      "transfers": 2,
-      "duration": 3920,
-      "durationH": 65,
-      "link": "/search/LED0107MAD1?t=MS16567026001656937800003920LEDSVODMECAIMAD_e7169eaa2e8cba04e1fb6d0d6b175e3e_40929&search_date=20062022&expected_price_uuid=bcbf0114-c248-44aa-a54d-21f6ab3aa6a5&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 743,
-      "departure_at": "2022-06-27T02:00:00+03:00",
-      "transfers": 3,
-      "duration": 2195,
-      "durationH": 37,
-      "link": "/search/MOW2706BCN1?t=PC16562844001656416100002195VKOSCOEVNSAWBCN_fadbddd549ff1a7bc81eb3580a060c16_44856&search_date=20062022&expected_price_uuid=f5efa8dd-07b1-42d7-9afb-2121fd3d196b&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 727,
+      "price": 732,
       "departure_at": "2022-06-26T07:55:00+03:00",
-      "transfers": 3,
-      "duration": 2440,
-      "durationH": 41,
-      "link": "/search/LED2606AGP1?t=MS16562193001656365700002440LEDVKODMECAICDGORYAGP_393688b9267287f913d613a85c42f817_43876&search_date=20062022&expected_price_uuid=1408b2b2-6680-4e06-820c-0dee3e30cde8&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-SVQ",
-      "origin": "LED",
-      "destination": "SVQ",
-      "price": 726,
-      "departure_at": "2022-06-23T14:55:00+03:00",
-      "transfers": 2,
-      "duration": 3320,
-      "durationH": 55,
-      "link": "/search/LED2306SVQ1?t=PC16559853001656184500003320LEDSAWSTNLTNSVQ_efe40bbf60e181843fe6ea3ce78986fb_43829&search_date=14062022&expected_price_uuid=045fc0e3-9a25-4075-9b20-26539dc4dbde&expected_price_currency=rub"
+      "transfers": 4,
+      "duration": 3495,
+      "durationH": 58,
+      "link": "/search/LED2606MAD1?t=MS16562193001656429000003495LEDVKODMECAICDGBVAMRSMAD_a797840f387f72a6d458cf792c8760df_44155&search_date=20062022&expected_price_uuid=37fd2bb3-1c35-49d5-a585-ed3aff9235cc&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -6429,17 +6429,6 @@ window.data = {
       "link": "/search/MOW2206SVQ1?t=TK16558653001655967300001700VKOESBFRAHHNSVQ_a984309e38fb6d4d5e9281ceca9268f8_46794&search_date=17062022&expected_price_uuid=42115d84-0642-4811-9329-5a9fda2c153a&expected_price_currency=rub"
     },
     {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 767,
-      "departure_at": "2022-06-27T01:45:00+03:00",
-      "transfers": 3,
-      "duration": 2235,
-      "durationH": 37,
-      "link": "/search/MOW2706MAD1?t=PC16562835001656417600002235SVOAEREVNSAWMAD_f441b45633fc636cf1a74ed19e4c7a7f_46300&search_date=19062022&expected_price_uuid=f8990086-e4da-4467-97c0-d91d160b4e52&expected_price_currency=rub"
-    },
-    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -6462,6 +6451,17 @@ window.data = {
       "link": "/search/LED0407MAD1?t=SU16568823001657024500002370LEDAEREVNWAWMAD_f8f12c962d9f7904d2357815fafe2348_47434&search_date=19062022&expected_price_uuid=d0c2ab06-3b3e-4b8e-ab81-0969eebce21d&expected_price_currency=rub"
     },
     {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 747,
+      "departure_at": "2022-07-07T03:10:00+03:00",
+      "transfers": 3,
+      "duration": 3565,
+      "durationH": 59,
+      "link": "/search/MOW0707BCN1?t=PC16571526001657366500003565VKOSCOTBSSAWBCN_731d614cb7eb4e3f6b0e55ab3c35d868_45066&search_date=20062022&expected_price_uuid=0af23266-5afe-49ae-916d-54aec13b94ef&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-MAD",
       "origin": "MOW",
       "destination": "MAD",
@@ -6471,6 +6471,17 @@ window.data = {
       "duration": 875,
       "durationH": 15,
       "link": "/search/MOW2206MAD1?t=EK16559310001655983500000875DMEDXBMAD_a99779cc0dab0e020b69772131e22ad4_50112&search_date=20062022&expected_price_uuid=165dc7bc-1572-4d3a-a769-2b14162852ec&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 827,
+      "departure_at": "2022-06-29T14:10:00+03:00",
+      "transfers": 3,
+      "duration": 1380,
+      "durationH": 23,
+      "link": "/search/LED2906AGP1?t=SU16565010001656583800001380LEDSVOEVNFRAAGP_2b2fca6ef9b2f851c609b13f1b55f003_49932&search_date=16062022&expected_price_uuid=42d4bb98-eb43-4ac2-abfc-574254716b06&expected_price_currency=rub"
     },
     {
       "route": "LED-BCN",
@@ -6495,17 +6506,6 @@ window.data = {
       "link": "/search/MOW1707SVQ1?t=HY16580802001658227800002460DMETASFRAMUCSVQ_6c7d30bceacd9d8cd58ca93e3eaeeb7d_46606&search_date=18062022&expected_price_uuid=4cbc272b-8c16-4afe-9007-8153f04941f3&expected_price_currency=rub"
     },
     {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 755,
-      "departure_at": "2022-07-01T03:30:00+03:00",
-      "transfers": 3,
-      "duration": 2555,
-      "durationH": 43,
-      "link": "/search/MOW0107BCN1?t=HY16566354001656788700002555DMEUGCISTSAWOTPBCN_419a1c8988ead1ea3fea46d3ec6021a0_45579&search_date=20062022&expected_price_uuid=25fb593b-8786-4af0-b212-6c0d30535f24&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -6515,17 +6515,6 @@ window.data = {
       "duration": 2705,
       "durationH": 45,
       "link": "/search/MOW2307AGP1?t=PC16585338001658696100002705DMEAYTDUSLISAGP_a5cb62f8b940b8a4b6fe472065b126c5_45956&search_date=19062022&expected_price_uuid=068ef152-2d87-418e-a26b-01c76c0a64c2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 770,
-      "departure_at": "2022-07-01T16:00:00+03:00",
-      "transfers": 3,
-      "duration": 2820,
-      "durationH": 47,
-      "link": "/search/MOW0107MAD1?t=PC16566804001656849600002820SVOAEREVNSAWMAD_d9b1b1715831da2a1c7ceea5755ca32e_46470&search_date=20062022&expected_price_uuid=ac776609-6d3a-414d-9f9d-431973e4c1b3&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -6539,28 +6528,6 @@ window.data = {
       "link": "/search/LED2906MAD2?t=LO16565034001656678900002925LEDSVOMRVEVNWAWMAD_31c305d1b40860cb34d17f9a140c9b01_90880&search_date=19062022&expected_price_uuid=61bd3ec7-2b9c-4924-b02f-942eec5430e8&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 767,
-      "departure_at": "2022-07-02T21:40:00+03:00",
-      "transfers": 3,
-      "duration": 3079,
-      "durationH": 51,
-      "link": "/search/LED0207BCN1?t=JU16567872001656971940003079LEDSVOBEGMXPBCN_2cfb34e1b4ab950e602722e8073cbc9e_46294&search_date=19062022&expected_price_uuid=725317a1-48ca-490c-9238-386c3273161a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 768,
-      "departure_at": "2022-06-29T10:20:00+03:00",
-      "transfers": 3,
-      "duration": 3195,
-      "durationH": 53,
-      "link": "/search/MOW2906MAD2?t=LO16564872001656678900003195SVOMRVEVNWAWMAD_dd4bba66f2bd7129885d344af247ccec_92740&search_date=19062022&expected_price_uuid=7564544c-d9bd-46f6-809b-ba3443e72925&expected_price_currency=rub"
-    },
-    {
       "route": "LED-LEI",
       "origin": "LED",
       "destination": "LEI",
@@ -6570,127 +6537,6 @@ window.data = {
       "duration": 3285,
       "durationH": 55,
       "link": "/search/LED3007LEI1?t=SU16591887001659385800003285LEDAERISTSAWMRSSVQLEI_e773cd337772a1be93ada349be2bc9b9_47401&search_date=15062022&expected_price_uuid=5d8a4cb1-452c-4563-8de2-a2f47c49fa39&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 860,
-      "departure_at": "2022-07-29T17:30:00+03:00",
-      "transfers": 1,
-      "duration": 965,
-      "durationH": 16,
-      "link": "/search/MOW2907BCN1?t=EK16591050001659162900000965DMEDXBBCN_7bc48de0169d623c82c57db6c320ccea_51929&search_date=20062022&expected_price_uuid=8adcc671-7f9d-418c-bbd3-43b9b3f4d377&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 847,
-      "departure_at": "2022-09-28T16:45:00+03:00",
-      "transfers": 1,
-      "duration": 1300,
-      "durationH": 22,
-      "link": "/search/LED2809BCN1?t=EK16643727001664450700001300LEDDXBBCN_ff263ef67629f89865f6e27339a172a9_51148&search_date=17062022&expected_price_uuid=cf8aaa9a-0e06-4b2f-9c20-41adbed627c2&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 827,
-      "departure_at": "2022-06-29T14:10:00+03:00",
-      "transfers": 3,
-      "duration": 1380,
-      "durationH": 23,
-      "link": "/search/LED2906AGP1?t=SU16565010001656583800001380LEDSVOEVNFRAAGP_2b2fca6ef9b2f851c609b13f1b55f003_49932&search_date=16062022&expected_price_uuid=42d4bb98-eb43-4ac2-abfc-574254716b06&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 816,
-      "departure_at": "2022-06-29T05:35:00+03:00",
-      "transfers": 2,
-      "duration": 1700,
-      "durationH": 28,
-      "link": "/search/MOW2906SVQ1?t=TK16564701001656572100001700VKOESBFRAHHNSVQ_6755ddd777512e9aee58469d7dc78a0c_49228&search_date=18062022&expected_price_uuid=981103c5-b490-453e-b6c7-75d876d279ee&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 846,
-      "departure_at": "2022-07-17T04:30:00+03:00",
-      "transfers": 2,
-      "duration": 1885,
-      "durationH": 31,
-      "link": "/search/MOW1707AGP1?t=TK16580214001658134500001885SVOAERISTAGP_b3e1bd7d6bd50f0edd485d04d3362ac7_51060&search_date=19062022&expected_price_uuid=555adbfb-17e8-4f27-becb-1f02ad2c1135&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 822,
-      "departure_at": "2022-08-19T15:25:00+03:00",
-      "transfers": 2,
-      "duration": 1950,
-      "durationH": 33,
-      "link": "/search/LED1908BCN1?t=TK16609119001661028900001950LEDISTARNBCN_f95239bcda4378f937e8a900507274aa_49600&search_date=19062022&expected_price_uuid=b0a8d8cb-4648-4da2-bc65-cf73612c0e68&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 817,
-      "departure_at": "2022-06-27T05:35:00+03:00",
-      "transfers": 3,
-      "duration": 2445,
-      "durationH": 41,
-      "link": "/search/MOW2706AGP1?t=TK16562973001656444000002445VKOESBBERSTNAGP_1bf062c548623f2cca15a0ca7dcbbc77_49292&search_date=19062022&expected_price_uuid=75b0d350-779e-4564-aba3-1869aa49edd4&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 808,
-      "departure_at": "2022-06-28T17:20:00+03:00",
-      "transfers": 3,
-      "duration": 2715,
-      "durationH": 45,
-      "link": "/search/LED2806BCN1?t=LY16564260001656588900002715LEDDMETLVSAWBCN_d3b74e3b780e2920141d2047feb82f7e_48777&search_date=19062022&expected_price_uuid=f1ca2cc6-1314-4bee-a68b-2b9eff37ae9e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 829,
-      "departure_at": "2022-07-01T03:30:00+03:00",
-      "transfers": 3,
-      "duration": 3245,
-      "durationH": 54,
-      "link": "/search/MOW0107AGP2?t=HY16566354001656830100003245DMEUGCISTSAWCGNAGP_4e5df32e84615034b994d6cec426d538_100024&search_date=19062022&expected_price_uuid=b131811d-815d-49c4-9e50-a4649da037e9&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 792,
-      "departure_at": "2022-06-26T06:55:00+03:00",
-      "transfers": 3,
-      "duration": 3340,
-      "durationH": 56,
-      "link": "/search/LED2606BCN1?t=PC16562157001656416100003340LEDSVXEVNSAWBCN_965179cedd9a0333dffd1cbfc611d420_47805&search_date=19062022&expected_price_uuid=6a8c83a6-4ae5-4795-8bcc-c7d5a6333b7e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-MAD",
-      "origin": "MOW",
-      "destination": "MAD",
-      "price": 781,
-      "departure_at": "2022-06-26T06:05:00+03:00",
-      "transfers": 3,
-      "duration": 3415,
-      "durationH": 57,
-      "link": "/search/MOW2606MAD1?t=PC16562127001656417600003415SVOAEREVNSAWMAD_cfcd96ea4b26e46736fea0dbdf87a4dd_47110&search_date=19062022&expected_price_uuid=ff24c7de-386b-4aa3-8981-3d37f6701f85&expected_price_currency=rub"
     },
     {
       "route": "MOW-SVQ",
@@ -6726,15 +6572,202 @@ window.data = {
       "link": "/search/LED2106MAD1?t=B216558311001655985600002575LEDMSQISTSAWMAD_df50ac281cb48e189f777e4763b4d6d7_48586&search_date=19062022&expected_price_uuid=024de7ee-0e30-4950-b66b-31d095405718&expected_price_currency=rub"
     },
     {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 780,
+      "departure_at": "2022-06-25T20:10:00+03:00",
+      "transfers": 3,
+      "duration": 4010,
+      "durationH": 67,
+      "link": "/search/MOW2506MAD1?t=PC16561770001656417600004010SVOAEREVNSAWMAD_0f3a7623ee4d6bd6402b2f1ccf598461_47088&search_date=20062022&expected_price_uuid=f03edcb6-f798-4ac1-95eb-3c4c8e3e8dca&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-BCN",
       "origin": "MOW",
       "destination": "BCN",
-      "price": 777,
-      "departure_at": "2022-06-22T08:50:00+03:00",
+      "price": 852,
+      "departure_at": "2022-06-29T09:05:00+03:00",
+      "transfers": 2,
+      "duration": 1810,
+      "durationH": 30,
+      "link": "/search/MOW2906BCN1?t=WZ16564827001656591300001810ZIAEVNKIVBCN_6ba53d405eb3de6dcabb7f7b186b7826_51431&search_date=20062022&expected_price_uuid=e41549c6-e317-4fbf-8668-54c5e3b3b5a6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 846,
+      "departure_at": "2022-07-17T04:30:00+03:00",
+      "transfers": 2,
+      "duration": 1885,
+      "durationH": 31,
+      "link": "/search/MOW1707AGP1?t=TK16580214001658134500001885SVOAERISTAGP_b3e1bd7d6bd50f0edd485d04d3362ac7_51060&search_date=19062022&expected_price_uuid=555adbfb-17e8-4f27-becb-1f02ad2c1135&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 817,
+      "departure_at": "2022-06-27T05:35:00+03:00",
+      "transfers": 3,
+      "duration": 2445,
+      "durationH": 41,
+      "link": "/search/MOW2706AGP1?t=TK16562973001656444000002445VKOESBBERSTNAGP_1bf062c548623f2cca15a0ca7dcbbc77_49292&search_date=19062022&expected_price_uuid=75b0d350-779e-4564-aba3-1869aa49edd4&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 780,
+      "departure_at": "2022-07-01T03:30:00+03:00",
+      "transfers": 3,
+      "duration": 2700,
+      "durationH": 45,
+      "link": "/search/MOW0107BCN1?t=HY16566354001656797400002700DMEUGCISTSAWZRHBCN_16ebcaaaf16dfdb07f3c7403464bf488_47052&search_date=20062022&expected_price_uuid=137196ef-d8e3-43fc-a413-48c9bada9bf6&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 767,
+      "departure_at": "2022-07-02T21:40:00+03:00",
+      "transfers": 3,
+      "duration": 3079,
+      "durationH": 51,
+      "link": "/search/LED0207BCN1?t=JU16567872001656971940003079LEDSVOBEGMXPBCN_2cfb34e1b4ab950e602722e8073cbc9e_46294&search_date=19062022&expected_price_uuid=725317a1-48ca-490c-9238-386c3273161a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 808,
+      "departure_at": "2022-06-28T17:20:00+03:00",
+      "transfers": 3,
+      "duration": 2715,
+      "durationH": 45,
+      "link": "/search/LED2806BCN1?t=LY16564260001656588900002715LEDDMETLVSAWBCN_d3b74e3b780e2920141d2047feb82f7e_48777&search_date=19062022&expected_price_uuid=f1ca2cc6-1314-4bee-a68b-2b9eff37ae9e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 768,
+      "departure_at": "2022-06-29T10:20:00+03:00",
+      "transfers": 3,
+      "duration": 3195,
+      "durationH": 53,
+      "link": "/search/MOW2906MAD2?t=LO16564872001656678900003195SVOMRVEVNWAWMAD_dd4bba66f2bd7129885d344af247ccec_92740&search_date=19062022&expected_price_uuid=7564544c-d9bd-46f6-809b-ba3443e72925&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 816,
+      "departure_at": "2022-06-29T05:35:00+03:00",
+      "transfers": 2,
+      "duration": 1700,
+      "durationH": 28,
+      "link": "/search/MOW2906SVQ1?t=TK16564701001656572100001700VKOESBFRAHHNSVQ_6755ddd777512e9aee58469d7dc78a0c_49228&search_date=18062022&expected_price_uuid=981103c5-b490-453e-b6c7-75d876d279ee&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 792,
+      "departure_at": "2022-06-26T06:55:00+03:00",
+      "transfers": 3,
+      "duration": 3340,
+      "durationH": 56,
+      "link": "/search/LED2606BCN1?t=PC16562157001656416100003340LEDSVXEVNSAWBCN_965179cedd9a0333dffd1cbfc611d420_47805&search_date=19062022&expected_price_uuid=6a8c83a6-4ae5-4795-8bcc-c7d5a6333b7e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 781,
+      "departure_at": "2022-06-26T06:05:00+03:00",
+      "transfers": 3,
+      "duration": 3415,
+      "durationH": 57,
+      "link": "/search/MOW2606MAD1?t=PC16562127001656417600003415SVOAEREVNSAWMAD_cfcd96ea4b26e46736fea0dbdf87a4dd_47110&search_date=19062022&expected_price_uuid=ff24c7de-386b-4aa3-8981-3d37f6701f85&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 847,
+      "departure_at": "2022-09-28T16:45:00+03:00",
+      "transfers": 1,
+      "duration": 1300,
+      "durationH": 22,
+      "link": "/search/LED2809BCN1?t=EK16643727001664450700001300LEDDXBBCN_ff263ef67629f89865f6e27339a172a9_51148&search_date=17062022&expected_price_uuid=cf8aaa9a-0e06-4b2f-9c20-41adbed627c2&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 822,
+      "departure_at": "2022-08-19T15:25:00+03:00",
+      "transfers": 2,
+      "duration": 1950,
+      "durationH": 33,
+      "link": "/search/LED1908BCN1?t=TK16609119001661028900001950LEDISTARNBCN_f95239bcda4378f937e8a900507274aa_49600&search_date=19062022&expected_price_uuid=b0a8d8cb-4648-4da2-bc65-cf73612c0e68&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 841,
+      "departure_at": "2022-09-27T23:15:00+03:00",
+      "transfers": 1,
+      "duration": 2060,
+      "durationH": 34,
+      "link": "/search/LED2709BCN1?t=EK16643097001664433300002060LEDDXBBCN_853616442bd82d0c423249d2454a1cf5_50733&search_date=20062022&expected_price_uuid=cc732006-8a6a-41bc-9715-5c9696c50fb7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 852,
+      "departure_at": "2022-06-26T01:15:00+03:00",
+      "transfers": 2,
+      "duration": 2135,
+      "durationH": 36,
+      "link": "/search/MOW2606AGP1?t=TK16561953001656323400002135VKOISTCMNAGP_70f607bf74d0aa2d9cc2a1c88463b454_51411&search_date=20062022&expected_price_uuid=d24e6472-6f9f-4ea6-bfa9-340bd89ea4ac&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 842,
+      "departure_at": "2022-06-24T03:30:00+03:00",
       "transfers": 3,
       "duration": 3225,
       "durationH": 54,
-      "link": "/search/MOW2206BCN1?t=SU16558770001656070500003225SVOMRVEVNSAWBCN_743d51dc48e4c76ea4d40cbd21110f1c_46869&search_date=20062022&expected_price_uuid=addd831d-cd74-4ff3-bfd8-5a68e2d4597f&expected_price_currency=rub"
+      "link": "/search/MOW2406SVQ1?t=HY16560306001656224100003225DMEUGCISTSAWLYSSVQ_e72cdac7ef2d4fb7c829037ca1de9091_50791&search_date=17062022&expected_price_uuid=2ce84886-3d85-4e2e-a399-21f307c931d7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 848,
+      "departure_at": "2022-07-02T11:20:00+03:00",
+      "transfers": 3,
+      "duration": 3345,
+      "durationH": 56,
+      "link": "/search/MOW0207AGP1?t=W616567500001656950700003345DMEGYDISTSAWVIEAGP_344f2b4e451875f6f1f02d60bdff48c1_51198&search_date=20062022&expected_price_uuid=61466d34-eb9d-4a61-8123-727dac35bf2e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 812,
+      "departure_at": "2022-06-22T15:40:00+03:00",
+      "transfers": 3,
+      "duration": 4085,
+      "durationH": 68,
+      "link": "/search/MOW2206AGP1?t=FZ16559016001656146700004085VKODXBBUDPSAAGP_be2a9cbbb37c1e355f3b8fba9079737a_49016&search_date=20062022&expected_price_uuid=b8a635d1-1104-4aa8-9e13-4419312dec94&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -6746,17 +6779,6 @@ window.data = {
       "duration": 1205,
       "durationH": 20,
       "link": "/search/LED2907MAD1?t=TK16590975001659169800001205LEDISTMAD_e9eb689202f153d0813e9e3c0a7a4d3e_54042&search_date=17062022&expected_price_uuid=baece278-aae1-4349-b69c-17f4d107d34c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-BCN",
-      "origin": "MOW",
-      "destination": "BCN",
-      "price": 857,
-      "departure_at": "2022-06-29T09:05:00+03:00",
-      "transfers": 2,
-      "duration": 1810,
-      "durationH": 30,
-      "link": "/search/MOW2906BCN2?t=WZ16564827001656591300001810ZIAEVNKIVBCN_6ba53d405eb3de6dcabb7f7b186b7826_103470&search_date=20062022&expected_price_uuid=1b3059cc-42c4-4ea1-98a1-1c97b8296ea1&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -6779,28 +6801,6 @@ window.data = {
       "duration": 2595,
       "durationH": 43,
       "link": "/search/LED2406MAD1?t=MS16560399001656195600002595LEDVKODMECAIFCOLISMAD_36ea03e896a2f4ecd0a9ebded0515844_49647&search_date=19062022&expected_price_uuid=7360e985-8d9c-44ed-afc9-d31bb4d4e7ec&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-MAD",
-      "origin": "LED",
-      "destination": "MAD",
-      "price": 793,
-      "departure_at": "2022-06-26T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 2845,
-      "durationH": 47,
-      "link": "/search/LED2606MAD1?t=SU16562469001656417600002845LEDAEREVNSAWMAD_5a273b833728d2d22baedca8544f9188_47864&search_date=19062022&expected_price_uuid=d00b11a7-6d82-4772-a456-7f95606271df&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 841,
-      "departure_at": "2022-09-27T23:15:00+03:00",
-      "transfers": 1,
-      "duration": 2060,
-      "durationH": 34,
-      "link": "/search/LED2709BCN1?t=EK16643097001664433300002060LEDDXBBCN_853616442bd82d0c423249d2454a1cf5_50733&search_date=20062022&expected_price_uuid=cc732006-8a6a-41bc-9715-5c9696c50fb7&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -6979,17 +6979,6 @@ window.data = {
       "link": "/search/LED2809MAD1?t=EK16643727001664450700001300LEDDXBMAD_bf0696b3df24f62d8d87b0fc1ef7d36d_52416&search_date=15062022&expected_price_uuid=27c03ebf-491d-40b5-aef8-2134a37bf661&expected_price_currency=rub"
     },
     {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 890,
-      "departure_at": "2022-08-30T15:25:00+03:00",
-      "transfers": 1,
-      "duration": 1585,
-      "durationH": 26,
-      "link": "/search/LED3008AGP1?t=TK16618623001661957400001585LEDISTAGP_82358c8c5cd2a51e26af4558fde70adf_53742&search_date=17062022&expected_price_uuid=d34b93a9-9333-485b-af26-eaf8a9b73af6&expected_price_currency=rub"
-    },
-    {
       "route": "LED-MAD",
       "origin": "LED",
       "destination": "MAD",
@@ -7023,15 +7012,15 @@ window.data = {
       "link": "/search/LED2306BCN1?t=HY16559850001656155400002840LEDSVODMEUGCISTSAWLYSBCN_5b735b5dc8850073eacef2d6cdc0a6b5_51671&search_date=19062022&expected_price_uuid=60050389-62c6-4931-8348-aaf1854ab0cf&expected_price_currency=rub"
     },
     {
-      "route": "MOW-SVQ",
+      "route": "MOW-AGP",
       "origin": "MOW",
-      "destination": "SVQ",
-      "price": 842,
-      "departure_at": "2022-06-24T03:30:00+03:00",
+      "destination": "AGP",
+      "price": 829,
+      "departure_at": "2022-07-01T03:30:00+03:00",
       "transfers": 3,
-      "duration": 3225,
+      "duration": 3245,
       "durationH": 54,
-      "link": "/search/MOW2406SVQ1?t=HY16560306001656224100003225DMEUGCISTSAWLYSSVQ_e72cdac7ef2d4fb7c829037ca1de9091_50791&search_date=17062022&expected_price_uuid=2ce84886-3d85-4e2e-a399-21f307c931d7&expected_price_currency=rub"
+      "link": "/search/MOW0107AGP2?t=HY16566354001656830100003245DMEUGCISTSAWCGNAGP_4e5df32e84615034b994d6cec426d538_100024&search_date=19062022&expected_price_uuid=b131811d-815d-49c4-9e50-a4649da037e9&expected_price_currency=rub"
     },
     {
       "route": "MOW-MAD",
@@ -7056,6 +7045,17 @@ window.data = {
       "link": "/search/LED2206MAD1?t=MS16559274001656177600004170LEDVKODMECAIFCOMAD_346309320f45777f385d55aee1fd0b87_50343&search_date=19062022&expected_price_uuid=c1b1b6b8-042d-4d6d-b4f9-edce4c02ef66&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 890,
+      "departure_at": "2022-08-30T15:25:00+03:00",
+      "transfers": 1,
+      "duration": 1585,
+      "durationH": 26,
+      "link": "/search/LED3008AGP1?t=TK16618623001661957400001585LEDISTAGP_82358c8c5cd2a51e26af4558fde70adf_53742&search_date=17062022&expected_price_uuid=d34b93a9-9333-485b-af26-eaf8a9b73af6&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-AGP",
       "origin": "MOW",
       "destination": "AGP",
@@ -7065,6 +7065,17 @@ window.data = {
       "duration": 920,
       "durationH": 15,
       "link": "/search/MOW2406AGP1?t=TK16560387001656093900000920VKOISTCMNAGP_233c50b8c0990a39046dc5920d1e72a3_56893&search_date=20062022&expected_price_uuid=d9394489-caa6-4086-ae57-c91e071e6475&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 957,
+      "departure_at": "2022-07-06T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 1170,
+      "durationH": 20,
+      "link": "/search/MOW0607AGP1?t=TK16570692001657139400001170VKOESBARNLGWAGP_685aa5a660ac24a9bbf3b25c201f2395_57755&search_date=19062022&expected_price_uuid=d95314b4-f86e-436d-8b03-2f3c616b32eb&expected_price_currency=rub"
     },
     {
       "route": "MOW-GRX",
@@ -7122,6 +7133,17 @@ window.data = {
       "link": "/search/MOW0107GRX1?t=XQ16566996001656833700002235VKOGYDAYTADBCDGORYGRX_4e4c07cf20018fe77242ecea4eaae4cf_54364&search_date=16062022&expected_price_uuid=6561285a-aaea-4779-81ec-c3d03cd04921&expected_price_currency=rub"
     },
     {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 913,
+      "departure_at": "2022-07-03T06:30:00+03:00",
+      "transfers": 4,
+      "duration": 2355,
+      "durationH": 39,
+      "link": "/search/LED0307AGP1?t=J216568190001656960300002355LEDVKOGYDISTSAWDUSNRNAGP_d4509e3b3a1c326df3b6110963b6831d_55086&search_date=18062022&expected_price_uuid=d9542b3e-b29e-4120-965d-13b603907a94&expected_price_currency=rub"
+    },
+    {
       "route": "LED-BCN",
       "origin": "LED",
       "destination": "BCN",
@@ -7131,6 +7153,17 @@ window.data = {
       "duration": 2410,
       "durationH": 40,
       "link": "/search/LED2906BCN1?t=EK16565103001656654900002410LEDDXBMXPBGYBODBCN_6fda6d1e2dd3941f20fb21b44c22f8b3_54647&search_date=20062022&expected_price_uuid=3960db0f-8797-4fec-9868-e31eb9ebb3ea&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-BCN",
+      "origin": "MOW",
+      "destination": "BCN",
+      "price": 915,
+      "departure_at": "2022-06-25T21:20:00+03:00",
+      "transfers": 3,
+      "duration": 2475,
+      "durationH": 41,
+      "link": "/search/MOW2506BCN1?t=PC16561812001656329700002475DMETASDXBSAWBCN_16dbb7a32edb590d9c97416168dcf340_55194&search_date=20062022&expected_price_uuid=d4322d77-3b1b-43e5-b2c0-7657a38fa890&expected_price_currency=rub"
     },
     {
       "route": "LED-AGP",
@@ -7188,39 +7221,6 @@ window.data = {
       "link": "/search/MOW2906AGP1?t=TK16564701001656659700003160VKOESBDUSAGP_564f32556a7f136c707421f8ee85a817_51931&search_date=19062022&expected_price_uuid=ed011479-0626-4b76-b326-7208fdec236f&expected_price_currency=rub"
     },
     {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 848,
-      "departure_at": "2022-07-02T11:20:00+03:00",
-      "transfers": 3,
-      "duration": 3345,
-      "durationH": 56,
-      "link": "/search/MOW0207AGP1?t=W616567500001656950700003345DMEGYDISTSAWVIEAGP_344f2b4e451875f6f1f02d60bdff48c1_51198&search_date=20062022&expected_price_uuid=61466d34-eb9d-4a61-8123-727dac35bf2e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 957,
-      "departure_at": "2022-07-06T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 1170,
-      "durationH": 20,
-      "link": "/search/MOW0607AGP1?t=TK16570692001657139400001170VKOESBARNLGWAGP_685aa5a660ac24a9bbf3b25c201f2395_57755&search_date=19062022&expected_price_uuid=d95314b4-f86e-436d-8b03-2f3c616b32eb&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 913,
-      "departure_at": "2022-07-03T06:30:00+03:00",
-      "transfers": 4,
-      "duration": 2355,
-      "durationH": 39,
-      "link": "/search/LED0307AGP1?t=J216568190001656960300002355LEDVKOGYDISTSAWDUSNRNAGP_d4509e3b3a1c326df3b6110963b6831d_55086&search_date=18062022&expected_price_uuid=d9542b3e-b29e-4120-965d-13b603907a94&expected_price_currency=rub"
-    },
-    {
       "route": "LED-AGP",
       "origin": "LED",
       "destination": "AGP",
@@ -7241,6 +7241,72 @@ window.data = {
       "duration": 3425,
       "durationH": 57,
       "link": "/search/LED3006AGP1?t=TK16565418001656747300003425LEDISTCMNLISAGP_7eaf28a5a3b427f122bb1a401f4abd4c_54314&search_date=19062022&expected_price_uuid=8a6008e4-1351-4548-8e77-05e5fc05e5a2&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-BCN",
+      "origin": "LED",
+      "destination": "BCN",
+      "price": 989,
+      "departure_at": "2022-06-22T11:55:00+03:00",
+      "transfers": 3,
+      "duration": 1525,
+      "durationH": 25,
+      "link": "/search/LED2206BCN1?t=LO16558881001655979600001525LEDSVXEVNWAWBCN_2955c3689b3a11f19b0838364b436ce8_59697&search_date=19062022&expected_price_uuid=c2c7c281-898c-4eb8-860a-3e1d6a49a51a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-LEI",
+      "origin": "MOW",
+      "destination": "LEI",
+      "price": 985,
+      "departure_at": "2022-06-24T03:55:00+03:00",
+      "transfers": 4,
+      "duration": 1890,
+      "durationH": 32,
+      "link": "/search/MOW2406LEI2?t=PC16560321001656145500001890DMEBJVSAWORYBVAMANLEI_789500991e89faafd1ca20920fd5c742_118936&search_date=17062022&expected_price_uuid=b92683d1-d776-456c-b2a4-7545ad572d01&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-SVQ",
+      "origin": "MOW",
+      "destination": "SVQ",
+      "price": 1003,
+      "departure_at": "2022-06-23T11:35:00+03:00",
+      "transfers": 3,
+      "duration": 2125,
+      "durationH": 35,
+      "link": "/search/MOW2306SVQ1?t=PC16559733001656100800002125VKOLEDSAWORYBVASVQ_6c452d232890a7b779e83f64ca913575_60545&search_date=17062022&expected_price_uuid=33d8dce6-a555-46ae-aa50-7eef623edc53&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-AGP",
+      "origin": "LED",
+      "destination": "AGP",
+      "price": 998,
+      "departure_at": "2022-06-24T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2415,
+      "durationH": 40,
+      "link": "/search/LED2406AGP1?t=EK16560783001656223200002415LEDDXBBCNMADAGP_aac57bb0c78bf0822da3915e5e7d2234_60217&search_date=20062022&expected_price_uuid=2e250725-a574-4495-8f30-5d41233bc59c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-AGP",
+      "origin": "MOW",
+      "destination": "AGP",
+      "price": 956,
+      "departure_at": "2022-06-30T02:20:00+03:00",
+      "transfers": 4,
+      "duration": 2775,
+      "durationH": 46,
+      "link": "/search/MOW3006AGP1?t=PC16565448001656711300002775DMEAYTSAWBEREMAAGP_b764130c8309f71a73c8bcd6f177b51e_57694&search_date=20062022&expected_price_uuid=cc3dee8e-2cc6-4aeb-b76d-f46f3726ad0d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-MAD",
+      "origin": "MOW",
+      "destination": "MAD",
+      "price": 928,
+      "departure_at": "2022-07-01T12:40:00+03:00",
+      "transfers": 3,
+      "duration": 3020,
+      "durationH": 50,
+      "link": "/search/MOW0107MAD2?t=PC16566684001656849600003020VKOEVNTBSSAWMAD_35f5ada5523f686241099eb0d3d3b1ee_112069&search_date=20062022&expected_price_uuid=1f542713-1090-4fa4-80bd-b89c3577f211&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -7265,26 +7331,15 @@ window.data = {
       "link": "/search/LED3108MAD1?t=TK16619487001662021000001205LEDISTMAD_a7783a133ec5990d5fd8925da8979356_60848&search_date=18062022&expected_price_uuid=7801f266-853a-4ba4-9f60-1171039e23ee&expected_price_currency=rub"
     },
     {
-      "route": "LED-BCN",
-      "origin": "LED",
-      "destination": "BCN",
-      "price": 989,
-      "departure_at": "2022-06-22T11:55:00+03:00",
-      "transfers": 3,
-      "duration": 1525,
-      "durationH": 25,
-      "link": "/search/LED2206BCN1?t=LO16558881001655979600001525LEDSVXEVNWAWBCN_2955c3689b3a11f19b0838364b436ce8_59697&search_date=19062022&expected_price_uuid=c2c7c281-898c-4eb8-860a-3e1d6a49a51a&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-LEI",
       "origin": "MOW",
       "destination": "LEI",
-      "price": 985,
-      "departure_at": "2022-06-24T03:55:00+03:00",
+      "price": 981,
+      "departure_at": "2022-06-22T10:10:00+03:00",
       "transfers": 4,
-      "duration": 1890,
-      "durationH": 32,
-      "link": "/search/MOW2406LEI2?t=PC16560321001656145500001890DMEBJVSAWORYBVAMANLEI_789500991e89faafd1ca20920fd5c742_118936&search_date=17062022&expected_price_uuid=b92683d1-d776-456c-b2a4-7545ad572d01&expected_price_currency=rub"
+      "duration": 3255,
+      "durationH": 54,
+      "link": "/search/MOW2206LEI1?t=A416558818001656077100003255VKOEVNAYTSAWCRLLEI_94d9da1ecf943825003fa0116fd62abf_59207&search_date=18062022&expected_price_uuid=5aa83454-675a-49dc-bc89-9c7d6a1946c3&expected_price_currency=rub"
     },
     {
       "route": "LED-MAD",
@@ -7340,50 +7395,6 @@ window.data = {
       "duration": 1255,
       "durationH": 21,
       "link": "/search/LED2708AGP1?t=TK16616031001661678400001255LEDISTAGP_37327905209f4d8a6add7d6495eeffdc_61657&search_date=17062022&expected_price_uuid=45449f7d-140f-45be-9319-5b183bc1443f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-SVQ",
-      "origin": "MOW",
-      "destination": "SVQ",
-      "price": 1003,
-      "departure_at": "2022-06-23T11:35:00+03:00",
-      "transfers": 3,
-      "duration": 2125,
-      "durationH": 35,
-      "link": "/search/MOW2306SVQ1?t=PC16559733001656100800002125VKOLEDSAWORYBVASVQ_6c452d232890a7b779e83f64ca913575_60545&search_date=17062022&expected_price_uuid=33d8dce6-a555-46ae-aa50-7eef623edc53&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-AGP",
-      "origin": "LED",
-      "destination": "AGP",
-      "price": 998,
-      "departure_at": "2022-06-24T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2415,
-      "durationH": 40,
-      "link": "/search/LED2406AGP1?t=EK16560783001656223200002415LEDDXBBCNMADAGP_aac57bb0c78bf0822da3915e5e7d2234_60217&search_date=20062022&expected_price_uuid=2e250725-a574-4495-8f30-5d41233bc59c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-LEI",
-      "origin": "MOW",
-      "destination": "LEI",
-      "price": 981,
-      "departure_at": "2022-06-22T10:10:00+03:00",
-      "transfers": 4,
-      "duration": 3255,
-      "durationH": 54,
-      "link": "/search/MOW2206LEI1?t=A416558818001656077100003255VKOEVNAYTSAWCRLLEI_94d9da1ecf943825003fa0116fd62abf_59207&search_date=18062022&expected_price_uuid=5aa83454-675a-49dc-bc89-9c7d6a1946c3&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-AGP",
-      "origin": "MOW",
-      "destination": "AGP",
-      "price": 996,
-      "departure_at": "2022-06-22T15:10:00+03:00",
-      "transfers": 3,
-      "duration": 3380,
-      "durationH": 56,
-      "link": "/search/MOW2206AGP1?t=PC16558998001656102600003380DMESAWBERBCNAGP_a2aeec021edad74efead849092353b41_60123&search_date=20062022&expected_price_uuid=2007f9ca-78f9-403b-87cc-811e94975ffa&expected_price_currency=rub"
     },
     {
       "route": "MOW-GRX",

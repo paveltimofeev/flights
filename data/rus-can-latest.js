@@ -1,5 +1,5 @@
 window.data = {
-  "date": "2022-06-20T07:35:16.236Z",
+  "date": "2022-06-20T08:19:44.828Z",
   "params": {
     "from": [
       "LED",
@@ -23,7 +23,7 @@ window.data = {
     },
     "dateRange": {
       "days": 100,
-      "since": "2022-06-20T07:32:56.626Z"
+      "since": "2022-06-20T08:17:24.196Z"
     },
     "currency": "usd",
     "request": {
@@ -42,7 +42,7 @@ window.data = {
     "minDuration": 1200,
     "maxDuration": 4785,
     "maxTransfers": 6,
-    "failedRequests": 555,
+    "failedRequests": 554,
     "totalRequests": 1000
   },
   "results": [
@@ -201,6 +201,17 @@ window.data = {
       "link": "/search/MOW0709YTO2?t=WS16625757001662756000003005SVOAEREVNATHBCNYYZ_2bc7d373403f39a0a98a9c4e9f3afd64_80310&search_date=19062022&expected_price_uuid=887f3682-12fd-4bb1-b3e5-98153ee99994&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 705,
+      "departure_at": "2022-09-11T09:45:00+03:00",
+      "transfers": 5,
+      "duration": 3470,
+      "durationH": 58,
+      "link": "/search/MOW1109YTO1?t=WS16628787001663086900003470VKOKRRSAWSTNDUBGLAYYZ_9231532257ba0ecdb278f7a05baed19e_40534&search_date=20062022&expected_price_uuid=292bba53-0ae5-4f32-8d01-775ce8c95285&expected_price_currency=rub"
+    },
+    {
       "route": "LED-YMQ",
       "origin": "LED",
       "destination": "YMQ",
@@ -314,17 +325,6 @@ window.data = {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 734,
-      "departure_at": "2022-08-20T09:00:00+03:00",
-      "transfers": 3,
-      "duration": 3540,
-      "durationH": 59,
-      "link": "/search/MOW2008YTO1?t=AC16609752001661187600003540SVOAERCAIDUBYYZ_bf62efc829758e72ecd16537c372e864_42211&search_date=19062022&expected_price_uuid=37648c7c-8e90-4d4b-abc9-bfdfd2384530&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
       "price": 810,
       "departure_at": "2022-09-19T22:50:00+03:00",
       "transfers": 2,
@@ -344,15 +344,15 @@ window.data = {
       "link": "/search/MOW0109YMQ1?t=AC16620018001662150000002470SVOAERISTBEGCDGYUL_e250e85986a04684e2370de5bc5e2138_45139&search_date=18062022&expected_price_uuid=b4be761b-010d-4c9b-bb63-b033b5c2b2c9&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
+      "route": "LED-YTO",
+      "origin": "LED",
       "destination": "YTO",
-      "price": 782,
-      "departure_at": "2022-09-11T16:40:00+03:00",
-      "transfers": 2,
-      "duration": 2745,
-      "durationH": 46,
-      "link": "/search/MOW1109YTO1?t=MS16629036001663068300002745SVOISTCAIYYZ_785a9336a812c8c007713e0e1405bcec_44943&search_date=15062022&expected_price_uuid=94642cde-3a06-40ab-aa44-1e96630e4dd7&expected_price_currency=rub"
+      "price": 842,
+      "departure_at": "2022-09-20T15:55:00+03:00",
+      "transfers": 3,
+      "duration": 2790,
+      "durationH": 47,
+      "link": "/search/LED2009YTO3?t=MS16636785001663845900002790LEDSVOISTCAIYYZ_dfdd04d0d5aab1ad330b290c049fabe2_145270&search_date=17062022&expected_price_uuid=b2e66ea5-a0e1-461f-abf7-9d0d5746c8be&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -364,6 +364,17 @@ window.data = {
       "duration": 3075,
       "durationH": 51,
       "link": "/search/MOW1509YTO1?t=MS16632294001663413900003075SVOAERISTCAIYYZ_311b86bd4713401aa027ca30837f3a0e_46303&search_date=19062022&expected_price_uuid=8da8cefb-3c83-4ebf-99eb-72a97422c576&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 808,
+      "departure_at": "2022-06-26T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 3195,
+      "durationH": 53,
+      "link": "/search/MOW2606YMQ1?t=LX16562517001656443400003195DMECAICDGZRHYUL_29dd71047d54d91086c67694d1ed60e7_46467&search_date=20062022&expected_price_uuid=c71ec1c9-0678-4d00-b5c3-f0318e1bf9e8&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -391,6 +402,17 @@ window.data = {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
+      "price": 820,
+      "departure_at": "2022-09-10T16:00:00+03:00",
+      "transfers": 4,
+      "duration": 3469,
+      "durationH": 58,
+      "link": "/search/MOW1009YTO2?t=AC16628148001663022940003469DMEMRVSAWISTCDGYULYTZ_8a51e74db7a25c769c64610b81a29842_94334&search_date=18062022&expected_price_uuid=916150da-6497-42ef-a907-f2178244859a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
       "price": 780,
       "departure_at": "2022-09-17T23:55:00+03:00",
       "transfers": 3,
@@ -402,23 +424,12 @@ window.data = {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
-      "price": 842,
-      "departure_at": "2022-09-20T15:55:00+03:00",
+      "price": 827,
+      "departure_at": "2022-08-18T13:15:00+03:00",
       "transfers": 3,
-      "duration": 2790,
-      "durationH": 47,
-      "link": "/search/LED2009YTO3?t=MS16636785001663845900002790LEDSVOISTCAIYYZ_dfdd04d0d5aab1ad330b290c049fabe2_145270&search_date=17062022&expected_price_uuid=b2e66ea5-a0e1-461f-abf7-9d0d5746c8be&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 820,
-      "departure_at": "2022-09-10T16:00:00+03:00",
-      "transfers": 4,
-      "duration": 3469,
-      "durationH": 58,
-      "link": "/search/MOW1009YTO2?t=AC16628148001663022940003469DMEMRVSAWISTCDGYULYTZ_8a51e74db7a25c769c64610b81a29842_94334&search_date=18062022&expected_price_uuid=916150da-6497-42ef-a907-f2178244859a&expected_price_currency=rub"
+      "duration": 2475,
+      "durationH": 41,
+      "link": "/search/LED1808YTO1?t=UA16608177001660966200002475LEDTASLHRIADYYZ_4b9e906eb855b97f8ad463b612c9e713_47566&search_date=19062022&expected_price_uuid=36e485b2-c536-4f14-9581-32e58d73352f&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -452,28 +463,6 @@ window.data = {
       "duration": 2180,
       "durationH": 36,
       "link": "/search/LED1109YTO2?t=AC16628760001663006800002180LEDAERISTCPHYYZ_1d4dfbfc41a828a23854a05f73df98d4_98492&search_date=19062022&expected_price_uuid=7cfec6bd-5dce-4232-9dfb-b3e6c5cb89a3&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 827,
-      "departure_at": "2022-08-18T13:15:00+03:00",
-      "transfers": 3,
-      "duration": 2475,
-      "durationH": 41,
-      "link": "/search/LED1808YTO1?t=UA16608177001660966200002475LEDTASLHRIADYYZ_4b9e906eb855b97f8ad463b612c9e713_47566&search_date=19062022&expected_price_uuid=36e485b2-c536-4f14-9581-32e58d73352f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 808,
-      "departure_at": "2022-06-26T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 3195,
-      "durationH": 53,
-      "link": "/search/MOW2606YMQ1?t=LX16562517001656443400003195DMECAICDGZRHYUL_29dd71047d54d91086c67694d1ed60e7_46467&search_date=20062022&expected_price_uuid=c71ec1c9-0678-4d00-b5c3-f0318e1bf9e8&expected_price_currency=rub"
     },
     {
       "route": "LED-YMQ",
@@ -663,17 +652,6 @@ window.data = {
       "link": "/search/LED0309YTO1?t=AC16622127001662397200003075LEDAERISTDUBYYZ_34a11f91c51e8d75c93d3769d64d31a3_53308&search_date=19062022&expected_price_uuid=261e6d72-f0e4-4ce8-9b99-c53141253607&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 949,
-      "departure_at": "2022-09-12T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 3088,
-      "durationH": 51,
-      "link": "/search/MOW1209YMQ1?t=HY16630050001663190280003088DMETASJFKEWRYTZYUL_5f210ac3a2a6240c856451cfaaf6fd7e_54540&search_date=17062022&expected_price_uuid=c7093fb7-5708-4764-9ace-8b10d8ade53d&expected_price_currency=rub"
-    },
-    {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
@@ -683,17 +661,6 @@ window.data = {
       "duration": 3145,
       "durationH": 52,
       "link": "/search/LED3108YTO1?t=AC16619493001662138000003145LEDAERISTDUBYYZ_012dd4dad03c710b4ad0025a717db6d4_53259&search_date=20062022&expected_price_uuid=cb0d81d8-3841-4e7c-88d6-9af6c4b7b35f&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 932,
-      "departure_at": "2022-08-22T22:30:00+03:00",
-      "transfers": 3,
-      "duration": 3292,
-      "durationH": 55,
-      "link": "/search/LED2208YTO2?t=UA16611966001661394120003292LEDTASLHRORDYYZ_d61a901a08afce9cd4ab75aae6eee718_107194&search_date=13062022&expected_price_uuid=4d940729-97eb-432e-ac0a-55702fe99286&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -718,17 +685,6 @@ window.data = {
       "link": "/search/LED2206YMQ1?t=AC16558962001656102000003430LEDSVOEVNAYTCDGYUL_ee54fab988f3560e08efb4f729e3e582_52815&search_date=17062022&expected_price_uuid=634ff7ce-43df-4314-945e-7be2c40ffa0e&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 907,
-      "departure_at": "2022-09-24T20:20:00+03:00",
-      "transfers": 3,
-      "duration": 3460,
-      "durationH": 58,
-      "link": "/search/MOW2409YVR2?t=TK16640400001664247600003460SVOMSQISTSEAYVR_a2bc08d0b6e7767dd171f179dc523981_104308&search_date=16062022&expected_price_uuid=37d24642-e430-4248-a73a-20ede925527e&expected_price_currency=rub"
-    },
-    {
       "route": "LED-YVR",
       "origin": "LED",
       "destination": "YVR",
@@ -751,17 +707,6 @@ window.data = {
       "link": "/search/LED0509YVR1?t=TK16623801001662606000003765LEDMSQISTSEAYVR_0de85a1388c5662271c97a651feddd9b_52849&search_date=15062022&expected_price_uuid=3d8e9595-64ee-47e5-b9e2-47da1e1afcfe&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 907,
-      "departure_at": "2022-08-29T04:00:00+03:00",
-      "transfers": 3,
-      "duration": 3835,
-      "durationH": 64,
-      "link": "/search/MOW2908YTO1?t=WS16617348001661964900003835VKOESBBERDUBYYZ_ad600ed27f7121c77bb61563979ff6f7_52155&search_date=19062022&expected_price_uuid=63141ceb-57c0-46d5-84f4-cba2785d0ea5&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -771,17 +716,6 @@ window.data = {
       "duration": 4040,
       "durationH": 67,
       "link": "/search/MOW1009YMQ2?t=TS16627716001663014000004040VKOESBSTNMADYUL_ce656b78865a3b0a99a5bebc1bbbfda3_105320&search_date=19062022&expected_price_uuid=b97b04f5-8860-4d2b-86c0-4f19271d5f61&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YMQ",
-      "origin": "LED",
-      "destination": "YMQ",
-      "price": 931,
-      "departure_at": "2022-08-26T01:30:00+03:00",
-      "transfers": 4,
-      "duration": 4065,
-      "durationH": 68,
-      "link": "/search/LED2608YMQ1?t=TS16614666001661710500004065LEDSVODMETASFRAHHNSTNLGWYUL_7d80dad59dd6cc8c77e10a2fe2ae8911_53511&search_date=16062022&expected_price_uuid=d99e0023-337d-40a7-80fd-bd86d3429ca1&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -850,15 +784,59 @@ window.data = {
       "link": "/search/MOW0309YTO2?t=AC16622196001662397200002960SVOAERISTDUBYYZ_2d24db89a79483119cb5c300a1b17aa5_114788&search_date=19062022&expected_price_uuid=2731f4cd-b218-4343-9e87-727a2f1795fc&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 949,
+      "departure_at": "2022-09-12T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 3088,
+      "durationH": 51,
+      "link": "/search/MOW1209YMQ1?t=HY16630050001663190280003088DMETASJFKEWRYTZYUL_5f210ac3a2a6240c856451cfaaf6fd7e_54540&search_date=17062022&expected_price_uuid=c7093fb7-5708-4764-9ace-8b10d8ade53d&expected_price_currency=rub"
+    },
+    {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
-      "price": 981,
-      "departure_at": "2022-08-27T16:45:00+03:00",
-      "transfers": 5,
-      "duration": 3065,
-      "durationH": 51,
-      "link": "/search/LED2708YTO1?t=WS16616079001661791800003065LEDAERISTSAWCPHEDIDUBYYZ_c0457bb960281b28d34b3b8a6130e8c9_56424&search_date=15062022&expected_price_uuid=67e73491-3abf-464c-b9d7-1a8114736bd1&expected_price_currency=rub"
+      "price": 932,
+      "departure_at": "2022-08-22T22:30:00+03:00",
+      "transfers": 3,
+      "duration": 3292,
+      "durationH": 55,
+      "link": "/search/LED2208YTO2?t=UA16611966001661394120003292LEDTASLHRORDYYZ_d61a901a08afce9cd4ab75aae6eee718_107194&search_date=13062022&expected_price_uuid=4d940729-97eb-432e-ac0a-55702fe99286&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 907,
+      "departure_at": "2022-09-24T20:20:00+03:00",
+      "transfers": 3,
+      "duration": 3460,
+      "durationH": 58,
+      "link": "/search/MOW2409YVR2?t=TK16640400001664247600003460SVOMSQISTSEAYVR_a2bc08d0b6e7767dd171f179dc523981_104308&search_date=16062022&expected_price_uuid=37d24642-e430-4248-a73a-20ede925527e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 931,
+      "departure_at": "2022-08-20T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 3830,
+      "durationH": 64,
+      "link": "/search/MOW2008YTO1?t=WS16609572001661187000003830VKOESBFRAHHNDUBYYZ_3abbb8f37409478d2839a641c18b0b6f_53511&search_date=20062022&expected_price_uuid=cfcc792b-2e38-4779-b327-5c8995925d34&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 907,
+      "departure_at": "2022-08-29T04:00:00+03:00",
+      "transfers": 3,
+      "duration": 3835,
+      "durationH": 64,
+      "link": "/search/MOW2908YTO1?t=WS16617348001661964900003835VKOESBBERDUBYYZ_ad600ed27f7121c77bb61563979ff6f7_52155&search_date=19062022&expected_price_uuid=63141ceb-57c0-46d5-84f4-cba2785d0ea5&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -905,15 +883,15 @@ window.data = {
       "link": "/search/MOW1909YVR1?t=AC16635657001663805700004000SVOISTLHRYVR_30947dc053fdb2c0e2bd00b714f2d020_53595&search_date=16062022&expected_price_uuid=0ee35c92-9091-4643-be28-e5a0e52a3c52&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 953,
-      "departure_at": "2022-08-28T23:00:00+03:00",
+      "route": "LED-YMQ",
+      "origin": "LED",
+      "destination": "YMQ",
+      "price": 931,
+      "departure_at": "2022-08-26T01:30:00+03:00",
       "transfers": 4,
-      "duration": 4135,
-      "durationH": 69,
-      "link": "/search/MOW2808YTO1?t=WS16617168001661964900004135DMETASRIXCDGBVADUBYYZ_747720370b5c654efffb3216b1838d4e_54775&search_date=20062022&expected_price_uuid=9fbdea9d-b941-4c33-bb94-3cb7a9a0a6c0&expected_price_currency=rub"
+      "duration": 4065,
+      "durationH": 68,
+      "link": "/search/LED2608YMQ1?t=TS16614666001661710500004065LEDSVODMETASFRAHHNSTNLGWYUL_7d80dad59dd6cc8c77e10a2fe2ae8911_53511&search_date=16062022&expected_price_uuid=d99e0023-337d-40a7-80fd-bd86d3429ca1&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -958,6 +936,28 @@ window.data = {
       "duration": 2319,
       "durationH": 39,
       "link": "/search/MOW0509YTO1?t=AC16623654001662504540002319SVOAERISTGVAYULYTZ_bf6658f6929ba0b986a211d33fae7500_58365&search_date=18062022&expected_price_uuid=ddc8ac4a-7ac9-463e-ba51-fc5d8c01d477&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 981,
+      "departure_at": "2022-08-27T16:45:00+03:00",
+      "transfers": 5,
+      "duration": 3065,
+      "durationH": 51,
+      "link": "/search/LED2708YTO1?t=WS16616079001661791800003065LEDAERISTSAWCPHEDIDUBYYZ_c0457bb960281b28d34b3b8a6130e8c9_56424&search_date=15062022&expected_price_uuid=67e73491-3abf-464c-b9d7-1a8114736bd1&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1014,
+      "departure_at": "2022-08-28T20:50:00+03:00",
+      "transfers": 5,
+      "duration": 3506,
+      "durationH": 58,
+      "link": "/search/MOW2808YOW1?t=HY16617090001661919360003506DMETASFRAHHNDUBYHZYYZYOW_65f7018ddfcc3d612ec2860d324049e4_58320&search_date=17062022&expected_price_uuid=6f5bccff-a29a-4ba8-8d43-b025b30fb462&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1015,6 +1015,50 @@ window.data = {
       "link": "/search/LED2508YTO1?t=UA16614525001661571000001975LEDBEGLHRIADYYZ_2257bf00a38f0938b9a187ed9a21c6e5_61676&search_date=18062022&expected_price_uuid=4966e281-da56-48e6-b625-f5c46da570e6&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1048,
+      "departure_at": "2022-08-30T04:30:00+03:00",
+      "transfers": 5,
+      "duration": 2845,
+      "durationH": 47,
+      "link": "/search/MOW3008YTO2?t=TS16618230001661993700002845SVOAERISTBEGAMSYULYYZ_43c07e6472dfeecd09809f3c1dfde954_120572&search_date=19062022&expected_price_uuid=d1f622fb-30e5-41e0-b893-a7a0db41cd4b&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1124,
+      "departure_at": "2022-08-09T10:20:00+03:00",
+      "transfers": 3,
+      "duration": 2190,
+      "durationH": 37,
+      "link": "/search/LED0908YTO1?t=TS16600296001660161000002190LEDEVNCDGBVADUBYYZ_ddae12950515714c1f6ae317d997aca5_64610&search_date=16062022&expected_price_uuid=24532c93-8b85-43c1-a366-4634a9f82ae1&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1115,
+      "departure_at": "2022-08-17T07:35:00+03:00",
+      "transfers": 3,
+      "duration": 2240,
+      "durationH": 37,
+      "link": "/search/MOW1708YTO1?t=TP16607109001660845300002240DMECMNBCNLISYYZ_fa9f14ac36ebd5c2ef7f3c0661e35348_64113&search_date=19062022&expected_price_uuid=259e2603-ef89-4832-9b37-04cf3b60bc55&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1069,
+      "departure_at": "2022-08-10T07:35:00+03:00",
+      "transfers": 3,
+      "duration": 2240,
+      "durationH": 37,
+      "link": "/search/MOW1008YTO1?t=TP16601061001660240500002240DMECMNBCNLISYYZ_a34b4929dafcddb7a8e886f2a8f69d97_61485&search_date=19062022&expected_price_uuid=9550ce38-52cf-45f5-9c49-4e50fae37b52&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
@@ -1037,28 +1081,6 @@ window.data = {
       "link": "/search/MOW3006YMQ1?t=TP16565406001656703200002710VKOEVNAYTSAWORYLISYUL_16feb0203d7598e995d7388f3cb39ef9_59394&search_date=13062022&expected_price_uuid=6e9c1d0c-0b1e-41f5-a9c9-26cae1d17cd5&expected_price_currency=rub"
     },
     {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1089,
-      "departure_at": "2022-08-07T01:30:00+03:00",
-      "transfers": 3,
-      "duration": 2720,
-      "durationH": 45,
-      "link": "/search/LED0708YTO1?t=TS16598250001659988200002720LEDISTLHRLTNDUBYYZ_ae181200d7364e56e64787bee12b95e5_62599&search_date=19062022&expected_price_uuid=95f4c252-7523-430d-8a8f-59a81fbede54&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1048,
-      "departure_at": "2022-08-30T04:30:00+03:00",
-      "transfers": 5,
-      "duration": 2845,
-      "durationH": 47,
-      "link": "/search/MOW3008YTO2?t=TS16618230001661993700002845SVOAERISTBEGAMSYULYYZ_43c07e6472dfeecd09809f3c1dfde954_120572&search_date=19062022&expected_price_uuid=d1f622fb-30e5-41e0-b893-a7a0db41cd4b&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -1068,28 +1090,6 @@ window.data = {
       "duration": 2845,
       "durationH": 47,
       "link": "/search/MOW2706YMQ1?t=TP16563597001656530400002845SVOBEGCDGORYLISYUL_0a16a574886a5261ea915e3372cefee8_58111&search_date=15062022&expected_price_uuid=834de0b6-9710-4e05-b5b5-51b4f19aeb95&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1038,
-      "departure_at": "2022-08-09T02:20:00+03:00",
-      "transfers": 5,
-      "duration": 2970,
-      "durationH": 50,
-      "link": "/search/MOW0908YMQ1?t=TS16600008001660179000002970DMEAYTFRAHHNSTNDUBYYZYUL_a837bb8fc79c3a8aada3e5aa3d7b0a7f_59670&search_date=14062022&expected_price_uuid=087447f2-0ff4-44d2-a165-f6dbc65d7c5b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1115,
-      "departure_at": "2022-08-17T07:35:00+03:00",
-      "transfers": 3,
-      "duration": 2240,
-      "durationH": 37,
-      "link": "/search/MOW1708YTO1?t=TP16607109001660845300002240DMECMNBCNLISYYZ_fa9f14ac36ebd5c2ef7f3c0661e35348_64113&search_date=19062022&expected_price_uuid=259e2603-ef89-4832-9b37-04cf3b60bc55&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1180,39 +1180,6 @@ window.data = {
       "link": "/search/MOW0507YTO1?t=TS16570293001657225500003270DMECAIOTPLTNOPOYYZ_3656cee0cb5650e8b4794c35ea10ffb2_58570&search_date=20062022&expected_price_uuid=c4281cd6-6a3c-4809-8714-d6a7b42d6a1c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1059,
-      "departure_at": "2022-08-28T10:50:00+03:00",
-      "transfers": 4,
-      "duration": 3495,
-      "durationH": 58,
-      "link": "/search/MOW2808YVR1?t=TS16616730001661882700003495VKOKRRBEGCDGYULYVR_5deb35fbcc38fedf0fbe1625658b3c7b_60870&search_date=20062022&expected_price_uuid=5b5d51ca-fd18-46d8-b149-d6794ffd8ede&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1015,
-      "departure_at": "2022-09-16T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 3500,
-      "durationH": 58,
-      "link": "/search/MOW1609YVR1?t=MS16633365001663546500003500DMECAILHRYVR_80128775353c3828c4d8b9e3ecd20838_58388&search_date=18062022&expected_price_uuid=831592f2-1d75-484f-8eee-2654be447b79&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1014,
-      "departure_at": "2022-08-28T20:50:00+03:00",
-      "transfers": 5,
-      "duration": 3506,
-      "durationH": 58,
-      "link": "/search/MOW2808YOW1?t=HY16617090001661919360003506DMETASFRAHHNDUBYHZYYZYOW_65f7018ddfcc3d612ec2860d324049e4_58320&search_date=17062022&expected_price_uuid=6f5bccff-a29a-4ba8-8d43-b025b30fb462&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -1254,7 +1221,7 @@ window.data = {
       "transfers": 1,
       "duration": 1200,
       "durationH": 20,
-      "link": "/search/MOW2707YMQ2?t=AT16588965001658968500001200DMECMNYUL_9d9970d5a384d742e1bf705342ba3939_125070&search_date=19062022&expected_price_uuid=c7ae297c-bd1c-4d4b-abcc-d13627bade5c&expected_price_currency=rub"
+      "link": "/search/MOW2707YMQ2?t=AT16588965001658968500001200DMECMNYUL_9d9970d5a384d742e1bf705342ba3939_125070&search_date=20062022&expected_price_uuid=b2abc108-6740-4490-8060-dd10521b88d8&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -1266,39 +1233,6 @@ window.data = {
       "duration": 1515,
       "durationH": 25,
       "link": "/search/LED3107YTO1?t=MS16592622001659353100001515LEDDMECAIYYZ_f2e5cc046d84d714a8c0d0c09853926c_62414&search_date=20062022&expected_price_uuid=160d6a98-e174-4f23-bf94-72fa09d7767e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1063,
-      "departure_at": "2022-08-02T10:50:00+03:00",
-      "transfers": 5,
-      "duration": 3673,
-      "durationH": 61,
-      "link": "/search/MOW0208YMQ1?t=WS16594266001659646980003673VKOKRRAYTSTNDUBYYZYUL_5effc0b47c6db6c7ce8ffc909d703423_61096&search_date=14062022&expected_price_uuid=b5c2caca-a807-4673-82a7-1b9ae4c8bd24&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1124,
-      "departure_at": "2022-08-09T10:20:00+03:00",
-      "transfers": 3,
-      "duration": 2190,
-      "durationH": 37,
-      "link": "/search/LED0908YTO1?t=TS16600296001660161000002190LEDEVNCDGBVADUBYYZ_ddae12950515714c1f6ae317d997aca5_64610&search_date=16062022&expected_price_uuid=24532c93-8b85-43c1-a366-4634a9f82ae1&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1069,
-      "departure_at": "2022-08-10T07:35:00+03:00",
-      "transfers": 3,
-      "duration": 2240,
-      "durationH": 37,
-      "link": "/search/MOW1008YTO1?t=TP16601061001660240500002240DMECMNBCNLISYYZ_a34b4929dafcddb7a8e886f2a8f69d97_61485&search_date=19062022&expected_price_uuid=9550ce38-52cf-45f5-9c49-4e50fae37b52&expected_price_currency=rub"
     },
     {
       "route": "LED-YMQ",
@@ -1321,6 +1255,17 @@ window.data = {
       "duration": 2625,
       "durationH": 44,
       "link": "/search/LED1507YTO1?t=MS16578996001658057100002625LEDSVODMECAIYYZ_ebf25c27927c4aceffcd6df82c154d3f_62864&search_date=19062022&expected_price_uuid=499188fa-666f-4435-b3d7-35c26e0ceacb&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1089,
+      "departure_at": "2022-08-07T01:30:00+03:00",
+      "transfers": 3,
+      "duration": 2720,
+      "durationH": 45,
+      "link": "/search/LED0708YTO1?t=TS16598250001659988200002720LEDISTLHRLTNDUBYYZ_ae181200d7364e56e64787bee12b95e5_62599&search_date=19062022&expected_price_uuid=95f4c252-7523-430d-8a8f-59a81fbede54&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -1370,6 +1315,17 @@ window.data = {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
+      "price": 1038,
+      "departure_at": "2022-08-09T02:20:00+03:00",
+      "transfers": 5,
+      "duration": 2970,
+      "durationH": 50,
+      "link": "/search/MOW0908YMQ1?t=TS16600008001660179000002970DMEAYTFRAHHNSTNDUBYYZYUL_a837bb8fc79c3a8aada3e5aa3d7b0a7f_59670&search_date=14062022&expected_price_uuid=087447f2-0ff4-44d2-a165-f6dbc65d7c5b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
       "price": 1041,
       "departure_at": "2022-06-25T15:10:00+03:00",
       "transfers": 3,
@@ -1381,12 +1337,89 @@ window.data = {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
+      "price": 1059,
+      "departure_at": "2022-08-28T10:50:00+03:00",
+      "transfers": 4,
+      "duration": 3495,
+      "durationH": 58,
+      "link": "/search/MOW2808YVR1?t=TS16616730001661882700003495VKOKRRBEGCDGYULYVR_5deb35fbcc38fedf0fbe1625658b3c7b_60870&search_date=20062022&expected_price_uuid=5b5d51ca-fd18-46d8-b149-d6794ffd8ede&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1015,
+      "departure_at": "2022-09-16T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 3500,
+      "durationH": 58,
+      "link": "/search/MOW1609YVR1?t=MS16633365001663546500003500DMECAILHRYVR_80128775353c3828c4d8b9e3ecd20838_58388&search_date=18062022&expected_price_uuid=831592f2-1d75-484f-8eee-2654be447b79&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1137,
+      "departure_at": "2022-08-23T20:00:00+03:00",
+      "transfers": 3,
+      "duration": 1735,
+      "durationH": 29,
+      "link": "/search/MOW2308YTO2?t=TS16612740001661378100001735SVOBEGAMSYULYYZ_438979628e2ec202fb4d2f08d0ae75ee_130760&search_date=20062022&expected_price_uuid=3f2ceb38-9546-4950-ab6f-38ed31703504&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1154,
+      "departure_at": "2022-08-12T12:35:00+03:00",
+      "transfers": 2,
+      "duration": 2195,
+      "durationH": 37,
+      "link": "/search/MOW1208YTO1?t=DE16602969001660428600002195VKOEVNFRAYYZ_a518da75abaafcc3e9c3cfeab09188fa_66331&search_date=19062022&expected_price_uuid=24147c1b-3cd8-4e11-ba58-f3975eef6bce&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1138,
+      "departure_at": "2022-08-19T19:25:00+03:00",
+      "transfers": 2,
+      "duration": 2580,
+      "durationH": 43,
+      "link": "/search/LED1908YTO1?t=MS16609263001661081100002580LEDSVODMECAIYYZ_ebc635023d9966098012ecfb991fd276_65415&search_date=19062022&expected_price_uuid=094d1900-92f4-4ce6-b18e-c6e6b86ecd62&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1102,
+      "departure_at": "2022-08-07T21:35:00+03:00",
+      "transfers": 4,
+      "duration": 2985,
+      "durationH": 50,
+      "link": "/search/MOW0708YTO1?t=AC16598973001660076400002985SVOAERCAIMUCFRAYYZ_8d7556f6a002c0f7ff79df967fb759f8_63338&search_date=20062022&expected_price_uuid=2a4d1eba-4a7f-4c3d-ba6b-ad23debde0f8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
       "price": 1061,
       "departure_at": "2022-07-07T20:50:00+03:00",
       "transfers": 5,
       "duration": 3653,
       "durationH": 61,
       "link": "/search/MOW0707YVR1?t=WS16572162001657435380003653DMETASRIXDUBYHZYYCYVR_14d2979c44bf596bbf8281a2575474c6_60988&search_date=20062022&expected_price_uuid=b0b889ff-757b-4b66-ba11-9d63d5c6fe32&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1063,
+      "departure_at": "2022-08-02T10:50:00+03:00",
+      "transfers": 5,
+      "duration": 3673,
+      "durationH": 61,
+      "link": "/search/MOW0208YMQ1?t=WS16594266001659646980003673VKOKRRAYTSTNDUBYYZYUL_5effc0b47c6db6c7ce8ffc909d703423_61096&search_date=14062022&expected_price_uuid=b5c2caca-a807-4673-82a7-1b9ae4c8bd24&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -1411,17 +1444,6 @@ window.data = {
       "link": "/search/LED2207YTO1?t=TS16584933001658614200002015LEDAERISTSAWATHYYZ_51df5e05795846f7a7b8b591a2886456_64965&search_date=16062022&expected_price_uuid=5c27f6e9-db40-4dd6-9fac-095a9c0d9328&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1188,
-      "departure_at": "2022-08-15T22:55:00+03:00",
-      "transfers": 3,
-      "duration": 1620,
-      "durationH": 27,
-      "link": "/search/MOW1508YHZ4?t=DE16605933001660690500001620SVOBEGCDGFRAYHZ_cd5678cd9de81d43686cf851d9d3c533_273222&search_date=19062022&expected_price_uuid=d3034e1c-2b68-4cb5-981b-ac965c9c0316&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -1442,17 +1464,6 @@ window.data = {
       "duration": 2525,
       "durationH": 42,
       "link": "/search/MOW0908YTO1?t=AC16600275001660179000002525VKOGRVISTLHRYYZ_c415e548d0832d15e433cb696662932c_65809&search_date=19062022&expected_price_uuid=3f8a0f62-2f7b-4d6f-8fc3-3695bae01e25&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1138,
-      "departure_at": "2022-08-19T19:25:00+03:00",
-      "transfers": 2,
-      "duration": 2580,
-      "durationH": 43,
-      "link": "/search/LED1908YTO1?t=MS16609263001661081100002580LEDSVODMECAIYYZ_ebc635023d9966098012ecfb991fd276_65415&search_date=19062022&expected_price_uuid=094d1900-92f4-4ce6-b18e-c6e6b86ecd62&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1532,26 +1543,15 @@ window.data = {
       "link": "/search/MOW1107YVR1?t=HY16575471001657778100003850VKOLEDTASLHRLGWYULYVR_4ae4b5247f4f6604b2eec745bf1de180_63278&search_date=20062022&expected_price_uuid=3ddff0b8-0ca1-4426-9d8f-c5f4d257c558&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1064,
-      "departure_at": "2022-07-28T20:10:00+03:00",
-      "transfers": 2,
-      "duration": 3975,
-      "durationH": 66,
-      "link": "/search/MOW2807YTO2?t=MS16590282001659266700003975SVOAERCAIYYZ_6d36af64acf611652055efcd93911a3e_122358&search_date=19062022&expected_price_uuid=a3a39a56-5794-4528-b094-54de4619c5fb&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
-      "price": 1212,
-      "departure_at": "2022-08-03T07:35:00+03:00",
+      "price": 1215,
+      "departure_at": "2022-07-29T07:35:00+03:00",
       "transfers": 1,
       "duration": 1200,
       "durationH": 20,
-      "link": "/search/MOW0308YMQ1?t=AT16595013001659573300001200DMECMNYUL_806f5acc35c65b875515f972d1dd892e_69690&search_date=19062022&expected_price_uuid=401bae10-e9be-4741-bcf7-d592e8551519&expected_price_currency=rub"
+      "link": "/search/MOW2907YMQ2?t=AT16590693001659141300001200DMECMNYUL_5dd574d34e7d1d1338f582f89d3e0076_139760&search_date=19062022&expected_price_uuid=2013f0c1-096e-49f3-9dcc-e441f30d8653&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1563,6 +1563,17 @@ window.data = {
       "duration": 1608,
       "durationH": 27,
       "link": "/search/MOW3107YMQ1?t=MS16592757001659372180001608DMECAIYYZYUL_67ed1727360809839a77cbcec0d0f813_67874&search_date=19062022&expected_price_uuid=50a93458-874d-4e34-812e-3bc8a338c193&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YHZ",
+      "origin": "MOW",
+      "destination": "YHZ",
+      "price": 1188,
+      "departure_at": "2022-08-15T22:55:00+03:00",
+      "transfers": 3,
+      "duration": 1620,
+      "durationH": 27,
+      "link": "/search/MOW1508YHZ4?t=DE16605933001660690500001620SVOBEGCDGFRAYHZ_cd5678cd9de81d43686cf851d9d3c533_273222&search_date=19062022&expected_price_uuid=d3034e1c-2b68-4cb5-981b-ac965c9c0316&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -1579,23 +1590,23 @@ window.data = {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
+      "price": 1212,
+      "departure_at": "2022-07-17T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 1735,
+      "durationH": 29,
+      "link": "/search/MOW1707YTO1?t=TS16580781001658182200001735VKOISTSAWATHYYZ_f944ae4baab586c3c1f193a653755cd9_69706&search_date=20062022&expected_price_uuid=d78935a6-3bd5-419e-b05b-e52925eed6c6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
       "price": 1168,
       "departure_at": "2022-07-25T11:30:00+03:00",
       "transfers": 3,
       "duration": 2150,
       "durationH": 36,
       "link": "/search/MOW2507YTO1?t=LH16587378001658866800002150SVOAERISTFRAYYZ_e8d9cd1c7472e0a8a2b35dacd48169fe_67148&search_date=19062022&expected_price_uuid=2b92e375-e311-47c5-9731-7242ff827819&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1154,
-      "departure_at": "2022-08-12T12:35:00+03:00",
-      "transfers": 2,
-      "duration": 2195,
-      "durationH": 37,
-      "link": "/search/MOW1208YTO1?t=DE16602969001660428600002195VKOEVNFRAYYZ_a518da75abaafcc3e9c3cfeab09188fa_66331&search_date=19062022&expected_price_uuid=24147c1b-3cd8-4e11-ba58-f3975eef6bce&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1678,34 +1689,12 @@ window.data = {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
-      "price": 1143,
-      "departure_at": "2022-07-24T16:45:00+03:00",
-      "transfers": 4,
-      "duration": 2740,
-      "durationH": 46,
-      "link": "/search/LED2407YTO1?t=MS16586703001658834700002740LEDAERISTSAWATHCAIYYZ_bf7d306d93b64306ec644630064311be_65745&search_date=19062022&expected_price_uuid=6e1e1354-bb7a-4ba7-8c04-edbf65e1e83a&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
       "price": 1168,
       "departure_at": "2022-08-20T15:25:00+03:00",
       "transfers": 3,
       "duration": 2863,
       "durationH": 48,
       "link": "/search/LED2008YTO1?t=UA16609983001661170080002863LEDISTLGWLHRBOSYYZ_452de50da8409da983768dc63c81028d_67154&search_date=19062022&expected_price_uuid=23f1d793-862a-45ad-ae70-4a2afd734334&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1144,
-      "departure_at": "2022-07-25T22:20:00+03:00",
-      "transfers": 5,
-      "duration": 2910,
-      "durationH": 49,
-      "link": "/search/LED2507YTO1?t=TS16587768001658951400002910LEDAERISTSAWOTPSTNFAOYYZ_f9bcf9b5de708465f9b48691169912c1_65803&search_date=19062022&expected_price_uuid=a46341b1-c8c7-40c6-9264-b317e18af737&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -1741,15 +1730,147 @@ window.data = {
       "link": "/search/MOW2708YTO1?t=FI16615620001661739300002955VKOESBFRAKEFYYZ_04bd090e824d2c0d9e88533193ace3fe_63807&search_date=19062022&expected_price_uuid=a44d8d6b-c23d-4384-a2bc-35b77e517fa2&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
+      "route": "LED-YVR",
+      "origin": "LED",
+      "destination": "YVR",
+      "price": 1116,
+      "departure_at": "2022-08-22T01:30:00+03:00",
+      "transfers": 5,
+      "duration": 3099,
+      "durationH": 52,
+      "link": "/search/LED2208YVR1?t=WS16611210001661306940003099LEDSVODMESAWSTNDUBYYZYVR_20da51088b30b0c9f2b54841e978d2ae_64148&search_date=16062022&expected_price_uuid=9fdb6cc5-6f26-4824-abab-71d21c515b1f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
       "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1215,
-      "departure_at": "2022-07-29T07:35:00+03:00",
-      "transfers": 1,
-      "duration": 1200,
-      "durationH": 20,
-      "link": "/search/MOW2907YMQ2?t=AT16590693001659141300001200DMECMNYUL_5dd574d34e7d1d1338f582f89d3e0076_139760&search_date=19062022&expected_price_uuid=2013f0c1-096e-49f3-9dcc-e441f30d8653&expected_price_currency=rub"
+      "destination": "YTO",
+      "price": 1092,
+      "departure_at": "2022-08-31T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 3290,
+      "durationH": 55,
+      "link": "/search/MOW3108YTO1?t=WS16619538001662151200003290SVOAERISTSAWBCNYYZ_bef44e1f392654093fbaed35527ec703_62793&search_date=20062022&expected_price_uuid=bd578529-ec42-4bff-99da-ba0a15dd4497&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1121,
+      "departure_at": "2022-09-27T19:55:00+03:00",
+      "transfers": 4,
+      "duration": 3373,
+      "durationH": 56,
+      "link": "/search/MOW2709YOW1?t=LO16642977001664500080003373DMEMSQGYDWAWYYZYOW_9a217510d8ae83173aad5582c4d2e55f_64485&search_date=19062022&expected_price_uuid=c3f25a06-9a7f-454e-9ed0-2b9252d09008&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1104,
+      "departure_at": "2022-09-05T11:10:00+03:00",
+      "transfers": 3,
+      "duration": 3480,
+      "durationH": 58,
+      "link": "/search/MOW0509YVR1?t=AC16623654001662574200003480SVOAERISTDUBYVR_7c09620f83efa0ad0297db3f360600b0_63501&search_date=18062022&expected_price_uuid=64fcc1df-95a9-4777-82a6-33efdbf4b3a8&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1100,
+      "departure_at": "2022-08-26T15:35:00+03:00",
+      "transfers": 4,
+      "duration": 3525,
+      "durationH": 59,
+      "link": "/search/LED2608YTO1?t=LH16615173001661728800003525LEDAERISTFRAYULYYZ_78eea28a1142f915a5f83be13dfce1aa_63232&search_date=18062022&expected_price_uuid=dfd5deb5-0090-4922-b899-519932736ead&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YVR",
+      "origin": "LED",
+      "destination": "YVR",
+      "price": 1083,
+      "departure_at": "2022-09-04T15:35:00+03:00",
+      "transfers": 4,
+      "duration": 3580,
+      "durationH": 60,
+      "link": "/search/LED0409YVR1?t=AC16622949001662509700003580LEDAERISTFRALHRYVR_733ee8c5c120e618f16c44857ac6eda8_62264&search_date=19062022&expected_price_uuid=db34bab1-e22f-4b50-a9dd-690399586b15&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1084,
+      "departure_at": "2022-07-28T20:10:00+03:00",
+      "transfers": 2,
+      "duration": 3975,
+      "durationH": 66,
+      "link": "/search/MOW2807YTO1?t=MS16590282001659266700003975SVOAERCAIYYZ_6d36af64acf611652055efcd93911a3e_62346&search_date=20062022&expected_price_uuid=17c87d15-cbfc-4fdd-8ec9-3eb637f664f1&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1227,
+      "departure_at": "2022-08-28T16:50:00+03:00",
+      "transfers": 3,
+      "duration": 1630,
+      "durationH": 27,
+      "link": "/search/MOW2808YTO1?t=AC16616946001661792400001630SVOAERISTDUBYYZ_b507ef8fabe8e0f5841b05bc2aa40c65_70580&search_date=20062022&expected_price_uuid=f239ed60-1514-4ac5-9f12-4ef510fee8d6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1241,
+      "departure_at": "2022-08-16T20:00:00+03:00",
+      "transfers": 3,
+      "duration": 2215,
+      "durationH": 37,
+      "link": "/search/MOW1608YVR2?t=TS16606692001660802100002215SVOBEGAMSYULYVR_80879c0f4f7094484a5c8d101a5b1fdc_142740&search_date=19062022&expected_price_uuid=04619b88-2cce-4f80-a568-7f9e32f90d21&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1230,
+      "departure_at": "2022-08-18T11:55:00+03:00",
+      "transfers": 2,
+      "duration": 2260,
+      "durationH": 38,
+      "link": "/search/MOW1808YTO1?t=TK16608129001660948500002260SVOAUHISTYYZ_fd8d7955c1489914cdaaef493de37a9b_70734&search_date=19062022&expected_price_uuid=2002e192-9a47-48f1-b4cf-230d4953b14e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1185,
+      "departure_at": "2022-08-11T10:20:00+03:00",
+      "transfers": 3,
+      "duration": 2350,
+      "durationH": 39,
+      "link": "/search/MOW1108YTO1?t=AC16602024001660343400002350SVOAERCAIMUCYYZ_8a7ec45b816fb91a1044b5e78170280e_68110&search_date=19062022&expected_price_uuid=115ee2cf-c6e5-40f4-84ab-3301c79a0500&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1143,
+      "departure_at": "2022-07-24T16:45:00+03:00",
+      "transfers": 4,
+      "duration": 2740,
+      "durationH": 46,
+      "link": "/search/LED2407YTO1?t=MS16586703001658834700002740LEDAERISTSAWATHCAIYYZ_bf7d306d93b64306ec644630064311be_65745&search_date=19062022&expected_price_uuid=6e1e1354-bb7a-4ba7-8c04-edbf65e1e83a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1144,
+      "departure_at": "2022-07-25T22:20:00+03:00",
+      "transfers": 5,
+      "duration": 2910,
+      "durationH": 49,
+      "link": "/search/LED2507YTO1?t=TS16587768001658951400002910LEDAERISTSAWOTPSTNFAOYYZ_f9bcf9b5de708465f9b48691169912c1_65803&search_date=19062022&expected_price_uuid=a46341b1-c8c7-40c6-9264-b317e18af737&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -1772,6 +1893,28 @@ window.data = {
       "duration": 2399,
       "durationH": 40,
       "link": "/search/LED1807YMQ1?t=HY16581276001658271540002399LEDVKODMETASJFKLGAYUL_0d2ffdccbaebe62bbc50d35fa61fe7ee_68618&search_date=16062022&expected_price_uuid=2a671a68-41e0-4307-9ee9-02ce2787b5f2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1222,
+      "departure_at": "2022-08-21T05:00:00+03:00",
+      "transfers": 3,
+      "duration": 2415,
+      "durationH": 40,
+      "link": "/search/MOW2108YMQ1?t=TS16610472001661192100002415VKOBJVARNLGWYUL_f4e7c5267f3a2b01157c5d229d8865cb_70262&search_date=19062022&expected_price_uuid=ab4880e1-e3ce-4e20-90ce-11be32a10873&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1205,
+      "departure_at": "2022-08-14T15:10:00+03:00",
+      "transfers": 3,
+      "duration": 2500,
+      "durationH": 42,
+      "link": "/search/MOW1408YVR2?t=TS16604790001660629000002500DMESAWAMSYYZYVR_9301d8634b75cbf8b2307b55cd5c6914_138558&search_date=17062022&expected_price_uuid=134f0769-5ed1-4250-8b48-74bc3e26fda4&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -1851,15 +1994,15 @@ window.data = {
       "link": "/search/MOW1307YTO1?t=HY16577352001657906980002863DMETASJFKBOSYYZ_31bcb36cfb5b8c0601d4280db347f907_67414&search_date=20062022&expected_price_uuid=13cfd95b-ec84-47aa-bf8a-b81aaa2fef1c&expected_price_currency=rub"
     },
     {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1116,
-      "departure_at": "2022-08-22T01:30:00+03:00",
-      "transfers": 5,
-      "duration": 3099,
-      "durationH": 52,
-      "link": "/search/LED2208YVR1?t=WS16611210001661306940003099LEDSVODMESAWSTNDUBYYZYVR_20da51088b30b0c9f2b54841e978d2ae_64148&search_date=16062022&expected_price_uuid=9fdb6cc5-6f26-4824-abab-71d21c515b1f&expected_price_currency=rub"
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1165,
+      "departure_at": "2022-08-14T20:15:00+03:00",
+      "transfers": 3,
+      "duration": 3065,
+      "durationH": 51,
+      "link": "/search/MOW1408YTO1?t=AC16604973001660681200003065VKOISTOTPFRAYYZ_03b3a542728af71338bc2caa0cfa9bbe_66985&search_date=19062022&expected_price_uuid=28152292-a40c-471a-ada1-3ada39a695b2&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -1871,6 +2014,17 @@ window.data = {
       "duration": 3120,
       "durationH": 52,
       "link": "/search/MOW2406YTO1?t=TP16560789001656266100003120DMECAIFRALISYYZ_80067c0fc52fcb5ff3fd8f1ac8daef7d_66191&search_date=19062022&expected_price_uuid=d1a80728-9f96-4851-8ddd-2aaa584f0178&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1155,
+      "departure_at": "2022-08-13T19:20:00+03:00",
+      "transfers": 3,
+      "duration": 3161,
+      "durationH": 53,
+      "link": "/search/MOW1308YMQ2?t=WS16604076001660597260003161ZIAISTDUBYHZYUL_11684523f0f0cd98017248c2d13734c7_132812&search_date=16062022&expected_price_uuid=c18d82cf-9c71-48a8-a594-fb026fb215ed&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -1895,59 +2049,26 @@ window.data = {
       "link": "/search/MOW2806YTO1?t=WS16564245001656620100003260DMECAILHRLGWYHZYYZ_566cb8b3a2d60e721819585b5ac5035a_63758&search_date=19062022&expected_price_uuid=72ee47ce-97ea-4905-ad2b-477d59ed6d10&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1171,
+      "departure_at": "2022-08-08T15:10:00+03:00",
+      "transfers": 3,
+      "duration": 3310,
+      "durationH": 55,
+      "link": "/search/MOW0808YMQ1?t=TP16599606001660159200003310DMESAWORYLISYUL_1471c246f3672056fdefb0deaf4113e3_67349&search_date=18062022&expected_price_uuid=d1969ffa-46db-4895-977f-d7caf91cd5f5&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1092,
-      "departure_at": "2022-08-31T16:50:00+03:00",
+      "price": 1150,
+      "departure_at": "2022-08-08T11:30:00+03:00",
       "transfers": 3,
-      "duration": 3290,
-      "durationH": 55,
-      "link": "/search/MOW3108YTO1?t=WS16619538001662151200003290SVOAERISTSAWBCNYYZ_bef44e1f392654093fbaed35527ec703_62793&search_date=20062022&expected_price_uuid=bd578529-ec42-4bff-99da-ba0a15dd4497&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1121,
-      "departure_at": "2022-09-27T19:55:00+03:00",
-      "transfers": 4,
-      "duration": 3373,
-      "durationH": 56,
-      "link": "/search/MOW2709YOW1?t=LO16642977001664500080003373DMEMSQGYDWAWYYZYOW_9a217510d8ae83173aad5582c4d2e55f_64485&search_date=19062022&expected_price_uuid=c3f25a06-9a7f-454e-9ed0-2b9252d09008&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1104,
-      "departure_at": "2022-09-05T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 3480,
-      "durationH": 58,
-      "link": "/search/MOW0509YVR1?t=AC16623654001662574200003480SVOAERISTDUBYVR_7c09620f83efa0ad0297db3f360600b0_63501&search_date=18062022&expected_price_uuid=64fcc1df-95a9-4777-82a6-33efdbf4b3a8&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1100,
-      "departure_at": "2022-08-26T15:35:00+03:00",
-      "transfers": 4,
-      "duration": 3525,
-      "durationH": 59,
-      "link": "/search/LED2608YTO1?t=LH16615173001661728800003525LEDAERISTFRAYULYYZ_78eea28a1142f915a5f83be13dfce1aa_63232&search_date=18062022&expected_price_uuid=dfd5deb5-0090-4922-b899-519932736ead&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1083,
-      "departure_at": "2022-09-04T15:35:00+03:00",
-      "transfers": 4,
-      "duration": 3580,
-      "durationH": 60,
-      "link": "/search/LED0409YVR1?t=AC16622949001662509700003580LEDAERISTFRALHRYVR_733ee8c5c120e618f16c44857ac6eda8_62264&search_date=19062022&expected_price_uuid=db34bab1-e22f-4b50-a9dd-690399586b15&expected_price_currency=rub"
+      "duration": 3860,
+      "durationH": 64,
+      "link": "/search/MOW0808YTO1?t=AC16599474001660179000003860SVOAERISTLHRYYZ_99a533a8af2b40cb10a647f56f60761b_66103&search_date=20062022&expected_price_uuid=7bb4fe8a-b145-4871-b704-c3c5554c4b9a&expected_price_currency=rub"
     },
     {
       "route": "MOW-YHZ",
@@ -1959,6 +2080,17 @@ window.data = {
       "duration": 4182,
       "durationH": 70,
       "link": "/search/MOW2309YHZ1?t=WS16639503001664201220004182VKOEVNWAWLHRSTNDUBYHZ_000a601ca5b33adc3c67e305f5fb2e1d_65088&search_date=15062022&expected_price_uuid=e522b757-4b78-4e8a-b3b1-1b012168ed3b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1212,
+      "departure_at": "2022-08-03T07:35:00+03:00",
+      "transfers": 1,
+      "duration": 1200,
+      "durationH": 20,
+      "link": "/search/MOW0308YMQ1?t=AT16595013001659573300001200DMECMNYUL_806f5acc35c65b875515f972d1dd892e_69690&search_date=19062022&expected_price_uuid=401bae10-e9be-4741-bcf7-d592e8551519&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -2016,6 +2148,28 @@ window.data = {
       "link": "/search/MOW3108YVR2?t=DE16619682001662101460002221DMETASFRASEAYVR_1eb08a27e0d76a8ddac6448943122c15_134318&search_date=19062022&expected_price_uuid=d62f6c0d-9727-44fa-991e-8bb26b4f8fc4&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1169,
+      "departure_at": "2022-09-28T10:20:00+03:00",
+      "transfers": 3,
+      "duration": 2508,
+      "durationH": 42,
+      "link": "/search/MOW2809YOW1?t=LO16643496001664500080002508VKOGYDWAWYYZYOW_a7b67a71184ac6f5d95d1284acc16bfe_67228&search_date=20062022&expected_price_uuid=1dd3b534-2685-4043-a30a-7b2437a088a7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1265,
+      "departure_at": "2022-08-07T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 1745,
+      "durationH": 29,
+      "link": "/search/MOW0708YVR1?t=DE16598946001659999300001745DMETASFRAYVR_75fdac52eaeb78ba9f7660b8f8f7aa28_72764&search_date=18062022&expected_price_uuid=4c285c64-7dfc-4d43-88be-4d068d71f19b&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
@@ -2025,39 +2179,6 @@ window.data = {
       "duration": 1985,
       "durationH": 33,
       "link": "/search/MOW0508YTO1?t=DE16597047001659823800001985VKOEVNFRAYYZ_9076b6b5379df699579e065d30cdc63f_70859&search_date=19062022&expected_price_uuid=bc5a3f0d-60e5-46de-94fd-e7311ee9ff96&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1230,
-      "departure_at": "2022-08-18T11:55:00+03:00",
-      "transfers": 2,
-      "duration": 2260,
-      "durationH": 38,
-      "link": "/search/MOW1808YTO1?t=TK16608129001660948500002260SVOAUHISTYYZ_fd8d7955c1489914cdaaef493de37a9b_70734&search_date=19062022&expected_price_uuid=2002e192-9a47-48f1-b4cf-230d4953b14e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1185,
-      "departure_at": "2022-08-11T10:20:00+03:00",
-      "transfers": 3,
-      "duration": 2350,
-      "durationH": 39,
-      "link": "/search/MOW1108YTO1?t=AC16602024001660343400002350SVOAERCAIMUCYYZ_8a7ec45b816fb91a1044b5e78170280e_68110&search_date=19062022&expected_price_uuid=115ee2cf-c6e5-40f4-84ab-3301c79a0500&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1222,
-      "departure_at": "2022-08-21T05:00:00+03:00",
-      "transfers": 3,
-      "duration": 2415,
-      "durationH": 40,
-      "link": "/search/MOW2108YMQ1?t=TS16610472001661192100002415VKOBJVARNLGWYUL_f4e7c5267f3a2b01157c5d229d8865cb_70262&search_date=19062022&expected_price_uuid=ab4880e1-e3ce-4e20-90ce-11be32a10873&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -2071,26 +2192,15 @@ window.data = {
       "link": "/search/LED2706YTO2?t=HY16563582001656504480002438LEDTASLHRBOSYYZ_5ce000cb03bd5cb4babfe215366cd640_139233&search_date=16062022&expected_price_uuid=cded8822-4a8e-439d-8f6c-b1a10c9265a5&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YVR",
-      "origin": "MOW",
+      "route": "LED-YVR",
+      "origin": "LED",
       "destination": "YVR",
-      "price": 1205,
-      "departure_at": "2022-08-14T15:10:00+03:00",
-      "transfers": 3,
-      "duration": 2500,
-      "durationH": 42,
-      "link": "/search/MOW1408YVR2?t=TS16604790001660629000002500DMESAWAMSYYZYVR_9301d8634b75cbf8b2307b55cd5c6914_138558&search_date=17062022&expected_price_uuid=134f0769-5ed1-4250-8b48-74bc3e26fda4&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1169,
-      "departure_at": "2022-09-28T10:20:00+03:00",
-      "transfers": 3,
-      "duration": 2508,
-      "durationH": 42,
-      "link": "/search/MOW2809YOW1?t=LO16643496001664500080002508VKOGYDWAWYYZYOW_a7b67a71184ac6f5d95d1284acc16bfe_67228&search_date=20062022&expected_price_uuid=1dd3b534-2685-4043-a30a-7b2437a088a7&expected_price_currency=rub"
+      "price": 1245,
+      "departure_at": "2022-08-08T09:20:00+03:00",
+      "transfers": 5,
+      "duration": 2565,
+      "durationH": 43,
+      "link": "/search/LED0808YVR1?t=WS16599396001660093500002565LEDDMESAWSTNDUBYYZYVR_6c32cbf80d7c99d9b9e2708b21e5cbb6_71598&search_date=17062022&expected_price_uuid=156b7de9-cea7-4a84-b829-8a4cf35949d5&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -2126,17 +2236,6 @@ window.data = {
       "link": "/search/LED0808YTO1?t=AC16599063001660070940002744LEDAERISTLHRYULYTZ_2f8f8f9ee034c63ce271169603e40467_66574&search_date=19062022&expected_price_uuid=3bc3ebc7-cde8-4270-bce2-46935924843e&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1170,
-      "departure_at": "2022-08-01T22:55:00+03:00",
-      "transfers": 3,
-      "duration": 2748,
-      "durationH": 46,
-      "link": "/search/MOW0108YTO1?t=JU16593837001659548580002748SVOBEGJFKBOSYYZ_05a9631d70366de394e4d345192b1787_67269&search_date=20062022&expected_price_uuid=0091eca5-d068-48db-8b0c-27b2d855b7d2&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -2148,28 +2247,6 @@ window.data = {
       "link": "/search/MOW0207YMQ1?t=TP16567638001656962400003310DMESAWORYLISYUL_461604fc5230b8c5ae944937b32e270f_67442&search_date=13062022&expected_price_uuid=70f822a7-03a8-4f55-b2f7-8e19b5c3c25c&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1123,
-      "departure_at": "2022-08-07T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 3335,
-      "durationH": 56,
-      "link": "/search/MOW0708YTO1?t=AC16598925001660092600003335VKOISTLHRYYZ_78693ee992efa6f075fba7e9664d2df6_64583&search_date=19062022&expected_price_uuid=e022e8d4-c057-4983-b48c-c712ebca4020&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1166,
-      "departure_at": "2022-07-24T04:30:00+03:00",
-      "transfers": 4,
-      "duration": 3475,
-      "durationH": 58,
-      "link": "/search/MOW2407YTO1?t=MS16586262001658834700003475SVOAERISTATHCAIYYZ_d79c2f791648866464a0261cc9cdd2c1_67065&search_date=19062022&expected_price_uuid=5390987e-bd00-435a-8ca2-d627de228c7c&expected_price_currency=rub"
-    },
-    {
       "route": "LED-YMQ",
       "origin": "LED",
       "destination": "YMQ",
@@ -2179,72 +2256,6 @@ window.data = {
       "duration": 3665,
       "durationH": 61,
       "link": "/search/LED2406YMQ1?t=TP16560513001656271200003665LEDSVODMECAICDGDUBLISYUL_103908dd4dbb8cd30bed872d2421aafa_66935&search_date=18062022&expected_price_uuid=9ca75eeb-73f7-468e-9ac4-0e005b767a50&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1185,
-      "departure_at": "2022-07-07T07:55:00+03:00",
-      "transfers": 5,
-      "duration": 3706,
-      "durationH": 62,
-      "link": "/search/LED0707YTO1?t=WS16571697001657392060003706LEDMRVISTSAWOTPDUBYHZYYZ_3b2c60d5893f3e83d5fbacf897679330_68127&search_date=18062022&expected_price_uuid=a6a0d3ca-ca06-4634-96cc-0ddb922436b3&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1180,
-      "departure_at": "2022-07-04T01:45:00+03:00",
-      "transfers": 3,
-      "duration": 3915,
-      "durationH": 65,
-      "link": "/search/MOW0407YMQ1?t=SN16568883001657123200003915SVOAEREVNBRUYUL_05939dcc2c4952c12f7cfb4b10a20e96_67822&search_date=17062022&expected_price_uuid=f1769ab5-4cf8-426e-8318-502f6e613e68&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1166,
-      "departure_at": "2022-07-23T16:50:00+03:00",
-      "transfers": 4,
-      "duration": 4175,
-      "durationH": 70,
-      "link": "/search/MOW2307YTO1?t=MS16585842001658834700004175SVOAERISTATHCAIYYZ_13ad1299e4e4c8215314a413b3f93692_67065&search_date=19062022&expected_price_uuid=6b4e9195-4dfc-4208-8286-5bfe7b7fd732&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1231,
-      "departure_at": "2022-07-27T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 1905,
-      "durationH": 32,
-      "link": "/search/MOW2707YTO2?t=AT16588965001659010800001905DMECMNYULYYZ_91183dff47e183768924a4557a3c1f0c_141578&search_date=19062022&expected_price_uuid=d21177e6-57bd-4801-b3e9-eb9908035639&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1229,
-      "departure_at": "2022-07-22T07:35:00+03:00",
-      "transfers": 2,
-      "duration": 1905,
-      "durationH": 32,
-      "link": "/search/MOW2207YTO1?t=AT16584645001658578800001905DMECMNYULYYZ_9caec6a3271d4830a212bfd5930f18b8_70667&search_date=19062022&expected_price_uuid=1db24016-8887-4c08-a3e0-fcb033c3cfba&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1304,
-      "departure_at": "2022-07-01T16:05:00+03:00",
-      "transfers": 2,
-      "duration": 1985,
-      "durationH": 33,
-      "link": "/search/MOW0107YTO1?t=DE16566807001656799800001985VKOEVNFRAYYZ_0aa1bdf10c1342795ef9b8f5dd846efe_75007&search_date=20062022&expected_price_uuid=0bfcf4a9-ab6b-4061-89e8-d50e985abc04&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -2283,17 +2294,6 @@ window.data = {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
-      "price": 1251,
-      "departure_at": "2022-07-01T23:45:00+03:00",
-      "transfers": 2,
-      "duration": 2755,
-      "durationH": 46,
-      "link": "/search/MOW0107YMQ1?t=QR16567083001656873600002755DMEGYDDOHYUL_584eef488d19fe581eec30887fe4bbc6_71926&search_date=18062022&expected_price_uuid=0a5b92dc-11a2-425d-bb57-df7aee89919a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
       "price": 1203,
       "departure_at": "2022-07-10T23:00:00+03:00",
       "transfers": 4,
@@ -2313,17 +2313,6 @@ window.data = {
       "link": "/search/MOW1607YMQ1?t=QR16579956001658169600002900DMETASGYDDOHYUL_0060dad57857a3f104b151d471abd664_68572&search_date=19062022&expected_price_uuid=8eeb330c-7b47-4df4-b59f-2b16ff6b9ca6&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1214,
-      "departure_at": "2022-08-01T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 2910,
-      "durationH": 49,
-      "link": "/search/MOW0108YMQ1?t=AT16593621001659536700002910DMECAICMNYUL_456d70c6ef106bb4f869d396633d381d_69792&search_date=18062022&expected_price_uuid=1de03c83-a750-4ca0-a684-ff5e0f568ea2&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
@@ -2335,15 +2324,15 @@ window.data = {
       "link": "/search/MOW3107YTO1?t=MS16592577001659439500003030SVOAUHTLVCAIYYZ_1120c2aee28ad5b12928d3fe10e5a02e_70288&search_date=19062022&expected_price_uuid=c3906321-7626-4004-bf77-54abaf2d89be&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
+      "route": "MOW-YOW",
       "origin": "MOW",
-      "destination": "YTO",
-      "price": 1165,
-      "departure_at": "2022-08-14T20:15:00+03:00",
+      "destination": "YOW",
+      "price": 1234,
+      "departure_at": "2022-07-06T21:00:00+03:00",
       "transfers": 3,
-      "duration": 3065,
+      "duration": 3069,
       "durationH": 51,
-      "link": "/search/MOW1408YTO1?t=AC16604973001660681200003065VKOISTOTPFRAYYZ_03b3a542728af71338bc2caa0cfa9bbe_66985&search_date=19062022&expected_price_uuid=28152292-a40c-471a-ada1-3ada39a695b2&expected_price_currency=rub"
+      "link": "/search/MOW0607YOW1?t=DE16571304001657314540003069DMETASFRAYHZYOW_a12c8acbc6fad5f07aa9427d75b62ee6_70962&search_date=14062022&expected_price_uuid=edfec75e-6d53-4c1c-bfaf-c99adfb83413&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -2357,48 +2346,15 @@ window.data = {
       "link": "/search/MOW1507YOW1?t=MS16578897001658077740003134SVOAERISTCAIYYZYOW_a8f0e39a8064d6b92e151758ecf68009_69187&search_date=13062022&expected_price_uuid=9dfc3d0e-8091-464e-a2d2-bf7c29f53e85&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1212,
-      "departure_at": "2022-08-28T21:30:00+03:00",
-      "transfers": 4,
-      "duration": 3150,
-      "durationH": 53,
-      "link": "/search/MOW2808YMQ2?t=AC16617114001661900400003150VKOCITALAISTMUCYUL_f7d5d1f637a504bc7709d62c3f255716_139350&search_date=17062022&expected_price_uuid=36d4d3c8-8b9e-4dda-b4ea-e9e9563cd60f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1155,
-      "departure_at": "2022-08-13T19:20:00+03:00",
-      "transfers": 3,
-      "duration": 3161,
-      "durationH": 53,
-      "link": "/search/MOW1308YMQ2?t=WS16604076001660597260003161ZIAISTDUBYHZYUL_11684523f0f0cd98017248c2d13734c7_132812&search_date=16062022&expected_price_uuid=c18d82cf-9c71-48a8-a594-fb026fb215ed&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1171,
-      "departure_at": "2022-08-08T15:10:00+03:00",
-      "transfers": 3,
-      "duration": 3310,
-      "durationH": 55,
-      "link": "/search/MOW0808YMQ1?t=TP16599606001660159200003310DMESAWORYLISYUL_1471c246f3672056fdefb0deaf4113e3_67349&search_date=18062022&expected_price_uuid=d1969ffa-46db-4895-977f-d7caf91cd5f5&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1255,
-      "departure_at": "2022-07-03T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 3235,
-      "durationH": 54,
-      "link": "/search/MOW0307YTO1?t=TS16568565001657050600003235DMECAILHRSTNDUBYYZ_fee6540f607d42eda23e9f8ed922741f_72165&search_date=19062022&expected_price_uuid=7897f1e5-5a05-4dda-b817-756da14ceea0&expected_price_currency=rub"
+      "price": 1166,
+      "departure_at": "2022-07-24T04:30:00+03:00",
+      "transfers": 4,
+      "duration": 3475,
+      "durationH": 58,
+      "link": "/search/MOW2407YTO1?t=MS16586262001658834700003475SVOAERISTATHCAIYYZ_d79c2f791648866464a0261cc9cdd2c1_67065&search_date=19062022&expected_price_uuid=5390987e-bd00-435a-8ca2-d627de228c7c&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -2410,17 +2366,6 @@ window.data = {
       "duration": 3373,
       "durationH": 56,
       "link": "/search/MOW2606YOW1?t=WS16562517001656454080003373DMECAIMXPSTNLGWYHZYYZYOW_74911f3a1a0e50fd64face04ab2cc8e2_71523&search_date=18062022&expected_price_uuid=76110cd3-be7b-4dfc-8898-487478b5be57&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1232,
-      "departure_at": "2022-07-17T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 3380,
-      "durationH": 56,
-      "link": "/search/MOW1707YTO1?t=TS16580658001658268600003380SVOAERISTSAWATHYYZ_1095929af967aea2aead1f9e29f8b09f_70846&search_date=19062022&expected_price_uuid=7808f49d-e021-460a-92b7-87d9edd6fab8&expected_price_currency=rub"
     },
     {
       "route": "LED-YOW",
@@ -2437,56 +2382,23 @@ window.data = {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
-      "price": 1194,
-      "departure_at": "2022-08-03T15:35:00+03:00",
-      "transfers": 4,
-      "duration": 3515,
-      "durationH": 59,
-      "link": "/search/LED0308YTO1?t=FI16595301001659741000003515LEDAERISTSAWSTNLTNKEFYYZ_d184c9311a53bcb20b8d30deeec0b152_68640&search_date=16062022&expected_price_uuid=caffc6ee-039d-4d74-8267-7193c00e1303&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YMQ",
-      "origin": "LED",
-      "destination": "YMQ",
-      "price": 1191,
-      "departure_at": "2022-07-22T10:25:00+03:00",
-      "transfers": 2,
-      "duration": 3555,
-      "durationH": 59,
-      "link": "/search/LED2207YMQ1?t=QR16584747001658688000003555LEDGYDDOHYUL_19095144303f54c35f51a36520b2249e_68469&search_date=15062022&expected_price_uuid=99be8152-7a10-4de7-b5b2-9522d0456ebe&expected_price_currency=rub"
+      "price": 1185,
+      "departure_at": "2022-07-07T07:55:00+03:00",
+      "transfers": 5,
+      "duration": 3706,
+      "durationH": 62,
+      "link": "/search/LED0707YTO1?t=WS16571697001657392060003706LEDMRVISTSAWOTPDUBYHZYYZ_3b2c60d5893f3e83d5fbacf897679330_68127&search_date=18062022&expected_price_uuid=a6a0d3ca-ca06-4634-96cc-0ddb922436b3&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
-      "price": 1187,
-      "departure_at": "2022-08-25T11:10:00+03:00",
+      "price": 1180,
+      "departure_at": "2022-07-04T01:45:00+03:00",
       "transfers": 3,
-      "duration": 3605,
-      "durationH": 60,
-      "link": "/search/MOW2508YMQ1?t=LH16614150001661631300003605SVOAERISTFRAYUL_3e495b7a44a16e4a2f278f1c6ee73cda_68259&search_date=18062022&expected_price_uuid=5ccad213-2d64-48dc-b699-07e25839d1c7&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1184,
-      "departure_at": "2022-08-02T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 3610,
-      "durationH": 60,
-      "link": "/search/MOW0208YTO1?t=LH16594278001659644400003610SVOAERISTFRAYYZ_51d6a2ed29145657a2bda63b9f662bca_68052&search_date=20062022&expected_price_uuid=3f057c32-1cdf-4d1d-8594-7755d1c51ce8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1150,
-      "departure_at": "2022-08-08T11:30:00+03:00",
-      "transfers": 3,
-      "duration": 3860,
-      "durationH": 64,
-      "link": "/search/MOW0808YTO1?t=AC16599474001660179000003860SVOAERISTLHRYYZ_99a533a8af2b40cb10a647f56f60761b_66103&search_date=20062022&expected_price_uuid=7bb4fe8a-b145-4871-b704-c3c5554c4b9a&expected_price_currency=rub"
+      "duration": 3915,
+      "durationH": 65,
+      "link": "/search/MOW0407YMQ1?t=SN16568883001657123200003915SVOAEREVNBRUYUL_05939dcc2c4952c12f7cfb4b10a20e96_67822&search_date=17062022&expected_price_uuid=f1769ab5-4cf8-426e-8318-502f6e613e68&expected_price_currency=rub"
     },
     {
       "route": "LED-YHZ",
@@ -2500,136 +2412,59 @@ window.data = {
       "link": "/search/LED0108YHZ1?t=AC16593816001659632100004175LEDAERISTLHRYHZ_c28e93b916239e332b1c1c237dc69144_68257&search_date=17062022&expected_price_uuid=84101393-7387-479c-a228-9e047a21230c&expected_price_currency=rub"
     },
     {
-      "route": "LED-YMQ",
-      "origin": "LED",
-      "destination": "YMQ",
-      "price": 1271,
-      "departure_at": "2022-08-03T01:30:00+03:00",
-      "transfers": 2,
-      "duration": 1565,
-      "durationH": 26,
-      "link": "/search/LED0308YMQ3?t=AT16594794001659573300001565LEDSVODMECMNYUL_dc951d49662e5ba988a0eae6018b799e_219182&search_date=18062022&expected_price_uuid=99814bcc-1318-4c55-a505-4daf1f7666cf&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1265,
-      "departure_at": "2022-08-07T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 1745,
-      "durationH": 29,
-      "link": "/search/MOW0708YVR1?t=DE16598946001659999300001745DMETASFRAYVR_75fdac52eaeb78ba9f7660b8f8f7aa28_72764&search_date=18062022&expected_price_uuid=4c285c64-7dfc-4d43-88be-4d068d71f19b&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1302,
-      "departure_at": "2022-07-12T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1940,
-      "durationH": 32,
-      "link": "/search/LED1207YTO1?t=AC16576293001657745700001940LEDAERISTLHRYYZ_a69f9fc8aea44a2c2ceb9f8a648660f9_74890&search_date=17062022&expected_price_uuid=0f3a5b29-c006-4c30-84cb-b01c81bd3998&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1315,
-      "departure_at": "2022-07-20T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 1970,
-      "durationH": 33,
-      "link": "/search/MOW2007YMQ2?t=SN16583010001658419200001970VKOEVNBRUYUL_0ce0c34b04585a8500fc3e7b32dfb251_151280&search_date=19062022&expected_price_uuid=c1e4ebdd-ebad-4548-9533-690d03a54403&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1287,
-      "departure_at": "2022-07-24T09:40:00+03:00",
-      "transfers": 2,
-      "duration": 2160,
-      "durationH": 36,
-      "link": "/search/MOW2407YMQ1?t=QR16586448001658774400002160VKOGYDDOHYUL_8631168205857b85d0b4b50d88b8a7d8_74030&search_date=19062022&expected_price_uuid=432371d3-888b-4835-969c-0a0edf0ce2c0&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1281,
-      "departure_at": "2022-07-19T09:45:00+03:00",
-      "transfers": 3,
-      "duration": 2265,
-      "durationH": 38,
-      "link": "/search/MOW1907YTO1?t=AC16582131001658349000002265VKOGRVISTATHYYZ_fbfcf396014f3f7cf13d940e53b59512_73630&search_date=20062022&expected_price_uuid=56fd258f-73fe-43c7-9741-1c3f99ecc8d7&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1310,
-      "departure_at": "2022-07-13T09:45:00+03:00",
-      "transfers": 3,
-      "duration": 2285,
-      "durationH": 38,
-      "link": "/search/MOW1307YMQ1?t=AC16576947001657831800002285VKOGRVISTATHYUL_6741c439657ddc14a1e555f95fc3de5e_75313&search_date=19062022&expected_price_uuid=2912059b-8ad8-4455-bc1e-c26a3a14370a&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1294,
-      "departure_at": "2022-07-27T05:50:00+03:00",
+      "price": 1166,
+      "departure_at": "2022-07-23T16:50:00+03:00",
       "transfers": 4,
-      "duration": 2405,
-      "durationH": 40,
-      "link": "/search/LED2707YTO1?t=AC16588902001659034500002405LEDSVOMRVISTLHRYYZ_5e58882c820d3583953f28968d970298_74388&search_date=19062022&expected_price_uuid=646ae1e4-d9a1-44af-a61d-06b586ff8852&expected_price_currency=rub"
+      "duration": 4175,
+      "durationH": 70,
+      "link": "/search/MOW2307YTO1?t=MS16585842001658834700004175SVOAERISTATHCAIYYZ_13ad1299e4e4c8215314a413b3f93692_67065&search_date=19062022&expected_price_uuid=6b4e9195-4dfc-4208-8286-5bfe7b7fd732&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1285,
-      "departure_at": "2022-07-21T02:55:00+03:00",
+      "price": 1155,
+      "departure_at": "2022-07-04T23:45:00+03:00",
+      "transfers": 4,
+      "duration": 4300,
+      "durationH": 72,
+      "link": "/search/MOW0407YTO1?t=TS16569675001657225500004300DMEGYDAYTSTNLTNOPOYYZ_1c9bc44dfea87dfd35316777e499fd60_66420&search_date=19062022&expected_price_uuid=2591c2c5-0d37-4d26-a0a8-91b5c85f744d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1229,
+      "departure_at": "2022-07-22T07:35:00+03:00",
+      "transfers": 2,
+      "duration": 1905,
+      "durationH": 32,
+      "link": "/search/MOW2207YTO1?t=AT16584645001658578800001905DMECMNYULYYZ_9caec6a3271d4830a212bfd5930f18b8_70667&search_date=19062022&expected_price_uuid=1db24016-8887-4c08-a3e0-fcb033c3cfba&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1170,
+      "departure_at": "2022-08-01T22:55:00+03:00",
       "transfers": 3,
-      "duration": 2675,
-      "durationH": 45,
-      "link": "/search/MOW2107YTO1?t=AC16583613001658521800002675SVOAEREVNATHYYZ_2448318a4baf2812dd30fe7eb8fe39df_73870&search_date=19062022&expected_price_uuid=f8b02df5-f406-4fac-82bd-9141d96ba52c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1253,
-      "departure_at": "2022-07-20T04:30:00+03:00",
-      "transfers": 5,
-      "duration": 2765,
+      "duration": 2748,
       "durationH": 46,
-      "link": "/search/MOW2007YTO1?t=S416582806001658446500002765SVOAERISTFRALISPDLYYZ_2390efbadf7acd7e1337f89af1468a65_72048&search_date=19062022&expected_price_uuid=8c088f17-089e-45fb-98ba-568155af8667&expected_price_currency=rub"
+      "link": "/search/MOW0108YTO1?t=JU16593837001659548580002748SVOBEGJFKBOSYYZ_05a9631d70366de394e4d345192b1787_67269&search_date=20062022&expected_price_uuid=0091eca5-d068-48db-8b0c-27b2d855b7d2&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1296,
-      "departure_at": "2022-07-15T02:55:00+03:00",
+      "price": 1229,
+      "departure_at": "2022-08-15T22:55:00+03:00",
       "transfers": 3,
-      "duration": 2775,
+      "duration": 2749,
       "durationH": 46,
-      "link": "/search/MOW1507YTO1?t=TS16578429001658009400002775VKOEVNISTSAWATHYYZ_d2831019fcb633a59611d31abfd0929f_74546&search_date=20062022&expected_price_uuid=3d0fea6e-63e7-41e5-8794-d930cd2b2c1f&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1260,
-      "departure_at": "2022-07-12T01:20:00+03:00",
-      "transfers": 3,
-      "duration": 2795,
-      "durationH": 47,
-      "link": "/search/MOW1207YTO1?t=AC16575780001657745700002795VKOGRVISTLHRYYZ_5dd04d72721937ba7d6b35f2a6e9c735_72425&search_date=19062022&expected_price_uuid=ef2bb076-20c3-4850-b6a5-588b214dc85e&expected_price_currency=rub"
+      "link": "/search/MOW1508YTO1?t=JU16605933001660758240002749SVOBEGJFKBOSYYZ_c3424d2fc0d9ab75f7764747d8f19509_70645&search_date=19062022&expected_price_uuid=7f15b022-ef26-4642-a711-021b47e8b52c&expected_price_currency=rub"
     },
     {
       "route": "MOW-YHZ",
@@ -2676,6 +2511,325 @@ window.data = {
       "link": "/search/MOW1209YHZ1?t=QR16630029001663175520002877SVODOHPHLYHZ_d14b4a04eb0133aaf90b3d7322e14928_69394&search_date=16062022&expected_price_uuid=a74d74d4-500b-4184-abce-f6d225ecde0a&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1227,
+      "departure_at": "2022-08-10T20:50:00+03:00",
+      "transfers": 3,
+      "duration": 2880,
+      "durationH": 48,
+      "link": "/search/MOW1008YVR1?t=DE16601538001660326600002880DMETASFRAYHZYVR_1a78b55391481f638205530edca86b83_70529&search_date=18062022&expected_price_uuid=ba9d1c66-f0f9-4f04-b141-1f70fdeb98ee&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1265,
+      "departure_at": "2022-08-14T01:50:00+03:00",
+      "transfers": 5,
+      "duration": 2910,
+      "durationH": 49,
+      "link": "/search/MOW1408YMQ1?t=WS16604310001660605600002910VKODXBOTPSTNDUBYYZYUL_fe2afba77f55e9cb26e5df7b15f888d8_72715&search_date=20062022&expected_price_uuid=200b3d0d-00b1-498f-8aa0-090321aa7c73&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1214,
+      "departure_at": "2022-08-01T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 2910,
+      "durationH": 49,
+      "link": "/search/MOW0108YMQ1?t=AT16593621001659536700002910DMECAICMNYUL_456d70c6ef106bb4f869d396633d381d_69792&search_date=18062022&expected_price_uuid=1de03c83-a750-4ca0-a684-ff5e0f568ea2&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1212,
+      "departure_at": "2022-08-28T21:30:00+03:00",
+      "transfers": 4,
+      "duration": 3150,
+      "durationH": 53,
+      "link": "/search/MOW2808YMQ2?t=AC16617114001661900400003150VKOCITALAISTMUCYUL_f7d5d1f637a504bc7709d62c3f255716_139350&search_date=17062022&expected_price_uuid=36d4d3c8-8b9e-4dda-b4ea-e9e9563cd60f&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1194,
+      "departure_at": "2022-08-03T15:35:00+03:00",
+      "transfers": 4,
+      "duration": 3515,
+      "durationH": 59,
+      "link": "/search/LED0308YTO1?t=FI16595301001659741000003515LEDAERISTSAWSTNLTNKEFYYZ_d184c9311a53bcb20b8d30deeec0b152_68640&search_date=16062022&expected_price_uuid=caffc6ee-039d-4d74-8267-7193c00e1303&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YMQ",
+      "origin": "LED",
+      "destination": "YMQ",
+      "price": 1191,
+      "departure_at": "2022-07-22T10:25:00+03:00",
+      "transfers": 2,
+      "duration": 3555,
+      "durationH": 59,
+      "link": "/search/LED2207YMQ1?t=QR16584747001658688000003555LEDGYDDOHYUL_19095144303f54c35f51a36520b2249e_68469&search_date=15062022&expected_price_uuid=99be8152-7a10-4de7-b5b2-9522d0456ebe&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1184,
+      "departure_at": "2022-08-02T11:10:00+03:00",
+      "transfers": 3,
+      "duration": 3610,
+      "durationH": 60,
+      "link": "/search/MOW0208YTO1?t=LH16594278001659644400003610SVOAERISTFRAYYZ_51d6a2ed29145657a2bda63b9f662bca_68052&search_date=20062022&expected_price_uuid=3f057c32-1cdf-4d1d-8594-7755d1c51ce8&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YMQ",
+      "origin": "LED",
+      "destination": "YMQ",
+      "price": 1271,
+      "departure_at": "2022-08-03T01:30:00+03:00",
+      "transfers": 2,
+      "duration": 1565,
+      "durationH": 26,
+      "link": "/search/LED0308YMQ3?t=AT16594794001659573300001565LEDSVODMECMNYUL_dc951d49662e5ba988a0eae6018b799e_219182&search_date=18062022&expected_price_uuid=99814bcc-1318-4c55-a505-4daf1f7666cf&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1286,
+      "departure_at": "2022-09-10T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 1891,
+      "durationH": 32,
+      "link": "/search/MOW1009YVR2?t=QR16628301001662943560001891SVODOHSEAYVR_14b28fe3ed9a306f6ba69c3f811e42a5_147866&search_date=19062022&expected_price_uuid=d1ab0fa4-3854-4458-9484-0fd7835f5d5a&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1302,
+      "departure_at": "2022-07-12T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 1940,
+      "durationH": 32,
+      "link": "/search/LED1207YTO1?t=AC16576293001657745700001940LEDAERISTLHRYYZ_a69f9fc8aea44a2c2ceb9f8a648660f9_74890&search_date=17062022&expected_price_uuid=0f3a5b29-c006-4c30-84cb-b01c81bd3998&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1315,
+      "departure_at": "2022-07-20T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 1970,
+      "durationH": 33,
+      "link": "/search/MOW2007YMQ2?t=SN16583010001658419200001970VKOEVNBRUYUL_0ce0c34b04585a8500fc3e7b32dfb251_151280&search_date=19062022&expected_price_uuid=c1e4ebdd-ebad-4548-9533-690d03a54403&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1304,
+      "departure_at": "2022-07-01T16:05:00+03:00",
+      "transfers": 2,
+      "duration": 1985,
+      "durationH": 33,
+      "link": "/search/MOW0107YTO1?t=DE16566807001656799800001985VKOEVNFRAYYZ_0aa1bdf10c1342795ef9b8f5dd846efe_75007&search_date=20062022&expected_price_uuid=0bfcf4a9-ab6b-4061-89e8-d50e985abc04&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1287,
+      "departure_at": "2022-07-24T09:40:00+03:00",
+      "transfers": 2,
+      "duration": 2160,
+      "durationH": 36,
+      "link": "/search/MOW2407YMQ1?t=QR16586448001658774400002160VKOGYDDOHYUL_8631168205857b85d0b4b50d88b8a7d8_74030&search_date=19062022&expected_price_uuid=432371d3-888b-4835-969c-0a0edf0ce2c0&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YHZ",
+      "origin": "MOW",
+      "destination": "YHZ",
+      "price": 1305,
+      "departure_at": "2022-07-08T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 2203,
+      "durationH": 37,
+      "link": "/search/MOW0807YHZ1?t=MS16572885001657420680002203DMECAIYYZYTZYULYHZ_b9dc3587ba5b01c2770b13a622110827_75039&search_date=20062022&expected_price_uuid=7a32f976-ff00-4a04-9f6b-e8ecc088d19f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1281,
+      "departure_at": "2022-07-19T09:45:00+03:00",
+      "transfers": 3,
+      "duration": 2265,
+      "durationH": 38,
+      "link": "/search/MOW1907YTO1?t=AC16582131001658349000002265VKOGRVISTATHYYZ_fbfcf396014f3f7cf13d940e53b59512_73630&search_date=20062022&expected_price_uuid=56fd258f-73fe-43c7-9741-1c3f99ecc8d7&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1310,
+      "departure_at": "2022-07-13T09:45:00+03:00",
+      "transfers": 3,
+      "duration": 2285,
+      "durationH": 38,
+      "link": "/search/MOW1307YMQ1?t=AC16576947001657831800002285VKOGRVISTATHYUL_6741c439657ddc14a1e555f95fc3de5e_75313&search_date=19062022&expected_price_uuid=2912059b-8ad8-4455-bc1e-c26a3a14370a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1245,
+      "departure_at": "2022-08-03T04:30:00+03:00",
+      "transfers": 3,
+      "duration": 2570,
+      "durationH": 43,
+      "link": "/search/MOW0308YTO1?t=LH16594902001659644400002570SVOAERISTFRAYYZ_ca46b778a7ac7d2bdf2dd20777624c02_71586&search_date=20062022&expected_price_uuid=1820aa76-ecfe-4f8d-a88f-10aeaf72e49b&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1325,
+      "departure_at": "2022-08-08T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 2330,
+      "durationH": 39,
+      "link": "/search/MOW0808YVR1?t=MS16599669001660106700002330DMECAIYYZYVR_7da07d2dc99f847fa2d7a92ec34096f7_76195&search_date=19062022&expected_price_uuid=048e3469-9633-4a54-8bee-ce99f826efeb&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1294,
+      "departure_at": "2022-07-27T05:50:00+03:00",
+      "transfers": 4,
+      "duration": 2405,
+      "durationH": 40,
+      "link": "/search/LED2707YTO1?t=AC16588902001659034500002405LEDSVOMRVISTLHRYYZ_5e58882c820d3583953f28968d970298_74388&search_date=19062022&expected_price_uuid=646ae1e4-d9a1-44af-a61d-06b586ff8852&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1283,
+      "departure_at": "2022-07-27T04:30:00+03:00",
+      "transfers": 3,
+      "duration": 2485,
+      "durationH": 41,
+      "link": "/search/MOW2707YTO1?t=AC16588854001659034500002485SVOAERISTLHRYYZ_3513352c7fd79bc08aa562ec2c7ffce3_73788&search_date=20062022&expected_price_uuid=b75dfc3e-5ded-4bc5-b426-1c328d26a85d&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1278,
+      "departure_at": "2022-08-13T02:00:00+03:00",
+      "transfers": 3,
+      "duration": 2635,
+      "durationH": 44,
+      "link": "/search/MOW1308YTO1?t=AC16603452001660503300002635VKOGRVISTLHRYYZ_5477b48d1745cb3e1fbd3abcaaa9b900_73494&search_date=19062022&expected_price_uuid=8e78b479-9849-42eb-ac88-f7a8612d3bad&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1285,
+      "departure_at": "2022-07-21T02:55:00+03:00",
+      "transfers": 3,
+      "duration": 2675,
+      "durationH": 45,
+      "link": "/search/MOW2107YTO1?t=AC16583613001658521800002675SVOAEREVNATHYYZ_2448318a4baf2812dd30fe7eb8fe39df_73870&search_date=19062022&expected_price_uuid=f8b02df5-f406-4fac-82bd-9141d96ba52c&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1278,
+      "departure_at": "2022-08-05T01:30:00+03:00",
+      "transfers": 4,
+      "duration": 2750,
+      "durationH": 46,
+      "link": "/search/LED0508YTO1?t=LH16596522001659817200002750LEDSVOAERISTFRAYYZ_e5199ec5aa402ba08a894cf4fb53fce0_73473&search_date=18062022&expected_price_uuid=3c81fc37-55e8-44ed-8eff-c78b6b3fa3cc&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1251,
+      "departure_at": "2022-07-01T23:45:00+03:00",
+      "transfers": 2,
+      "duration": 2755,
+      "durationH": 46,
+      "link": "/search/MOW0107YMQ1?t=QR16567083001656873600002755DMEGYDDOHYUL_584eef488d19fe581eec30887fe4bbc6_71926&search_date=18062022&expected_price_uuid=0a5b92dc-11a2-425d-bb57-df7aee89919a&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1253,
+      "departure_at": "2022-07-20T04:30:00+03:00",
+      "transfers": 5,
+      "duration": 2765,
+      "durationH": 46,
+      "link": "/search/MOW2007YTO1?t=S416582806001658446500002765SVOAERISTFRALISPDLYYZ_2390efbadf7acd7e1337f89af1468a65_72048&search_date=19062022&expected_price_uuid=8c088f17-089e-45fb-98ba-568155af8667&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1296,
+      "departure_at": "2022-07-15T02:55:00+03:00",
+      "transfers": 3,
+      "duration": 2775,
+      "durationH": 46,
+      "link": "/search/MOW1507YTO1?t=TS16578429001658009400002775VKOEVNISTSAWATHYYZ_d2831019fcb633a59611d31abfd0929f_74546&search_date=20062022&expected_price_uuid=3d0fea6e-63e7-41e5-8794-d930cd2b2c1f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1260,
+      "departure_at": "2022-07-12T01:20:00+03:00",
+      "transfers": 3,
+      "duration": 2795,
+      "durationH": 47,
+      "link": "/search/MOW1207YTO1?t=AC16575780001657745700002795VKOGRVISTLHRYYZ_5dd04d72721937ba7d6b35f2a6e9c735_72425&search_date=19062022&expected_price_uuid=ef2bb076-20c3-4850-b6a5-588b214dc85e&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YHZ",
+      "origin": "MOW",
+      "destination": "YHZ",
+      "price": 1231,
+      "departure_at": "2022-09-06T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 2877,
+      "durationH": 48,
+      "link": "/search/MOW0609YHZ1?t=QR16624845001662657120002877SVODOHPHLYHZ_614004d47a34734c580952aa1efb3fa2_70781&search_date=18062022&expected_price_uuid=5a2230d2-e8da-4b9c-8258-7750969a0607&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YHZ",
+      "origin": "MOW",
+      "destination": "YHZ",
+      "price": 1231,
+      "departure_at": "2022-09-02T20:15:00+03:00",
+      "transfers": 2,
+      "duration": 2897,
+      "durationH": 48,
+      "link": "/search/MOW0209YHZ1?t=QR16621389001662312720002897SVODOHPHLYHZ_3352e9a07be69747ade93fe50cbc4768_70781&search_date=18062022&expected_price_uuid=71551ef0-ffae-4a8f-a11c-d1c63079d48c&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -2685,6 +2839,17 @@ window.data = {
       "duration": 2900,
       "durationH": 48,
       "link": "/search/MOW2307YMQ1?t=QR16586004001658774400002900DMETASGYDDOHYUL_b2821885089c7697882c33d2030d0aa0_74030&search_date=19062022&expected_price_uuid=796523ef-aa67-42bb-a3dd-a8fc1a3104e5&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1284,
+      "departure_at": "2022-08-24T18:40:00+03:00",
+      "transfers": 3,
+      "duration": 2905,
+      "durationH": 48,
+      "link": "/search/MOW2408YTO2?t=AC16613556001661529900002905VKOMRVISTZRHYYZ_f6408e806a4b067fa17246c317443d04_147700&search_date=18062022&expected_price_uuid=ca95a782-4215-4aa8-a53b-0ed6983412da&expected_price_currency=rub"
     },
     {
       "route": "LED-YTO",
@@ -2720,325 +2885,6 @@ window.data = {
       "link": "/search/LED2007YTO1?t=AC16583385001658521800003055LEDVKOEVNATHYYZ_3f8f8959d36a272d7ca78a2a550c2591_73555&search_date=19062022&expected_price_uuid=18e1bedc-5cf3-43d2-85e3-0e4adf6787a9&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1298,
-      "departure_at": "2022-07-11T19:10:00+03:00",
-      "transfers": 3,
-      "duration": 3125,
-      "durationH": 52,
-      "link": "/search/MOW1107YMQ1?t=LH16575558001657743300003125SVOAEREVNFRAYUL_b8dc6e85c0ab75134c52fc701ef06d32_74638&search_date=19062022&expected_price_uuid=960e5ee6-ca82-45b1-9380-47320de035d8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1259,
-      "departure_at": "2022-07-19T12:30:00+03:00",
-      "transfers": 3,
-      "duration": 3270,
-      "durationH": 55,
-      "link": "/search/MOW1907YMQ1?t=SN16582230001658419200003270SVOAEREVNBRUYUL_11bb6a069a34cf5d1c3f3d760bd8f4fd_72412&search_date=19062022&expected_price_uuid=738eb331-5779-41cb-838e-4f4f652c5555&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1243,
-      "departure_at": "2022-07-13T15:25:00+03:00",
-      "transfers": 4,
-      "duration": 3325,
-      "durationH": 55,
-      "link": "/search/LED1307YTO1?t=TS16577151001657914600003325LEDISTSOFLTNSTNDUBYYZ_8992d20f383d416e4ceb84fd2da4037e_71485&search_date=19062022&expected_price_uuid=e7468377-6a53-443e-8ea0-a2b73832a4c5&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1261,
-      "departure_at": "2022-06-21T16:55:00+03:00",
-      "transfers": 5,
-      "duration": 3460,
-      "durationH": 58,
-      "link": "/search/MOW2106YTO1?t=S416558197001656027300003460DMECAIISTPRGBVACDGPDLYYZ_eb7f8b678033b4af5e00c7b3b3ff5c7d_72483&search_date=19062022&expected_price_uuid=41fc8d7b-e683-4ef8-baba-3d560351ee81&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1200,
-      "departure_at": "2022-07-03T07:55:00+03:00",
-      "transfers": 3,
-      "duration": 3915,
-      "durationH": 65,
-      "link": "/search/LED0307YTO1?t=TS16568241001657059000003915LEDGRVISTATHYYZ_723600f9d61c1e5a4ce5a55e58fea383_69018&search_date=17062022&expected_price_uuid=04b73227-0ba0-483b-9210-aa66cf217aff&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1155,
-      "departure_at": "2022-07-04T23:45:00+03:00",
-      "transfers": 4,
-      "duration": 4300,
-      "durationH": 72,
-      "link": "/search/MOW0407YTO1?t=TS16569675001657225500004300DMEGYDAYTSTNLTNOPOYYZ_1c9bc44dfea87dfd35316777e499fd60_66420&search_date=19062022&expected_price_uuid=2591c2c5-0d37-4d26-a0a8-91b5c85f744d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1286,
-      "departure_at": "2022-09-10T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 1891,
-      "durationH": 32,
-      "link": "/search/MOW1009YVR2?t=QR16628301001662943560001891SVODOHSEAYVR_14b28fe3ed9a306f6ba69c3f811e42a5_147866&search_date=19062022&expected_price_uuid=d1ab0fa4-3854-4458-9484-0fd7835f5d5a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1241,
-      "departure_at": "2022-08-16T20:00:00+03:00",
-      "transfers": 3,
-      "duration": 2215,
-      "durationH": 37,
-      "link": "/search/MOW1608YVR2?t=TS16606692001660802100002215SVOBEGAMSYULYVR_80879c0f4f7094484a5c8d101a5b1fdc_142740&search_date=19062022&expected_price_uuid=04619b88-2cce-4f80-a568-7f9e32f90d21&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1245,
-      "departure_at": "2022-08-08T09:20:00+03:00",
-      "transfers": 5,
-      "duration": 2565,
-      "durationH": 43,
-      "link": "/search/LED0808YVR1?t=WS16599396001660093500002565LEDDMESAWSTNDUBYYZYVR_6c32cbf80d7c99d9b9e2708b21e5cbb6_71598&search_date=17062022&expected_price_uuid=156b7de9-cea7-4a84-b829-8a4cf35949d5&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1245,
-      "departure_at": "2022-08-03T04:30:00+03:00",
-      "transfers": 3,
-      "duration": 2570,
-      "durationH": 43,
-      "link": "/search/MOW0308YTO1?t=LH16594902001659644400002570SVOAERISTFRAYYZ_ca46b778a7ac7d2bdf2dd20777624c02_71586&search_date=20062022&expected_price_uuid=1820aa76-ecfe-4f8d-a88f-10aeaf72e49b&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1325,
-      "departure_at": "2022-08-08T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 2330,
-      "durationH": 39,
-      "link": "/search/MOW0808YVR1?t=MS16599669001660106700002330DMECAIYYZYVR_7da07d2dc99f847fa2d7a92ec34096f7_76195&search_date=19062022&expected_price_uuid=048e3469-9633-4a54-8bee-ce99f826efeb&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1278,
-      "departure_at": "2022-08-13T02:00:00+03:00",
-      "transfers": 3,
-      "duration": 2635,
-      "durationH": 44,
-      "link": "/search/MOW1308YTO1?t=AC16603452001660503300002635VKOGRVISTLHRYYZ_5477b48d1745cb3e1fbd3abcaaa9b900_73494&search_date=19062022&expected_price_uuid=8e78b479-9849-42eb-ac88-f7a8612d3bad&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1229,
-      "departure_at": "2022-08-15T22:55:00+03:00",
-      "transfers": 3,
-      "duration": 2749,
-      "durationH": 46,
-      "link": "/search/MOW1508YTO1?t=JU16605933001660758240002749SVOBEGJFKBOSYYZ_c3424d2fc0d9ab75f7764747d8f19509_70645&search_date=19062022&expected_price_uuid=7f15b022-ef26-4642-a711-021b47e8b52c&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1278,
-      "departure_at": "2022-08-05T01:30:00+03:00",
-      "transfers": 4,
-      "duration": 2750,
-      "durationH": 46,
-      "link": "/search/LED0508YTO1?t=LH16596522001659817200002750LEDSVOAERISTFRAYYZ_e5199ec5aa402ba08a894cf4fb53fce0_73473&search_date=18062022&expected_price_uuid=3c81fc37-55e8-44ed-8eff-c78b6b3fa3cc&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1231,
-      "departure_at": "2022-09-06T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 2877,
-      "durationH": 48,
-      "link": "/search/MOW0609YHZ1?t=QR16624845001662657120002877SVODOHPHLYHZ_614004d47a34734c580952aa1efb3fa2_70781&search_date=18062022&expected_price_uuid=5a2230d2-e8da-4b9c-8258-7750969a0607&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1227,
-      "departure_at": "2022-08-10T20:50:00+03:00",
-      "transfers": 3,
-      "duration": 2880,
-      "durationH": 48,
-      "link": "/search/MOW1008YVR1?t=DE16601538001660326600002880DMETASFRAYHZYVR_1a78b55391481f638205530edca86b83_70529&search_date=18062022&expected_price_uuid=ba9d1c66-f0f9-4f04-b141-1f70fdeb98ee&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1231,
-      "departure_at": "2022-09-02T20:15:00+03:00",
-      "transfers": 2,
-      "duration": 2897,
-      "durationH": 48,
-      "link": "/search/MOW0209YHZ1?t=QR16621389001662312720002897SVODOHPHLYHZ_3352e9a07be69747ade93fe50cbc4768_70781&search_date=18062022&expected_price_uuid=71551ef0-ffae-4a8f-a11c-d1c63079d48c&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1234,
-      "departure_at": "2022-07-06T21:00:00+03:00",
-      "transfers": 3,
-      "duration": 3069,
-      "durationH": 51,
-      "link": "/search/MOW0607YOW1?t=DE16571304001657314540003069DMETASFRAYHZYOW_a12c8acbc6fad5f07aa9427d75b62ee6_70962&search_date=14062022&expected_price_uuid=edfec75e-6d53-4c1c-bfaf-c99adfb83413&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1267,
-      "departure_at": "2022-06-22T11:00:00+03:00",
-      "transfers": 5,
-      "duration": 3620,
-      "durationH": 60,
-      "link": "/search/MOW2206YTO1?t=WS16558848001656102000003620DMEEVNAYTSAWSTNLGWYHZYYZ_2d53db810dda29ef53a9584c20c30a51_72826&search_date=19062022&expected_price_uuid=16e77d9f-dfd9-473d-ab09-4232e08419a2&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YOW",
-      "origin": "LED",
-      "destination": "YOW",
-      "price": 1231,
-      "departure_at": "2022-06-21T14:55:00+03:00",
-      "transfers": 4,
-      "duration": 3862,
-      "durationH": 64,
-      "link": "/search/LED2106YOW1?t=WS16558125001656044220003862LEDSAWSTNLGWYHZYYZYOW_dddf14f54b86fa965f376813eca41398_70803&search_date=19062022&expected_price_uuid=1f6b6b1e-764c-4c97-bb9a-03f4380c39a8&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1224,
-      "departure_at": "2022-07-08T09:05:00+03:00",
-      "transfers": 5,
-      "duration": 4227,
-      "durationH": 70,
-      "link": "/search/MOW0807YMQ1?t=S416572603001657513920004227VKODXBBUDOPOTERYYZYUL_0ddce1a01327a2a914127d78bbd0ee38_70402&search_date=18062022&expected_price_uuid=a0a2a7c0-fb70-4294-8f29-e8969d4e1149&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YOW",
-      "origin": "LED",
-      "destination": "YOW",
-      "price": 1237,
-      "departure_at": "2022-08-01T06:45:00+03:00",
-      "transfers": 4,
-      "duration": 4305,
-      "durationH": 72,
-      "link": "/search/LED0108YOW1?t=JU16593255001659583800004305LEDVKOSVOBEGJFKLGAYYZYOW_00163155a31a7df05aca2036b700834b_71134&search_date=16062022&expected_price_uuid=370f7ba1-5393-4b83-ba0c-28d442adc65d&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1343,
-      "departure_at": "2022-06-28T13:50:00+03:00",
-      "transfers": 4,
-      "duration": 2039,
-      "durationH": 34,
-      "link": "/search/LED2806YTO2?t=OS16564134001656535740002039LEDSVOEVNVIEYULYTZ_3922aa0042130f7205ab81613b38c73c_154464&search_date=18062022&expected_price_uuid=5e28c8fd-a474-4564-a354-b152952c702c&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1325,
-      "departure_at": "2022-06-22T13:50:00+03:00",
-      "transfers": 5,
-      "duration": 2205,
-      "durationH": 37,
-      "link": "/search/LED2206YTO1?t=S416558950001656027300002205LEDSVOEVNFRACDGPDLYYZ_7508d39c688cd7830f98eeeaba0fdee4_76194&search_date=16062022&expected_price_uuid=b16d41ae-18cb-4e80-b607-4eb7fe3005c0&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1332,
-      "departure_at": "2022-06-22T18:00:00+03:00",
-      "transfers": 3,
-      "duration": 2237,
-      "durationH": 37,
-      "link": "/search/MOW2206YOW1?t=WS16559100001656044220002237ZIAAYTLGWYYZYOW_6baff565f5cea92a54888dbcc051051d_76566&search_date=15062022&expected_price_uuid=d103bab1-2a9c-42f6-922f-b02e95cb8523&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1305,
-      "departure_at": "2022-06-28T01:45:00+03:00",
-      "transfers": 3,
-      "duration": 2496,
-      "durationH": 42,
-      "link": "/search/MOW2806YHZ1?t=WS16563699001656519660002496SVOAEREVNCDGYHZ_6f4dab172db1b8bd3950a6f06fd84c68_75013&search_date=17062022&expected_price_uuid=4c3eaaf9-b197-4977-8254-fc84238c3c31&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1284,
-      "departure_at": "2022-08-24T18:40:00+03:00",
-      "transfers": 3,
-      "duration": 2905,
-      "durationH": 48,
-      "link": "/search/MOW2408YTO2?t=AC16613556001661529900002905VKOMRVISTZRHYYZ_f6408e806a4b067fa17246c317443d04_147700&search_date=18062022&expected_price_uuid=ca95a782-4215-4aa8-a53b-0ed6983412da&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1265,
-      "departure_at": "2022-08-14T01:50:00+03:00",
-      "transfers": 5,
-      "duration": 2910,
-      "durationH": 49,
-      "link": "/search/MOW1408YMQ1?t=WS16604310001660605600002910VKODXBOTPSTNDUBYYZYUL_fe2afba77f55e9cb26e5df7b15f888d8_72715&search_date=20062022&expected_price_uuid=200b3d0d-00b1-498f-8aa0-090321aa7c73&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YMQ",
-      "origin": "LED",
-      "destination": "YMQ",
-      "price": 1252,
-      "departure_at": "2022-06-29T20:00:00+03:00",
-      "transfers": 5,
-      "duration": 3020,
-      "durationH": 50,
-      "link": "/search/LED2906YMQ1?t=TP16565220001656703200003020LEDEVNAYTSAWORYLISYUL_5cc81d102c1b960635a2cdc9de71c932_71988&search_date=18062022&expected_price_uuid=e8b3161d-2487-490d-a66e-18021798dbb8&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
@@ -3064,6 +2910,17 @@ window.data = {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
+      "price": 1298,
+      "departure_at": "2022-07-11T19:10:00+03:00",
+      "transfers": 3,
+      "duration": 3125,
+      "durationH": 52,
+      "link": "/search/MOW1107YMQ1?t=LH16575558001657743300003125SVOAEREVNFRAYUL_b8dc6e85c0ab75134c52fc701ef06d32_74638&search_date=19062022&expected_price_uuid=960e5ee6-ca82-45b1-9380-47320de035d8&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
       "price": 1266,
       "departure_at": "2022-08-15T22:55:00+03:00",
       "transfers": 3,
@@ -3072,15 +2929,26 @@ window.data = {
       "link": "/search/MOW1508YMQ1?t=FI16605933001660786500003220SVOBEGCDGKEFYUL_1f50b2ffda2f3c7bd58812ad8f9b79c8_72800&search_date=18062022&expected_price_uuid=dfbc7967-7d2f-4192-bc57-5e2dfca68c68&expected_price_currency=rub"
     },
     {
-      "route": "LED-YTO",
-      "origin": "LED",
+      "route": "MOW-YTO",
+      "origin": "MOW",
       "destination": "YTO",
-      "price": 1312,
-      "departure_at": "2022-07-10T16:45:00+03:00",
-      "transfers": 5,
-      "duration": 3275,
+      "price": 1255,
+      "departure_at": "2022-07-03T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 3235,
+      "durationH": 54,
+      "link": "/search/MOW0307YTO1?t=TS16568565001657050600003235DMECAILHRSTNDUBYYZ_fee6540f607d42eda23e9f8ed922741f_72165&search_date=19062022&expected_price_uuid=7897f1e5-5a05-4dda-b817-756da14ceea0&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1259,
+      "departure_at": "2022-07-19T12:30:00+03:00",
+      "transfers": 3,
+      "duration": 3270,
       "durationH": 55,
-      "link": "/search/LED1007YTO1?t=WS16574607001657657200003275LEDAERISTSAWOTPDUBYHZYYZ_295299ea3694f01e109a11af1acc0841_75414&search_date=19062022&expected_price_uuid=cb3cc44e-78f4-441f-94cf-81c6911f15c6&expected_price_currency=rub"
+      "link": "/search/MOW1907YMQ1?t=SN16582230001658419200003270SVOAEREVNBRUYUL_11bb6a069a34cf5d1c3f3d760bd8f4fd_72412&search_date=19062022&expected_price_uuid=738eb331-5779-41cb-838e-4f4f652c5555&expected_price_currency=rub"
     },
     {
       "route": "MOW-YTO",
@@ -3094,37 +2962,15 @@ window.data = {
       "link": "/search/MOW0608YTO1?t=AC16597938001659992100003305SVOAERISTLHRYYZ_5801e5371a0a4738ff299e6b4fe3ccd1_73788&search_date=19062022&expected_price_uuid=15c37668-1725-4d3c-b114-3296886284a5&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
+      "route": "LED-YTO",
+      "origin": "LED",
       "destination": "YTO",
-      "price": 1253,
-      "departure_at": "2022-07-16T21:20:00+03:00",
-      "transfers": 3,
-      "duration": 3312,
+      "price": 1243,
+      "departure_at": "2022-07-13T15:25:00+03:00",
+      "transfers": 4,
+      "duration": 3325,
       "durationH": 55,
-      "link": "/search/MOW1607YTO2?t=HY16579956001658194320003312DMETASJFKBOSYYZ_cfa1c778b735ade8c66974f9edc9d292_144119&search_date=19062022&expected_price_uuid=547d18a2-7b34-427e-8977-0637d505f5e3&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1268,
-      "departure_at": "2022-08-23T16:50:00+03:00",
-      "transfers": 3,
-      "duration": 3320,
-      "durationH": 55,
-      "link": "/search/MOW2308YTO1?t=TS16612626001661461800003320SVOAERISTSAWAMSYYZ_6cf5f7fc4d24778314d2cd2baaaaf2d0_72918&search_date=19062022&expected_price_uuid=2f57495e-a334-406e-874c-3d6c64137797&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YMQ",
-      "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1259,
-      "departure_at": "2022-07-18T11:10:00+03:00",
-      "transfers": 3,
-      "duration": 3350,
-      "durationH": 56,
-      "link": "/search/MOW1807YMQ1?t=SN16581318001658332800003350SVOAEREVNBRUYUL_2e7ab57d878a52fc47ce29a1d41db347_72412&search_date=19062022&expected_price_uuid=7d711fd9-1042-49fa-85ee-be7bf16b8b89&expected_price_currency=rub"
+      "link": "/search/LED1307YTO1?t=TS16577151001657914600003325LEDISTSOFLTNSTNDUBYYZ_8992d20f383d416e4ceb84fd2da4037e_71485&search_date=19062022&expected_price_uuid=e7468377-6a53-443e-8ea0-a2b73832a4c5&expected_price_currency=rub"
     },
     {
       "route": "LED-YVR",
@@ -3152,6 +2998,61 @@ window.data = {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
+      "price": 1187,
+      "departure_at": "2022-08-25T11:10:00+03:00",
+      "transfers": 3,
+      "duration": 3605,
+      "durationH": 60,
+      "link": "/search/MOW2508YMQ1?t=LH16614150001661631300003605SVOAERISTFRAYUL_3e495b7a44a16e4a2f278f1c6ee73cda_68259&search_date=18062022&expected_price_uuid=5ccad213-2d64-48dc-b699-07e25839d1c7&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1312,
+      "departure_at": "2022-07-10T16:45:00+03:00",
+      "transfers": 5,
+      "duration": 3275,
+      "durationH": 55,
+      "link": "/search/LED1007YTO1?t=WS16574607001657657200003275LEDAERISTSAWOTPDUBYHZYYZ_295299ea3694f01e109a11af1acc0841_75414&search_date=19062022&expected_price_uuid=cb3cc44e-78f4-441f-94cf-81c6911f15c6&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1253,
+      "departure_at": "2022-07-16T21:20:00+03:00",
+      "transfers": 3,
+      "duration": 3312,
+      "durationH": 55,
+      "link": "/search/MOW1607YTO2?t=HY16579956001658194320003312DMETASJFKBOSYYZ_cfa1c778b735ade8c66974f9edc9d292_144119&search_date=19062022&expected_price_uuid=547d18a2-7b34-427e-8977-0637d505f5e3&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1259,
+      "departure_at": "2022-07-18T11:10:00+03:00",
+      "transfers": 3,
+      "duration": 3350,
+      "durationH": 56,
+      "link": "/search/MOW1807YMQ1?t=SN16581318001658332800003350SVOAEREVNBRUYUL_2e7ab57d878a52fc47ce29a1d41db347_72412&search_date=19062022&expected_price_uuid=7d711fd9-1042-49fa-85ee-be7bf16b8b89&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1261,
+      "departure_at": "2022-06-21T16:55:00+03:00",
+      "transfers": 5,
+      "duration": 3460,
+      "durationH": 58,
+      "link": "/search/MOW2106YTO1?t=S416558197001656027300003460DMECAIISTPRGBVACDGPDLYYZ_eb7f8b678033b4af5e00c7b3b3ff5c7d_72483&search_date=19062022&expected_price_uuid=41fc8d7b-e683-4ef8-baba-3d560351ee81&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
       "price": 1253,
       "departure_at": "2022-08-16T12:40:00+03:00",
       "transfers": 3,
@@ -3160,15 +3061,15 @@ window.data = {
       "link": "/search/MOW1608YMQ1?t=AC16606428001660855800003550VKOEVNISTATHYUL_9fa7172552190a5e0c3df6a88e339c4f_72071&search_date=19062022&expected_price_uuid=c5c6629c-fd08-452c-bf2b-1b8ef5ffeb0f&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YMQ",
+      "route": "MOW-YTO",
       "origin": "MOW",
-      "destination": "YMQ",
-      "price": 1289,
-      "departure_at": "2022-07-09T10:10:00+03:00",
-      "transfers": 2,
-      "duration": 3590,
+      "destination": "YTO",
+      "price": 1267,
+      "departure_at": "2022-06-22T11:00:00+03:00",
+      "transfers": 5,
+      "duration": 3620,
       "durationH": 60,
-      "link": "/search/MOW0907YMQ1?t=SS16573506001657566000003590VKOEVNORYYUL_eb5d6c18e299d4f0f70d0c89f7e5fdbf_74109&search_date=19062022&expected_price_uuid=9e1765db-9538-4973-864b-5934d857a15f&expected_price_currency=rub"
+      "link": "/search/MOW2206YTO1?t=WS16558848001656102000003620DMEEVNAYTSAWSTNLGWYHZYYZ_2d53db810dda29ef53a9584c20c30a51_72826&search_date=19062022&expected_price_uuid=16e77d9f-dfd9-473d-ab09-4232e08419a2&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -3193,6 +3094,17 @@ window.data = {
       "link": "/search/MOW1707YMQ2?t=LH16580403001658261700003690VKOGRVISTFRAYUL_a325e5813d05a7572cec7471ed4799c9_141975&search_date=17062022&expected_price_uuid=6cf78228-b7c8-4497-bd5f-e8639c72c3f8&expected_price_currency=rub"
     },
     {
+      "route": "LED-YOW",
+      "origin": "LED",
+      "destination": "YOW",
+      "price": 1231,
+      "departure_at": "2022-06-21T14:55:00+03:00",
+      "transfers": 4,
+      "duration": 3862,
+      "durationH": 64,
+      "link": "/search/LED2106YOW1?t=WS16558125001656044220003862LEDSAWSTNLGWYHZYYZYOW_dddf14f54b86fa965f376813eca41398_70803&search_date=19062022&expected_price_uuid=1f6b6b1e-764c-4c97-bb9a-03f4380c39a8&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
@@ -3202,6 +3114,28 @@ window.data = {
       "duration": 3890,
       "durationH": 65,
       "link": "/search/MOW1508YVR1?t=DE16605252001660758600003890VKOESBSAWFRAYHZYVR_065adbee0e015ba2f15976c2e5cf4fb8_72289&search_date=18062022&expected_price_uuid=fa699039-2ec1-4f0b-8422-a676319a8510&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
+      "price": 1224,
+      "departure_at": "2022-07-08T09:05:00+03:00",
+      "transfers": 5,
+      "duration": 4227,
+      "durationH": 70,
+      "link": "/search/MOW0807YMQ1?t=S416572603001657513920004227VKODXBBUDOPOTERYYZYUL_0ddce1a01327a2a914127d78bbd0ee38_70402&search_date=18062022&expected_price_uuid=a0a2a7c0-fb70-4294-8f29-e8969d4e1149&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YOW",
+      "origin": "LED",
+      "destination": "YOW",
+      "price": 1237,
+      "departure_at": "2022-08-01T06:45:00+03:00",
+      "transfers": 4,
+      "duration": 4305,
+      "durationH": 72,
+      "link": "/search/LED0108YOW1?t=JU16593255001659583800004305LEDVKOSVOBEGJFKLGAYYZYOW_00163155a31a7df05aca2036b700834b_71134&search_date=16062022&expected_price_uuid=370f7ba1-5393-4b83-ba0c-28d442adc65d&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -3226,17 +3160,6 @@ window.data = {
       "link": "/search/MOW2209YOW1?t=MS16638549001663953120001637DMECAIYYZYOW_5e96dfaf50566b3f49201a1afde1f41f_77632&search_date=19062022&expected_price_uuid=e84ad5e5-bea4-4984-845d-90e173c2c222&expected_price_currency=rub"
     },
     {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1358,
-      "departure_at": "2022-07-05T15:35:00+03:00",
-      "transfers": 3,
-      "duration": 1775,
-      "durationH": 30,
-      "link": "/search/LED0507YTO1?t=AC16570245001657131000001775LEDAERISTAMSYYZ_adb23a5524f1ccc38a3eb1cd299ba5df_78066&search_date=17062022&expected_price_uuid=fc001cf6-4a8e-462b-89b7-3fd01490da84&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
@@ -3257,6 +3180,17 @@ window.data = {
       "duration": 1885,
       "durationH": 31,
       "link": "/search/MOW0508YVR1?t=TS16596522001659765300001885SVOBEGAMSYULYVR_284dc1d9d113c93262f237837ff41fd7_80680&search_date=17062022&expected_price_uuid=23d9120c-17d1-4932-9559-1594097e4cab&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1343,
+      "departure_at": "2022-06-28T13:50:00+03:00",
+      "transfers": 4,
+      "duration": 2039,
+      "durationH": 34,
+      "link": "/search/LED2806YTO2?t=OS16564134001656535740002039LEDSVOEVNVIEYULYTZ_3922aa0042130f7205ab81613b38c73c_154464&search_date=18062022&expected_price_uuid=5e28c8fd-a474-4564-a354-b152952c702c&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -3281,15 +3215,26 @@ window.data = {
       "link": "/search/MOW0509YMQ1?t=AC16623780001662505200002120SVOALAISTMUCYUL_225cd44174f6cf9366d834cd823cfda7_77640&search_date=18062022&expected_price_uuid=6c4f6186-bf6e-4e60-ba38-a62ff6c07c76&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1305,
-      "departure_at": "2022-07-08T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 2203,
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1325,
+      "departure_at": "2022-06-22T13:50:00+03:00",
+      "transfers": 5,
+      "duration": 2205,
       "durationH": 37,
-      "link": "/search/MOW0807YHZ1?t=MS16572885001657420680002203DMECAIYYZYTZYULYHZ_b9dc3587ba5b01c2770b13a622110827_75039&search_date=20062022&expected_price_uuid=7a32f976-ff00-4a04-9f6b-e8ecc088d19f&expected_price_currency=rub"
+      "link": "/search/LED2206YTO1?t=S416558950001656027300002205LEDSVOEVNFRACDGPDLYYZ_7508d39c688cd7830f98eeeaba0fdee4_76194&search_date=16062022&expected_price_uuid=b16d41ae-18cb-4e80-b607-4eb7fe3005c0&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1332,
+      "departure_at": "2022-06-22T18:00:00+03:00",
+      "transfers": 3,
+      "duration": 2237,
+      "durationH": 37,
+      "link": "/search/MOW2206YOW1?t=WS16559100001656044220002237ZIAAYTLGWYYZYOW_6baff565f5cea92a54888dbcc051051d_76566&search_date=15062022&expected_price_uuid=d103bab1-2a9c-42f6-922f-b02e95cb8523&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -3303,70 +3248,26 @@ window.data = {
       "link": "/search/MOW0609YVR1?t=AC16624335001662575100002360SVOAERISTLHRYVR_0301f339e7f1097aa11e44e6aa6cae23_76026&search_date=18062022&expected_price_uuid=5502326d-a497-4aba-af7d-1e893bd16bb8&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
+      "route": "MOW-YHZ",
       "origin": "MOW",
-      "destination": "YTO",
-      "price": 1377,
-      "departure_at": "2022-06-29T05:35:00+03:00",
+      "destination": "YHZ",
+      "price": 1305,
+      "departure_at": "2022-06-28T01:45:00+03:00",
       "transfers": 3,
-      "duration": 2360,
-      "durationH": 39,
-      "link": "/search/MOW2906YTO1?t=TP16564701001656611700002360VKOESBFRALISYYZ_fe87cdcd12f661cc2091e8985a076c3a_79154&search_date=19062022&expected_price_uuid=c270c819-c5ad-4e28-86f3-520b0a582991&expected_price_currency=rub"
+      "duration": 2496,
+      "durationH": 42,
+      "link": "/search/MOW2806YHZ1?t=WS16563699001656519660002496SVOAEREVNCDGYHZ_6f4dab172db1b8bd3950a6f06fd84c68_75013&search_date=17062022&expected_price_uuid=4c3eaaf9-b197-4977-8254-fc84238c3c31&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1346,
-      "departure_at": "2022-07-02T07:35:00+03:00",
-      "transfers": 4,
-      "duration": 2580,
-      "durationH": 43,
-      "link": "/search/MOW0207YTO1?t=S416567365001656891300002580SVOEVNORYLISTERYYZ_f6fcc41499d56bb691344985748b30b6_77410&search_date=19062022&expected_price_uuid=5015b4b7-bf3d-4014-b225-c4f51c5b413d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1345,
-      "departure_at": "2022-06-24T09:45:00+03:00",
-      "transfers": 4,
-      "duration": 2808,
-      "durationH": 47,
-      "link": "/search/MOW2406YOW1?t=AC16560531001656221580002808VKOGRVISTLHRYYZYOW_7ff5fe6d1178b0b583c81422dcfeb02c_77336&search_date=16062022&expected_price_uuid=1325d3ed-4d18-41ca-92f6-40e9af18cd79&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
+      "route": "LED-YMQ",
       "origin": "LED",
-      "destination": "YTO",
-      "price": 1335,
-      "departure_at": "2022-07-04T22:30:00+03:00",
-      "transfers": 3,
-      "duration": 2900,
-      "durationH": 48,
-      "link": "/search/LED0407YTO1?t=TS16569630001657137000002900LEDTASLHRLGWFAOYYZ_d57b1f21b7a6837421279525ff671109_76764&search_date=19062022&expected_price_uuid=41a9d6a4-0211-415b-b6f9-ecd391ac83b5&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1325,
-      "departure_at": "2022-07-02T01:05:00+03:00",
-      "transfers": 6,
-      "duration": 2970,
+      "destination": "YMQ",
+      "price": 1252,
+      "departure_at": "2022-06-29T20:00:00+03:00",
+      "transfers": 5,
+      "duration": 3020,
       "durationH": 50,
-      "link": "/search/LED0207YTO1?t=S416567131001656891300002970LEDSVOKUFEVNCDGORYLISTERYYZ_cdae481e0ee8e67b05df26d40ab8173f_76209&search_date=17062022&expected_price_uuid=3d36d782-b481-4cce-971e-2d4cf1da53f2&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1279,
-      "departure_at": "2022-06-28T16:55:00+03:00",
-      "transfers": 3,
-      "duration": 3253,
-      "durationH": 54,
-      "link": "/search/MOW2806YOW1?t=WS16564245001656619680003253DMECAILHRLGWYYZYOW_9fa25c4dc5b0fdd5d107aebd11a21ca7_73519&search_date=16062022&expected_price_uuid=180cafe5-7470-45d0-ba43-0e8a7678d202&expected_price_currency=rub"
+      "link": "/search/LED2906YMQ1?t=TP16565220001656703200003020LEDEVNAYTSAWORYLISYUL_5cc81d102c1b960635a2cdc9de71c932_71988&search_date=18062022&expected_price_uuid=e8b3161d-2487-490d-a66e-18021798dbb8&expected_price_currency=rub"
     },
     {
       "route": "LED-YMQ",
@@ -3394,45 +3295,23 @@ window.data = {
       "route": "MOW-YMQ",
       "origin": "MOW",
       "destination": "YMQ",
+      "price": 1289,
+      "departure_at": "2022-07-09T10:10:00+03:00",
+      "transfers": 2,
+      "duration": 3590,
+      "durationH": 60,
+      "link": "/search/MOW0907YMQ1?t=SS16573506001657566000003590VKOEVNORYYUL_eb5d6c18e299d4f0f70d0c89f7e5fdbf_74109&search_date=19062022&expected_price_uuid=9e1765db-9538-4973-864b-5934d857a15f&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YMQ",
+      "origin": "MOW",
+      "destination": "YMQ",
       "price": 1280,
       "departure_at": "2022-07-12T01:20:00+03:00",
       "transfers": 3,
       "duration": 4195,
       "durationH": 70,
       "link": "/search/MOW1207YMQ1?t=LH16575780001657829700004195VKOGRVISTFRAYUL_c0c009fce2f1263a6e74f8087aa4de70_73608&search_date=19062022&expected_price_uuid=9d2964ff-8877-4070-a321-db1a93d06fd4&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1277,
-      "departure_at": "2022-07-06T20:15:00+03:00",
-      "transfers": 3,
-      "duration": 4290,
-      "durationH": 72,
-      "link": "/search/MOW0607YTO1?t=TS16571277001657385100004290VKOISTSAWBJVLGWYYZ_eec2af658ef2a659e0f9f00a1ecf05dd_73443&search_date=19062022&expected_price_uuid=09b0fb47-701a-401f-b9ed-d6e0db822b34&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YMQ",
-      "origin": "LED",
-      "destination": "YMQ",
-      "price": 1353,
-      "departure_at": "2022-06-25T11:55:00+03:00",
-      "transfers": 3,
-      "duration": 3415,
-      "durationH": 57,
-      "link": "/search/LED2506YMQ1?t=AC16561473001656352200003415LEDSVXEVNVIEYUL_8532623b0f48e86c3a0aafdd0abaa588_77820&search_date=18062022&expected_price_uuid=c111bb39-0688-42f4-be99-20bdf55ec593&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YTO",
-      "origin": "MOW",
-      "destination": "YTO",
-      "price": 1313,
-      "departure_at": "2022-06-23T04:35:00+03:00",
-      "transfers": 5,
-      "duration": 4010,
-      "durationH": 67,
-      "link": "/search/MOW2306YTO1?t=TS16559481001656188700004010SVOMRVEVNSAWSTNLTNOPOYYZ_ddf01e0c7a7c0abbb857a44dbc02928c_75491&search_date=19062022&expected_price_uuid=ec57eeee-65dc-428c-99e4-84843483a6f4&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -3446,15 +3325,37 @@ window.data = {
       "link": "/search/MOW2107YMQ1?t=MS16584117001658502840001519DMECAIYYZYUL_ba0222fd950c6def3773be77e1f5867a_81833&search_date=19062022&expected_price_uuid=d1f25489-1d87-4e53-9af1-b0fee1f8fcd2&expected_price_currency=rub"
     },
     {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1358,
+      "departure_at": "2022-07-05T15:35:00+03:00",
+      "transfers": 3,
+      "duration": 1775,
+      "durationH": 30,
+      "link": "/search/LED0507YTO1?t=AC16570245001657131000001775LEDAERISTAMSYYZ_adb23a5524f1ccc38a3eb1cd299ba5df_78066&search_date=17062022&expected_price_uuid=fc001cf6-4a8e-462b-89b7-3fd01490da84&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YTO",
       "origin": "MOW",
       "destination": "YTO",
-      "price": 1446,
-      "departure_at": "2022-07-08T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 1700,
-      "durationH": 28,
-      "link": "/search/MOW0807YTO1?t=DE16573026001657404600001700DMETASFRAYYZ_bd8f9891a43b9a3d99ce62f7b88d65fd_83125&search_date=19062022&expected_price_uuid=ba718b5c-f2b5-4913-bfa0-c87e93fcde92&expected_price_currency=rub"
+      "price": 1377,
+      "departure_at": "2022-06-29T05:35:00+03:00",
+      "transfers": 3,
+      "duration": 2360,
+      "durationH": 39,
+      "link": "/search/MOW2906YTO1?t=TP16564701001656611700002360VKOESBFRALISYYZ_fe87cdcd12f661cc2091e8985a076c3a_79154&search_date=19062022&expected_price_uuid=c270c819-c5ad-4e28-86f3-520b0a582991&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1346,
+      "departure_at": "2022-07-02T07:35:00+03:00",
+      "transfers": 4,
+      "duration": 2580,
+      "durationH": 43,
+      "link": "/search/MOW0207YTO1?t=S416567365001656891300002580SVOEVNORYLISTERYYZ_f6fcc41499d56bb691344985748b30b6_77410&search_date=19062022&expected_price_uuid=5015b4b7-bf3d-4014-b225-c4f51c5b413d&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -3466,6 +3367,116 @@ window.data = {
       "duration": 2655,
       "durationH": 44,
       "link": "/search/MOW1907YVR1?t=TS16582236001658382900002655VKOEVNCDGYULYVR_ff6c29200138d970833e8eab0380a356_80353&search_date=14062022&expected_price_uuid=ec110dcb-abef-4509-a662-7a7203b4da9c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1345,
+      "departure_at": "2022-06-24T09:45:00+03:00",
+      "transfers": 4,
+      "duration": 2808,
+      "durationH": 47,
+      "link": "/search/MOW2406YOW1?t=AC16560531001656221580002808VKOGRVISTLHRYYZYOW_7ff5fe6d1178b0b583c81422dcfeb02c_77336&search_date=16062022&expected_price_uuid=1325d3ed-4d18-41ca-92f6-40e9af18cd79&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1335,
+      "departure_at": "2022-07-04T22:30:00+03:00",
+      "transfers": 3,
+      "duration": 2900,
+      "durationH": 48,
+      "link": "/search/LED0407YTO1?t=TS16569630001657137000002900LEDTASLHRLGWFAOYYZ_d57b1f21b7a6837421279525ff671109_76764&search_date=19062022&expected_price_uuid=41a9d6a4-0211-415b-b6f9-ecd391ac83b5&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1279,
+      "departure_at": "2022-06-28T16:55:00+03:00",
+      "transfers": 3,
+      "duration": 3253,
+      "durationH": 54,
+      "link": "/search/MOW2806YOW1?t=WS16564245001656619680003253DMECAILHRLGWYYZYOW_9fa25c4dc5b0fdd5d107aebd11a21ca7_73519&search_date=16062022&expected_price_uuid=180cafe5-7470-45d0-ba43-0e8a7678d202&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1403,
+      "departure_at": "2022-07-10T23:00:00+03:00",
+      "transfers": 6,
+      "duration": 3238,
+      "durationH": 54,
+      "link": "/search/MOW1007YVR2?t=WS16574832001657677480003238DMETASRIXLGWLCYDUBYHZYYCYVR_3b72d0427e7cbbb885d2caee60f664c0_161362&search_date=20062022&expected_price_uuid=bf16e1ae-c133-4f92-bf41-6352f0ccbf44&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1362,
+      "departure_at": "2022-07-12T20:00:00+03:00",
+      "transfers": 3,
+      "duration": 3366,
+      "durationH": 56,
+      "link": "/search/MOW1207YVR1?t=JU16576452001657847160003366SVOBEGJFKSFOYVR_fbfb9d861e6244a0db3afa3bed9a5789_78289&search_date=19062022&expected_price_uuid=2d358174-36ce-4de5-9706-71603a7debaf&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YMQ",
+      "origin": "LED",
+      "destination": "YMQ",
+      "price": 1353,
+      "departure_at": "2022-06-25T11:55:00+03:00",
+      "transfers": 3,
+      "duration": 3415,
+      "durationH": 57,
+      "link": "/search/LED2506YMQ1?t=AC16561473001656352200003415LEDSVXEVNVIEYUL_8532623b0f48e86c3a0aafdd0abaa588_77820&search_date=18062022&expected_price_uuid=c111bb39-0688-42f4-be99-20bdf55ec593&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1332,
+      "departure_at": "2022-07-03T14:55:00+03:00",
+      "transfers": 2,
+      "duration": 3495,
+      "durationH": 58,
+      "link": "/search/LED0307YTO1?t=TS16568493001657059000003495LEDSAWATHYYZ_4727325928aba31cf1d4cefc39ac97c4_76609&search_date=20062022&expected_price_uuid=1628cfd9-a62e-4b00-bea1-1a09390bdb4c&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1313,
+      "departure_at": "2022-06-23T04:35:00+03:00",
+      "transfers": 5,
+      "duration": 4010,
+      "durationH": 67,
+      "link": "/search/MOW2306YTO1?t=TS16559481001656188700004010SVOMRVEVNSAWSTNLTNOPOYYZ_ddf01e0c7a7c0abbb857a44dbc02928c_75491&search_date=19062022&expected_price_uuid=ec57eeee-65dc-428c-99e4-84843483a6f4&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1277,
+      "departure_at": "2022-07-06T20:15:00+03:00",
+      "transfers": 3,
+      "duration": 4290,
+      "durationH": 72,
+      "link": "/search/MOW0607YTO1?t=TS16571277001657385100004290VKOISTSAWBJVLGWYYZ_eec2af658ef2a659e0f9f00a1ecf05dd_73443&search_date=19062022&expected_price_uuid=09b0fb47-701a-401f-b9ed-d6e0db822b34&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YTO",
+      "origin": "MOW",
+      "destination": "YTO",
+      "price": 1446,
+      "departure_at": "2022-07-08T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 1700,
+      "durationH": 28,
+      "link": "/search/MOW0807YTO1?t=DE16573026001657404600001700DMETASFRAYYZ_bd8f9891a43b9a3d99ce62f7b88d65fd_83125&search_date=19062022&expected_price_uuid=ba718b5c-f2b5-4913-bfa0-c87e93fcde92&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -3501,6 +3512,17 @@ window.data = {
       "link": "/search/MOW0309YHZ1?t=QR16622253001662399120002897SVODOHPHLYHZ_40a8043c59176f151dcec99e40dac9bb_77641&search_date=18062022&expected_price_uuid=e623d4c9-345d-4e65-9d15-0d5e5925bc91&expected_price_currency=rub"
     },
     {
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1419,
+      "departure_at": "2022-07-02T23:00:00+03:00",
+      "transfers": 3,
+      "duration": 3085,
+      "durationH": 51,
+      "link": "/search/LED0207YTO1?t=AC16567920001656977100003085LEDSCOISTFRAYYZ_78e2fd4775e6099f6bb633233a3b9cad_81598&search_date=20062022&expected_price_uuid=520e9b6a-7ce1-4e35-90bf-0f1e217c3804&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YOW",
       "origin": "MOW",
       "destination": "YOW",
@@ -3523,17 +3545,6 @@ window.data = {
       "link": "/search/MOW2708YVR2?t=WS16616334001661824680003188SVOBEGCDGYYCYVR_dec53becdd81748560b2b722d3a6d6be_152836&search_date=19062022&expected_price_uuid=7368f9ce-e1e8-4208-b64e-1fd274e9e3f5&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1403,
-      "departure_at": "2022-07-10T23:00:00+03:00",
-      "transfers": 6,
-      "duration": 3238,
-      "durationH": 54,
-      "link": "/search/MOW1007YVR2?t=WS16574832001657677480003238DMETASRIXLGWLCYDUBYHZYYCYVR_3b72d0427e7cbbb885d2caee60f664c0_161362&search_date=20062022&expected_price_uuid=bf16e1ae-c133-4f92-bf41-6352f0ccbf44&expected_price_currency=rub"
-    },
-    {
       "route": "LED-YTO",
       "origin": "LED",
       "destination": "YTO",
@@ -3543,17 +3554,6 @@ window.data = {
       "duration": 3240,
       "durationH": 54,
       "link": "/search/LED2606YTO1?t=TP16562445001656438900003240LEDSAWORYLISYYZ_71c2ba6a266a9d166d80d8a7cdf00913_79880&search_date=17062022&expected_price_uuid=166e79ca-5f11-49c2-b83b-59bb64edd44e&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1362,
-      "departure_at": "2022-07-12T20:00:00+03:00",
-      "transfers": 3,
-      "duration": 3366,
-      "durationH": 56,
-      "link": "/search/MOW1207YVR1?t=JU16576452001657847160003366SVOBEGJFKSFOYVR_fbfb9d861e6244a0db3afa3bed9a5789_78289&search_date=19062022&expected_price_uuid=2d358174-36ce-4de5-9706-71603a7debaf&expected_price_currency=rub"
     },
     {
       "route": "LED-YMQ",
@@ -3686,6 +3686,17 @@ window.data = {
       "duration": 2919,
       "durationH": 49,
       "link": "/search/MOW2908YVR1?t=LH16617255001661900640002919SVOALAFRASEAYVR_47f3410c8484c6b466ed4683ba0d0c3a_81890&search_date=18062022&expected_price_uuid=7a0cbb0a-fde1-4b30-9c2c-e8772853b233&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1424,
+      "departure_at": "2022-08-11T09:45:00+03:00",
+      "transfers": 4,
+      "duration": 4270,
+      "durationH": 71,
+      "link": "/search/MOW1108YVR1?t=TS16602003001660456500004270VKOKRRBEGCDGYULYVR_f19bde4cd674b4182b08a2e151718569_81861&search_date=20062022&expected_price_uuid=5bef4adb-2503-4c25-aace-faecfd9b09a7&expected_price_currency=rub"
     },
     {
       "route": "MOW-YMQ",
@@ -3875,6 +3886,17 @@ window.data = {
       "link": "/search/MOW3008YVR1?t=QR16618797001661983860001736SVODOHSEAYVR_16dae7568871f2ef4ea931f08039668c_87055&search_date=18062022&expected_price_uuid=0ebee979-e29f-4020-82cd-bdddd7ccf6f2&expected_price_currency=rub"
     },
     {
+      "route": "LED-YVR",
+      "origin": "LED",
+      "destination": "YVR",
+      "price": 1560,
+      "departure_at": "2022-09-26T01:30:00+03:00",
+      "transfers": 2,
+      "duration": 1941,
+      "durationH": 32,
+      "link": "/search/LED2609YVR1?t=TK16641450001664261460001941LEDISTLAXYVR_2105d2034653eeea9f8ddadcab6770af_89681&search_date=18062022&expected_price_uuid=16ae339d-484e-4e5d-94a5-c2a78fb2b1cc&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YHZ",
       "origin": "MOW",
       "destination": "YHZ",
@@ -3884,6 +3906,17 @@ window.data = {
       "duration": 2226,
       "durationH": 37,
       "link": "/search/MOW0407YHZ1?t=WS16568961001657029660002226DMEBJVSAWHAMDUBYHZ_10892c4c5e33d91a15aa79562cb07c0c_86223&search_date=20062022&expected_price_uuid=de433539-3968-4f25-afb3-6246929b2d06&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1490,
+      "departure_at": "2022-09-14T11:50:00+03:00",
+      "transfers": 1,
+      "duration": 2310,
+      "durationH": 39,
+      "link": "/search/MOW1409YVR1?t=TK16631454001663284000002310VKOISTYVR_2ff26d5bfd14a567189ecebc317cc8bf_85672&search_date=18062022&expected_price_uuid=5e5b754d-eb2c-4208-9330-e3c063459caa&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -3897,17 +3930,6 @@ window.data = {
       "link": "/search/MOW1707YOW1?t=MS16580661001658164200001635DMECAIYYZYOW_be0138a071727c8d28640826c34fe4df_92660&search_date=17062022&expected_price_uuid=975f7da7-615c-4b28-ac3a-26c13ea179e4&expected_price_currency=rub"
     },
     {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1560,
-      "departure_at": "2022-09-26T01:30:00+03:00",
-      "transfers": 2,
-      "duration": 1941,
-      "durationH": 32,
-      "link": "/search/LED2609YVR1?t=TK16641450001664261460001941LEDISTLAXYVR_2105d2034653eeea9f8ddadcab6770af_89681&search_date=18062022&expected_price_uuid=16ae339d-484e-4e5d-94a5-c2a78fb2b1cc&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
@@ -3917,17 +3939,6 @@ window.data = {
       "duration": 2275,
       "durationH": 38,
       "link": "/search/MOW0607YVR1?t=DE16570971001657233600002275DMETASFRAYVR_69a162b72885ff0fd9d666b09126593b_88738&search_date=18062022&expected_price_uuid=7d6a900d-f88f-451d-8ccf-cada652df344&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1490,
-      "departure_at": "2022-09-14T11:50:00+03:00",
-      "transfers": 1,
-      "duration": 2310,
-      "durationH": 39,
-      "link": "/search/MOW1409YVR1?t=TK16631454001663284000002310VKOISTYVR_2ff26d5bfd14a567189ecebc317cc8bf_85672&search_date=18062022&expected_price_uuid=5e5b754d-eb2c-4208-9330-e3c063459caa&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -3950,17 +3961,6 @@ window.data = {
       "duration": 2665,
       "durationH": 44,
       "link": "/search/MOW2106YVR1?t=WS16557690001655928900002665DMEAYTSAWSTNLGWYVR_233b638fb2cda2c42b50c3c884331e70_85240&search_date=15062022&expected_price_uuid=d24d5267-9828-4f98-9581-6a07ddfcaa86&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YTO",
-      "origin": "LED",
-      "destination": "YTO",
-      "price": 1541,
-      "departure_at": "2022-06-30T01:30:00+03:00",
-      "transfers": 4,
-      "duration": 2985,
-      "durationH": 50,
-      "link": "/search/LED3006YTO3?t=LO16565418001656720900002985LEDSVOMRVEVNWAWYYZ_4819f697e302bc82902ead822813d50e_265800&search_date=19062022&expected_price_uuid=6751eb74-a43b-4c4c-868c-2b863da3bcff&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -4054,34 +4054,12 @@ window.data = {
       "route": "LED-YVR",
       "origin": "LED",
       "destination": "YVR",
-      "price": 1542,
-      "departure_at": "2022-08-05T06:50:00+03:00",
+      "price": 1563,
+      "departure_at": "2022-07-27T08:45:00+03:00",
       "transfers": 4,
-      "duration": 2708,
-      "durationH": 45,
-      "link": "/search/LED0508YVR1?t=WS16596714001659833880002708LEDAERISTLGWYYCYVR_b47d7b0442090ee579c984f04c76b744_88639&search_date=17062022&expected_price_uuid=b8650f86-f2f8-4d54-a302-bf39d1f5b391&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1554,
-      "departure_at": "2022-07-16T01:10:00+03:00",
-      "transfers": 3,
-      "duration": 3345,
-      "durationH": 56,
-      "link": "/search/MOW1607YVR1?t=TS16579230001658123700003345VKOEVNCDGYULYVR_397cab407ffbd5828485c7e6d77d05ca_89359&search_date=18062022&expected_price_uuid=ea6d2dba-2e75-4d20-9c54-6e9dd36e9af1&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1489,
-      "departure_at": "2022-06-29T05:35:00+03:00",
-      "transfers": 3,
-      "duration": 3795,
-      "durationH": 63,
-      "link": "/search/MOW2906YVR1?t=DE16564701001656697800003795VKOESBFRAYHZYVR_ffb91e114dc1893169080794c716380f_85592&search_date=18062022&expected_price_uuid=7db39033-b1e0-45f0-8832-ff450349d1c0&expected_price_currency=rub"
+      "duration": 2835,
+      "durationH": 47,
+      "link": "/search/LED2707YVR2?t=AC16589007001659070800002835LEDAERISTLHRYYZYVR_13a5230e7afa450636bf0f3517fac063_179728&search_date=20062022&expected_price_uuid=5f5d607e-583e-460e-bd75-c75af702a5ef&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -4098,12 +4076,12 @@ window.data = {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
-      "price": 1536,
-      "departure_at": "2022-08-11T19:15:00+03:00",
+      "price": 1554,
+      "departure_at": "2022-07-16T01:10:00+03:00",
       "transfers": 3,
-      "duration": 3695,
-      "durationH": 62,
-      "link": "/search/MOW1108YVR1?t=TS16602345001660456200003695VKOISTDUBYYZYVR_48cc9df2b160d20453ac7ffb758a5f1f_88323&search_date=20062022&expected_price_uuid=f3c9c05c-1426-4ce4-a509-b857ace72e54&expected_price_currency=rub"
+      "duration": 3345,
+      "durationH": 56,
+      "link": "/search/MOW1607YVR1?t=TS16579230001658123700003345VKOEVNCDGYULYVR_397cab407ffbd5828485c7e6d77d05ca_89359&search_date=18062022&expected_price_uuid=ea6d2dba-2e75-4d20-9c54-6e9dd36e9af1&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -4126,6 +4104,17 @@ window.data = {
       "duration": 3835,
       "durationH": 64,
       "link": "/search/MOW0407YVR1?t=HY16569222001657152300003835VKOTASLHRSTNDUBYYZYVR_54af03599be1cf53c93a7d5ed06a4854_86341&search_date=19062022&expected_price_uuid=18179c8d-6fe4-48b1-b51c-0f1703493517&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YHZ",
+      "origin": "MOW",
+      "destination": "YHZ",
+      "price": 1594,
+      "departure_at": "2022-07-01T21:30:00+03:00",
+      "transfers": 3,
+      "duration": 3040,
+      "durationH": 51,
+      "link": "/search/MOW0107YHZ1?t=LH16567002001656882600003040VKOCITISTFRAYHZ_58a0743f50aff3d939a51ac2840c4aeb_91649&search_date=19062022&expected_price_uuid=5d486554-391a-4fc1-a3bf-3f43c79d12b5&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -4161,17 +4150,6 @@ window.data = {
       "link": "/search/MOW1207YOW1?t=LO16576587001657901940004054DMEGYDWAWYYZYTZYOW_4b364257ecf454ee47836881f65a0810_88472&search_date=19062022&expected_price_uuid=ca1ea4fa-7a97-4af8-8008-3fa2d6b80fcc&expected_price_currency=rub"
     },
     {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1501,
-      "departure_at": "2022-07-03T06:15:00+03:00",
-      "transfers": 5,
-      "duration": 4130,
-      "durationH": 69,
-      "link": "/search/LED0307YVR1?t=WS16568181001657065900004130LEDSVODMECAILHRDUBYYZYVR_1637219bff5e62e5c09dffd307da0e3c_86314&search_date=18062022&expected_price_uuid=df501151-1e6d-4b5a-9208-1500338d4342&expected_price_currency=rub"
-    },
-    {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
@@ -4181,17 +4159,6 @@ window.data = {
       "duration": 4265,
       "durationH": 71,
       "link": "/search/MOW0907YVR1?t=TS16573491001657605000004265VKOGRVISTSAWSTNLGWDUBYYZYVR_5fd994f8a48ff559e141ab1567c737d9_87129&search_date=19062022&expected_price_uuid=4044b43f-7bbe-4205-859c-910eadc2f44c&expected_price_currency=rub"
-    },
-    {
-      "route": "LED-YVR",
-      "origin": "LED",
-      "destination": "YVR",
-      "price": 1624,
-      "departure_at": "2022-08-24T01:35:00+03:00",
-      "transfers": 2,
-      "duration": 1480,
-      "durationH": 25,
-      "link": "/search/LED2408YVR2?t=TK16612941001661382900001480LEDISTLAXYVR_9dd6cdc88d2540f566252616c5814ef6_186808&search_date=13062022&expected_price_uuid=e557827e-8697-48ff-b87d-023f3043a590&expected_price_currency=rub"
     },
     {
       "route": "MOW-YOW",
@@ -4205,59 +4172,26 @@ window.data = {
       "link": "/search/MOW2906YOW1?t=UA16564851001656630180002418VKOGRVISTLHRIADYOW_ac70440d36622bfca6634b7915d46c05_91961&search_date=17062022&expected_price_uuid=2d158335-2326-4465-bc68-6fe6312d90cc&expected_price_currency=rub"
     },
     {
-      "route": "LED-YMQ",
+      "route": "LED-YVR",
       "origin": "LED",
-      "destination": "YMQ",
-      "price": 1619,
-      "departure_at": "2022-07-01T16:45:00+03:00",
-      "transfers": 3,
-      "duration": 2933,
-      "durationH": 49,
-      "link": "/search/LED0107YMQ1?t=WS16566831001656859080002933LEDDXBBCNYYZYUL_256fa38b6651ced2b27fa3af75076a08_93096&search_date=19062022&expected_price_uuid=df4d82b2-7cd7-4a08-a5ae-0be7d71fce3a&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YOW",
-      "origin": "MOW",
-      "destination": "YOW",
-      "price": 1702,
-      "departure_at": "2022-07-18T16:55:00+03:00",
-      "transfers": 2,
-      "duration": 1515,
-      "durationH": 25,
-      "link": "/search/MOW1807YOW1?t=MS16581525001658243400001515DMECAIYYZYOW_cc57fdd6fc706833f43aa4c63dc0a1f0_97846&search_date=18062022&expected_price_uuid=7a0ea862-4743-45f5-818e-40facf4d3dfe&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
       "destination": "YVR",
-      "price": 1633,
-      "departure_at": "2022-07-17T20:50:00+03:00",
-      "transfers": 2,
-      "duration": 1745,
-      "durationH": 29,
-      "link": "/search/MOW1707YVR1?t=DE16580802001658184900001745DMETASFRAYVR_85e1af27f6789b05800f7bf487d60a31_93872&search_date=18062022&expected_price_uuid=0a88dc93-c42a-454f-b85e-dd8c006b6667&expected_price_currency=rub"
+      "price": 1542,
+      "departure_at": "2022-08-05T06:50:00+03:00",
+      "transfers": 4,
+      "duration": 2708,
+      "durationH": 45,
+      "link": "/search/LED0508YVR1?t=WS16596714001659833880002708LEDAERISTLGWYYCYVR_b47d7b0442090ee579c984f04c76b744_88639&search_date=17062022&expected_price_uuid=b8650f86-f2f8-4d54-a302-bf39d1f5b391&expected_price_currency=rub"
     },
     {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
-      "price": 1647,
-      "departure_at": "2022-07-01T03:55:00+03:00",
-      "transfers": 6,
-      "duration": 3000,
+      "route": "LED-YTO",
+      "origin": "LED",
+      "destination": "YTO",
+      "price": 1541,
+      "departure_at": "2022-06-30T01:30:00+03:00",
+      "transfers": 4,
+      "duration": 2985,
       "durationH": 50,
-      "link": "/search/MOW0107YVR1?t=WS16566369001656816900003000DMEBJVSAWBERDUBYHZYYCYVR_47a15b41fa7852f0d1954a1217feddba_94685&search_date=20062022&expected_price_uuid=6c5ee5f4-f2eb-4fbc-8ded-bdd5b23ada88&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YHZ",
-      "origin": "MOW",
-      "destination": "YHZ",
-      "price": 1594,
-      "departure_at": "2022-07-01T21:30:00+03:00",
-      "transfers": 3,
-      "duration": 3040,
-      "durationH": 51,
-      "link": "/search/MOW0107YHZ1?t=LH16567002001656882600003040VKOCITISTFRAYHZ_58a0743f50aff3d939a51ac2840c4aeb_91649&search_date=19062022&expected_price_uuid=5d486554-391a-4fc1-a3bf-3f43c79d12b5&expected_price_currency=rub"
+      "link": "/search/LED3006YTO3?t=LO16565418001656720900002985LEDSVOMRVEVNWAWYYZ_4819f697e302bc82902ead822813d50e_265800&search_date=19062022&expected_price_uuid=6751eb74-a43b-4c4c-868c-2b863da3bcff&expected_price_currency=rub"
     },
     {
       "route": "LED-YVR",
@@ -4296,17 +4230,6 @@ window.data = {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
-      "price": 1598,
-      "departure_at": "2022-06-30T02:20:00+03:00",
-      "transfers": 4,
-      "duration": 3275,
-      "durationH": 55,
-      "link": "/search/MOW3006YVR1?t=TS16565448001656741300003275DMEAYTSAWAMSYULYVR_2b9e5e62982ec44e40875dfdfe788648_91911&search_date=18062022&expected_price_uuid=96615779-7f50-4688-8f6a-1063d5b2602d&expected_price_currency=rub"
-    },
-    {
-      "route": "MOW-YVR",
-      "origin": "MOW",
-      "destination": "YVR",
       "price": 1547,
       "departure_at": "2022-07-02T23:00:00+03:00",
       "transfers": 3,
@@ -4318,12 +4241,45 @@ window.data = {
       "route": "LED-YVR",
       "origin": "LED",
       "destination": "YVR",
-      "price": 1588,
-      "departure_at": "2022-07-02T11:20:00+03:00",
-      "transfers": 3,
-      "duration": 3755,
-      "durationH": 63,
-      "link": "/search/LED0207YVR1?t=DE16567500001656975300003755LEDSVODMETASFRAYVR_ba2a2c5453dfb84b46ea4bda971da170_91326&search_date=16062022&expected_price_uuid=8ee95f8a-054c-4b78-b567-30f590a8550b&expected_price_currency=rub"
+      "price": 1501,
+      "departure_at": "2022-07-03T06:15:00+03:00",
+      "transfers": 5,
+      "duration": 4130,
+      "durationH": 69,
+      "link": "/search/LED0307YVR1?t=WS16568181001657065900004130LEDSVODMECAILHRDUBYYZYVR_1637219bff5e62e5c09dffd307da0e3c_86314&search_date=18062022&expected_price_uuid=df501151-1e6d-4b5a-9208-1500338d4342&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YVR",
+      "origin": "LED",
+      "destination": "YVR",
+      "price": 1624,
+      "departure_at": "2022-08-24T01:35:00+03:00",
+      "transfers": 2,
+      "duration": 1480,
+      "durationH": 25,
+      "link": "/search/LED2408YVR2?t=TK16612941001661382900001480LEDISTLAXYVR_9dd6cdc88d2540f566252616c5814ef6_186808&search_date=13062022&expected_price_uuid=e557827e-8697-48ff-b87d-023f3043a590&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YOW",
+      "origin": "MOW",
+      "destination": "YOW",
+      "price": 1702,
+      "departure_at": "2022-07-18T16:55:00+03:00",
+      "transfers": 2,
+      "duration": 1515,
+      "durationH": 25,
+      "link": "/search/MOW1807YOW1?t=MS16581525001658243400001515DMECAIYYZYOW_cc57fdd6fc706833f43aa4c63dc0a1f0_97846&search_date=18062022&expected_price_uuid=7a0ea862-4743-45f5-818e-40facf4d3dfe&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1633,
+      "departure_at": "2022-07-17T20:50:00+03:00",
+      "transfers": 2,
+      "duration": 1745,
+      "durationH": 29,
+      "link": "/search/MOW1707YVR1?t=DE16580802001658184900001745DMETASFRAYVR_85e1af27f6789b05800f7bf487d60a31_93872&search_date=18062022&expected_price_uuid=0a88dc93-c42a-454f-b85e-dd8c006b6667&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -4524,6 +4480,17 @@ window.data = {
       "link": "/search/LED1409YOW1?t=TP16631085001663278180002828LEDISTAGPLISYULYOW_57b05ea91af90b3d362ce9d544253eaf_92885&search_date=15062022&expected_price_uuid=c5628bba-ab6b-4a6b-a1af-c1ee67c78084&expected_price_currency=rub"
     },
     {
+      "route": "LED-YMQ",
+      "origin": "LED",
+      "destination": "YMQ",
+      "price": 1619,
+      "departure_at": "2022-07-01T16:45:00+03:00",
+      "transfers": 3,
+      "duration": 2933,
+      "durationH": 49,
+      "link": "/search/LED0107YMQ1?t=WS16566831001656859080002933LEDDXBBCNYYZYUL_256fa38b6651ced2b27fa3af75076a08_93096&search_date=19062022&expected_price_uuid=df4d82b2-7cd7-4a08-a5ae-0be7d71fce3a&expected_price_currency=rub"
+    },
+    {
       "route": "MOW-YVR",
       "origin": "MOW",
       "destination": "YVR",
@@ -4533,6 +4500,17 @@ window.data = {
       "duration": 2975,
       "durationH": 50,
       "link": "/search/MOW2608YVR1?t=QR16615341001661712600002975SVODOHDFWYVR_94bf95e90f954934b3e5e12ceefd48ff_96328&search_date=19062022&expected_price_uuid=8bb46202-1c43-4f08-beb9-af66246a0ae4&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1647,
+      "departure_at": "2022-07-01T03:55:00+03:00",
+      "transfers": 6,
+      "duration": 3000,
+      "durationH": 50,
+      "link": "/search/MOW0107YVR1?t=WS16566369001656816900003000DMEBJVSAWBERDUBYHZYYCYVR_47a15b41fa7852f0d1954a1217feddba_94685&search_date=20062022&expected_price_uuid=6c5ee5f4-f2eb-4fbc-8ded-bdd5b23ada88&expected_price_currency=rub"
     },
     {
       "route": "MOW-YVR",
@@ -4557,6 +4535,17 @@ window.data = {
       "link": "/search/MOW2707YVR1?t=AC16589421001659134700003210VKOISTLHRIADYYZYVR_2b760afec2976df270fae305643ae024_93642&search_date=18062022&expected_price_uuid=e55d17ff-8298-4701-928e-cbb0a84b93a4&expected_price_currency=rub"
     },
     {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1664,
+      "departure_at": "2022-06-30T02:20:00+03:00",
+      "transfers": 4,
+      "duration": 3275,
+      "durationH": 55,
+      "link": "/search/MOW3006YVR2?t=TS16565448001656741300003275DMEAYTSAWAMSYULYVR_2b9e5e62982ec44e40875dfdfe788648_191374&search_date=20062022&expected_price_uuid=051472c6-fd88-4d9f-b518-2a41acad2eee&expected_price_currency=rub"
+    },
+    {
       "route": "LED-YVR",
       "origin": "LED",
       "destination": "YVR",
@@ -4577,6 +4566,17 @@ window.data = {
       "duration": 3595,
       "durationH": 60,
       "link": "/search/LED0209YMQ1?t=LH16621068001662322500003595LEDSVOALAFRAYUL_8726f2f6954fc9903f54d1660504b12c_94020&search_date=17062022&expected_price_uuid=cb0f7b78-b516-44c9-8d6e-107b8a045910&expected_price_currency=rub"
+    },
+    {
+      "route": "LED-YVR",
+      "origin": "LED",
+      "destination": "YVR",
+      "price": 1588,
+      "departure_at": "2022-07-02T11:20:00+03:00",
+      "transfers": 3,
+      "duration": 3755,
+      "durationH": 63,
+      "link": "/search/LED0207YVR1?t=DE16567500001656975300003755LEDSVODMETASFRAYVR_ba2a2c5453dfb84b46ea4bda971da170_91326&search_date=16062022&expected_price_uuid=8ee95f8a-054c-4b78-b567-30f590a8550b&expected_price_currency=rub"
     },
     {
       "route": "LED-YVR",
@@ -4742,6 +4742,17 @@ window.data = {
       "duration": 3245,
       "durationH": 54,
       "link": "/search/MOW1407YVR1?t=TK16578189001658013600003245VKOLEDISTYVR_79816454c02a620394225ee82b41ff3b_101470&search_date=19062022&expected_price_uuid=df269a52-622d-4eb9-802d-157f9d6acfb5&expected_price_currency=rub"
+    },
+    {
+      "route": "MOW-YVR",
+      "origin": "MOW",
+      "destination": "YVR",
+      "price": 1749,
+      "departure_at": "2022-06-29T17:55:00+03:00",
+      "transfers": 3,
+      "duration": 3780,
+      "durationH": 63,
+      "link": "/search/MOW2906YVR2?t=TS16565145001656741300003780DMESAWAMSYULYVR_2d18284986b227a041de74d87bd6f7b2_201187&search_date=20062022&expected_price_uuid=5487bcd4-1ec5-4e78-8a49-e7baa04d7363&expected_price_currency=rub"
     },
     {
       "route": "LED-YVR",
