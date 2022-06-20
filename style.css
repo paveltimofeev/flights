@@ -41,9 +41,11 @@ nav ol li a {
   text-decoration: none;
   text-align: center;
   cursor: pointer;
+  border-bottom: 5px solid #121212;
 }
 nav ol li a:hover {
   background: #222222;
+  border-bottom: 5px solid #377337;
 }
 nav ol li a.active {
   background: #333333;
@@ -209,6 +211,11 @@ nav ol li a.active {
 }
 .legend .cell {
   cursor: default;
+  border-bottom: var(--border);
+  border-left: var(--border);
+}
+.legend .cell--quic {
+  border: 1px solid;
 }
 .legend .col:hover,
 .legend .cell:hover {
