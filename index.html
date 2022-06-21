@@ -31,6 +31,7 @@
 
   <nav>
     <ol>
+      <li><a href="./" class="active">Home</a></li>
       <li><a href="./rus-andalusia.html">Russia To Andalusia</a></li>
       <li><a href="./andalusia-rus.html">Andalusia To Russia</a></li>
       <li><a href="./tur-spa.html">Turkey To Andalusia</a></li>
@@ -52,6 +53,24 @@
         <a class="direction-item" href="./can-rus.html">Canada To Russia</a>
       </div>
 
+      <h1>History</h1>
+      <p onclick="clearHistory()" style="color: rgb(69, 69, 162); cursor: pointer;">Clear history</p>
+      <table id="history-records-table">
+        <th>
+          <tr>
+            <td>Route</td>
+            <td>Date</td>
+            <td>Price</td>
+            <td></td>
+          </tr>
+        </th>
+        <!-- CONTENT -->
+      </table>
+
   </div>
+
+  <script src="./settings.js"></script>
+  <script src="./history.js"></script>
+
 </body>
 </html>

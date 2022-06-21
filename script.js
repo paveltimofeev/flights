@@ -1,6 +1,6 @@
 
-let mobileSelectedLink = null;
 let mobileSelectedCell = null;
+let flightInfo = null;
 
 function main () {
 
@@ -33,13 +33,15 @@ function main () {
 
   function onCellClick (cellEl, idx) {
 
-    let link = data.results[idx].link;
+    flightInfo = data.results[idx];
+    let link = flightInfo.link;
     if (!link.startsWith('/')) {
       link = '/' + link;
     }
 
     if (!isMobile) {
-      window.open('https://www.aviasales.ru' + link, '_blank').focus();
+      openFlight();
+
       cellEl.classList.add('cell--clicked');
       ym(89225289,'reachGoal','OPEN')
     }
@@ -48,14 +50,13 @@ function main () {
       tippy.hideAll();
       const button = document.querySelector('.mobile-open-btn');
 
-      if (mobileSelectedLink !== link) {
-        mobileSelectedLink = link;
+      if (mobileSelectedCell !== cellEl) {
         mobileSelectedCell = cellEl;
         button.classList.add('mobile-open-btn--open');
       } 
       else {
-        mobileSelectedLink = null;
         mobileSelectedCell = null;
+        flightInfo = null;
         button.classList.remove('mobile-open-btn--open');
       }
     }
@@ -258,11 +259,29 @@ function main () {
   tippy('[data-tippy-content]', {theme: 'light', trigger: isMobile ? 'click' : 'mouseenter focus'});
 }
 
-function onMobileOpenButtonClick () {
-  if (mobileSelectedLink) {
-    window.open('https://www.aviasales.ru' + mobileSelectedLink, '_blank').focus();
-    ym(89225289,'reachGoal','OPEN')
+function openFlight () {
+
+  if (!flightInfo) {
+    return;
   }
+
+  let link = flightInfo.link;
+  if (!link.startsWith('/')) {
+    link = '/' + link;
+  }
+
+  const extLink = 'https://www.aviasales.ru' + link;
+  window.open(extLink, '_blank').focus();
+
+  saveFlight(flightInfo.route, flightInfo.departure_at.split('T')[0], flightInfo.price, extLink);
+
+  ym(89225289,'reachGoal','OPEN');
+}
+
+function onMobileOpenButtonClick () {
+  
+  openFlight();
+
   if (mobileSelectedCell) {
     mobileSelectedCell.classList.add('cell--clicked');
   }

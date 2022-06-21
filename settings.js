@@ -32,3 +32,35 @@ window.loadTransferCosts = (id) => {
 
     return _costsMap;
 }
+
+let _savedFlightsMap = {};
+
+window.saveFlight = (route, date, price, link) => {
+
+    const key = `${route}--${date}`;
+    const order = Object.keys(_savedFlightsMap).length;
+    _savedFlightsMap[key] = {order, route, date, price, link};
+    window.localStorage.setItem('savedFlightsMap', JSON.stringify(_savedFlightsMap));
+};
+
+window.getSavedFlight = () => {
+
+    const strData = window.localStorage.getItem('savedFlightsMap');
+
+    try {
+        _savedFlightsMap = JSON.parse(strData);
+    }
+    catch (error) {
+        _savedFlightsMap = {};
+    }
+
+    return _savedFlightsMap;
+};
+
+window.clearsSavedFlights = () => {
+    
+    _savedFlightsMap = {};
+    window.localStorage.setItem('savedFlightsMap', JSON.stringify(_savedFlightsMap));
+}
+
+getSavedFlight();
