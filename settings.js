@@ -37,6 +37,10 @@ let _savedFlightsMap = {};
 
 window.saveFlight = (route, date, price, link) => {
 
+    if (!_savedFlightsMap) {
+        _savedFlightsMap = {};
+    }
+
     const key = `${route}--${date}`;
     const order = Object.keys(_savedFlightsMap).length;
     _savedFlightsMap[key] = {order, route, date, price, link};
