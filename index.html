@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Flight Tables</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/style.css">
 
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
@@ -59,8 +59,9 @@
         <th>
           <tr>
             <td>Route</td>
-            <td>Date</td>
-            <td>Price</td>
+            <td>Flight Date</td>
+            <td data-tippy-content="Цена на момент сохранения">Price</td>
+            <td data-tippy-content="Цена на момент последнего сканирования">Changed price</td>
             <td></td>
           </tr>
         </th>
@@ -69,8 +70,8 @@
 
   </div>
 
-  <script src="./settings.js"></script>
-  <script src="./history.js"></script>
+  <script src="./app/settings.js"></script>
+  <script src="./app/history.js"></script>
 
 </body>
 </html>
