@@ -35,7 +35,8 @@ nav ol {
 }
 nav ol li a {
   padding: 1.35em 1em;
-  display: block;
+  display: flex;
+  align-items: center;
   height: 100%;
   color: #ffffff;
   text-decoration: none;
