@@ -62,7 +62,8 @@ function loadAndRenderHistory () {
         const currentPrice = getCurrentPrice(rec.route, rec.date);
         if (currentPrice !== null && currentPrice !== rec.price) {
             const difference = currentPrice - rec.price;
-            td4.innerText = `${currentPrice} (${difference > 0 ? '+' : ''}${difference})`;
+            const differenceLabel = rec.price > 0 ? `(${difference > 0 ? '+' : ''}${difference})` : ``;
+            td4.innerText = `${currentPrice} ${differenceLabel}`;
         } 
         else if (currentPrice === null) {
             td4.innerText = '';
