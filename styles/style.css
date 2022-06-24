@@ -106,6 +106,15 @@ nav ol li a.active {
   align-items: center;
   position: relative;
 }
+.cell--empty:hover:after {
+  position: absolute;
+  content: '?';
+  font-size: 12px;
+  top: 10px;
+  left: 4px;
+  right: 4px;
+  text-align: center;
+}
 .cell--min {
   background: #adffaf;
 }

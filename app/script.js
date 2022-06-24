@@ -41,12 +41,15 @@ function main () {
 
     if (!isMobile) {
       openFlight();
-
       cellEl.classList.add('cell--clicked');
-      ym(89225289,'reachGoal','OPEN')
     }
     else {
-      
+      cellClickOnMobile(cellEl);
+    }
+  }
+
+  function cellClickOnMobile (cellEl) {
+
       tippy.hideAll();
       const button = document.querySelector('.mobile-open-btn');
 
@@ -59,6 +62,27 @@ function main () {
         flightInfo = null;
         button.classList.remove('mobile-open-btn--open');
       }
+  }
+
+  function onEmptyCellClick (cellEl, c) {
+
+    const from = c.route.split('-')[0];
+    const to = c.route.split('-')[1];
+    const date = `${c.date.split('-')[2]}${c.date.split('-')[1]}`;
+
+    flightInfo = {
+      route: c.route,
+      departure_at: c.date,
+      price: 0,
+      link: `/?params=${from}${date}${to}1&marker=366337`
+    };
+
+    if (!isMobile) {
+      openFlight();
+      cellEl.classList.add('cell--clicked');
+    }
+    else {
+      cellClickOnMobile(cellEl);
     }
   }
 
@@ -141,9 +165,14 @@ function main () {
       const cell = document.createElement('div');
       cell.classList.add('cell');
 
-      if (c.idx) {
+      if (c.empty === false) {
         cell.setAttribute('data-idx', c.idx);
         cell.addEventListener('click', () => onCellClick(cell, c.idx));
+      }
+      else {
+        cell.classList.add('cell--empty');
+        cell.setAttribute('data-tippy-content', `Нет рейсов. Или никто не проверял эти даты`);
+        cell.addEventListener('click', () => onEmptyCellClick(cell, c));
       }
 
       if (c.tooltip) {
@@ -166,12 +195,14 @@ function main () {
         cell.classList.add('cell--t1');
       }
 
-      const r = document.createElement('span');
-      r.classList.add('r');
-      r.classList.add('s' + c.s );
-      r.classList.add('c' + c.c);
+      if (c.empty === false) {
+        const r = document.createElement('span');
+        r.classList.add('r');
+        r.classList.add('s' + c.s );
+        r.classList.add('c' + c.c);
+        cell.appendChild(r);
+      }
 
-      cell.appendChild(r);
       col.appendChild(cell);
     });
 
@@ -214,6 +245,7 @@ function main () {
       index++;
     } 
   }
+  const routesIndexMap = Object.keys(rowsIndexMap);
 
   renderRowHeaders(rowsIndexMap, data.params.labels);
 
@@ -221,15 +253,19 @@ function main () {
   const priceStep = data.params?.priceRange?.step || 100;
   const maxRows = data.params.from.length * data.params.to.length;
   Object.keys(cols).forEach(date => {
+    
     const col = cols[date];
     const cells = [];
-    for(let i = 0; i < maxRows; i++) {
-      cells.push({r: 0, s: 0});
+    
+    for (let i = 0; i < maxRows; i++) {
+      cells.push({empty: true, r: 0, s: 0, date, route: routesIndexMap[i]});
     }
+    
     col.forEach(c => {
 
       const i = rowsIndexMap[c.route];
     
+      cells[i].empty = false;
       cells[i].idx = c.idx;
       cells[i].c = Math.round( (c.duration - data.stats.minDuration) / (data.stats.maxDuration - data.stats.minDuration) * 5 + 1 );
       cells[i].c = cells[i].c > 5 ? 5 : cells[i].c;

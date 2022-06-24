@@ -57,7 +57,7 @@ function loadAndRenderHistory () {
 
         td1.innerText = `${rec.route}`;
         td2.innerText = `${rec.date}`;
-        td3.innerText = `${rec.price}`;
+        td3.innerText = `${rec.price > 0 ? rec.price : ''}`;
 
         const currentPrice = getCurrentPrice(rec.route, rec.date);
         if (currentPrice !== null && currentPrice !== rec.price) {
@@ -65,7 +65,7 @@ function loadAndRenderHistory () {
             td4.innerText = `${currentPrice} (${difference > 0 ? '+' : ''}${difference})`;
         } 
         else if (currentPrice === null) {
-            td4.innerText = '-';
+            td4.innerText = '';
         }
 
         link.innerText = 'open';
